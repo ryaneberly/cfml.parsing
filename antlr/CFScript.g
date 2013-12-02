@@ -557,7 +557,7 @@ doWhileStatement
   ;
   
 forStatement
-  : FOR^ LEFTPAREN! VAR? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON  ( assignmentExpression )? RIGHTPAREN! statement
+  : FOR^ LEFTPAREN! ( localAssignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON  ( assignmentExpression )? RIGHTPAREN! statement
   | FOR^ LEFTPAREN! forInKey IN assignmentExpression RIGHTPAREN! statement
   ;
   
