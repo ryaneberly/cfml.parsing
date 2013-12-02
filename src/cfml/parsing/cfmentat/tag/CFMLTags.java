@@ -37,7 +37,11 @@ public class CFMLTags {
 			CFML_ELSEIF, CFML_FUNCTION, CFML_ARGUMENT, HTML_SCRIPT, CFML_SCRIPT, CFML_CONTENT, CFML_RETURN, CFML_MAIL,
 			CFML_QUERY };
 	
+	static boolean registered = false;
+	
 	public static void register() {
+		if (registered)
+			return;
 		DictionaryManager.initDictionaries();
 		cfdic = DictionaryManager.getDictionary("CF_DICTIONARY");
 		Set<Tag> cfTags = cfdic.getAllTags();
@@ -57,10 +61,12 @@ public class CFMLTags {
 		// we register these last so they override anything in the syntax dictionary
 		for (TagType tagType : TAG_TYPES)
 			tagType.register();
-		
+		registered = true;
 	}
 	
 	public static void register(ParserPreferences prefs) {
+		if (registered)
+			return;
 		DictionaryPreferences dictPrefs = new DictionaryPreferences();
 		dictPrefs.setDictionaryDir(prefs.getDictionaryDir());
 		dictPrefs.setCFDictionary(prefs.getCFDictionary());
@@ -83,7 +89,7 @@ public class CFMLTags {
 		// we register these last so they override anything in the syntax dictionary
 		for (TagType tagType : TAG_TYPES)
 			tagType.register();
-		
+		registered = true;
 	}
 	
 }
