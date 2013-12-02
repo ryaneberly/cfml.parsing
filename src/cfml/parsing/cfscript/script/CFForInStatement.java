@@ -63,4 +63,16 @@ public class CFForInStatement extends CFParsedStatement implements java.io.Seria
 		return sb.toString();
 	}
 	
+	public CFExpression getVariable() {
+		return variable;
+	}
+	
+	public CFExpression getStructure() {
+		return structure;
+	}
+	
+	public CFScriptStatement getBody() {
+		return body;
+	}
+	
 }

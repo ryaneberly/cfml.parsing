@@ -151,4 +151,12 @@ public class CFFuncDeclStatement extends CFParsedStatement {
 		
 		return sb.toString();
 	}
+	
+	public List<CFFunctionParameter> getFormals() {
+		return formals;
+	}
+	
+	public String getName() {
+		return name;
+	}
 }

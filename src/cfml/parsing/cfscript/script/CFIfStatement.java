@@ -69,4 +69,16 @@ public class CFIfStatement extends CFParsedStatement implements java.io.Serializ
 		return s.toString();
 	}
 	
+	public CFExpression getCond() {
+		return cond;
+	}
+	
+	public CFScriptStatement getThenStatement() {
+		return thenStatement;
+	}
+	
+	public CFScriptStatement getElseStatement() {
+		return elseStatement;
+	}
+	
 }

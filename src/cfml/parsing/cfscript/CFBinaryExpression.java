@@ -74,4 +74,12 @@ public class CFBinaryExpression extends CFExpression implements java.io.Serializ
 		return "" + _left.Decompile(indent) + operatorImage + _right.Decompile(indent) + endChar;
 	}
 	
+	public CFExpression getLeft() {
+		return _left;
+	}
+	
+	public CFExpression getRight() {
+		return _right;
+	}
+	
 }

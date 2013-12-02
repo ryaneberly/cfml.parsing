@@ -29,11 +29,6 @@
 
 package cfml.parsing.cfscript;
 
-import cfml.parsing.cfscript.script.userDefinedFunction;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Vector;
 
 public class CFFunctionExpression extends CFExpression {
@@ -97,6 +92,14 @@ public class CFFunctionExpression extends CFExpression {
 		s += ")";
 		
 		return s;
+	}
+	
+	public Vector<CFExpression> getArgs() {
+		return args;
+	}
+	
+	public String getName() {
+		return name;
 	}
 	
 }

@@ -32,13 +32,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
-import java.util.Vector;
 
 import org.antlr.runtime.Token;
-
-// NOTE it's important not to do import com.naryx.tagfusion.cfm.script.*;
-// because of duplicate class names
-import cfml.parsing.cfscript.script.userDefinedFunction;
 
 public class cfFullVarExpression extends CFVarExpression implements Serializable {
 	
@@ -128,6 +123,10 @@ public class cfFullVarExpression extends CFVarExpression implements Serializable
 	
 	public String Decompile(int indent) {
 		return image.toString();
+	}
+	
+	public List<CFExpression> getExpressions() {
+		return expressions;
 	}
 	
 }

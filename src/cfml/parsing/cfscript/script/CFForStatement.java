@@ -71,4 +71,20 @@ public class CFForStatement extends CFParsedStatement implements java.io.Seriali
 		return s;
 	}
 	
+	public CFExpression getInit() {
+		return init;
+	}
+	
+	public CFExpression getCond() {
+		return cond;
+	}
+	
+	public CFExpression getNext() {
+		return next;
+	}
+	
+	public CFScriptStatement getBody() {
+		return body;
+	}
+	
 }

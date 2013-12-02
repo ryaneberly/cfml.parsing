@@ -90,4 +90,12 @@ public class CFUnaryExpression extends CFExpression implements java.io.Serializa
 		return sb.toString();
 	}
 	
+	public int getKind() {
+		return kind;
+	}
+	
+	public CFExpression getSub() {
+		return sub;
+	}
+	
 }

@@ -56,4 +56,12 @@ public class CFVarDeclExpression extends CFExpression {
 		
 		return s.toString();
 	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public CFExpression getInit() {
+		return init;
+	}
 }

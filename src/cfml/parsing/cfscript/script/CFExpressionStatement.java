@@ -49,4 +49,8 @@ public class CFExpressionStatement extends CFParsedStatement implements java.io.
 		expression.checkIndirectAssignments(scriptSource);
 	}
 	
+	public CFExpression getExpression() {
+		return expression;
+	}
+	
 }

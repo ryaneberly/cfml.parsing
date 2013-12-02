@@ -71,7 +71,7 @@ public class CFAssignmentExpression extends CFExpression {
 			 * 
 			 * We look backwards from the '=' skipping any whitespace and looking for #", #' or # on it's own.
 			 */
-
+			
 			// find the original expression in the script source code
 			String expr = scriptSource[left.getLine() - 1];
 			int lhsEnd = expr.indexOf("=", left.getColumn());
@@ -101,5 +101,13 @@ public class CFAssignmentExpression extends CFExpression {
 	
 	public String Decompile(int indent) {
 		return left.Decompile(0) + "=" + right.Decompile(0);
+	}
+	
+	public CFExpression getLeft() {
+		return left;
+	}
+	
+	public CFExpression getRight() {
+		return right;
 	}
 }

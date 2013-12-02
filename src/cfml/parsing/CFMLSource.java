@@ -52,6 +52,10 @@ public class CFMLSource {
 		return fSource.getAllElements(startTagType);
 	}
 	
+	public List<Element> getChildElements() {
+		return fSource.getChildElements();
+	}
+	
 	public void ignoreWhenParsing(List allElements) {
 		fSource.ignoreWhenParsing(allElements);
 	}
@@ -68,7 +72,7 @@ public class CFMLSource {
 		return fSource.getSourceFormatter();
 	}
 	
-	public List getAllStartTags() {
+	public List<StartTag> getAllStartTags() {
 		return fSource.getAllStartTags();
 	}
 	
