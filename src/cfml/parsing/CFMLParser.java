@@ -255,37 +255,37 @@ public class CFMLParser {
 	
 	public class StdErrReporter implements IErrorReporter {
 		public void reportError(String error) {
-			System.err.println(error);
+			// System.err.println(error);
 			addMessage(new ParseError(0, 0, 0, error, error));
 		}
 		
 		public void reportError(RecognitionException re) {
 			if (re.token != null) {
-				System.out.println("Token line:" + re.token.getLine());
-				System.out.println("Token text:" + re.token.getText());
+				// System.out.println("Token line:" + re.token.getLine());
+				// System.out.println("Token text:" + re.token.getText());
 			}
 			re.printStackTrace();
-			System.err.println(re.getMessage());
+			// System.err.println(re.getMessage());
 			addMessage(new ParseError(re.line, re.charPositionInLine, re.charPositionInLine, re.getMessage(),
 					re.getMessage()));
 		}
 		
 		public void reportError(String[] tokenNames, RecognitionException re) {
-			System.out.println("Token line:" + re.token.getLine());
-			System.out.println("Token text:" + re.token.getText());
-			System.err.println(tokenNames);
-			System.err.println(re.getMessage());
+			// System.out.println("Token line:" + re.token.getLine());
+			// System.out.println("Token text:" + re.token.getText());
+			// System.err.println(tokenNames);
+			// System.err.println(re.getMessage());
 			addMessage(new ParseError(re.line, re.charPositionInLine, re.charPositionInLine, tokenNames.toString(),
 					re.getMessage()));
 			re.printStackTrace();
 		}
 		
 		public void reportError(IntStream input, RecognitionException re, BitSet follow) {
-			System.out.println("Token line:" + re.token.getLine());
-			System.out.println("Token text:" + re.token.getText());
+			// System.out.println("Token line:" + re.token.getLine());
+			// System.out.println("Token text:" + re.token.getText());
 			addMessage(new ParseError(re.line, re.charPositionInLine, re.charPositionInLine, re.getMessage(),
 					re.getMessage()));
-			System.err.println(re.getMessage());
+			// System.err.println(re.getMessage());
 		}
 		
 	}
@@ -315,13 +315,13 @@ public class CFMLParser {
 			CommonTree tree = (CommonTree) r.getTree();
 			DOTTreeGenerator gen = new DOTTreeGenerator();
 			StringTemplate st = gen.toDOT(tree);
-			System.out.println(st);
+			// System.out.println(st);
 			
 			/*
  */
-			System.out.println(parser.getNumberOfSyntaxErrors());
+			// System.out.println(parser.getNumberOfSyntaxErrors());
 			CommonTreeNodeStream nodes = new CommonTreeNodeStream(tree);
-			System.out.println(nodes.getTreeAdaptor().getChildCount(tree));
+			// System.out.println(nodes.getTreeAdaptor().getChildCount(tree));
 			nodes.setTokenStream(tokens);
 			CFScriptTree p2 = new CFScriptTree(nodes);
 			p2.setErrorReporter(errorReporter);
