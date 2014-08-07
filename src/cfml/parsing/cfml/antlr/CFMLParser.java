@@ -1,4 +1,4 @@
-// $ANTLR 3.4 /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g 2012-10-27 20:33:59
+// $ANTLR 3.4 C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g 2013-12-03 16:42:06
  
 package cfml.parsing.cfml.antlr;
 import cfml.parsing.cfscript.CFParseException;
@@ -201,7 +201,7 @@ public TreeAdaptor getTreeAdaptor() {
     return adaptor;
 }
     public String[] getTokenNames() { return CFMLParser.tokenNames; }
-    public String getGrammarFileName() { return "/Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g"; }
 
      public boolean scriptMode = true; 
 
@@ -274,7 +274,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "scriptBlock"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:421:1: scriptBlock : ( componentDeclaration | ( element )* endOfScriptBlock );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:421:1: scriptBlock : ( componentDeclaration | ( element )* endOfScriptBlock );
     public final CFMLParser.scriptBlock_return scriptBlock() throws RecognitionException {
         CFMLParser.scriptBlock_return retval = new CFMLParser.scriptBlock_return();
         retval.start = input.LT(1);
@@ -294,7 +294,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 1) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:422:3: ( componentDeclaration | ( element )* endOfScriptBlock )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:422:3: ( componentDeclaration | ( element )* endOfScriptBlock )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -320,7 +320,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt2) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:422:5: componentDeclaration
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:422:5: componentDeclaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -335,12 +335,12 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:423:5: ( element )* endOfScriptBlock
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:423:5: ( element )* endOfScriptBlock
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:423:5: ( element )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:423:5: ( element )*
                     loop1:
                     do {
                         int alt1=2;
@@ -353,7 +353,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt1) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:423:7: element
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:423:7: element
                     	    {
                     	    pushFollow(FOLLOW_element_in_scriptBlock1491);
                     	    element2=element();
@@ -415,7 +415,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "componentDeclaration"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:426:1: componentDeclaration : COMPONENT ( componentAttribute )* componentGuts -> ^( COMPDECL ( componentAttribute )* componentGuts ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:426:1: componentDeclaration : COMPONENT ( componentAttribute )* componentGuts -> ^( COMPDECL ( componentAttribute )* componentGuts ) ;
     public final CFMLParser.componentDeclaration_return componentDeclaration() throws RecognitionException {
         CFMLParser.componentDeclaration_return retval = new CFMLParser.componentDeclaration_return();
         retval.start = input.LT(1);
@@ -437,14 +437,14 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 2) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:427:3: ( COMPONENT ( componentAttribute )* componentGuts -> ^( COMPDECL ( componentAttribute )* componentGuts ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:427:5: COMPONENT ( componentAttribute )* componentGuts
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:427:3: ( COMPONENT ( componentAttribute )* componentGuts -> ^( COMPDECL ( componentAttribute )* componentGuts ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:427:5: COMPONENT ( componentAttribute )* componentGuts
             {
             COMPONENT4=(Token)match(input,COMPONENT,FOLLOW_COMPONENT_in_componentDeclaration1510); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_COMPONENT.add(COMPONENT4);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:427:15: ( componentAttribute )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:427:15: ( componentAttribute )*
             loop3:
             do {
                 int alt3=2;
@@ -457,7 +457,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt3) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:427:15: componentAttribute
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:427:15: componentAttribute
             	    {
             	    pushFollow(FOLLOW_componentAttribute_in_componentDeclaration1512);
             	    componentAttribute5=componentAttribute();
@@ -483,7 +483,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_componentGuts.add(componentGuts6.getTree());
 
             // AST REWRITE
-            // elements: componentGuts, componentAttribute
+            // elements: componentAttribute, componentGuts
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -497,14 +497,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 427:49: -> ^( COMPDECL ( componentAttribute )* componentGuts )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:427:52: ^( COMPDECL ( componentAttribute )* componentGuts )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:427:52: ^( COMPDECL ( componentAttribute )* componentGuts )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
                 (CommonTree)adaptor.create(COMPDECL, "COMPDECL")
                 , root_1);
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:427:64: ( componentAttribute )*
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:427:64: ( componentAttribute )*
                 while ( stream_componentAttribute.hasNext() ) {
                     adaptor.addChild(root_1, stream_componentAttribute.nextTree());
 
@@ -557,7 +557,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "endOfScriptBlock"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:430:1: endOfScriptBlock : ( SCRIPTCLOSE | EOF );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:430:1: endOfScriptBlock : ( SCRIPTCLOSE | EOF );
     public final CFMLParser.endOfScriptBlock_return endOfScriptBlock() throws RecognitionException {
         CFMLParser.endOfScriptBlock_return retval = new CFMLParser.endOfScriptBlock_return();
         retval.start = input.LT(1);
@@ -573,8 +573,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 3) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:431:3: ( SCRIPTCLOSE | EOF )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:431:3: ( SCRIPTCLOSE | EOF )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -631,7 +631,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "element"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:435:1: element : ( functionDeclaration | statement );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:435:1: element : ( functionDeclaration | statement );
     public final CFMLParser.element_return element() throws RecognitionException {
         CFMLParser.element_return retval = new CFMLParser.element_return();
         retval.start = input.LT(1);
@@ -649,7 +649,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 4) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:436:3: ( functionDeclaration | statement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:436:3: ( functionDeclaration | statement )
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -1350,7 +1350,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt4) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:436:5: functionDeclaration
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:436:5: functionDeclaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1365,7 +1365,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:437:5: statement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:437:5: statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1414,7 +1414,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "functionDeclaration"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:440:1: functionDeclaration : ( functionAccessType )? ( functionReturnType )? lc= FUNCTION identifier LEFTPAREN ( parameterList )? RIGHTPAREN ( functionAttribute )* compoundStatement -> ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:440:1: functionDeclaration : ( functionAccessType )? ( functionReturnType )? lc= FUNCTION identifier LEFTPAREN ( parameterList )? RIGHTPAREN ( functionAttribute )* compoundStatement -> ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement ) ;
     public final CFMLParser.functionDeclaration_return functionDeclaration() throws RecognitionException {
         CFMLParser.functionDeclaration_return retval = new CFMLParser.functionDeclaration_return();
         retval.start = input.LT(1);
@@ -1454,10 +1454,10 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 5) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:3: ( ( functionAccessType )? ( functionReturnType )? lc= FUNCTION identifier LEFTPAREN ( parameterList )? RIGHTPAREN ( functionAttribute )* compoundStatement -> ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:5: ( functionAccessType )? ( functionReturnType )? lc= FUNCTION identifier LEFTPAREN ( parameterList )? RIGHTPAREN ( functionAttribute )* compoundStatement
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:3: ( ( functionAccessType )? ( functionReturnType )? lc= FUNCTION identifier LEFTPAREN ( parameterList )? RIGHTPAREN ( functionAttribute )* compoundStatement -> ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:5: ( functionAccessType )? ( functionReturnType )? lc= FUNCTION identifier LEFTPAREN ( parameterList )? RIGHTPAREN ( functionAttribute )* compoundStatement
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:5: ( functionAccessType )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:5: ( functionAccessType )?
             int alt5=2;
             switch ( input.LA(1) ) {
                 case PUBLIC:
@@ -1500,7 +1500,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt5) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:6: functionAccessType
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:6: functionAccessType
                     {
                     pushFollow(FOLLOW_functionAccessType_in_functionDeclaration1582);
                     functionAccessType10=functionAccessType();
@@ -1515,7 +1515,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:27: ( functionReturnType )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:27: ( functionReturnType )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1538,7 +1538,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt6) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:28: functionReturnType
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:28: functionReturnType
                     {
                     pushFollow(FOLLOW_functionReturnType_in_functionDeclaration1587);
                     functionReturnType11=functionReturnType();
@@ -1568,7 +1568,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_LEFTPAREN.add(LEFTPAREN13);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:82: ( parameterList )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:82: ( parameterList )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1584,7 +1584,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt7) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:83: parameterList
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:83: parameterList
                     {
                     pushFollow(FOLLOW_parameterList_in_functionDeclaration1600);
                     parameterList14=parameterList();
@@ -1603,7 +1603,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_RIGHTPAREN.add(RIGHTPAREN15);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:110: ( functionAttribute )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:110: ( functionAttribute )*
             loop8:
             do {
                 int alt8=2;
@@ -1616,7 +1616,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt8) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:110: functionAttribute
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:110: functionAttribute
             	    {
             	    pushFollow(FOLLOW_functionAttribute_in_functionDeclaration1606);
             	    functionAttribute16=functionAttribute();
@@ -1642,7 +1642,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_compoundStatement.add(compoundStatement17.getTree());
 
             // AST REWRITE
-            // elements: functionReturnType, functionAccessType, functionAttribute, compoundStatement, parameterList, identifier
+            // elements: functionReturnType, compoundStatement, functionAccessType, functionAttribute, parameterList, identifier
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -1656,28 +1656,28 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 441:147: -> ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:150: ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:150: ^( FUNCDECL[$lc] ( functionAccessType )? ( functionReturnType )? ^( FUNCTION_NAME identifier ) ( parameterList )? ( functionAttribute )* compoundStatement )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
                 (CommonTree)adaptor.create(FUNCDECL, lc)
                 , root_1);
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:167: ( functionAccessType )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:167: ( functionAccessType )?
                 if ( stream_functionAccessType.hasNext() ) {
                     adaptor.addChild(root_1, stream_functionAccessType.nextTree());
 
                 }
                 stream_functionAccessType.reset();
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:189: ( functionReturnType )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:189: ( functionReturnType )?
                 if ( stream_functionReturnType.hasNext() ) {
                     adaptor.addChild(root_1, stream_functionReturnType.nextTree());
 
                 }
                 stream_functionReturnType.reset();
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:211: ^( FUNCTION_NAME identifier )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:211: ^( FUNCTION_NAME identifier )
                 {
                 CommonTree root_2 = (CommonTree)adaptor.nil();
                 root_2 = (CommonTree)adaptor.becomeRoot(
@@ -1689,14 +1689,14 @@ public TreeAdaptor getTreeAdaptor() {
                 adaptor.addChild(root_1, root_2);
                 }
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:239: ( parameterList )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:239: ( parameterList )?
                 if ( stream_parameterList.hasNext() ) {
                     adaptor.addChild(root_1, stream_parameterList.nextTree());
 
                 }
                 stream_parameterList.reset();
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:256: ( functionAttribute )*
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:256: ( functionAttribute )*
                 while ( stream_functionAttribute.hasNext() ) {
                     adaptor.addChild(root_1, stream_functionAttribute.nextTree());
 
@@ -1749,7 +1749,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "functionAccessType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:444:1: functionAccessType : ( accessType ( functionReturnType )? FUNCTION identifier )=> accessType -> ^( FUNCTION_ACCESS accessType ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:444:1: functionAccessType : ( accessType ( functionReturnType )? FUNCTION identifier )=> accessType -> ^( FUNCTION_ACCESS accessType ) ;
     public final CFMLParser.functionAccessType_return functionAccessType() throws RecognitionException {
         CFMLParser.functionAccessType_return retval = new CFMLParser.functionAccessType_return();
         retval.start = input.LT(1);
@@ -1765,8 +1765,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 6) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:446:3: ( ( accessType ( functionReturnType )? FUNCTION identifier )=> accessType -> ^( FUNCTION_ACCESS accessType ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:446:5: ( accessType ( functionReturnType )? FUNCTION identifier )=> accessType
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:446:3: ( ( accessType ( functionReturnType )? FUNCTION identifier )=> accessType -> ^( FUNCTION_ACCESS accessType ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:446:5: ( accessType ( functionReturnType )? FUNCTION identifier )=> accessType
             {
             pushFollow(FOLLOW_accessType_in_functionAccessType1673);
             accessType18=accessType();
@@ -1790,7 +1790,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 446:72: -> ^( FUNCTION_ACCESS accessType )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:446:75: ^( FUNCTION_ACCESS accessType )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:446:75: ^( FUNCTION_ACCESS accessType )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -1843,7 +1843,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "functionReturnType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:450:1: functionReturnType : ( typeSpec FUNCTION )=> typeSpec -> ^( FUNCTION_RETURNTYPE typeSpec ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:450:1: functionReturnType : ( typeSpec FUNCTION )=> typeSpec -> ^( FUNCTION_RETURNTYPE typeSpec ) ;
     public final CFMLParser.functionReturnType_return functionReturnType() throws RecognitionException {
         CFMLParser.functionReturnType_return retval = new CFMLParser.functionReturnType_return();
         retval.start = input.LT(1);
@@ -1859,8 +1859,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 7) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:451:3: ( ( typeSpec FUNCTION )=> typeSpec -> ^( FUNCTION_RETURNTYPE typeSpec ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:451:5: ( typeSpec FUNCTION )=> typeSpec
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:451:3: ( ( typeSpec FUNCTION )=> typeSpec -> ^( FUNCTION_RETURNTYPE typeSpec ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:451:5: ( typeSpec FUNCTION )=> typeSpec
             {
             pushFollow(FOLLOW_typeSpec_in_functionReturnType1704);
             typeSpec19=typeSpec();
@@ -1884,7 +1884,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 451:37: -> ^( FUNCTION_RETURNTYPE typeSpec )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:451:40: ^( FUNCTION_RETURNTYPE typeSpec )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:451:40: ^( FUNCTION_RETURNTYPE typeSpec )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -1937,7 +1937,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "accessType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:454:1: accessType : ( PUBLIC | PRIVATE | REMOTE | PACKAGE );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:454:1: accessType : ( PUBLIC | PRIVATE | REMOTE | PACKAGE );
     public final CFMLParser.accessType_return accessType() throws RecognitionException {
         CFMLParser.accessType_return retval = new CFMLParser.accessType_return();
         retval.start = input.LT(1);
@@ -1953,8 +1953,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 8) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:455:2: ( PUBLIC | PRIVATE | REMOTE | PACKAGE )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:455:2: ( PUBLIC | PRIVATE | REMOTE | PACKAGE )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -2011,7 +2011,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "typeSpec"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:458:1: typeSpec : ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:458:1: typeSpec : ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL );
     public final CFMLParser.typeSpec_return typeSpec() throws RecognitionException {
         CFMLParser.typeSpec_return retval = new CFMLParser.typeSpec_return();
         retval.start = input.LT(1);
@@ -2035,7 +2035,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 9) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:3: ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:3: ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL )
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -2055,7 +2055,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt11) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:5: identifier ( DOT ( identifier | reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:5: identifier ( DOT ( identifier | reservedWord ) )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -2067,7 +2067,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier21.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:16: ( DOT ( identifier | reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:16: ( DOT ( identifier | reservedWord ) )*
                     loop10:
                     do {
                         int alt10=2;
@@ -2080,7 +2080,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt10) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:18: DOT ( identifier | reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:18: DOT ( identifier | reservedWord )
                     	    {
                     	    DOT22=(Token)match(input,DOT,FOLLOW_DOT_in_typeSpec1753); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -2090,7 +2090,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	    adaptor.addChild(root_0, DOT22_tree);
                     	    }
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:22: ( identifier | reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:22: ( identifier | reservedWord )
                     	    int alt9=2;
                     	    switch ( input.LA(1) ) {
                     	    case ABORT:
@@ -2217,7 +2217,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     	    switch (alt9) {
                     	        case 1 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:24: identifier
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:24: identifier
                     	            {
                     	            pushFollow(FOLLOW_identifier_in_typeSpec1757);
                     	            identifier23=identifier();
@@ -2229,7 +2229,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	            }
                     	            break;
                     	        case 2 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:37: reservedWord
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:37: reservedWord
                     	            {
                     	            pushFollow(FOLLOW_reservedWord_in_typeSpec1761);
                     	            reservedWord24=reservedWord();
@@ -2256,7 +2256,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:460:5: STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:460:5: STRING_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -2306,7 +2306,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameterList"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:463:1: parameterList : ( parameter ( ',' ! parameter )* |);
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:463:1: parameterList : ( parameter ( ',' ! parameter )* |);
     public final CFMLParser.parameterList_return parameterList() throws RecognitionException {
         CFMLParser.parameterList_return retval = new CFMLParser.parameterList_return();
         retval.start = input.LT(1);
@@ -2326,7 +2326,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 10) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:464:3: ( parameter ( ',' ! parameter )* |)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:464:3: ( parameter ( ',' ! parameter )* |)
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -2346,7 +2346,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt13) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:464:5: parameter ( ',' ! parameter )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:464:5: parameter ( ',' ! parameter )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -2358,7 +2358,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, parameter26.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:464:15: ( ',' ! parameter )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:464:15: ( ',' ! parameter )*
                     loop12:
                     do {
                         int alt12=2;
@@ -2371,7 +2371,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:464:17: ',' ! parameter
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:464:17: ',' ! parameter
                     	    {
                     	    char_literal27=(Token)match(input,150,FOLLOW_150_in_parameterList1791); if (state.failed) return retval;
 
@@ -2394,7 +2394,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:466:3: 
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:466:3: 
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -2436,7 +2436,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameter"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:468:1: parameter : ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? -> ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:468:1: parameter : ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? -> ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? ) ;
     public final CFMLParser.parameter_return parameter() throws RecognitionException {
         CFMLParser.parameter_return retval = new CFMLParser.parameter_return();
         retval.start = input.LT(1);
@@ -2464,10 +2464,10 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 11) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:3: ( ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? -> ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:5: ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:3: ( ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? -> ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:5: ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )?
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:5: ( REQUIRED )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:5: ( REQUIRED )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -2480,7 +2480,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt14) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:6: REQUIRED
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:6: REQUIRED
                     {
                     REQUIRED29=(Token)match(input,REQUIRED,FOLLOW_REQUIRED_in_parameter1818); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_REQUIRED.add(REQUIRED29);
@@ -2492,7 +2492,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:17: ( parameterType )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:17: ( parameterType )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -2683,7 +2683,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt15) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:18: parameterType
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:18: parameterType
                     {
                     pushFollow(FOLLOW_parameterType_in_parameter1823);
                     parameterType30=parameterType();
@@ -2705,7 +2705,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_identifier.add(identifier31.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:45: ( EQUALSOP impliesExpression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:45: ( EQUALSOP impliesExpression )?
             int alt16=2;
             int LA16_0 = input.LA(1);
 
@@ -2714,7 +2714,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt16) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:47: EQUALSOP impliesExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:47: EQUALSOP impliesExpression
                     {
                     EQUALSOP32=(Token)match(input,EQUALSOP,FOLLOW_EQUALSOP_in_parameter1831); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EQUALSOP.add(EQUALSOP32);
@@ -2734,7 +2734,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: REQUIRED, EQUALSOP, impliesExpression, identifier, parameterType
+            // elements: REQUIRED, EQUALSOP, parameterType, identifier, impliesExpression
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -2748,14 +2748,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 469:77: -> ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:80: ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:80: ^( FUNCTION_PARAMETER ( REQUIRED )? ( parameterType )? identifier ( EQUALSOP impliesExpression )? )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
                 (CommonTree)adaptor.create(FUNCTION_PARAMETER, "FUNCTION_PARAMETER")
                 , root_1);
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:101: ( REQUIRED )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:101: ( REQUIRED )?
                 if ( stream_REQUIRED.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_REQUIRED.nextNode()
@@ -2764,7 +2764,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 stream_REQUIRED.reset();
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:113: ( parameterType )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:113: ( parameterType )?
                 if ( stream_parameterType.hasNext() ) {
                     adaptor.addChild(root_1, stream_parameterType.nextTree());
 
@@ -2773,7 +2773,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_identifier.nextTree());
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:141: ( EQUALSOP impliesExpression )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:141: ( EQUALSOP impliesExpression )?
                 if ( stream_EQUALSOP.hasNext()||stream_impliesExpression.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_EQUALSOP.nextNode()
@@ -2829,7 +2829,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameterType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:472:1: parameterType : typeSpec -> ^( PARAMETER_TYPE typeSpec ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:472:1: parameterType : typeSpec -> ^( PARAMETER_TYPE typeSpec ) ;
     public final CFMLParser.parameterType_return parameterType() throws RecognitionException {
         CFMLParser.parameterType_return retval = new CFMLParser.parameterType_return();
         retval.start = input.LT(1);
@@ -2845,8 +2845,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 12) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:473:3: ( typeSpec -> ^( PARAMETER_TYPE typeSpec ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:473:5: typeSpec
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:473:3: ( typeSpec -> ^( PARAMETER_TYPE typeSpec ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:473:5: typeSpec
             {
             pushFollow(FOLLOW_typeSpec_in_parameterType1875);
             typeSpec34=typeSpec();
@@ -2870,7 +2870,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 473:14: -> ^( PARAMETER_TYPE typeSpec )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:473:17: ^( PARAMETER_TYPE typeSpec )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:473:17: ^( PARAMETER_TYPE typeSpec )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -2923,7 +2923,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "componentAttribute"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:476:1: componentAttribute : identifier ( COLON identifier )? op= EQUALSOP impliesExpression -> ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:476:1: componentAttribute : identifier ( COLON identifier )? op= EQUALSOP impliesExpression -> ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression ) ;
     public final CFMLParser.componentAttribute_return componentAttribute() throws RecognitionException {
         CFMLParser.componentAttribute_return retval = new CFMLParser.componentAttribute_return();
         retval.start = input.LT(1);
@@ -2950,8 +2950,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 13) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:477:3: ( identifier ( COLON identifier )? op= EQUALSOP impliesExpression -> ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:477:5: identifier ( COLON identifier )? op= EQUALSOP impliesExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:477:3: ( identifier ( COLON identifier )? op= EQUALSOP impliesExpression -> ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:477:5: identifier ( COLON identifier )? op= EQUALSOP impliesExpression
             {
             pushFollow(FOLLOW_identifier_in_componentAttribute1898);
             identifier35=identifier();
@@ -2960,7 +2960,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_identifier.add(identifier35.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:477:16: ( COLON identifier )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:477:16: ( COLON identifier )?
             int alt17=2;
             int LA17_0 = input.LA(1);
 
@@ -2969,7 +2969,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt17) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:477:17: COLON identifier
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:477:17: COLON identifier
                     {
                     COLON36=(Token)match(input,COLON,FOLLOW_COLON_in_componentAttribute1901); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_COLON.add(COLON36);
@@ -3000,7 +3000,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_impliesExpression.add(impliesExpression38.getTree());
 
             // AST REWRITE
-            // elements: impliesExpression, identifier, identifier, COLON
+            // elements: COLON, impliesExpression, identifier, identifier
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3014,7 +3014,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 477:66: -> ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:477:69: ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:477:69: ^( COMPONENT_ATTRIBUTE identifier ( COLON identifier )? impliesExpression )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -3023,8 +3023,8 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_identifier.nextTree());
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:477:102: ( COLON identifier )?
-                if ( stream_identifier.hasNext()||stream_COLON.hasNext() ) {
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:477:102: ( COLON identifier )?
+                if ( stream_COLON.hasNext()||stream_identifier.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_COLON.nextNode()
                     );
@@ -3032,8 +3032,8 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_1, stream_identifier.nextTree());
 
                 }
-                stream_identifier.reset();
                 stream_COLON.reset();
+                stream_identifier.reset();
 
                 adaptor.addChild(root_1, stream_impliesExpression.nextTree());
 
@@ -3081,7 +3081,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "functionAttribute"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:481:1: functionAttribute : identifier op= EQUALSOP impliesExpression -> ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:481:1: functionAttribute : identifier op= EQUALSOP impliesExpression -> ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression ) ;
     public final CFMLParser.functionAttribute_return functionAttribute() throws RecognitionException {
         CFMLParser.functionAttribute_return retval = new CFMLParser.functionAttribute_return();
         retval.start = input.LT(1);
@@ -3103,8 +3103,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 14) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:482:3: ( identifier op= EQUALSOP impliesExpression -> ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:482:5: identifier op= EQUALSOP impliesExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:482:3: ( identifier op= EQUALSOP impliesExpression -> ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:482:5: identifier op= EQUALSOP impliesExpression
             {
             pushFollow(FOLLOW_identifier_in_functionAttribute1944);
             identifier39=identifier();
@@ -3125,7 +3125,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_impliesExpression.add(impliesExpression40.getTree());
 
             // AST REWRITE
-            // elements: impliesExpression, identifier
+            // elements: identifier, impliesExpression
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3139,7 +3139,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 482:46: -> ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:482:49: ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:482:49: ^( FUNCTION_ATTRIBUTE[$op] identifier impliesExpression )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -3194,7 +3194,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "compoundStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:485:1: compoundStatement : LEFTCURLYBRACKET ^ ( statement )* RIGHTCURLYBRACKET ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:485:1: compoundStatement : LEFTCURLYBRACKET ^ ( statement )* RIGHTCURLYBRACKET ;
     public final CFMLParser.compoundStatement_return compoundStatement() throws RecognitionException {
         CFMLParser.compoundStatement_return retval = new CFMLParser.compoundStatement_return();
         retval.start = input.LT(1);
@@ -3214,8 +3214,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 15) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:486:3: ( LEFTCURLYBRACKET ^ ( statement )* RIGHTCURLYBRACKET )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:486:5: LEFTCURLYBRACKET ^ ( statement )* RIGHTCURLYBRACKET
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:486:3: ( LEFTCURLYBRACKET ^ ( statement )* RIGHTCURLYBRACKET )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:486:5: LEFTCURLYBRACKET ^ ( statement )* RIGHTCURLYBRACKET
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -3228,7 +3228,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.becomeRoot(LEFTCURLYBRACKET41_tree, root_0);
             }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:486:23: ( statement )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:486:23: ( statement )*
             loop18:
             do {
                 int alt18=2;
@@ -3241,7 +3241,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt18) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:486:25: statement
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:486:25: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_compoundStatement1981);
             	    statement42=statement();
@@ -3302,7 +3302,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "componentGuts"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:489:1: componentGuts : LEFTCURLYBRACKET ^ ( element )* RIGHTCURLYBRACKET ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:489:1: componentGuts : LEFTCURLYBRACKET ^ ( element )* RIGHTCURLYBRACKET ;
     public final CFMLParser.componentGuts_return componentGuts() throws RecognitionException {
         CFMLParser.componentGuts_return retval = new CFMLParser.componentGuts_return();
         retval.start = input.LT(1);
@@ -3322,8 +3322,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 16) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:490:3: ( LEFTCURLYBRACKET ^ ( element )* RIGHTCURLYBRACKET )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:490:5: LEFTCURLYBRACKET ^ ( element )* RIGHTCURLYBRACKET
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:490:3: ( LEFTCURLYBRACKET ^ ( element )* RIGHTCURLYBRACKET )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:490:5: LEFTCURLYBRACKET ^ ( element )* RIGHTCURLYBRACKET
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -3336,7 +3336,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.becomeRoot(LEFTCURLYBRACKET44_tree, root_0);
             }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:490:23: ( element )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:490:23: ( element )*
             loop19:
             do {
                 int alt19=2;
@@ -3349,7 +3349,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt19) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:490:25: element
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:490:25: element
             	    {
             	    pushFollow(FOLLOW_element_in_componentGuts2006);
             	    element45=element();
@@ -3410,7 +3410,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:493:1: statement : ( tryCatchStatement | ifStatement | whileStatement | doWhileStatement | forStatement | switchStatement | CONTINUE SEMICOLON !| BREAK SEMICOLON !| returnStatement | tagOperatorStatement | compoundStatement | localAssignmentExpression SEMICOLON !| SEMICOLON !);
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:493:1: statement : ( tryCatchStatement | ifStatement | whileStatement | doWhileStatement | forStatement | switchStatement | CONTINUE SEMICOLON !| BREAK SEMICOLON !| returnStatement | tagOperatorStatement | compoundStatement | localAssignmentExpression SEMICOLON !| SEMICOLON !);
     public final CFMLParser.statement_return statement() throws RecognitionException {
         CFMLParser.statement_return retval = new CFMLParser.statement_return();
         retval.start = input.LT(1);
@@ -3456,12 +3456,12 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 17) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:494:3: ( tryCatchStatement | ifStatement | whileStatement | doWhileStatement | forStatement | switchStatement | CONTINUE SEMICOLON !| BREAK SEMICOLON !| returnStatement | tagOperatorStatement | compoundStatement | localAssignmentExpression SEMICOLON !| SEMICOLON !)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:494:3: ( tryCatchStatement | ifStatement | whileStatement | doWhileStatement | forStatement | switchStatement | CONTINUE SEMICOLON !| BREAK SEMICOLON !| returnStatement | tagOperatorStatement | compoundStatement | localAssignmentExpression SEMICOLON !| SEMICOLON !)
             int alt20=13;
             alt20 = dfa20.predict(input);
             switch (alt20) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:494:7: tryCatchStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:494:7: tryCatchStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3476,7 +3476,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:495:7: ifStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:495:7: ifStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3491,7 +3491,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:496:7: whileStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:496:7: whileStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3506,7 +3506,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:497:7: doWhileStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:497:7: doWhileStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3521,7 +3521,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:498:7: forStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:498:7: forStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3536,7 +3536,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:499:7: switchStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:499:7: switchStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3551,7 +3551,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:500:7: CONTINUE SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:500:7: CONTINUE SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3569,7 +3569,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:501:7: BREAK SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:501:7: BREAK SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3587,7 +3587,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:502:7: returnStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:502:7: returnStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3602,7 +3602,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:503:7: tagOperatorStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:503:7: tagOperatorStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3617,7 +3617,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:504:7: compoundStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:504:7: compoundStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3632,7 +3632,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:505:7: localAssignmentExpression SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:505:7: localAssignmentExpression SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3649,7 +3649,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:507:7: SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:507:7: SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3693,7 +3693,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "condition"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:510:1: condition : LEFTPAREN ! localAssignmentExpression RIGHTPAREN !;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:510:1: condition : LEFTPAREN ! localAssignmentExpression RIGHTPAREN !;
     public final CFMLParser.condition_return condition() throws RecognitionException {
         CFMLParser.condition_return retval = new CFMLParser.condition_return();
         retval.start = input.LT(1);
@@ -3713,8 +3713,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 18) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:511:3: ( LEFTPAREN ! localAssignmentExpression RIGHTPAREN !)
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:511:5: LEFTPAREN ! localAssignmentExpression RIGHTPAREN !
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:511:3: ( LEFTPAREN ! localAssignmentExpression RIGHTPAREN !)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:511:5: LEFTPAREN ! localAssignmentExpression RIGHTPAREN !
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -3765,7 +3765,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "returnStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:514:1: returnStatement : ( RETURN SEMICOLON !| RETURN assignmentExpression SEMICOLON !);
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:514:1: returnStatement : ( RETURN SEMICOLON !| RETURN assignmentExpression SEMICOLON !);
     public final CFMLParser.returnStatement_return returnStatement() throws RecognitionException {
         CFMLParser.returnStatement_return retval = new CFMLParser.returnStatement_return();
         retval.start = input.LT(1);
@@ -3789,7 +3789,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 19) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:515:3: ( RETURN SEMICOLON !| RETURN assignmentExpression SEMICOLON !)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:515:3: ( RETURN SEMICOLON !| RETURN assignmentExpression SEMICOLON !)
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -3821,7 +3821,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt21) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:515:5: RETURN SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:515:5: RETURN SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3839,7 +3839,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:516:5: RETURN assignmentExpression SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:516:5: RETURN assignmentExpression SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3898,7 +3898,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ifStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:519:1: ifStatement : IF ^ condition statement ( ELSE statement )? ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:519:1: ifStatement : IF ^ condition statement ( ELSE statement )? ;
     public final CFMLParser.ifStatement_return ifStatement() throws RecognitionException {
         CFMLParser.ifStatement_return retval = new CFMLParser.ifStatement_return();
         retval.start = input.LT(1);
@@ -3922,8 +3922,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 20) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:520:3: ( IF ^ condition statement ( ELSE statement )? )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:520:5: IF ^ condition statement ( ELSE statement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:520:3: ( IF ^ condition statement ( ELSE statement )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:520:5: IF ^ condition statement ( ELSE statement )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -3950,7 +3950,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, statement73.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:520:29: ( ELSE statement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:520:29: ( ELSE statement )?
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -3963,7 +3963,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt22) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:520:31: ELSE statement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:520:31: ELSE statement
                     {
                     ELSE74=(Token)match(input,ELSE,FOLLOW_ELSE_in_ifStatement2212); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -4021,7 +4021,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "whileStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:523:1: whileStatement : WHILE ^ condition statement ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:523:1: whileStatement : WHILE ^ condition statement ;
     public final CFMLParser.whileStatement_return whileStatement() throws RecognitionException {
         CFMLParser.whileStatement_return retval = new CFMLParser.whileStatement_return();
         retval.start = input.LT(1);
@@ -4041,8 +4041,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 21) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:524:3: ( WHILE ^ condition statement )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:524:5: WHILE ^ condition statement
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:524:3: ( WHILE ^ condition statement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:524:5: WHILE ^ condition statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4104,7 +4104,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "doWhileStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:527:1: doWhileStatement : DO ^ statement WHILE condition SEMICOLON ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:527:1: doWhileStatement : DO ^ statement WHILE condition SEMICOLON ;
     public final CFMLParser.doWhileStatement_return doWhileStatement() throws RecognitionException {
         CFMLParser.doWhileStatement_return retval = new CFMLParser.doWhileStatement_return();
         retval.start = input.LT(1);
@@ -4128,8 +4128,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 22) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:528:3: ( DO ^ statement WHILE condition SEMICOLON )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:528:5: DO ^ statement WHILE condition SEMICOLON
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:528:3: ( DO ^ statement WHILE condition SEMICOLON )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:528:5: DO ^ statement WHILE condition SEMICOLON
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4207,7 +4207,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "forStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:531:1: forStatement : ( FOR ^ LEFTPAREN ! ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN ! statement | FOR ^ LEFTPAREN ! forInKey IN assignmentExpression RIGHTPAREN ! statement );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:531:1: forStatement : ( FOR ^ LEFTPAREN ! ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN ! statement | FOR ^ LEFTPAREN ! forInKey IN assignmentExpression RIGHTPAREN ! statement );
     public final CFMLParser.forStatement_return forStatement() throws RecognitionException {
         CFMLParser.forStatement_return retval = new CFMLParser.forStatement_return();
         retval.start = input.LT(1);
@@ -4255,7 +4255,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 23) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:3: ( FOR ^ LEFTPAREN ! ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN ! statement | FOR ^ LEFTPAREN ! forInKey IN assignmentExpression RIGHTPAREN ! statement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:3: ( FOR ^ LEFTPAREN ! ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN ! statement | FOR ^ LEFTPAREN ! forInKey IN assignmentExpression RIGHTPAREN ! statement )
             int alt27=2;
             int LA27_0 = input.LA(1);
 
@@ -4287,7 +4287,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt27) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:5: FOR ^ LEFTPAREN ! ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN ! statement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:5: FOR ^ LEFTPAREN ! ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN ! statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4302,7 +4302,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     LEFTPAREN85=(Token)match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_forStatement2276); if (state.failed) return retval;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:21: ( VAR )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:21: ( VAR )?
                     int alt23=2;
                     int LA23_0 = input.LA(1);
 
@@ -4315,7 +4315,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt23) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:21: VAR
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:21: VAR
                             {
                             VAR86=(Token)match(input,VAR,FOLLOW_VAR_in_forStatement2279); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -4331,7 +4331,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:26: ( assignmentExpression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:26: ( assignmentExpression )?
                     int alt24=2;
                     int LA24_0 = input.LA(1);
 
@@ -4340,7 +4340,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt24) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:28: assignmentExpression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:28: assignmentExpression
                             {
                             pushFollow(FOLLOW_assignmentExpression_in_forStatement2284);
                             assignmentExpression87=assignmentExpression();
@@ -4363,7 +4363,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, SEMICOLON88_tree);
                     }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:62: ( assignmentExpression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:62: ( assignmentExpression )?
                     int alt25=2;
                     int LA25_0 = input.LA(1);
 
@@ -4372,7 +4372,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt25) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:64: assignmentExpression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:64: assignmentExpression
                             {
                             pushFollow(FOLLOW_assignmentExpression_in_forStatement2293);
                             assignmentExpression89=assignmentExpression();
@@ -4395,7 +4395,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, SEMICOLON90_tree);
                     }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:99: ( assignmentExpression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:99: ( assignmentExpression )?
                     int alt26=2;
                     int LA26_0 = input.LA(1);
 
@@ -4404,7 +4404,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt26) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:101: assignmentExpression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:101: assignmentExpression
                             {
                             pushFollow(FOLLOW_assignmentExpression_in_forStatement2303);
                             assignmentExpression91=assignmentExpression();
@@ -4431,7 +4431,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:533:5: FOR ^ LEFTPAREN ! forInKey IN assignmentExpression RIGHTPAREN ! statement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:533:5: FOR ^ LEFTPAREN ! forInKey IN assignmentExpression RIGHTPAREN ! statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4514,7 +4514,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "forInKey"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:536:1: forInKey : ( VAR )? identifier ( DOT ( identifier | reservedWord ) )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:536:1: forInKey : ( VAR )? identifier ( DOT ( identifier | reservedWord ) )* ;
     public final CFMLParser.forInKey_return forInKey() throws RecognitionException {
         CFMLParser.forInKey_return retval = new CFMLParser.forInKey_return();
         retval.start = input.LT(1);
@@ -4538,13 +4538,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 24) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:3: ( ( VAR )? identifier ( DOT ( identifier | reservedWord ) )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:5: ( VAR )? identifier ( DOT ( identifier | reservedWord ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:3: ( ( VAR )? identifier ( DOT ( identifier | reservedWord ) )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:5: ( VAR )? identifier ( DOT ( identifier | reservedWord ) )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:5: ( VAR )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:5: ( VAR )?
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -4557,7 +4557,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt28) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:5: VAR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:5: VAR
                     {
                     VAR101=(Token)match(input,VAR,FOLLOW_VAR_in_forInKey2347); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -4580,7 +4580,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier102.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:21: ( DOT ( identifier | reservedWord ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:21: ( DOT ( identifier | reservedWord ) )*
             loop30:
             do {
                 int alt30=2;
@@ -4593,7 +4593,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt30) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:23: DOT ( identifier | reservedWord )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:23: DOT ( identifier | reservedWord )
             	    {
             	    DOT103=(Token)match(input,DOT,FOLLOW_DOT_in_forInKey2354); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -4603,7 +4603,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    adaptor.addChild(root_0, DOT103_tree);
             	    }
 
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:27: ( identifier | reservedWord )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:27: ( identifier | reservedWord )
             	    int alt29=2;
             	    switch ( input.LA(1) ) {
             	    case ABORT:
@@ -4730,7 +4730,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             	    switch (alt29) {
             	        case 1 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:29: identifier
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:29: identifier
             	            {
             	            pushFollow(FOLLOW_identifier_in_forInKey2358);
             	            identifier104=identifier();
@@ -4742,7 +4742,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:42: reservedWord
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:42: reservedWord
             	            {
             	            pushFollow(FOLLOW_reservedWord_in_forInKey2362);
             	            reservedWord105=reservedWord();
@@ -4801,7 +4801,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "tryCatchStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:540:1: tryCatchStatement : TRY ^ statement ( catchCondition )* ( finallyStatement )? ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:540:1: tryCatchStatement : TRY ^ statement ( catchCondition )* ( finallyStatement )? ;
     public final CFMLParser.tryCatchStatement_return tryCatchStatement() throws RecognitionException {
         CFMLParser.tryCatchStatement_return retval = new CFMLParser.tryCatchStatement_return();
         retval.start = input.LT(1);
@@ -4823,8 +4823,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 25) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:3: ( TRY ^ statement ( catchCondition )* ( finallyStatement )? )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:5: TRY ^ statement ( catchCondition )* ( finallyStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:3: ( TRY ^ statement ( catchCondition )* ( finallyStatement )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:5: TRY ^ statement ( catchCondition )* ( finallyStatement )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4844,7 +4844,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, statement107.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:20: ( catchCondition )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:20: ( catchCondition )*
             loop31:
             do {
                 int alt31=2;
@@ -4863,7 +4863,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt31) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:22: catchCondition
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:22: catchCondition
             	    {
             	    pushFollow(FOLLOW_catchCondition_in_tryCatchStatement2387);
             	    catchCondition108=catchCondition();
@@ -4881,7 +4881,7 @@ public TreeAdaptor getTreeAdaptor() {
             } while (true);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:40: ( finallyStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:40: ( finallyStatement )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -4894,7 +4894,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt32) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:40: finallyStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:40: finallyStatement
                     {
                     pushFollow(FOLLOW_finallyStatement_in_tryCatchStatement2392);
                     finallyStatement109=finallyStatement();
@@ -4944,7 +4944,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "catchCondition"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:544:1: catchCondition : CATCH ^ LEFTPAREN ! exceptionType identifier RIGHTPAREN ! compoundStatement ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:544:1: catchCondition : CATCH ^ LEFTPAREN ! exceptionType identifier RIGHTPAREN ! compoundStatement ;
     public final CFMLParser.catchCondition_return catchCondition() throws RecognitionException {
         CFMLParser.catchCondition_return retval = new CFMLParser.catchCondition_return();
         retval.start = input.LT(1);
@@ -4970,8 +4970,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 26) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:545:3: ( CATCH ^ LEFTPAREN ! exceptionType identifier RIGHTPAREN ! compoundStatement )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:545:5: CATCH ^ LEFTPAREN ! exceptionType identifier RIGHTPAREN ! compoundStatement
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:545:3: ( CATCH ^ LEFTPAREN ! exceptionType identifier RIGHTPAREN ! compoundStatement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:545:5: CATCH ^ LEFTPAREN ! exceptionType identifier RIGHTPAREN ! compoundStatement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5044,7 +5044,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "finallyStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:548:1: finallyStatement : FINALLY ^ compoundStatement ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:548:1: finallyStatement : FINALLY ^ compoundStatement ;
     public final CFMLParser.finallyStatement_return finallyStatement() throws RecognitionException {
         CFMLParser.finallyStatement_return retval = new CFMLParser.finallyStatement_return();
         retval.start = input.LT(1);
@@ -5062,8 +5062,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 27) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:549:3: ( FINALLY ^ compoundStatement )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:549:5: FINALLY ^ compoundStatement
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:549:3: ( FINALLY ^ compoundStatement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:549:5: FINALLY ^ compoundStatement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5118,7 +5118,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "exceptionType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:552:1: exceptionType : ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:552:1: exceptionType : ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL );
     public final CFMLParser.exceptionType_return exceptionType() throws RecognitionException {
         CFMLParser.exceptionType_return retval = new CFMLParser.exceptionType_return();
         retval.start = input.LT(1);
@@ -5142,7 +5142,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 28) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:3: ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:3: ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL )
             int alt35=2;
             int LA35_0 = input.LA(1);
 
@@ -5162,7 +5162,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt35) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:5: identifier ( DOT ( identifier | reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:5: identifier ( DOT ( identifier | reservedWord ) )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5174,7 +5174,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier118.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:16: ( DOT ( identifier | reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:16: ( DOT ( identifier | reservedWord ) )*
                     loop34:
                     do {
                         int alt34=2;
@@ -5187,7 +5187,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt34) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:18: DOT ( identifier | reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:18: DOT ( identifier | reservedWord )
                     	    {
                     	    DOT119=(Token)match(input,DOT,FOLLOW_DOT_in_exceptionType2454); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -5197,7 +5197,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	    adaptor.addChild(root_0, DOT119_tree);
                     	    }
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:22: ( identifier | reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:22: ( identifier | reservedWord )
                     	    int alt33=2;
                     	    switch ( input.LA(1) ) {
                     	    case ABORT:
@@ -5324,7 +5324,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     	    switch (alt33) {
                     	        case 1 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:24: identifier
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:24: identifier
                     	            {
                     	            pushFollow(FOLLOW_identifier_in_exceptionType2458);
                     	            identifier120=identifier();
@@ -5336,7 +5336,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	            }
                     	            break;
                     	        case 2 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:37: reservedWord
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:37: reservedWord
                     	            {
                     	            pushFollow(FOLLOW_reservedWord_in_exceptionType2462);
                     	            reservedWord121=reservedWord();
@@ -5363,7 +5363,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:554:5: STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:554:5: STRING_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5413,7 +5413,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constantExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:557:1: constantExpression : ( LEFTPAREN constantExpression RIGHTPAREN | MINUS ( INTEGER_LITERAL | FLOATING_POINT_LITERAL ) | INTEGER_LITERAL | FLOATING_POINT_LITERAL | STRING_LITERAL | BOOLEAN_LITERAL | NULL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:557:1: constantExpression : ( LEFTPAREN constantExpression RIGHTPAREN | MINUS ( INTEGER_LITERAL | FLOATING_POINT_LITERAL ) | INTEGER_LITERAL | FLOATING_POINT_LITERAL | STRING_LITERAL | BOOLEAN_LITERAL | NULL );
     public final CFMLParser.constantExpression_return constantExpression() throws RecognitionException {
         CFMLParser.constantExpression_return retval = new CFMLParser.constantExpression_return();
         retval.start = input.LT(1);
@@ -5447,7 +5447,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 29) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:558:3: ( LEFTPAREN constantExpression RIGHTPAREN | MINUS ( INTEGER_LITERAL | FLOATING_POINT_LITERAL ) | INTEGER_LITERAL | FLOATING_POINT_LITERAL | STRING_LITERAL | BOOLEAN_LITERAL | NULL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:558:3: ( LEFTPAREN constantExpression RIGHTPAREN | MINUS ( INTEGER_LITERAL | FLOATING_POINT_LITERAL ) | INTEGER_LITERAL | FLOATING_POINT_LITERAL | STRING_LITERAL | BOOLEAN_LITERAL | NULL )
             int alt36=7;
             switch ( input.LA(1) ) {
             case LEFTPAREN:
@@ -5496,7 +5496,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt36) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:558:5: LEFTPAREN constantExpression RIGHTPAREN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:558:5: LEFTPAREN constantExpression RIGHTPAREN
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5527,7 +5527,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:559:5: MINUS ( INTEGER_LITERAL | FLOATING_POINT_LITERAL )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:559:5: MINUS ( INTEGER_LITERAL | FLOATING_POINT_LITERAL )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5560,7 +5560,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:560:5: INTEGER_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:560:5: INTEGER_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5576,7 +5576,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:561:5: FLOATING_POINT_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:561:5: FLOATING_POINT_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5592,7 +5592,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:562:5: STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:562:5: STRING_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5608,7 +5608,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:563:5: BOOLEAN_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:563:5: BOOLEAN_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5624,7 +5624,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:564:5: NULL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:564:5: NULL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5674,7 +5674,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switchStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:567:1: switchStatement : SWITCH ^ condition LEFTCURLYBRACKET ( caseStatement )* RIGHTCURLYBRACKET ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:567:1: switchStatement : SWITCH ^ condition LEFTCURLYBRACKET ( caseStatement )* RIGHTCURLYBRACKET ;
     public final CFMLParser.switchStatement_return switchStatement() throws RecognitionException {
         CFMLParser.switchStatement_return retval = new CFMLParser.switchStatement_return();
         retval.start = input.LT(1);
@@ -5698,8 +5698,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 30) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:568:3: ( SWITCH ^ condition LEFTCURLYBRACKET ( caseStatement )* RIGHTCURLYBRACKET )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:568:5: SWITCH ^ condition LEFTCURLYBRACKET ( caseStatement )* RIGHTCURLYBRACKET
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:568:3: ( SWITCH ^ condition LEFTCURLYBRACKET ( caseStatement )* RIGHTCURLYBRACKET )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:568:5: SWITCH ^ condition LEFTCURLYBRACKET ( caseStatement )* RIGHTCURLYBRACKET
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5727,7 +5727,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, LEFTCURLYBRACKET135_tree);
             }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:569:5: ( caseStatement )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:569:5: ( caseStatement )*
             loop37:
             do {
                 int alt37=2;
@@ -5740,7 +5740,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt37) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:570:7: caseStatement
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:570:7: caseStatement
             	    {
             	    pushFollow(FOLLOW_caseStatement_in_switchStatement2574);
             	    caseStatement136=caseStatement();
@@ -5801,7 +5801,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "caseStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:576:1: caseStatement : ( ( CASE ^ constantExpression COLON ( statement )* ) | ( DEFAULT ^ COLON ( statement )* ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:576:1: caseStatement : ( ( CASE ^ constantExpression COLON ( statement )* ) | ( DEFAULT ^ COLON ( statement )* ) );
     public final CFMLParser.caseStatement_return caseStatement() throws RecognitionException {
         CFMLParser.caseStatement_return retval = new CFMLParser.caseStatement_return();
         retval.start = input.LT(1);
@@ -5829,7 +5829,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 31) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:3: ( ( CASE ^ constantExpression COLON ( statement )* ) | ( DEFAULT ^ COLON ( statement )* ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:3: ( ( CASE ^ constantExpression COLON ( statement )* ) | ( DEFAULT ^ COLON ( statement )* ) )
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -5849,13 +5849,13 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt40) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:5: ( CASE ^ constantExpression COLON ( statement )* )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:5: ( CASE ^ constantExpression COLON ( statement )* )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:5: ( CASE ^ constantExpression COLON ( statement )* )
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:7: CASE ^ constantExpression COLON ( statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:5: ( CASE ^ constantExpression COLON ( statement )* )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:7: CASE ^ constantExpression COLON ( statement )*
                     {
                     CASE138=(Token)match(input,CASE,FOLLOW_CASE_in_caseStatement2612); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -5880,7 +5880,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, COLON140_tree);
                     }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:38: ( statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:38: ( statement )*
                     loop38:
                     do {
                         int alt38=2;
@@ -5978,7 +5978,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt38) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:40: statement
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:40: statement
                     	    {
                     	    pushFollow(FOLLOW_statement_in_caseStatement2621);
                     	    statement141=statement();
@@ -6002,13 +6002,13 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:5: ( DEFAULT ^ COLON ( statement )* )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:5: ( DEFAULT ^ COLON ( statement )* )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:5: ( DEFAULT ^ COLON ( statement )* )
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:7: DEFAULT ^ COLON ( statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:5: ( DEFAULT ^ COLON ( statement )* )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:7: DEFAULT ^ COLON ( statement )*
                     {
                     DEFAULT142=(Token)match(input,DEFAULT,FOLLOW_DEFAULT_in_caseStatement2642); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -6026,7 +6026,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, COLON143_tree);
                     }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:22: ( statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:22: ( statement )*
                     loop39:
                     do {
                         int alt39=2;
@@ -6124,7 +6124,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt39) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:24: statement
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:24: statement
                     	    {
                     	    pushFollow(FOLLOW_statement_in_caseStatement2649);
                     	    statement144=statement();
@@ -6182,7 +6182,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "tagOperatorStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:582:1: tagOperatorStatement : ( includeStatement | IMPORT ^ componentPath SEMICOLON !| abortStatement | throwStatement | RETHROW SEMICOLON -> ^( RETHROWSTATEMENT ) | exitStatement | paramStatement | propertyStatement | lockStatement | threadStatement | transactionStatement | cfmlfunctionStatement );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:582:1: tagOperatorStatement : ( includeStatement | IMPORT ^ componentPath SEMICOLON !| abortStatement | throwStatement | RETHROW SEMICOLON -> ^( RETHROWSTATEMENT ) | exitStatement | paramStatement | propertyStatement | lockStatement | threadStatement | transactionStatement | cfmlfunctionStatement );
     public final CFMLParser.tagOperatorStatement_return tagOperatorStatement() throws RecognitionException {
         CFMLParser.tagOperatorStatement_return retval = new CFMLParser.tagOperatorStatement_return();
         retval.start = input.LT(1);
@@ -6228,7 +6228,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 32) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:584:3: ( includeStatement | IMPORT ^ componentPath SEMICOLON !| abortStatement | throwStatement | RETHROW SEMICOLON -> ^( RETHROWSTATEMENT ) | exitStatement | paramStatement | propertyStatement | lockStatement | threadStatement | transactionStatement | cfmlfunctionStatement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:584:3: ( includeStatement | IMPORT ^ componentPath SEMICOLON !| abortStatement | throwStatement | RETHROW SEMICOLON -> ^( RETHROWSTATEMENT ) | exitStatement | paramStatement | propertyStatement | lockStatement | threadStatement | transactionStatement | cfmlfunctionStatement )
             int alt41=12;
             switch ( input.LA(1) ) {
             case INCLUDE:
@@ -6309,7 +6309,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt41) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:584:5: includeStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:584:5: includeStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6324,7 +6324,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:585:5: IMPORT ^ componentPath SEMICOLON !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:585:5: IMPORT ^ componentPath SEMICOLON !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6349,7 +6349,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:586:5: abortStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:586:5: abortStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6364,7 +6364,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:587:5: throwStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:587:5: throwStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6379,7 +6379,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:588:5: RETHROW SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:588:5: RETHROW SEMICOLON
                     {
                     RETHROW151=(Token)match(input,RETHROW,FOLLOW_RETHROW_in_tagOperatorStatement2701); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_RETHROW.add(RETHROW151);
@@ -6404,7 +6404,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 588:23: -> ^( RETHROWSTATEMENT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:588:26: ^( RETHROWSTATEMENT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:588:26: ^( RETHROWSTATEMENT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -6423,7 +6423,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:589:5: exitStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:589:5: exitStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6438,7 +6438,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:590:5: paramStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:590:5: paramStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6453,7 +6453,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:591:5: propertyStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:591:5: propertyStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6468,7 +6468,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:592:5: lockStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:592:5: lockStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6483,7 +6483,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:593:5: threadStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:593:5: threadStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6498,7 +6498,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:594:5: transactionStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:594:5: transactionStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6513,7 +6513,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:595:5: cfmlfunctionStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:595:5: cfmlfunctionStatement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6562,7 +6562,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "includeStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:600:1: includeStatement : INCLUDE ( impliesExpression )* SEMICOLON -> ^( INCLUDE ( impliesExpression )* ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:600:1: includeStatement : INCLUDE ( impliesExpression )* SEMICOLON -> ^( INCLUDE ( impliesExpression )* ) ;
     public final CFMLParser.includeStatement_return includeStatement() throws RecognitionException {
         CFMLParser.includeStatement_return retval = new CFMLParser.includeStatement_return();
         retval.start = input.LT(1);
@@ -6584,14 +6584,14 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 33) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:601:3: ( INCLUDE ( impliesExpression )* SEMICOLON -> ^( INCLUDE ( impliesExpression )* ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:601:5: INCLUDE ( impliesExpression )* SEMICOLON
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:601:3: ( INCLUDE ( impliesExpression )* SEMICOLON -> ^( INCLUDE ( impliesExpression )* ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:601:5: INCLUDE ( impliesExpression )* SEMICOLON
             {
             INCLUDE160=(Token)match(input,INCLUDE,FOLLOW_INCLUDE_in_includeStatement2766); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_INCLUDE.add(INCLUDE160);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:601:13: ( impliesExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:601:13: ( impliesExpression )*
             loop42:
             do {
                 int alt42=2;
@@ -6604,7 +6604,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt42) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:601:13: impliesExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:601:13: impliesExpression
             	    {
             	    pushFollow(FOLLOW_impliesExpression_in_includeStatement2768);
             	    impliesExpression161=impliesExpression();
@@ -6627,7 +6627,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: impliesExpression, INCLUDE
+            // elements: INCLUDE, impliesExpression
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -6641,14 +6641,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 601:43: -> ^( INCLUDE ( impliesExpression )* )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:601:46: ^( INCLUDE ( impliesExpression )* )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:601:46: ^( INCLUDE ( impliesExpression )* )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
                 stream_INCLUDE.nextNode()
                 , root_1);
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:601:57: ( impliesExpression )*
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:601:57: ( impliesExpression )*
                 while ( stream_impliesExpression.hasNext() ) {
                     adaptor.addChild(root_1, stream_impliesExpression.nextTree());
 
@@ -6699,7 +6699,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "transactionStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:604:1: transactionStatement : lc= TRANSACTION p= paramStatementAttributes ( compoundStatement )? -> ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:604:1: transactionStatement : lc= TRANSACTION p= paramStatementAttributes ( compoundStatement )? -> ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) ;
     public final CFMLParser.transactionStatement_return transactionStatement() throws RecognitionException {
         CFMLParser.transactionStatement_return retval = new CFMLParser.transactionStatement_return();
         retval.start = input.LT(1);
@@ -6721,8 +6721,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 34) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:3: (lc= TRANSACTION p= paramStatementAttributes ( compoundStatement )? -> ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:5: lc= TRANSACTION p= paramStatementAttributes ( compoundStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:3: (lc= TRANSACTION p= paramStatementAttributes ( compoundStatement )? -> ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:5: lc= TRANSACTION p= paramStatementAttributes ( compoundStatement )?
             {
             lc=(Token)match(input,TRANSACTION,FOLLOW_TRANSACTION_in_transactionStatement2799); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_TRANSACTION.add(lc);
@@ -6735,12 +6735,12 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_paramStatementAttributes.add(p.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:47: ( compoundStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:47: ( compoundStatement )?
             int alt43=2;
             alt43 = dfa43.predict(input);
             switch (alt43) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:48: compoundStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:48: compoundStatement
                     {
                     pushFollow(FOLLOW_compoundStatement_in_transactionStatement2806);
                     compoundStatement163=compoundStatement();
@@ -6756,7 +6756,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: compoundStatement, paramStatementAttributes
+            // elements: paramStatementAttributes, compoundStatement
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -6770,7 +6770,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 605:68: -> ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:71: ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:71: ^( TRANSACTIONSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -6779,7 +6779,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_paramStatementAttributes.nextTree());
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:124: ( compoundStatement )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:124: ( compoundStatement )?
                 if ( stream_compoundStatement.hasNext() ) {
                     adaptor.addChild(root_1, stream_compoundStatement.nextTree());
 
@@ -6830,7 +6830,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "cfmlfunctionStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:608:1: cfmlfunctionStatement : cfmlFunction ( param )* ( compoundStatement )? -> ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:608:1: cfmlfunctionStatement : cfmlFunction ( param )* ( compoundStatement )? -> ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? ) ;
     public final CFMLParser.cfmlfunctionStatement_return cfmlfunctionStatement() throws RecognitionException {
         CFMLParser.cfmlfunctionStatement_return retval = new CFMLParser.cfmlfunctionStatement_return();
         retval.start = input.LT(1);
@@ -6852,8 +6852,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 35) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:3: ( cfmlFunction ( param )* ( compoundStatement )? -> ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:5: cfmlFunction ( param )* ( compoundStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:3: ( cfmlFunction ( param )* ( compoundStatement )? -> ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:5: cfmlFunction ( param )* ( compoundStatement )?
             {
             pushFollow(FOLLOW_cfmlFunction_in_cfmlfunctionStatement2837);
             cfmlFunction164=cfmlFunction();
@@ -6862,14 +6862,14 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_cfmlFunction.add(cfmlFunction164.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:18: ( param )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:18: ( param )*
             loop44:
             do {
                 int alt44=2;
                 alt44 = dfa44.predict(input);
                 switch (alt44) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:19: param
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:19: param
             	    {
             	    pushFollow(FOLLOW_param_in_cfmlfunctionStatement2840);
             	    param165=param();
@@ -6887,12 +6887,12 @@ public TreeAdaptor getTreeAdaptor() {
             } while (true);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:27: ( compoundStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:27: ( compoundStatement )?
             int alt45=2;
             alt45 = dfa45.predict(input);
             switch (alt45) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:28: compoundStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:28: compoundStatement
                     {
                     pushFollow(FOLLOW_compoundStatement_in_cfmlfunctionStatement2845);
                     compoundStatement166=compoundStatement();
@@ -6908,7 +6908,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: param, compoundStatement, cfmlFunction
+            // elements: compoundStatement, param, cfmlFunction
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -6922,7 +6922,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 609:47: -> ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:50: ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:50: ^( CFMLFUNCTIONSTATEMENT cfmlFunction ( param )* ( compoundStatement )? )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -6931,14 +6931,14 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_cfmlFunction.nextTree());
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:87: ( param )*
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:87: ( param )*
                 while ( stream_param.hasNext() ) {
                     adaptor.addChild(root_1, stream_param.nextTree());
 
                 }
                 stream_param.reset();
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:96: ( compoundStatement )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:96: ( compoundStatement )?
                 if ( stream_compoundStatement.hasNext() ) {
                     adaptor.addChild(root_1, stream_compoundStatement.nextTree());
 
@@ -6989,7 +6989,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "cfmlFunction"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:612:1: cfmlFunction : ( LOCATION | SAVECONTENT | HTTP | FILE | DIRECTORY | LOOP | SETTING | QUERY );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:612:1: cfmlFunction : ( LOCATION | SAVECONTENT | HTTP | FILE | DIRECTORY | LOOP | SETTING | QUERY );
     public final CFMLParser.cfmlFunction_return cfmlFunction() throws RecognitionException {
         CFMLParser.cfmlFunction_return retval = new CFMLParser.cfmlFunction_return();
         retval.start = input.LT(1);
@@ -7005,8 +7005,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 36) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:613:3: ( LOCATION | SAVECONTENT | HTTP | FILE | DIRECTORY | LOOP | SETTING | QUERY )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:613:3: ( LOCATION | SAVECONTENT | HTTP | FILE | DIRECTORY | LOOP | SETTING | QUERY )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7063,7 +7063,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "lockStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:634:1: lockStatement : lc= LOCK p= paramStatementAttributes cs= compoundStatement -> ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:634:1: lockStatement : lc= LOCK p= paramStatementAttributes cs= compoundStatement -> ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement ) ;
     public final CFMLParser.lockStatement_return lockStatement() throws RecognitionException {
         CFMLParser.lockStatement_return retval = new CFMLParser.lockStatement_return();
         retval.start = input.LT(1);
@@ -7085,8 +7085,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 37) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:635:3: (lc= LOCK p= paramStatementAttributes cs= compoundStatement -> ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:635:5: lc= LOCK p= paramStatementAttributes cs= compoundStatement
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:635:3: (lc= LOCK p= paramStatementAttributes cs= compoundStatement -> ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:635:5: lc= LOCK p= paramStatementAttributes cs= compoundStatement
             {
             lc=(Token)match(input,LOCK,FOLLOW_LOCK_in_lockStatement2942); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_LOCK.add(lc);
@@ -7121,7 +7121,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 635:61: -> ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:635:64: ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:635:64: ^( LOCKSTATEMENT[$lc] paramStatementAttributes compoundStatement )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7176,7 +7176,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "threadStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:638:1: threadStatement : lc= THREAD p= paramStatementAttributes ( compoundStatement )? -> ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:638:1: threadStatement : lc= THREAD p= paramStatementAttributes ( compoundStatement )? -> ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) ;
     public final CFMLParser.threadStatement_return threadStatement() throws RecognitionException {
         CFMLParser.threadStatement_return retval = new CFMLParser.threadStatement_return();
         retval.start = input.LT(1);
@@ -7198,8 +7198,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 38) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:3: (lc= THREAD p= paramStatementAttributes ( compoundStatement )? -> ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:5: lc= THREAD p= paramStatementAttributes ( compoundStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:3: (lc= THREAD p= paramStatementAttributes ( compoundStatement )? -> ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:5: lc= THREAD p= paramStatementAttributes ( compoundStatement )?
             {
             lc=(Token)match(input,THREAD,FOLLOW_THREAD_in_threadStatement2976); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_THREAD.add(lc);
@@ -7212,12 +7212,12 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_paramStatementAttributes.add(p.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:42: ( compoundStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:42: ( compoundStatement )?
             int alt46=2;
             alt46 = dfa46.predict(input);
             switch (alt46) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:43: compoundStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:43: compoundStatement
                     {
                     pushFollow(FOLLOW_compoundStatement_in_threadStatement2983);
                     compoundStatement168=compoundStatement();
@@ -7233,7 +7233,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: paramStatementAttributes, compoundStatement
+            // elements: compoundStatement, paramStatementAttributes
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -7247,7 +7247,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 639:63: -> ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:66: ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:66: ^( THREADSTATEMENT[$lc] paramStatementAttributes ( compoundStatement )? )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7256,7 +7256,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_paramStatementAttributes.nextTree());
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:114: ( compoundStatement )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:114: ( compoundStatement )?
                 if ( stream_compoundStatement.hasNext() ) {
                     adaptor.addChild(root_1, stream_compoundStatement.nextTree());
 
@@ -7307,7 +7307,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "abortStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:642:1: abortStatement : (lc= ABORT SEMICOLON -> ^( ABORTSTATEMENT[$lc] ) |lc= ABORT memberExpression SEMICOLON -> ^( ABORTSTATEMENT[$lc] memberExpression ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:642:1: abortStatement : (lc= ABORT SEMICOLON -> ^( ABORTSTATEMENT[$lc] ) |lc= ABORT memberExpression SEMICOLON -> ^( ABORTSTATEMENT[$lc] memberExpression ) );
     public final CFMLParser.abortStatement_return abortStatement() throws RecognitionException {
         CFMLParser.abortStatement_return retval = new CFMLParser.abortStatement_return();
         retval.start = input.LT(1);
@@ -7331,7 +7331,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 39) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:643:3: (lc= ABORT SEMICOLON -> ^( ABORTSTATEMENT[$lc] ) |lc= ABORT memberExpression SEMICOLON -> ^( ABORTSTATEMENT[$lc] memberExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:643:3: (lc= ABORT SEMICOLON -> ^( ABORTSTATEMENT[$lc] ) |lc= ABORT memberExpression SEMICOLON -> ^( ABORTSTATEMENT[$lc] memberExpression ) )
             int alt47=2;
             int LA47_0 = input.LA(1);
 
@@ -7363,7 +7363,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt47) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:643:5: lc= ABORT SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:643:5: lc= ABORT SEMICOLON
                     {
                     lc=(Token)match(input,ABORT,FOLLOW_ABORT_in_abortStatement3014); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_ABORT.add(lc);
@@ -7388,7 +7388,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 643:24: -> ^( ABORTSTATEMENT[$lc] )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:643:27: ^( ABORTSTATEMENT[$lc] )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:643:27: ^( ABORTSTATEMENT[$lc] )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7407,7 +7407,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:644:5: lc= ABORT memberExpression SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:644:5: lc= ABORT memberExpression SEMICOLON
                     {
                     lc=(Token)match(input,ABORT,FOLLOW_ABORT_in_abortStatement3031); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_ABORT.add(lc);
@@ -7439,7 +7439,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 644:41: -> ^( ABORTSTATEMENT[$lc] memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:644:44: ^( ABORTSTATEMENT[$lc] memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:644:44: ^( ABORTSTATEMENT[$lc] memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7494,7 +7494,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "throwStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:647:1: throwStatement : (lc= THROW SEMICOLON -> ^( THROWSTATEMENT[$lc] ) |lc= THROW memberExpression SEMICOLON -> ^( THROWSTATEMENT[$lc] memberExpression ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:647:1: throwStatement : (lc= THROW SEMICOLON -> ^( THROWSTATEMENT[$lc] ) |lc= THROW memberExpression SEMICOLON -> ^( THROWSTATEMENT[$lc] memberExpression ) );
     public final CFMLParser.throwStatement_return throwStatement() throws RecognitionException {
         CFMLParser.throwStatement_return retval = new CFMLParser.throwStatement_return();
         retval.start = input.LT(1);
@@ -7518,7 +7518,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 40) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:648:3: (lc= THROW SEMICOLON -> ^( THROWSTATEMENT[$lc] ) |lc= THROW memberExpression SEMICOLON -> ^( THROWSTATEMENT[$lc] memberExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:648:3: (lc= THROW SEMICOLON -> ^( THROWSTATEMENT[$lc] ) |lc= THROW memberExpression SEMICOLON -> ^( THROWSTATEMENT[$lc] memberExpression ) )
             int alt48=2;
             int LA48_0 = input.LA(1);
 
@@ -7550,7 +7550,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt48) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:648:5: lc= THROW SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:648:5: lc= THROW SEMICOLON
                     {
                     lc=(Token)match(input,THROW,FOLLOW_THROW_in_throwStatement3059); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_THROW.add(lc);
@@ -7575,7 +7575,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 648:24: -> ^( THROWSTATEMENT[$lc] )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:648:27: ^( THROWSTATEMENT[$lc] )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:648:27: ^( THROWSTATEMENT[$lc] )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7594,7 +7594,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:649:5: lc= THROW memberExpression SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:649:5: lc= THROW memberExpression SEMICOLON
                     {
                     lc=(Token)match(input,THROW,FOLLOW_THROW_in_throwStatement3076); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_THROW.add(lc);
@@ -7626,7 +7626,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 649:41: -> ^( THROWSTATEMENT[$lc] memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:649:44: ^( THROWSTATEMENT[$lc] memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:649:44: ^( THROWSTATEMENT[$lc] memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7681,7 +7681,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "exitStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:652:1: exitStatement : (lc= EXIT SEMICOLON -> ^( EXITSTATEMENT[$lc] ) |lc= EXIT memberExpression SEMICOLON -> ^( EXITSTATEMENT[$lc] memberExpression ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:652:1: exitStatement : (lc= EXIT SEMICOLON -> ^( EXITSTATEMENT[$lc] ) |lc= EXIT memberExpression SEMICOLON -> ^( EXITSTATEMENT[$lc] memberExpression ) );
     public final CFMLParser.exitStatement_return exitStatement() throws RecognitionException {
         CFMLParser.exitStatement_return retval = new CFMLParser.exitStatement_return();
         retval.start = input.LT(1);
@@ -7705,7 +7705,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 41) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:653:3: (lc= EXIT SEMICOLON -> ^( EXITSTATEMENT[$lc] ) |lc= EXIT memberExpression SEMICOLON -> ^( EXITSTATEMENT[$lc] memberExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:653:3: (lc= EXIT SEMICOLON -> ^( EXITSTATEMENT[$lc] ) |lc= EXIT memberExpression SEMICOLON -> ^( EXITSTATEMENT[$lc] memberExpression ) )
             int alt49=2;
             int LA49_0 = input.LA(1);
 
@@ -7737,7 +7737,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt49) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:653:5: lc= EXIT SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:653:5: lc= EXIT SEMICOLON
                     {
                     lc=(Token)match(input,EXIT,FOLLOW_EXIT_in_exitStatement3104); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EXIT.add(lc);
@@ -7762,7 +7762,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 653:23: -> ^( EXITSTATEMENT[$lc] )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:653:26: ^( EXITSTATEMENT[$lc] )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:653:26: ^( EXITSTATEMENT[$lc] )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7781,7 +7781,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:654:5: lc= EXIT memberExpression SEMICOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:654:5: lc= EXIT memberExpression SEMICOLON
                     {
                     lc=(Token)match(input,EXIT,FOLLOW_EXIT_in_exitStatement3121); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EXIT.add(lc);
@@ -7813,7 +7813,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 654:40: -> ^( EXITSTATEMENT[$lc] memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:654:43: ^( EXITSTATEMENT[$lc] memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:654:43: ^( EXITSTATEMENT[$lc] memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7868,7 +7868,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "paramStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:657:1: paramStatement : lc= PARAM paramStatementAttributes -> ^( PARAMSTATEMENT[$lc] paramStatementAttributes ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:657:1: paramStatement : lc= PARAM paramStatementAttributes -> ^( PARAMSTATEMENT[$lc] paramStatementAttributes ) ;
     public final CFMLParser.paramStatement_return paramStatement() throws RecognitionException {
         CFMLParser.paramStatement_return retval = new CFMLParser.paramStatement_return();
         retval.start = input.LT(1);
@@ -7887,8 +7887,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 42) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:658:3: (lc= PARAM paramStatementAttributes -> ^( PARAMSTATEMENT[$lc] paramStatementAttributes ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:658:5: lc= PARAM paramStatementAttributes
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:658:3: (lc= PARAM paramStatementAttributes -> ^( PARAMSTATEMENT[$lc] paramStatementAttributes ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:658:5: lc= PARAM paramStatementAttributes
             {
             lc=(Token)match(input,PARAM,FOLLOW_PARAM_in_paramStatement3149); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_PARAM.add(lc);
@@ -7916,7 +7916,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 658:40: -> ^( PARAMSTATEMENT[$lc] paramStatementAttributes )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:658:43: ^( PARAMSTATEMENT[$lc] paramStatementAttributes )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:658:43: ^( PARAMSTATEMENT[$lc] paramStatementAttributes )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -7969,7 +7969,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "propertyStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:661:1: propertyStatement : lc= PROPERTY paramStatementAttributes -> ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:661:1: propertyStatement : lc= PROPERTY paramStatementAttributes -> ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes ) ;
     public final CFMLParser.propertyStatement_return propertyStatement() throws RecognitionException {
         CFMLParser.propertyStatement_return retval = new CFMLParser.propertyStatement_return();
         retval.start = input.LT(1);
@@ -7988,8 +7988,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 43) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:662:3: (lc= PROPERTY paramStatementAttributes -> ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:662:5: lc= PROPERTY paramStatementAttributes
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:662:3: (lc= PROPERTY paramStatementAttributes -> ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:662:5: lc= PROPERTY paramStatementAttributes
             {
             lc=(Token)match(input,PROPERTY,FOLLOW_PROPERTY_in_propertyStatement3178); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_PROPERTY.add(lc);
@@ -8017,7 +8017,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 662:43: -> ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:662:46: ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:662:46: ^( PROPERTYSTATEMENT[$lc] paramStatementAttributes )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -8070,7 +8070,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "paramStatementAttributes"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:665:1: paramStatementAttributes : ( param )+ ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:665:1: paramStatementAttributes : ( param )+ ;
     public final CFMLParser.paramStatementAttributes_return paramStatementAttributes() throws RecognitionException {
         CFMLParser.paramStatementAttributes_return retval = new CFMLParser.paramStatementAttributes_return();
         retval.start = input.LT(1);
@@ -8086,13 +8086,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 44) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:666:3: ( ( param )+ )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:666:5: ( param )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:666:3: ( ( param )+ )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:666:5: ( param )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:666:5: ( param )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:666:5: ( param )+
             int cnt50=0;
             loop50:
             do {
@@ -8100,7 +8100,7 @@ public TreeAdaptor getTreeAdaptor() {
                 alt50 = dfa50.predict(input);
                 switch (alt50) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:666:7: param
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:666:7: param
             	    {
             	    pushFollow(FOLLOW_param_in_paramStatementAttributes3207);
             	    param180=param();
@@ -8158,7 +8158,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "param"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:669:1: param : i= identifier EQUALSOP ^v= impliesExpression ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:669:1: param : i= identifier EQUALSOP ^v= impliesExpression ;
     public final CFMLParser.param_return param() throws RecognitionException {
         CFMLParser.param_return retval = new CFMLParser.param_return();
         retval.start = input.LT(1);
@@ -8178,8 +8178,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 45) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:670:3: (i= identifier EQUALSOP ^v= impliesExpression )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:670:5: i= identifier EQUALSOP ^v= impliesExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:670:3: (i= identifier EQUALSOP ^v= impliesExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:670:5: i= identifier EQUALSOP ^v= impliesExpression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8241,7 +8241,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "expression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:676:1: expression : localAssignmentExpression EOF !;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:676:1: expression : localAssignmentExpression EOF !;
     public final CFMLParser.expression_return expression() throws RecognitionException {
         CFMLParser.expression_return retval = new CFMLParser.expression_return();
         retval.start = input.LT(1);
@@ -8259,8 +8259,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 46) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:677:2: ( localAssignmentExpression EOF !)
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:677:4: localAssignmentExpression EOF !
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:677:2: ( localAssignmentExpression EOF !)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:677:4: localAssignmentExpression EOF !
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8309,7 +8309,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "localAssignmentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:680:1: localAssignmentExpression : ( VAR identifier ( EQUALSOP impliesExpression )? -> ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? ) | assignmentExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:680:1: localAssignmentExpression : ( VAR identifier ( EQUALSOP impliesExpression )? -> ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? ) | assignmentExpression );
     public final CFMLParser.localAssignmentExpression_return localAssignmentExpression() throws RecognitionException {
         CFMLParser.localAssignmentExpression_return retval = new CFMLParser.localAssignmentExpression_return();
         retval.start = input.LT(1);
@@ -8336,7 +8336,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 47) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:2: ( VAR identifier ( EQUALSOP impliesExpression )? -> ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? ) | assignmentExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:2: ( VAR identifier ( EQUALSOP impliesExpression )? -> ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? ) | assignmentExpression )
             int alt52=2;
             int LA52_0 = input.LA(1);
 
@@ -9245,7 +9245,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt52) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:4: VAR identifier ( EQUALSOP impliesExpression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:4: VAR identifier ( EQUALSOP impliesExpression )?
                     {
                     VAR184=(Token)match(input,VAR,FOLLOW_VAR_in_localAssignmentExpression3268); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_VAR.add(VAR184);
@@ -9258,12 +9258,12 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) stream_identifier.add(identifier185.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:19: ( EQUALSOP impliesExpression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:19: ( EQUALSOP impliesExpression )?
                     int alt51=2;
                     alt51 = dfa51.predict(input);
                     switch (alt51) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:21: EQUALSOP impliesExpression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:21: EQUALSOP impliesExpression
                             {
                             EQUALSOP186=(Token)match(input,EQUALSOP,FOLLOW_EQUALSOP_in_localAssignmentExpression3274); if (state.failed) return retval; 
                             if ( state.backtracking==0 ) stream_EQUALSOP.add(EQUALSOP186);
@@ -9283,7 +9283,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: EQUALSOP, identifier, impliesExpression
+                    // elements: EQUALSOP, impliesExpression, identifier
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -9297,7 +9297,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 681:51: -> ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:54: ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:54: ^( VARLOCAL identifier ( EQUALSOP impliesExpression )? )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -9306,7 +9306,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         adaptor.addChild(root_1, stream_identifier.nextTree());
 
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:77: ( EQUALSOP impliesExpression )?
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:77: ( EQUALSOP impliesExpression )?
                         if ( stream_EQUALSOP.hasNext()||stream_impliesExpression.hasNext() ) {
                             adaptor.addChild(root_1, 
                             stream_EQUALSOP.nextNode()
@@ -9330,7 +9330,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:682:4: assignmentExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:682:4: assignmentExpression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -9379,7 +9379,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assignmentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:685:1: assignmentExpression : impliesExpression ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )? ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:685:1: assignmentExpression : impliesExpression ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )? ;
     public final CFMLParser.assignmentExpression_return assignmentExpression() throws RecognitionException {
         CFMLParser.assignmentExpression_return retval = new CFMLParser.assignmentExpression_return();
         retval.start = input.LT(1);
@@ -9399,8 +9399,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 48) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:686:3: ( impliesExpression ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )? )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:686:5: impliesExpression ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:686:3: ( impliesExpression ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:686:5: impliesExpression ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9412,7 +9412,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, impliesExpression189.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:686:23: ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:686:23: ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression )?
             int alt53=2;
             int LA53_0 = input.LA(1);
 
@@ -9425,7 +9425,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt53) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:686:25: ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:686:25: ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) ^ impliesExpression
                     {
                     set190=(Token)input.LT(1);
 
@@ -9494,7 +9494,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "impliesExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:689:1: impliesExpression : ( ternary | equivalentExpression ( IMP ^ equivalentExpression )* );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:689:1: impliesExpression : ( ternary | equivalentExpression ( IMP ^ equivalentExpression )* );
     public final CFMLParser.impliesExpression_return impliesExpression() throws RecognitionException {
         CFMLParser.impliesExpression_return retval = new CFMLParser.impliesExpression_return();
         retval.start = input.LT(1);
@@ -9516,7 +9516,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 49) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:690:2: ( ternary | equivalentExpression ( IMP ^ equivalentExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:690:2: ( ternary | equivalentExpression ( IMP ^ equivalentExpression )* )
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -10268,7 +10268,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt55) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:690:4: ternary
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:690:4: ternary
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10283,7 +10283,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:691:4: equivalentExpression ( IMP ^ equivalentExpression )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:691:4: equivalentExpression ( IMP ^ equivalentExpression )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10295,7 +10295,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, equivalentExpression193.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:691:25: ( IMP ^ equivalentExpression )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:691:25: ( IMP ^ equivalentExpression )*
                     loop54:
                     do {
                         int alt54=2;
@@ -10308,7 +10308,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt54) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:691:27: IMP ^ equivalentExpression
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:691:27: IMP ^ equivalentExpression
                     	    {
                     	    IMP194=(Token)match(input,IMP,FOLLOW_IMP_in_impliesExpression3376); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -10371,7 +10371,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ternary"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:694:1: ternary : equivalentExpression QUESTIONMARK localAssignmentExpression COLON localAssignmentExpression -> ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:694:1: ternary : equivalentExpression QUESTIONMARK localAssignmentExpression COLON localAssignmentExpression -> ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression ) ;
     public final CFMLParser.ternary_return ternary() throws RecognitionException {
         CFMLParser.ternary_return retval = new CFMLParser.ternary_return();
         retval.start = input.LT(1);
@@ -10398,8 +10398,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 50) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:696:4: ( equivalentExpression QUESTIONMARK localAssignmentExpression COLON localAssignmentExpression -> ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:696:6: equivalentExpression QUESTIONMARK localAssignmentExpression COLON localAssignmentExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:696:4: ( equivalentExpression QUESTIONMARK localAssignmentExpression COLON localAssignmentExpression -> ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:696:6: equivalentExpression QUESTIONMARK localAssignmentExpression COLON localAssignmentExpression
             {
             pushFollow(FOLLOW_equivalentExpression_in_ternary3396);
             equivalentExpression196=equivalentExpression();
@@ -10431,7 +10431,7 @@ public TreeAdaptor getTreeAdaptor() {
             if ( state.backtracking==0 ) stream_localAssignmentExpression.add(localAssignmentExpression200.getTree());
 
             // AST REWRITE
-            // elements: localAssignmentExpression, equivalentExpression, localAssignmentExpression
+            // elements: equivalentExpression, localAssignmentExpression, localAssignmentExpression
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -10445,7 +10445,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 696:98: -> ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:696:101: ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:696:101: ^( TERNARY equivalentExpression localAssignmentExpression localAssignmentExpression )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -10502,7 +10502,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equivalentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:699:1: equivalentExpression : xorExpression ( EQV ^ xorExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:699:1: equivalentExpression : xorExpression ( EQV ^ xorExpression )* ;
     public final CFMLParser.equivalentExpression_return equivalentExpression() throws RecognitionException {
         CFMLParser.equivalentExpression_return retval = new CFMLParser.equivalentExpression_return();
         retval.start = input.LT(1);
@@ -10522,8 +10522,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 51) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:700:2: ( xorExpression ( EQV ^ xorExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:700:4: xorExpression ( EQV ^ xorExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:700:2: ( xorExpression ( EQV ^ xorExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:700:4: xorExpression ( EQV ^ xorExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10535,7 +10535,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, xorExpression201.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:700:18: ( EQV ^ xorExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:700:18: ( EQV ^ xorExpression )*
             loop56:
             do {
                 int alt56=2;
@@ -10548,7 +10548,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt56) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:700:20: EQV ^ xorExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:700:20: EQV ^ xorExpression
             	    {
             	    EQV202=(Token)match(input,EQV,FOLLOW_EQV_in_equivalentExpression3433); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -10609,7 +10609,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "xorExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:703:1: xorExpression : orExpression ( XOR ^ orExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:703:1: xorExpression : orExpression ( XOR ^ orExpression )* ;
     public final CFMLParser.xorExpression_return xorExpression() throws RecognitionException {
         CFMLParser.xorExpression_return retval = new CFMLParser.xorExpression_return();
         retval.start = input.LT(1);
@@ -10629,8 +10629,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 52) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:704:2: ( orExpression ( XOR ^ orExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:704:4: orExpression ( XOR ^ orExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:704:2: ( orExpression ( XOR ^ orExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:704:4: orExpression ( XOR ^ orExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10642,7 +10642,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, orExpression204.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:704:17: ( XOR ^ orExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:704:17: ( XOR ^ orExpression )*
             loop57:
             do {
                 int alt57=2;
@@ -10655,7 +10655,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt57) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:704:19: XOR ^ orExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:704:19: XOR ^ orExpression
             	    {
             	    XOR205=(Token)match(input,XOR,FOLLOW_XOR_in_xorExpression3454); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -10716,7 +10716,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "orExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:707:1: orExpression : andExpression ( ( OR | OROPERATOR ) ^ andExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:707:1: orExpression : andExpression ( ( OR | OROPERATOR ) ^ andExpression )* ;
     public final CFMLParser.orExpression_return orExpression() throws RecognitionException {
         CFMLParser.orExpression_return retval = new CFMLParser.orExpression_return();
         retval.start = input.LT(1);
@@ -10736,8 +10736,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 53) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:708:2: ( andExpression ( ( OR | OROPERATOR ) ^ andExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:708:4: andExpression ( ( OR | OROPERATOR ) ^ andExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:708:2: ( andExpression ( ( OR | OROPERATOR ) ^ andExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:708:4: andExpression ( ( OR | OROPERATOR ) ^ andExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10749,7 +10749,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, andExpression207.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:708:18: ( ( OR | OROPERATOR ) ^ andExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:708:18: ( ( OR | OROPERATOR ) ^ andExpression )*
             loop58:
             do {
                 int alt58=2;
@@ -10762,7 +10762,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt58) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:708:20: ( OR | OROPERATOR ) ^ andExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:708:20: ( OR | OROPERATOR ) ^ andExpression
             	    {
             	    set208=(Token)input.LT(1);
 
@@ -10834,7 +10834,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "andExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:711:1: andExpression : notExpression ( ( AND | ANDOPERATOR ) ^ notExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:711:1: andExpression : notExpression ( ( AND | ANDOPERATOR ) ^ notExpression )* ;
     public final CFMLParser.andExpression_return andExpression() throws RecognitionException {
         CFMLParser.andExpression_return retval = new CFMLParser.andExpression_return();
         retval.start = input.LT(1);
@@ -10854,8 +10854,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 54) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:712:2: ( notExpression ( ( AND | ANDOPERATOR ) ^ notExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:712:4: notExpression ( ( AND | ANDOPERATOR ) ^ notExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:712:2: ( notExpression ( ( AND | ANDOPERATOR ) ^ notExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:712:4: notExpression ( ( AND | ANDOPERATOR ) ^ notExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10867,7 +10867,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, notExpression210.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:712:18: ( ( AND | ANDOPERATOR ) ^ notExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:712:18: ( ( AND | ANDOPERATOR ) ^ notExpression )*
             loop59:
             do {
                 int alt59=2;
@@ -10880,7 +10880,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt59) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:712:20: ( AND | ANDOPERATOR ) ^ notExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:712:20: ( AND | ANDOPERATOR ) ^ notExpression
             	    {
             	    set211=(Token)input.LT(1);
 
@@ -10952,7 +10952,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "notExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:715:1: notExpression : ( NOT ^| NOTOP ^)? equalityExpression ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:715:1: notExpression : ( NOT ^| NOTOP ^)? equalityExpression ;
     public final CFMLParser.notExpression_return notExpression() throws RecognitionException {
         CFMLParser.notExpression_return retval = new CFMLParser.notExpression_return();
         retval.start = input.LT(1);
@@ -10972,13 +10972,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 55) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:716:2: ( ( NOT ^| NOTOP ^)? equalityExpression )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:716:4: ( NOT ^| NOTOP ^)? equalityExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:716:2: ( ( NOT ^| NOTOP ^)? equalityExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:716:4: ( NOT ^| NOTOP ^)? equalityExpression
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:716:4: ( NOT ^| NOTOP ^)?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:716:4: ( NOT ^| NOTOP ^)?
             int alt60=3;
             int LA60_0 = input.LA(1);
 
@@ -10990,7 +10990,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt60) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:716:6: NOT ^
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:716:6: NOT ^
                     {
                     NOT213=(Token)match(input,NOT,FOLLOW_NOT_in_notExpression3534); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -11003,7 +11003,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:716:13: NOTOP ^
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:716:13: NOTOP ^
                     {
                     NOTOP214=(Token)match(input,NOTOP,FOLLOW_NOTOP_in_notExpression3539); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -11061,7 +11061,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equalityExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:719:1: equalityExpression : concatenationExpression ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:719:1: equalityExpression : concatenationExpression ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )* ;
     public final CFMLParser.equalityExpression_return equalityExpression() throws RecognitionException {
         CFMLParser.equalityExpression_return retval = new CFMLParser.equalityExpression_return();
         retval.start = input.LT(1);
@@ -11087,8 +11087,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 56) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:720:5: ( concatenationExpression ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:720:7: concatenationExpression ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:720:5: ( concatenationExpression ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:720:7: concatenationExpression ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -11100,16 +11100,16 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, concatenationExpression216.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:7: ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:7: ( ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression )*
             loop62:
             do {
                 int alt62=2;
                 alt62 = dfa62.predict(input);
                 switch (alt62) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:9: ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:9: ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^) concatenationExpression
             	    {
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:9: ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^)
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:9: ( equalityOperator5 ^| equalityOperator3 ^| equalityOperator2 ^| equalityOperator1 ^)
             	    int alt61=4;
             	    switch ( input.LA(1) ) {
             	    case LESS:
@@ -11238,7 +11238,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             	    switch (alt61) {
             	        case 1 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:11: equalityOperator5 ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:11: equalityOperator5 ^
             	            {
             	            pushFollow(FOLLOW_equalityOperator5_in_equalityExpression3572);
             	            equalityOperator5217=equalityOperator5();
@@ -11250,7 +11250,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:32: equalityOperator3 ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:32: equalityOperator3 ^
             	            {
             	            pushFollow(FOLLOW_equalityOperator3_in_equalityExpression3577);
             	            equalityOperator3218=equalityOperator3();
@@ -11262,7 +11262,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 3 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:54: equalityOperator2 ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:54: equalityOperator2 ^
             	            {
             	            pushFollow(FOLLOW_equalityOperator2_in_equalityExpression3583);
             	            equalityOperator2219=equalityOperator2();
@@ -11274,7 +11274,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 4 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:75: equalityOperator1 ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:75: equalityOperator1 ^
             	            {
             	            pushFollow(FOLLOW_equalityOperator1_in_equalityExpression3588);
             	            equalityOperator1220=equalityOperator1();
@@ -11340,7 +11340,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equalityOperator1"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:724:1: equalityOperator1 : ( IS -> ^( EQ ) | EQUALSEQUALSOP -> ^( EQ ) | LT -> ^( LT ) | '<' -> ^( LT ) | LTE -> ^( LTE ) | '<=' -> ^( LTE ) | LE -> ^( LTE ) | GT -> ^( GT ) | '>' -> ^( GT ) | GTE -> ^( GTE ) | '>=' -> ^( GTE ) | GE -> ^( GTE ) | EQ -> ^( EQ ) | NEQ -> ^( NEQ ) | '!=' -> ^( NEQ ) | EQUAL -> ^( EQ ) | EQUALS -> ^( EQ ) | CONTAINS -> ^( CONTAINS ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:724:1: equalityOperator1 : ( IS -> ^( EQ ) | EQUALSEQUALSOP -> ^( EQ ) | LT -> ^( LT ) | '<' -> ^( LT ) | LTE -> ^( LTE ) | '<=' -> ^( LTE ) | LE -> ^( LTE ) | GT -> ^( GT ) | '>' -> ^( GT ) | GTE -> ^( GTE ) | '>=' -> ^( GTE ) | GE -> ^( GTE ) | EQ -> ^( EQ ) | NEQ -> ^( NEQ ) | '!=' -> ^( NEQ ) | EQUAL -> ^( EQ ) | EQUALS -> ^( EQ ) | CONTAINS -> ^( CONTAINS ) );
     public final CFMLParser.equalityOperator1_return equalityOperator1() throws RecognitionException {
         CFMLParser.equalityOperator1_return retval = new CFMLParser.equalityOperator1_return();
         retval.start = input.LT(1);
@@ -11408,7 +11408,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 57) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:725:5: ( IS -> ^( EQ ) | EQUALSEQUALSOP -> ^( EQ ) | LT -> ^( LT ) | '<' -> ^( LT ) | LTE -> ^( LTE ) | '<=' -> ^( LTE ) | LE -> ^( LTE ) | GT -> ^( GT ) | '>' -> ^( GT ) | GTE -> ^( GTE ) | '>=' -> ^( GTE ) | GE -> ^( GTE ) | EQ -> ^( EQ ) | NEQ -> ^( NEQ ) | '!=' -> ^( NEQ ) | EQUAL -> ^( EQ ) | EQUALS -> ^( EQ ) | CONTAINS -> ^( CONTAINS ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:725:5: ( IS -> ^( EQ ) | EQUALSEQUALSOP -> ^( EQ ) | LT -> ^( LT ) | '<' -> ^( LT ) | LTE -> ^( LTE ) | '<=' -> ^( LTE ) | LE -> ^( LTE ) | GT -> ^( GT ) | '>' -> ^( GT ) | GTE -> ^( GTE ) | '>=' -> ^( GTE ) | GE -> ^( GTE ) | EQ -> ^( EQ ) | NEQ -> ^( NEQ ) | '!=' -> ^( NEQ ) | EQUAL -> ^( EQ ) | EQUALS -> ^( EQ ) | CONTAINS -> ^( CONTAINS ) )
             int alt63=18;
             switch ( input.LA(1) ) {
             case IS:
@@ -11512,7 +11512,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt63) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:725:8: IS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:725:8: IS
                     {
                     IS222=(Token)match(input,IS,FOLLOW_IS_in_equalityOperator13615); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_IS.add(IS222);
@@ -11533,7 +11533,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 725:11: -> ^( EQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:725:14: ^( EQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:725:14: ^( EQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11552,7 +11552,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:726:9: EQUALSEQUALSOP
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:726:9: EQUALSEQUALSOP
                     {
                     EQUALSEQUALSOP223=(Token)match(input,EQUALSEQUALSOP,FOLLOW_EQUALSEQUALSOP_in_equalityOperator13631); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EQUALSEQUALSOP.add(EQUALSEQUALSOP223);
@@ -11573,7 +11573,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 726:24: -> ^( EQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:726:27: ^( EQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:726:27: ^( EQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11592,7 +11592,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:727:9: LT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:727:9: LT
                     {
                     LT224=(Token)match(input,LT,FOLLOW_LT_in_equalityOperator13647); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_LT.add(LT224);
@@ -11613,7 +11613,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 727:12: -> ^( LT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:727:15: ^( LT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:727:15: ^( LT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11632,7 +11632,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:728:9: '<'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:728:9: '<'
                     {
                     char_literal225=(Token)match(input,151,FOLLOW_151_in_equalityOperator13663); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_151.add(char_literal225);
@@ -11653,7 +11653,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 728:13: -> ^( LT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:728:16: ^( LT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:728:16: ^( LT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11672,7 +11672,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:729:9: LTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:729:9: LTE
                     {
                     LTE226=(Token)match(input,LTE,FOLLOW_LTE_in_equalityOperator13679); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_LTE.add(LTE226);
@@ -11693,7 +11693,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 729:13: -> ^( LTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:729:16: ^( LTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:729:16: ^( LTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11712,7 +11712,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:730:9: '<='
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:730:9: '<='
                     {
                     string_literal227=(Token)match(input,152,FOLLOW_152_in_equalityOperator13695); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_152.add(string_literal227);
@@ -11733,7 +11733,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 730:14: -> ^( LTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:730:17: ^( LTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:730:17: ^( LTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11752,7 +11752,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:731:9: LE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:731:9: LE
                     {
                     LE228=(Token)match(input,LE,FOLLOW_LE_in_equalityOperator13711); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_LE.add(LE228);
@@ -11773,7 +11773,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 731:12: -> ^( LTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:731:15: ^( LTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:731:15: ^( LTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11792,7 +11792,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:732:9: GT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:732:9: GT
                     {
                     GT229=(Token)match(input,GT,FOLLOW_GT_in_equalityOperator13727); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_GT.add(GT229);
@@ -11813,7 +11813,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 732:12: -> ^( GT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:732:15: ^( GT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:732:15: ^( GT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11832,7 +11832,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:733:9: '>'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:733:9: '>'
                     {
                     char_literal230=(Token)match(input,153,FOLLOW_153_in_equalityOperator13743); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_153.add(char_literal230);
@@ -11853,7 +11853,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 733:13: -> ^( GT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:733:16: ^( GT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:733:16: ^( GT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11872,7 +11872,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:734:9: GTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:734:9: GTE
                     {
                     GTE231=(Token)match(input,GTE,FOLLOW_GTE_in_equalityOperator13759); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_GTE.add(GTE231);
@@ -11893,7 +11893,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 734:13: -> ^( GTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:734:16: ^( GTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:734:16: ^( GTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11912,7 +11912,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:735:9: '>='
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:735:9: '>='
                     {
                     string_literal232=(Token)match(input,154,FOLLOW_154_in_equalityOperator13775); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_154.add(string_literal232);
@@ -11933,7 +11933,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 735:14: -> ^( GTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:735:17: ^( GTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:735:17: ^( GTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11952,7 +11952,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:736:9: GE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:736:9: GE
                     {
                     GE233=(Token)match(input,GE,FOLLOW_GE_in_equalityOperator13791); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_GE.add(GE233);
@@ -11973,7 +11973,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 736:12: -> ^( GTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:736:15: ^( GTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:736:15: ^( GTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -11992,7 +11992,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:737:9: EQ
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:737:9: EQ
                     {
                     EQ234=(Token)match(input,EQ,FOLLOW_EQ_in_equalityOperator13807); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EQ.add(EQ234);
@@ -12013,7 +12013,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 737:12: -> ^( EQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:737:15: ^( EQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:737:15: ^( EQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12032,7 +12032,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:738:9: NEQ
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:738:9: NEQ
                     {
                     NEQ235=(Token)match(input,NEQ,FOLLOW_NEQ_in_equalityOperator13823); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_NEQ.add(NEQ235);
@@ -12053,7 +12053,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 738:13: -> ^( NEQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:738:16: ^( NEQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:738:16: ^( NEQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12072,7 +12072,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:739:9: '!='
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:739:9: '!='
                     {
                     string_literal236=(Token)match(input,148,FOLLOW_148_in_equalityOperator13839); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_148.add(string_literal236);
@@ -12093,7 +12093,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 739:14: -> ^( NEQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:739:17: ^( NEQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:739:17: ^( NEQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12112,7 +12112,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:740:9: EQUAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:740:9: EQUAL
                     {
                     EQUAL237=(Token)match(input,EQUAL,FOLLOW_EQUAL_in_equalityOperator13855); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EQUAL.add(EQUAL237);
@@ -12133,7 +12133,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 740:15: -> ^( EQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:740:18: ^( EQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:740:18: ^( EQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12152,7 +12152,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:741:9: EQUALS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:741:9: EQUALS
                     {
                     EQUALS238=(Token)match(input,EQUALS,FOLLOW_EQUALS_in_equalityOperator13871); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_EQUALS.add(EQUALS238);
@@ -12173,7 +12173,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 741:16: -> ^( EQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:741:19: ^( EQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:741:19: ^( EQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12192,7 +12192,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 18 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:742:9: CONTAINS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:742:9: CONTAINS
                     {
                     CONTAINS239=(Token)match(input,CONTAINS,FOLLOW_CONTAINS_in_equalityOperator13887); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_CONTAINS.add(CONTAINS239);
@@ -12213,7 +12213,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 742:18: -> ^( CONTAINS )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:742:21: ^( CONTAINS )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:742:21: ^( CONTAINS )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12266,7 +12266,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equalityOperator2"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:745:1: equalityOperator2 : ( LESS THAN -> ^( LT ) | GREATER THAN -> ^( GT ) | NOT EQUAL -> ^( NEQ ) | IS NOT -> ^( NEQ ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:745:1: equalityOperator2 : ( LESS THAN -> ^( LT ) | GREATER THAN -> ^( GT ) | NOT EQUAL -> ^( NEQ ) | IS NOT -> ^( NEQ ) );
     public final CFMLParser.equalityOperator2_return equalityOperator2() throws RecognitionException {
         CFMLParser.equalityOperator2_return retval = new CFMLParser.equalityOperator2_return();
         retval.start = input.LT(1);
@@ -12302,7 +12302,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 58) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:746:5: ( LESS THAN -> ^( LT ) | GREATER THAN -> ^( GT ) | NOT EQUAL -> ^( NEQ ) | IS NOT -> ^( NEQ ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:746:5: ( LESS THAN -> ^( LT ) | GREATER THAN -> ^( GT ) | NOT EQUAL -> ^( NEQ ) | IS NOT -> ^( NEQ ) )
             int alt64=4;
             switch ( input.LA(1) ) {
             case LESS:
@@ -12336,7 +12336,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt64) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:746:9: LESS THAN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:746:9: LESS THAN
                     {
                     LESS240=(Token)match(input,LESS,FOLLOW_LESS_in_equalityOperator23916); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_LESS.add(LESS240);
@@ -12361,7 +12361,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 746:19: -> ^( LT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:746:22: ^( LT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:746:22: ^( LT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12380,7 +12380,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:747:9: GREATER THAN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:747:9: GREATER THAN
                     {
                     GREATER242=(Token)match(input,GREATER,FOLLOW_GREATER_in_equalityOperator23934); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_GREATER.add(GREATER242);
@@ -12405,7 +12405,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 747:22: -> ^( GT )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:747:25: ^( GT )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:747:25: ^( GT )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12424,7 +12424,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:748:9: NOT EQUAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:748:9: NOT EQUAL
                     {
                     NOT244=(Token)match(input,NOT,FOLLOW_NOT_in_equalityOperator23952); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_NOT.add(NOT244);
@@ -12449,7 +12449,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 748:20: -> ^( NEQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:748:23: ^( NEQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:748:23: ^( NEQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12468,7 +12468,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:749:9: IS NOT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:749:9: IS NOT
                     {
                     IS246=(Token)match(input,IS,FOLLOW_IS_in_equalityOperator23971); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_IS.add(IS246);
@@ -12493,7 +12493,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 749:16: -> ^( NEQ )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:749:19: ^( NEQ )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:749:19: ^( NEQ )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12546,7 +12546,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equalityOperator3"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:752:1: equalityOperator3 : lc= DOES NOT CONTAIN -> ^( DOESNOTCONTAIN[$lc] ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:752:1: equalityOperator3 : lc= DOES NOT CONTAIN -> ^( DOESNOTCONTAIN[$lc] ) ;
     public final CFMLParser.equalityOperator3_return equalityOperator3() throws RecognitionException {
         CFMLParser.equalityOperator3_return retval = new CFMLParser.equalityOperator3_return();
         retval.start = input.LT(1);
@@ -12569,8 +12569,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 59) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:753:5: (lc= DOES NOT CONTAIN -> ^( DOESNOTCONTAIN[$lc] ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:753:9: lc= DOES NOT CONTAIN
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:753:5: (lc= DOES NOT CONTAIN -> ^( DOESNOTCONTAIN[$lc] ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:753:9: lc= DOES NOT CONTAIN
             {
             lc=(Token)match(input,DOES,FOLLOW_DOES_in_equalityOperator34000); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_DOES.add(lc);
@@ -12599,7 +12599,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 753:29: -> ^( DOESNOTCONTAIN[$lc] )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:753:32: ^( DOESNOTCONTAIN[$lc] )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:753:32: ^( DOESNOTCONTAIN[$lc] )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12650,7 +12650,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equalityOperator5"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:756:1: equalityOperator5 : ( LESS THAN OR EQUAL TO -> ^( LTE ) | GREATER THAN OR EQUAL TO -> ^( GTE ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:756:1: equalityOperator5 : ( LESS THAN OR EQUAL TO -> ^( LTE ) | GREATER THAN OR EQUAL TO -> ^( GTE ) );
     public final CFMLParser.equalityOperator5_return equalityOperator5() throws RecognitionException {
         CFMLParser.equalityOperator5_return retval = new CFMLParser.equalityOperator5_return();
         retval.start = input.LT(1);
@@ -12690,7 +12690,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 60) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:757:5: ( LESS THAN OR EQUAL TO -> ^( LTE ) | GREATER THAN OR EQUAL TO -> ^( GTE ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:757:5: ( LESS THAN OR EQUAL TO -> ^( LTE ) | GREATER THAN OR EQUAL TO -> ^( GTE ) )
             int alt65=2;
             int LA65_0 = input.LA(1);
 
@@ -12710,7 +12710,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt65) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:757:9: LESS THAN OR EQUAL TO
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:757:9: LESS THAN OR EQUAL TO
                     {
                     LESS250=(Token)match(input,LESS,FOLLOW_LESS_in_equalityOperator54030); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_LESS.add(LESS250);
@@ -12747,7 +12747,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 757:31: -> ^( LTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:757:34: ^( LTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:757:34: ^( LTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12766,7 +12766,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:758:9: GREATER THAN OR EQUAL TO
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:758:9: GREATER THAN OR EQUAL TO
                     {
                     GREATER255=(Token)match(input,GREATER,FOLLOW_GREATER_in_equalityOperator54054); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_GREATER.add(GREATER255);
@@ -12803,7 +12803,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 758:34: -> ^( GTE )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:758:37: ^( GTE )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:758:37: ^( GTE )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -12856,7 +12856,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "concatenationExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:761:1: concatenationExpression : additiveExpression ( CONCAT ^ additiveExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:761:1: concatenationExpression : additiveExpression ( CONCAT ^ additiveExpression )* ;
     public final CFMLParser.concatenationExpression_return concatenationExpression() throws RecognitionException {
         CFMLParser.concatenationExpression_return retval = new CFMLParser.concatenationExpression_return();
         retval.start = input.LT(1);
@@ -12876,8 +12876,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 61) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:762:2: ( additiveExpression ( CONCAT ^ additiveExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:762:4: additiveExpression ( CONCAT ^ additiveExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:762:2: ( additiveExpression ( CONCAT ^ additiveExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:762:4: additiveExpression ( CONCAT ^ additiveExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -12889,7 +12889,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, additiveExpression260.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:762:23: ( CONCAT ^ additiveExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:762:23: ( CONCAT ^ additiveExpression )*
             loop66:
             do {
                 int alt66=2;
@@ -12902,7 +12902,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt66) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:762:25: CONCAT ^ additiveExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:762:25: CONCAT ^ additiveExpression
             	    {
             	    CONCAT261=(Token)match(input,CONCAT,FOLLOW_CONCAT_in_concatenationExpression4090); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -12963,7 +12963,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "additiveExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:765:1: additiveExpression : modExpression ( ( PLUS ^| MINUS ^) modExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:765:1: additiveExpression : modExpression ( ( PLUS ^| MINUS ^) modExpression )* ;
     public final CFMLParser.additiveExpression_return additiveExpression() throws RecognitionException {
         CFMLParser.additiveExpression_return retval = new CFMLParser.additiveExpression_return();
         retval.start = input.LT(1);
@@ -12985,8 +12985,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 62) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:2: ( modExpression ( ( PLUS ^| MINUS ^) modExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:4: modExpression ( ( PLUS ^| MINUS ^) modExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:2: ( modExpression ( ( PLUS ^| MINUS ^) modExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:4: modExpression ( ( PLUS ^| MINUS ^) modExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -12998,16 +12998,16 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, modExpression263.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:18: ( ( PLUS ^| MINUS ^) modExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:18: ( ( PLUS ^| MINUS ^) modExpression )*
             loop68:
             do {
                 int alt68=2;
                 alt68 = dfa68.predict(input);
                 switch (alt68) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:20: ( PLUS ^| MINUS ^) modExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:20: ( PLUS ^| MINUS ^) modExpression
             	    {
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:20: ( PLUS ^| MINUS ^)
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:20: ( PLUS ^| MINUS ^)
             	    int alt67=2;
             	    int LA67_0 = input.LA(1);
 
@@ -13027,7 +13027,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt67) {
             	        case 1 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:21: PLUS ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:21: PLUS ^
             	            {
             	            PLUS264=(Token)match(input,PLUS,FOLLOW_PLUS_in_additiveExpression4113); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -13040,7 +13040,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:27: MINUS ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:27: MINUS ^
             	            {
             	            MINUS265=(Token)match(input,MINUS,FOLLOW_MINUS_in_additiveExpression4116); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -13107,7 +13107,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "modExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:769:1: modExpression : intDivisionExpression ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:769:1: modExpression : intDivisionExpression ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )* ;
     public final CFMLParser.modExpression_return modExpression() throws RecognitionException {
         CFMLParser.modExpression_return retval = new CFMLParser.modExpression_return();
         retval.start = input.LT(1);
@@ -13127,8 +13127,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 63) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:770:2: ( intDivisionExpression ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:770:4: intDivisionExpression ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:770:2: ( intDivisionExpression ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:770:4: intDivisionExpression ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13140,7 +13140,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, intDivisionExpression267.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:770:27: ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:770:27: ( ( MOD | MODOPERATOR ) ^ intDivisionExpression )*
             loop69:
             do {
                 int alt69=2;
@@ -13153,7 +13153,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt69) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:770:29: ( MOD | MODOPERATOR ) ^ intDivisionExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:770:29: ( MOD | MODOPERATOR ) ^ intDivisionExpression
             	    {
             	    set268=(Token)input.LT(1);
 
@@ -13225,7 +13225,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "intDivisionExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:773:1: intDivisionExpression : multiplicativeExpression ( BSLASH ^ multiplicativeExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:773:1: intDivisionExpression : multiplicativeExpression ( BSLASH ^ multiplicativeExpression )* ;
     public final CFMLParser.intDivisionExpression_return intDivisionExpression() throws RecognitionException {
         CFMLParser.intDivisionExpression_return retval = new CFMLParser.intDivisionExpression_return();
         retval.start = input.LT(1);
@@ -13245,8 +13245,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 64) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:774:2: ( multiplicativeExpression ( BSLASH ^ multiplicativeExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:774:4: multiplicativeExpression ( BSLASH ^ multiplicativeExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:774:2: ( multiplicativeExpression ( BSLASH ^ multiplicativeExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:774:4: multiplicativeExpression ( BSLASH ^ multiplicativeExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13258,7 +13258,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, multiplicativeExpression270.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:774:29: ( BSLASH ^ multiplicativeExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:774:29: ( BSLASH ^ multiplicativeExpression )*
             loop70:
             do {
                 int alt70=2;
@@ -13271,7 +13271,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt70) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:774:31: BSLASH ^ multiplicativeExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:774:31: BSLASH ^ multiplicativeExpression
             	    {
             	    BSLASH271=(Token)match(input,BSLASH,FOLLOW_BSLASH_in_intDivisionExpression4166); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -13332,7 +13332,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "multiplicativeExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:777:1: multiplicativeExpression : powerOfExpression ( ( STAR ^| SLASH ^) powerOfExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:777:1: multiplicativeExpression : powerOfExpression ( ( STAR ^| SLASH ^) powerOfExpression )* ;
     public final CFMLParser.multiplicativeExpression_return multiplicativeExpression() throws RecognitionException {
         CFMLParser.multiplicativeExpression_return retval = new CFMLParser.multiplicativeExpression_return();
         retval.start = input.LT(1);
@@ -13354,8 +13354,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 65) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:2: ( powerOfExpression ( ( STAR ^| SLASH ^) powerOfExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:4: powerOfExpression ( ( STAR ^| SLASH ^) powerOfExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:2: ( powerOfExpression ( ( STAR ^| SLASH ^) powerOfExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:4: powerOfExpression ( ( STAR ^| SLASH ^) powerOfExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13367,7 +13367,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, powerOfExpression273.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:22: ( ( STAR ^| SLASH ^) powerOfExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:22: ( ( STAR ^| SLASH ^) powerOfExpression )*
             loop72:
             do {
                 int alt72=2;
@@ -13380,9 +13380,9 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt72) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:24: ( STAR ^| SLASH ^) powerOfExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:24: ( STAR ^| SLASH ^) powerOfExpression
             	    {
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:24: ( STAR ^| SLASH ^)
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:24: ( STAR ^| SLASH ^)
             	    int alt71=2;
             	    int LA71_0 = input.LA(1);
 
@@ -13402,7 +13402,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt71) {
             	        case 1 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:25: STAR ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:25: STAR ^
             	            {
             	            STAR274=(Token)match(input,STAR,FOLLOW_STAR_in_multiplicativeExpression4188); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -13415,7 +13415,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:778:31: SLASH ^
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:778:31: SLASH ^
             	            {
             	            SLASH275=(Token)match(input,SLASH,FOLLOW_SLASH_in_multiplicativeExpression4191); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -13482,7 +13482,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "powerOfExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:781:1: powerOfExpression : unaryExpression ( POWER ^ unaryExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:781:1: powerOfExpression : unaryExpression ( POWER ^ unaryExpression )* ;
     public final CFMLParser.powerOfExpression_return powerOfExpression() throws RecognitionException {
         CFMLParser.powerOfExpression_return retval = new CFMLParser.powerOfExpression_return();
         retval.start = input.LT(1);
@@ -13502,8 +13502,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 66) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:782:2: ( unaryExpression ( POWER ^ unaryExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:782:4: unaryExpression ( POWER ^ unaryExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:782:2: ( unaryExpression ( POWER ^ unaryExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:782:4: unaryExpression ( POWER ^ unaryExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13515,7 +13515,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, unaryExpression277.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:782:20: ( POWER ^ unaryExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:782:20: ( POWER ^ unaryExpression )*
             loop73:
             do {
                 int alt73=2;
@@ -13528,7 +13528,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt73) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:782:22: POWER ^ unaryExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:782:22: POWER ^ unaryExpression
             	    {
             	    POWER278=(Token)match(input,POWER,FOLLOW_POWER_in_powerOfExpression4214); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -13589,7 +13589,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unaryExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:785:1: unaryExpression : ( MINUS memberExpression -> ^( MINUS memberExpression ) | PLUS memberExpression -> ^( PLUS memberExpression ) | MINUSMINUS memberExpression -> ^( MINUSMINUS memberExpression ) | PLUSPLUS memberExpression -> ^( PLUSPLUS memberExpression ) | newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* | memberExpression MINUSMINUS -> ^( POSTMINUSMINUS memberExpression ) | memberExpression PLUSPLUS -> ^( POSTPLUSPLUS memberExpression ) | memberExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:785:1: unaryExpression : ( MINUS memberExpression -> ^( MINUS memberExpression ) | PLUS memberExpression -> ^( PLUS memberExpression ) | MINUSMINUS memberExpression -> ^( MINUSMINUS memberExpression ) | PLUSPLUS memberExpression -> ^( PLUSPLUS memberExpression ) | newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* | memberExpression MINUSMINUS -> ^( POSTMINUSMINUS memberExpression ) | memberExpression PLUSPLUS -> ^( POSTPLUSPLUS memberExpression ) | memberExpression );
     public final CFMLParser.unaryExpression_return unaryExpression() throws RecognitionException {
         CFMLParser.unaryExpression_return retval = new CFMLParser.unaryExpression_return();
         retval.start = input.LT(1);
@@ -13645,7 +13645,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 67) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:786:2: ( MINUS memberExpression -> ^( MINUS memberExpression ) | PLUS memberExpression -> ^( PLUS memberExpression ) | MINUSMINUS memberExpression -> ^( MINUSMINUS memberExpression ) | PLUSPLUS memberExpression -> ^( PLUSPLUS memberExpression ) | newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* | memberExpression MINUSMINUS -> ^( POSTMINUSMINUS memberExpression ) | memberExpression PLUSPLUS -> ^( POSTPLUSPLUS memberExpression ) | memberExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:786:2: ( MINUS memberExpression -> ^( MINUS memberExpression ) | PLUS memberExpression -> ^( PLUS memberExpression ) | MINUSMINUS memberExpression -> ^( MINUSMINUS memberExpression ) | PLUSPLUS memberExpression -> ^( PLUSPLUS memberExpression ) | newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* | memberExpression MINUSMINUS -> ^( POSTMINUSMINUS memberExpression ) | memberExpression PLUSPLUS -> ^( POSTPLUSPLUS memberExpression ) | memberExpression )
             int alt76=8;
             int LA76_0 = input.LA(1);
 
@@ -14409,7 +14409,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt76) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:786:4: MINUS memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:786:4: MINUS memberExpression
                     {
                     MINUS280=(Token)match(input,MINUS,FOLLOW_MINUS_in_unaryExpression4232); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_MINUS.add(MINUS280);
@@ -14437,7 +14437,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 786:27: -> ^( MINUS memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:786:30: ^( MINUS memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:786:30: ^( MINUS memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -14458,7 +14458,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:787:4: PLUS memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:787:4: PLUS memberExpression
                     {
                     PLUS282=(Token)match(input,PLUS,FOLLOW_PLUS_in_unaryExpression4247); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_PLUS.add(PLUS282);
@@ -14486,7 +14486,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 787:26: -> ^( PLUS memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:787:29: ^( PLUS memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:787:29: ^( PLUS memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -14507,7 +14507,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:788:4: MINUSMINUS memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:788:4: MINUSMINUS memberExpression
                     {
                     MINUSMINUS284=(Token)match(input,MINUSMINUS,FOLLOW_MINUSMINUS_in_unaryExpression4262); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_MINUSMINUS.add(MINUSMINUS284);
@@ -14535,7 +14535,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 788:32: -> ^( MINUSMINUS memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:788:35: ^( MINUSMINUS memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:788:35: ^( MINUSMINUS memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -14556,7 +14556,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:789:4: PLUSPLUS memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:789:4: PLUSPLUS memberExpression
                     {
                     PLUSPLUS286=(Token)match(input,PLUSPLUS,FOLLOW_PLUSPLUS_in_unaryExpression4278); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_PLUSPLUS.add(PLUSPLUS286);
@@ -14584,7 +14584,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 789:30: -> ^( PLUSPLUS memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:789:33: ^( PLUSPLUS memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:789:33: ^( PLUSPLUS memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -14605,7 +14605,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:4: newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:4: newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14617,7 +14617,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, newComponentExpression288.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:27: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:27: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
                     loop75:
                     do {
                         int alt75=2;
@@ -14630,7 +14630,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt75) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:28: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:28: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
                     	    {
                     	    DOT289=(Token)match(input,DOT,FOLLOW_DOT_in_unaryExpression4296); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -14647,14 +14647,14 @@ public TreeAdaptor getTreeAdaptor() {
                     	    if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) adaptor.addChild(root_0, primaryExpressionIRW290.getTree());
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:53: ( LEFTPAREN argumentList ')' )*
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:53: ( LEFTPAREN argumentList ')' )*
                     	    loop74:
                     	    do {
                     	        int alt74=2;
                     	        alt74 = dfa74.predict(input);
                     	        switch (alt74) {
                     	    	case 1 :
-                    	    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:54: LEFTPAREN argumentList ')'
+                    	    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:54: LEFTPAREN argumentList ')'
                     	    	    {
                     	    	    LEFTPAREN291=(Token)match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_unaryExpression4301); if (state.failed) return retval;
                     	    	    if ( state.backtracking==0 ) {
@@ -14700,7 +14700,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:791:5: memberExpression MINUSMINUS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:791:5: memberExpression MINUSMINUS
                     {
                     pushFollow(FOLLOW_memberExpression_in_unaryExpression4315);
                     memberExpression294=memberExpression();
@@ -14728,7 +14728,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 791:33: -> ^( POSTMINUSMINUS memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:791:36: ^( POSTMINUSMINUS memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:791:36: ^( POSTMINUSMINUS memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -14749,7 +14749,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:792:5: memberExpression PLUSPLUS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:792:5: memberExpression PLUSPLUS
                     {
                     pushFollow(FOLLOW_memberExpression_in_unaryExpression4331);
                     memberExpression296=memberExpression();
@@ -14777,7 +14777,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 792:31: -> ^( POSTPLUSPLUS memberExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:792:34: ^( POSTPLUSPLUS memberExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:792:34: ^( POSTPLUSPLUS memberExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -14798,7 +14798,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:793:5: memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:793:5: memberExpression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14847,7 +14847,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "memberExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:796:1: memberExpression : ( '#' ! memberExpressionB '#' !| memberExpressionB );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:796:1: memberExpression : ( '#' ! memberExpressionB '#' !| memberExpressionB );
     public final CFMLParser.memberExpression_return memberExpression() throws RecognitionException {
         CFMLParser.memberExpression_return retval = new CFMLParser.memberExpression_return();
         retval.start = input.LT(1);
@@ -14869,7 +14869,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 68) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:797:2: ( '#' ! memberExpressionB '#' !| memberExpressionB )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:797:2: ( '#' ! memberExpressionB '#' !| memberExpressionB )
             int alt77=2;
             int LA77_0 = input.LA(1);
 
@@ -14892,7 +14892,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt77) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:797:4: '#' ! memberExpressionB '#' !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:797:4: '#' ! memberExpressionB '#' !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14911,7 +14911,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:798:4: memberExpressionB
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:798:4: memberExpressionB
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14960,7 +14960,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "memberExpressionB"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:801:1: memberExpressionB : ( primaryExpression -> primaryExpression ) ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:801:1: memberExpressionB : ( primaryExpression -> primaryExpression ) ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )* ;
     public final CFMLParser.memberExpressionB_return memberExpressionB() throws RecognitionException {
         CFMLParser.memberExpressionB_return retval = new CFMLParser.memberExpressionB_return();
         retval.start = input.LT(1);
@@ -15010,11 +15010,11 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 69) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:802:3: ( ( primaryExpression -> primaryExpression ) ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:802:5: ( primaryExpression -> primaryExpression ) ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:802:3: ( ( primaryExpression -> primaryExpression ) ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:802:5: ( primaryExpression -> primaryExpression ) ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )*
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:802:5: ( primaryExpression -> primaryExpression )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:802:7: primaryExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:802:5: ( primaryExpression -> primaryExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:802:7: primaryExpression
             {
             pushFollow(FOLLOW_primaryExpression_in_memberExpressionB4386);
             primaryExpression303=primaryExpression();
@@ -15049,14 +15049,14 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:803:3: ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:803:3: ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList ) | LEFTPAREN argumentList RIGHTPAREN -> ^( FUNCTIONCALL $memberExpressionB argumentList ) | LEFTBRACKET impliesExpression RIGHTBRACKET -> ^( LEFTBRACKET $memberExpressionB impliesExpression ) | DOT primaryExpressionIRW -> ^( DOT $memberExpressionB primaryExpressionIRW ) )*
             loop78:
             do {
                 int alt78=5;
                 alt78 = dfa78.predict(input);
                 switch (alt78) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:804:5: DOT primaryExpressionIRW LEFTPAREN argumentList ')'
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:804:5: DOT primaryExpressionIRW LEFTPAREN argumentList ')'
             	    {
             	    DOT304=(Token)match(input,DOT,FOLLOW_DOT_in_memberExpressionB4404); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_DOT.add(DOT304);
@@ -15085,7 +15085,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             	    // AST REWRITE
-            	    // elements: memberExpressionB, primaryExpressionIRW, argumentList
+            	    // elements: argumentList, memberExpressionB, primaryExpressionIRW
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -15099,7 +15099,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (CommonTree)adaptor.nil();
             	    // 804:57: -> ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList )
             	    {
-            	        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:804:60: ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList )
+            	        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:804:60: ^( JAVAMETHODCALL $memberExpressionB primaryExpressionIRW argumentList )
             	        {
             	        CommonTree root_1 = (CommonTree)adaptor.nil();
             	        root_1 = (CommonTree)adaptor.becomeRoot(
@@ -15124,7 +15124,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 2 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:805:8: LEFTPAREN argumentList RIGHTPAREN
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:805:8: LEFTPAREN argumentList RIGHTPAREN
             	    {
             	    LEFTPAREN309=(Token)match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_memberExpressionB4435); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_LEFTPAREN.add(LEFTPAREN309);
@@ -15142,7 +15142,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             	    // AST REWRITE
-            	    // elements: memberExpressionB, argumentList
+            	    // elements: argumentList, memberExpressionB
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -15156,7 +15156,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (CommonTree)adaptor.nil();
             	    // 805:42: -> ^( FUNCTIONCALL $memberExpressionB argumentList )
             	    {
-            	        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:805:45: ^( FUNCTIONCALL $memberExpressionB argumentList )
+            	        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:805:45: ^( FUNCTIONCALL $memberExpressionB argumentList )
             	        {
             	        CommonTree root_1 = (CommonTree)adaptor.nil();
             	        root_1 = (CommonTree)adaptor.becomeRoot(
@@ -15179,7 +15179,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 3 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:806:7: LEFTBRACKET impliesExpression RIGHTBRACKET
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:806:7: LEFTBRACKET impliesExpression RIGHTBRACKET
             	    {
             	    LEFTBRACKET312=(Token)match(input,LEFTBRACKET,FOLLOW_LEFTBRACKET_in_memberExpressionB4458); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_LEFTBRACKET.add(LEFTBRACKET312);
@@ -15197,7 +15197,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             	    // AST REWRITE
-            	    // elements: LEFTBRACKET, memberExpressionB, impliesExpression
+            	    // elements: LEFTBRACKET, impliesExpression, memberExpressionB
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -15211,7 +15211,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (CommonTree)adaptor.nil();
             	    // 806:50: -> ^( LEFTBRACKET $memberExpressionB impliesExpression )
             	    {
-            	        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:806:53: ^( LEFTBRACKET $memberExpressionB impliesExpression )
+            	        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:806:53: ^( LEFTBRACKET $memberExpressionB impliesExpression )
             	        {
             	        CommonTree root_1 = (CommonTree)adaptor.nil();
             	        root_1 = (CommonTree)adaptor.becomeRoot(
@@ -15234,7 +15234,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 4 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:807:7: DOT primaryExpressionIRW
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:807:7: DOT primaryExpressionIRW
             	    {
             	    DOT315=(Token)match(input,DOT,FOLLOW_DOT_in_memberExpressionB4481); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_DOT.add(DOT315);
@@ -15248,7 +15248,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    if ( state.backtracking==0 ) stream_primaryExpressionIRW.add(primaryExpressionIRW316.getTree());
 
             	    // AST REWRITE
-            	    // elements: DOT, primaryExpressionIRW, memberExpressionB
+            	    // elements: memberExpressionB, primaryExpressionIRW, DOT
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -15262,7 +15262,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (CommonTree)adaptor.nil();
             	    // 807:32: -> ^( DOT $memberExpressionB primaryExpressionIRW )
             	    {
-            	        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:807:35: ^( DOT $memberExpressionB primaryExpressionIRW )
+            	        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:807:35: ^( DOT $memberExpressionB primaryExpressionIRW )
             	        {
             	        CommonTree root_1 = (CommonTree)adaptor.nil();
             	        root_1 = (CommonTree)adaptor.becomeRoot(
@@ -15326,7 +15326,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "memberExpressionSuffix"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:813:1: memberExpressionSuffix : ( indexSuffix | propertyReferenceSuffix );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:813:1: memberExpressionSuffix : ( indexSuffix | propertyReferenceSuffix );
     public final CFMLParser.memberExpressionSuffix_return memberExpressionSuffix() throws RecognitionException {
         CFMLParser.memberExpressionSuffix_return retval = new CFMLParser.memberExpressionSuffix_return();
         retval.start = input.LT(1);
@@ -15344,7 +15344,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 70) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:814:3: ( indexSuffix | propertyReferenceSuffix )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:814:3: ( indexSuffix | propertyReferenceSuffix )
             int alt79=2;
             int LA79_0 = input.LA(1);
 
@@ -15364,7 +15364,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt79) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:814:5: indexSuffix
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:814:5: indexSuffix
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -15379,7 +15379,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:815:5: propertyReferenceSuffix
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:815:5: propertyReferenceSuffix
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -15428,7 +15428,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "propertyReferenceSuffix"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:818:1: propertyReferenceSuffix : DOT ( LT !)* identifier ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:818:1: propertyReferenceSuffix : DOT ( LT !)* identifier ;
     public final CFMLParser.propertyReferenceSuffix_return propertyReferenceSuffix() throws RecognitionException {
         CFMLParser.propertyReferenceSuffix_return retval = new CFMLParser.propertyReferenceSuffix_return();
         retval.start = input.LT(1);
@@ -15448,8 +15448,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 71) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:819:3: ( DOT ( LT !)* identifier )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:819:5: DOT ( LT !)* identifier
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:819:3: ( DOT ( LT !)* identifier )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:819:5: DOT ( LT !)* identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15462,7 +15462,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, DOT319_tree);
             }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:819:11: ( LT !)*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:819:11: ( LT !)*
             loop80:
             do {
                 int alt80=2;
@@ -15475,7 +15475,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt80) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:819:11: LT !
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:819:11: LT !
             	    {
             	    LT320=(Token)match(input,LT,FOLLOW_LT_in_propertyReferenceSuffix4537); if (state.failed) return retval;
 
@@ -15530,7 +15530,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "indexSuffix"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:822:1: indexSuffix : LEFTBRACKET ( LT !)* primaryExpression ( LT !)* ']' !;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:822:1: indexSuffix : LEFTBRACKET ( LT !)* primaryExpression ( LT !)* ']' !;
     public final CFMLParser.indexSuffix_return indexSuffix() throws RecognitionException {
         CFMLParser.indexSuffix_return retval = new CFMLParser.indexSuffix_return();
         retval.start = input.LT(1);
@@ -15554,8 +15554,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 72) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:823:3: ( LEFTBRACKET ( LT !)* primaryExpression ( LT !)* ']' !)
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:823:5: LEFTBRACKET ( LT !)* primaryExpression ( LT !)* ']' !
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:823:3: ( LEFTBRACKET ( LT !)* primaryExpression ( LT !)* ']' !)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:823:5: LEFTBRACKET ( LT !)* primaryExpression ( LT !)* ']' !
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15568,7 +15568,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, LEFTBRACKET322_tree);
             }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:823:20: ( LT !)*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:823:20: ( LT !)*
             loop81:
             do {
                 int alt81=2;
@@ -15581,7 +15581,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt81) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:823:20: LT !
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:823:20: LT !
             	    {
             	    LT323=(Token)match(input,LT,FOLLOW_LT_in_indexSuffix4557); if (state.failed) return retval;
 
@@ -15601,7 +15601,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, primaryExpression324.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:823:44: ( LT !)*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:823:44: ( LT !)*
             loop82:
             do {
                 int alt82=2;
@@ -15614,7 +15614,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt82) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:823:44: LT !
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:823:44: LT !
             	    {
             	    LT325=(Token)match(input,LT,FOLLOW_LT_in_indexSuffix4564); if (state.failed) return retval;
 
@@ -15664,7 +15664,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primaryExpressionIRW"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:826:1: primaryExpressionIRW : ( primaryExpression | reservedWord );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:826:1: primaryExpressionIRW : ( primaryExpression | reservedWord );
     public final CFMLParser.primaryExpressionIRW_return primaryExpressionIRW() throws RecognitionException {
         CFMLParser.primaryExpressionIRW_return retval = new CFMLParser.primaryExpressionIRW_return();
         retval.start = input.LT(1);
@@ -15682,7 +15682,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 73) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:827:2: ( primaryExpression | reservedWord )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:827:2: ( primaryExpression | reservedWord )
             int alt83=2;
             switch ( input.LA(1) ) {
             case ABORT:
@@ -15835,7 +15835,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt83) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:827:4: primaryExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:827:4: primaryExpression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -15850,7 +15850,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:828:4: reservedWord
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:828:4: reservedWord
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -15899,7 +15899,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "reservedWord"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:832:1: reservedWord : ( CONTAINS | IS | EQUAL | EQ | NEQ | GT | LT | GTE | GE | LTE | LE | NOT | AND | OR | XOR | EQV | IMP | MOD | NULL | EQUALS | cfscriptKeywords );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:832:1: reservedWord : ( CONTAINS | IS | EQUAL | EQ | NEQ | GT | LT | GTE | GE | LTE | LE | NOT | AND | OR | XOR | EQV | IMP | MOD | NULL | EQUALS | cfscriptKeywords );
     public final CFMLParser.reservedWord_return reservedWord() throws RecognitionException {
         CFMLParser.reservedWord_return retval = new CFMLParser.reservedWord_return();
         retval.start = input.LT(1);
@@ -15955,7 +15955,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 74) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:833:3: ( CONTAINS | IS | EQUAL | EQ | NEQ | GT | LT | GTE | GE | LTE | LE | NOT | AND | OR | XOR | EQV | IMP | MOD | NULL | EQUALS | cfscriptKeywords )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:833:3: ( CONTAINS | IS | EQUAL | EQ | NEQ | GT | LT | GTE | GE | LTE | LE | NOT | AND | OR | XOR | EQV | IMP | MOD | NULL | EQUALS | cfscriptKeywords )
             int alt84=21;
             switch ( input.LA(1) ) {
             case CONTAINS:
@@ -16089,7 +16089,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt84) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:833:5: CONTAINS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:833:5: CONTAINS
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16105,7 +16105,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:833:16: IS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:833:16: IS
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16121,7 +16121,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:833:21: EQUAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:833:21: EQUAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16137,7 +16137,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:834:5: EQ
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:834:5: EQ
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16153,7 +16153,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:834:10: NEQ
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:834:10: NEQ
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16169,7 +16169,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:834:16: GT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:834:16: GT
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16185,7 +16185,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:834:21: LT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:834:21: LT
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16201,7 +16201,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:834:26: GTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:834:26: GTE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16217,7 +16217,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:835:5: GE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:835:5: GE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16233,7 +16233,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:835:10: LTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:835:10: LTE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16249,7 +16249,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:835:16: LE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:835:16: LE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16265,7 +16265,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:835:21: NOT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:835:21: NOT
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16281,7 +16281,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:835:27: AND
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:835:27: AND
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16297,7 +16297,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:836:5: OR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:836:5: OR
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16313,7 +16313,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:836:10: XOR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:836:10: XOR
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16329,7 +16329,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:836:16: EQV
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:836:16: EQV
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16345,7 +16345,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:836:22: IMP
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:836:22: IMP
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16361,7 +16361,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 18 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:836:28: MOD
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:836:28: MOD
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16377,7 +16377,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 19 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:837:5: NULL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:837:5: NULL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16393,7 +16393,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 20 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:837:12: EQUALS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:837:12: EQUALS
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16409,7 +16409,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 21 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:838:5: cfscriptKeywords
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:838:5: cfscriptKeywords
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16458,7 +16458,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "argumentList"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:841:1: argumentList : ( argument ( ',' ! argument )* | -> ^( EMPTYARGS ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:841:1: argumentList : ( argument ( ',' ! argument )* | -> ^( EMPTYARGS ) );
     public final CFMLParser.argumentList_return argumentList() throws RecognitionException {
         CFMLParser.argumentList_return retval = new CFMLParser.argumentList_return();
         retval.start = input.LT(1);
@@ -16478,7 +16478,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 75) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:842:3: ( argument ( ',' ! argument )* | -> ^( EMPTYARGS ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:842:3: ( argument ( ',' ! argument )* | -> ^( EMPTYARGS ) )
             int alt86=2;
             int LA86_0 = input.LA(1);
 
@@ -16498,7 +16498,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt86) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:842:5: argument ( ',' ! argument )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:842:5: argument ( ',' ! argument )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16510,7 +16510,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, argument350.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:842:14: ( ',' ! argument )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:842:14: ( ',' ! argument )*
                     loop85:
                     do {
                         int alt85=2;
@@ -16523,7 +16523,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt85) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:842:15: ',' ! argument
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:842:15: ',' ! argument
                     	    {
                     	    char_literal351=(Token)match(input,150,FOLLOW_150_in_argumentList4713); if (state.failed) return retval;
 
@@ -16546,7 +16546,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:843:5: 
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:843:5: 
                     {
                     // AST REWRITE
                     // elements: 
@@ -16563,7 +16563,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 843:5: -> ^( EMPTYARGS )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:843:8: ^( EMPTYARGS )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:843:8: ^( EMPTYARGS )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -16616,7 +16616,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "argument"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:846:1: argument : ( ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) ) | ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) ) | impliesExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:846:1: argument : ( ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) ) | ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) ) | impliesExpression );
     public final CFMLParser.argument_return argument() throws RecognitionException {
         CFMLParser.argument_return retval = new CFMLParser.argument_return();
         retval.start = input.LT(1);
@@ -16647,7 +16647,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 76) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:847:3: ( ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) ) | ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) ) | impliesExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:847:3: ( ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) ) | ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) ) | impliesExpression )
             int alt87=3;
             int LA87_0 = input.LA(1);
 
@@ -18555,10 +18555,10 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt87) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:847:5: ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:847:5: ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) )
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:847:5: ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) )
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:847:7: identifier COLON impliesExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:847:5: ( identifier COLON impliesExpression -> ^( COLON identifier impliesExpression ) )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:847:7: identifier COLON impliesExpression
                     {
                     pushFollow(FOLLOW_identifier_in_argument4743);
                     identifier353=identifier();
@@ -18579,7 +18579,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if ( state.backtracking==0 ) stream_impliesExpression.add(impliesExpression355.getTree());
 
                     // AST REWRITE
-                    // elements: impliesExpression, COLON, identifier
+                    // elements: identifier, impliesExpression, COLON
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -18593,7 +18593,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 847:42: -> ^( COLON identifier impliesExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:847:45: ^( COLON identifier impliesExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:847:45: ^( COLON identifier impliesExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -18619,10 +18619,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:848:5: ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:848:5: ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) )
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:848:5: ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) )
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:848:7: identifier EQUALSOP impliesExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:848:5: ( identifier EQUALSOP impliesExpression -> ^( COLON identifier impliesExpression ) )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:848:7: identifier EQUALSOP impliesExpression
                     {
                     pushFollow(FOLLOW_identifier_in_argument4769);
                     identifier356=identifier();
@@ -18643,7 +18643,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if ( state.backtracking==0 ) stream_impliesExpression.add(impliesExpression358.getTree());
 
                     // AST REWRITE
-                    // elements: impliesExpression, identifier
+                    // elements: identifier, impliesExpression
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -18657,7 +18657,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (CommonTree)adaptor.nil();
                     // 848:45: -> ^( COLON identifier impliesExpression )
                     {
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:848:48: ^( COLON identifier impliesExpression )
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:848:48: ^( COLON identifier impliesExpression )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot(
@@ -18683,7 +18683,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:849:5: impliesExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:849:5: impliesExpression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -18732,7 +18732,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "identifier"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:852:1: identifier : ( IDENTIFIER | DOES | CONTAIN | GREATER | THAN | LESS | VAR | TO | DEFAULT | INCLUDE | NEW | ABORT | THROW | RETHROW | PARAM | EXIT | THREAD | LOCK | TRANSACTION | PUBLIC | PRIVATE | REMOTE | PACKAGE | REQUIRED | cfmlFunction |{...}? => cfscriptKeywords );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:852:1: identifier : ( IDENTIFIER | DOES | CONTAIN | GREATER | THAN | LESS | VAR | TO | DEFAULT | INCLUDE | NEW | ABORT | THROW | RETHROW | PARAM | EXIT | THREAD | LOCK | TRANSACTION | PUBLIC | PRIVATE | REMOTE | PACKAGE | REQUIRED | cfmlFunction |{...}? => cfscriptKeywords );
     public final CFMLParser.identifier_return identifier() throws RecognitionException {
         CFMLParser.identifier_return retval = new CFMLParser.identifier_return();
         retval.start = input.LT(1);
@@ -18798,7 +18798,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 77) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:853:2: ( IDENTIFIER | DOES | CONTAIN | GREATER | THAN | LESS | VAR | TO | DEFAULT | INCLUDE | NEW | ABORT | THROW | RETHROW | PARAM | EXIT | THREAD | LOCK | TRANSACTION | PUBLIC | PRIVATE | REMOTE | PACKAGE | REQUIRED | cfmlFunction |{...}? => cfscriptKeywords )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:853:2: ( IDENTIFIER | DOES | CONTAIN | GREATER | THAN | LESS | VAR | TO | DEFAULT | INCLUDE | NEW | ABORT | THROW | RETHROW | PARAM | EXIT | THREAD | LOCK | TRANSACTION | PUBLIC | PRIVATE | REMOTE | PACKAGE | REQUIRED | cfmlFunction |{...}? => cfscriptKeywords )
             int alt88=26;
             int LA88_0 = input.LA(1);
 
@@ -18905,7 +18905,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt88) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:853:4: IDENTIFIER
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:853:4: IDENTIFIER
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -18921,7 +18921,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:854:5: DOES
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:854:5: DOES
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -18937,7 +18937,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:855:5: CONTAIN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:855:5: CONTAIN
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -18953,7 +18953,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:856:5: GREATER
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:856:5: GREATER
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -18969,7 +18969,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:857:5: THAN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:857:5: THAN
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -18985,7 +18985,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:858:5: LESS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:858:5: LESS
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19001,7 +19001,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:859:5: VAR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:859:5: VAR
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19017,7 +19017,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:860:5: TO
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:860:5: TO
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19033,7 +19033,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:861:5: DEFAULT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:861:5: DEFAULT
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19049,7 +19049,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:862:5: INCLUDE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:862:5: INCLUDE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19065,7 +19065,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:863:5: NEW
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:863:5: NEW
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19081,7 +19081,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:864:5: ABORT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:864:5: ABORT
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19097,7 +19097,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:865:5: THROW
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:865:5: THROW
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19113,7 +19113,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:866:5: RETHROW
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:866:5: RETHROW
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19129,7 +19129,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:867:5: PARAM
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:867:5: PARAM
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19145,7 +19145,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:868:5: EXIT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:868:5: EXIT
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19161,7 +19161,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:869:5: THREAD
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:869:5: THREAD
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19177,7 +19177,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 18 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:870:5: LOCK
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:870:5: LOCK
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19193,7 +19193,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 19 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:871:5: TRANSACTION
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:871:5: TRANSACTION
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19209,7 +19209,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 20 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:872:5: PUBLIC
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:872:5: PUBLIC
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19225,7 +19225,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 21 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:873:5: PRIVATE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:873:5: PRIVATE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19241,7 +19241,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 22 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:874:5: REMOTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:874:5: REMOTE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19257,7 +19257,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 23 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:875:5: PACKAGE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:875:5: PACKAGE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19273,7 +19273,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 24 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:876:5: REQUIRED
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:876:5: REQUIRED
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19289,7 +19289,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 25 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:877:5: cfmlFunction
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:877:5: cfmlFunction
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19304,7 +19304,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 26 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:878:5: {...}? => cfscriptKeywords
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:878:5: {...}? => cfscriptKeywords
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19358,7 +19358,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "cfscriptKeywords"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:881:1: cfscriptKeywords : ( IF | ELSE | BREAK | CONTINUE | FUNCTION | RETURN | WHILE | DO | FOR | IN | TRY | CATCH | SWITCH | CASE | DEFAULT | IMPORT );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:881:1: cfscriptKeywords : ( IF | ELSE | BREAK | CONTINUE | FUNCTION | RETURN | WHILE | DO | FOR | IN | TRY | CATCH | SWITCH | CASE | DEFAULT | IMPORT );
     public final CFMLParser.cfscriptKeywords_return cfscriptKeywords() throws RecognitionException {
         CFMLParser.cfscriptKeywords_return retval = new CFMLParser.cfscriptKeywords_return();
         retval.start = input.LT(1);
@@ -19374,8 +19374,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 78) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:882:3: ( IF | ELSE | BREAK | CONTINUE | FUNCTION | RETURN | WHILE | DO | FOR | IN | TRY | CATCH | SWITCH | CASE | DEFAULT | IMPORT )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:882:3: ( IF | ELSE | BREAK | CONTINUE | FUNCTION | RETURN | WHILE | DO | FOR | IN | TRY | CATCH | SWITCH | CASE | DEFAULT | IMPORT )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19432,7 +19432,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primaryExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:900:1: primaryExpression : ( STRING_LITERAL | BOOLEAN_LITERAL | FLOATING_POINT_LITERAL | INTEGER_LITERAL | implicitArray | implicitStruct | NULL | '(' ! ( LT !)* assignmentExpression ( LT !)* ')' !| identifier );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:900:1: primaryExpression : ( STRING_LITERAL | BOOLEAN_LITERAL | FLOATING_POINT_LITERAL | INTEGER_LITERAL | implicitArray | implicitStruct | NULL | '(' ! ( LT !)* assignmentExpression ( LT !)* ')' !| identifier );
     public final CFMLParser.primaryExpression_return primaryExpression() throws RecognitionException {
         CFMLParser.primaryExpression_return retval = new CFMLParser.primaryExpression_return();
         retval.start = input.LT(1);
@@ -19472,7 +19472,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 79) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:901:2: ( STRING_LITERAL | BOOLEAN_LITERAL | FLOATING_POINT_LITERAL | INTEGER_LITERAL | implicitArray | implicitStruct | NULL | '(' ! ( LT !)* assignmentExpression ( LT !)* ')' !| identifier )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:901:2: ( STRING_LITERAL | BOOLEAN_LITERAL | FLOATING_POINT_LITERAL | INTEGER_LITERAL | implicitArray | implicitStruct | NULL | '(' ! ( LT !)* assignmentExpression ( LT !)* ')' !| identifier )
             int alt91=9;
             int LA91_0 = input.LA(1);
 
@@ -19516,7 +19516,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt91) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:901:4: STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:901:4: STRING_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19532,7 +19532,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:902:4: BOOLEAN_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:902:4: BOOLEAN_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19548,7 +19548,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:903:4: FLOATING_POINT_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:903:4: FLOATING_POINT_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19564,7 +19564,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:904:4: INTEGER_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:904:4: INTEGER_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19580,7 +19580,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:905:4: implicitArray
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:905:4: implicitArray
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19595,7 +19595,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:906:4: implicitStruct
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:906:4: implicitStruct
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19610,7 +19610,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:907:4: NULL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:907:4: NULL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19626,14 +19626,14 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:908:4: '(' ! ( LT !)* assignmentExpression ( LT !)* ')' !
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:908:4: '(' ! ( LT !)* assignmentExpression ( LT !)* ')' !
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
                     char_literal394=(Token)match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_primaryExpression5116); if (state.failed) return retval;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:908:11: ( LT !)*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:908:11: ( LT !)*
                     loop89:
                     do {
                         int alt89=2;
@@ -19646,7 +19646,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt89) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:908:11: LT !
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:908:11: LT !
                     	    {
                     	    LT395=(Token)match(input,LT,FOLLOW_LT_in_primaryExpression5119); if (state.failed) return retval;
 
@@ -19666,7 +19666,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, assignmentExpression396.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:908:37: ( LT !)*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:908:37: ( LT !)*
                     loop90:
                     do {
                         int alt90=2;
@@ -19679,7 +19679,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt90) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:908:37: LT !
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:908:37: LT !
                     	    {
                     	    LT397=(Token)match(input,LT,FOLLOW_LT_in_primaryExpression5125); if (state.failed) return retval;
 
@@ -19697,7 +19697,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:909:4: identifier
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:909:4: identifier
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -19746,7 +19746,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicitArray"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:912:1: implicitArray : lc= LEFTBRACKET ( implicitArrayElements )? RIGHTBRACKET -> ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:912:1: implicitArray : lc= LEFTBRACKET ( implicitArrayElements )? RIGHTBRACKET -> ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? ) ;
     public final CFMLParser.implicitArray_return implicitArray() throws RecognitionException {
         CFMLParser.implicitArray_return retval = new CFMLParser.implicitArray_return();
         retval.start = input.LT(1);
@@ -19768,14 +19768,14 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 80) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:913:3: (lc= LEFTBRACKET ( implicitArrayElements )? RIGHTBRACKET -> ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:913:5: lc= LEFTBRACKET ( implicitArrayElements )? RIGHTBRACKET
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:913:3: (lc= LEFTBRACKET ( implicitArrayElements )? RIGHTBRACKET -> ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:913:5: lc= LEFTBRACKET ( implicitArrayElements )? RIGHTBRACKET
             {
             lc=(Token)match(input,LEFTBRACKET,FOLLOW_LEFTBRACKET_in_implicitArray5149); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_LEFTBRACKET.add(lc);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:913:20: ( implicitArrayElements )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:913:20: ( implicitArrayElements )?
             int alt92=2;
             int LA92_0 = input.LA(1);
 
@@ -19784,7 +19784,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt92) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:913:20: implicitArrayElements
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:913:20: implicitArrayElements
                     {
                     pushFollow(FOLLOW_implicitArrayElements_in_implicitArray5151);
                     implicitArrayElements400=implicitArrayElements();
@@ -19818,14 +19818,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 913:56: -> ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:913:59: ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:913:59: ^( IMPLICITARRAY[$lc] ( implicitArrayElements )? )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
                 (CommonTree)adaptor.create(IMPLICITARRAY, lc)
                 , root_1);
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:913:80: ( implicitArrayElements )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:913:80: ( implicitArrayElements )?
                 if ( stream_implicitArrayElements.hasNext() ) {
                     adaptor.addChild(root_1, stream_implicitArrayElements.nextTree());
 
@@ -19876,7 +19876,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicitArrayElements"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:916:1: implicitArrayElements : impliesExpression ( ',' ! impliesExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:916:1: implicitArrayElements : impliesExpression ( ',' ! impliesExpression )* ;
     public final CFMLParser.implicitArrayElements_return implicitArrayElements() throws RecognitionException {
         CFMLParser.implicitArrayElements_return retval = new CFMLParser.implicitArrayElements_return();
         retval.start = input.LT(1);
@@ -19896,8 +19896,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 81) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:917:3: ( impliesExpression ( ',' ! impliesExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:917:5: impliesExpression ( ',' ! impliesExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:917:3: ( impliesExpression ( ',' ! impliesExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:917:5: impliesExpression ( ',' ! impliesExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19909,7 +19909,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, impliesExpression402.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:917:23: ( ',' ! impliesExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:917:23: ( ',' ! impliesExpression )*
             loop93:
             do {
                 int alt93=2;
@@ -19922,7 +19922,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt93) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:917:25: ',' ! impliesExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:917:25: ',' ! impliesExpression
             	    {
             	    char_literal403=(Token)match(input,150,FOLLOW_150_in_implicitArrayElements5184); if (state.failed) return retval;
 
@@ -19977,7 +19977,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicitStruct"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:920:1: implicitStruct : lc= LEFTCURLYBRACKET ( implicitStructElements )? RIGHTCURLYBRACKET -> ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:920:1: implicitStruct : lc= LEFTCURLYBRACKET ( implicitStructElements )? RIGHTCURLYBRACKET -> ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? ) ;
     public final CFMLParser.implicitStruct_return implicitStruct() throws RecognitionException {
         CFMLParser.implicitStruct_return retval = new CFMLParser.implicitStruct_return();
         retval.start = input.LT(1);
@@ -19999,14 +19999,14 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 82) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:921:3: (lc= LEFTCURLYBRACKET ( implicitStructElements )? RIGHTCURLYBRACKET -> ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:921:5: lc= LEFTCURLYBRACKET ( implicitStructElements )? RIGHTCURLYBRACKET
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:921:3: (lc= LEFTCURLYBRACKET ( implicitStructElements )? RIGHTCURLYBRACKET -> ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:921:5: lc= LEFTCURLYBRACKET ( implicitStructElements )? RIGHTCURLYBRACKET
             {
             lc=(Token)match(input,LEFTCURLYBRACKET,FOLLOW_LEFTCURLYBRACKET_in_implicitStruct5207); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_LEFTCURLYBRACKET.add(lc);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:921:25: ( implicitStructElements )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:921:25: ( implicitStructElements )?
             int alt94=2;
             int LA94_0 = input.LA(1);
 
@@ -20015,7 +20015,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt94) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:921:25: implicitStructElements
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:921:25: implicitStructElements
                     {
                     pushFollow(FOLLOW_implicitStructElements_in_implicitStruct5209);
                     implicitStructElements405=implicitStructElements();
@@ -20049,14 +20049,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (CommonTree)adaptor.nil();
             // 921:67: -> ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? )
             {
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:921:70: ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? )
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:921:70: ^( IMPLICITSTRUCT[$lc] ( implicitStructElements )? )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot(
                 (CommonTree)adaptor.create(IMPLICITSTRUCT, lc)
                 , root_1);
 
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:921:92: ( implicitStructElements )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:921:92: ( implicitStructElements )?
                 if ( stream_implicitStructElements.hasNext() ) {
                     adaptor.addChild(root_1, stream_implicitStructElements.nextTree());
 
@@ -20107,7 +20107,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicitStructElements"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:924:1: implicitStructElements : implicitStructExpression ( ',' implicitStructExpression )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:924:1: implicitStructElements : implicitStructExpression ( ',' implicitStructExpression )* ;
     public final CFMLParser.implicitStructElements_return implicitStructElements() throws RecognitionException {
         CFMLParser.implicitStructElements_return retval = new CFMLParser.implicitStructElements_return();
         retval.start = input.LT(1);
@@ -20127,8 +20127,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 83) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:925:3: ( implicitStructExpression ( ',' implicitStructExpression )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:925:5: implicitStructExpression ( ',' implicitStructExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:925:3: ( implicitStructExpression ( ',' implicitStructExpression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:925:5: implicitStructExpression ( ',' implicitStructExpression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20140,7 +20140,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, implicitStructExpression407.getTree());
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:925:30: ( ',' implicitStructExpression )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:925:30: ( ',' implicitStructExpression )*
             loop95:
             do {
                 int alt95=2;
@@ -20153,7 +20153,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt95) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:925:32: ',' implicitStructExpression
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:925:32: ',' implicitStructExpression
             	    {
             	    char_literal408=(Token)match(input,150,FOLLOW_150_in_implicitStructElements5241); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -20214,7 +20214,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicitStructExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:928:1: implicitStructExpression : implicitStructKeyExpression ( COLON | EQUALSOP ) ^ impliesExpression ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:928:1: implicitStructExpression : implicitStructKeyExpression ( COLON | EQUALSOP ) ^ impliesExpression ;
     public final CFMLParser.implicitStructExpression_return implicitStructExpression() throws RecognitionException {
         CFMLParser.implicitStructExpression_return retval = new CFMLParser.implicitStructExpression_return();
         retval.start = input.LT(1);
@@ -20234,8 +20234,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 84) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:929:3: ( implicitStructKeyExpression ( COLON | EQUALSOP ) ^ impliesExpression )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:929:5: implicitStructKeyExpression ( COLON | EQUALSOP ) ^ impliesExpression
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:929:3: ( implicitStructKeyExpression ( COLON | EQUALSOP ) ^ impliesExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:929:5: implicitStructKeyExpression ( COLON | EQUALSOP ) ^ impliesExpression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20308,7 +20308,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicitStructKeyExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:932:1: implicitStructKeyExpression : ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:932:1: implicitStructKeyExpression : ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL );
     public final CFMLParser.implicitStructKeyExpression_return implicitStructKeyExpression() throws RecognitionException {
         CFMLParser.implicitStructKeyExpression_return retval = new CFMLParser.implicitStructKeyExpression_return();
         retval.start = input.LT(1);
@@ -20332,7 +20332,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 85) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:3: ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:3: ( identifier ( DOT ( identifier | reservedWord ) )* | STRING_LITERAL )
             int alt98=2;
             int LA98_0 = input.LA(1);
 
@@ -20352,7 +20352,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt98) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:5: identifier ( DOT ( identifier | reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:5: identifier ( DOT ( identifier | reservedWord ) )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -20364,7 +20364,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier413.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:16: ( DOT ( identifier | reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:16: ( DOT ( identifier | reservedWord ) )*
                     loop97:
                     do {
                         int alt97=2;
@@ -20377,7 +20377,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt97) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:18: DOT ( identifier | reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:18: DOT ( identifier | reservedWord )
                     	    {
                     	    DOT414=(Token)match(input,DOT,FOLLOW_DOT_in_implicitStructKeyExpression5292); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -20387,7 +20387,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	    adaptor.addChild(root_0, DOT414_tree);
                     	    }
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:22: ( identifier | reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:22: ( identifier | reservedWord )
                     	    int alt96=2;
                     	    switch ( input.LA(1) ) {
                     	    case ABORT:
@@ -20514,7 +20514,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     	    switch (alt96) {
                     	        case 1 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:24: identifier
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:24: identifier
                     	            {
                     	            pushFollow(FOLLOW_identifier_in_implicitStructKeyExpression5296);
                     	            identifier415=identifier();
@@ -20526,7 +20526,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	            }
                     	            break;
                     	        case 2 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:37: reservedWord
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:37: reservedWord
                     	            {
                     	            pushFollow(FOLLOW_reservedWord_in_implicitStructKeyExpression5300);
                     	            reservedWord416=reservedWord();
@@ -20553,7 +20553,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:934:5: STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:934:5: STRING_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -20603,7 +20603,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "newComponentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:937:1: newComponentExpression : NEW ^ componentPath LEFTPAREN argumentList ')' !;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:937:1: newComponentExpression : NEW ^ componentPath LEFTPAREN argumentList ')' !;
     public final CFMLParser.newComponentExpression_return newComponentExpression() throws RecognitionException {
         CFMLParser.newComponentExpression_return retval = new CFMLParser.newComponentExpression_return();
         retval.start = input.LT(1);
@@ -20627,8 +20627,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 86) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:938:3: ( NEW ^ componentPath LEFTPAREN argumentList ')' !)
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:938:5: NEW ^ componentPath LEFTPAREN argumentList ')' !
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:938:3: ( NEW ^ componentPath LEFTPAREN argumentList ')' !)
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:938:5: NEW ^ componentPath LEFTPAREN argumentList ')' !
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20700,7 +20700,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "componentPath"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:941:1: componentPath : ( STRING_LITERAL | identifier ( DOT identifier )* );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:941:1: componentPath : ( STRING_LITERAL | identifier ( DOT identifier )* );
     public final CFMLParser.componentPath_return componentPath() throws RecognitionException {
         CFMLParser.componentPath_return retval = new CFMLParser.componentPath_return();
         retval.start = input.LT(1);
@@ -20722,7 +20722,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 87) ) { return retval; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:942:3: ( STRING_LITERAL | identifier ( DOT identifier )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:942:3: ( STRING_LITERAL | identifier ( DOT identifier )* )
             int alt100=2;
             int LA100_0 = input.LA(1);
 
@@ -20745,7 +20745,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt100) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:942:5: STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:942:5: STRING_LITERAL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -20761,7 +20761,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:943:5: identifier ( DOT identifier )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:943:5: identifier ( DOT identifier )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -20773,7 +20773,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier424.getTree());
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:943:16: ( DOT identifier )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:943:16: ( DOT identifier )*
                     loop99:
                     do {
                         int alt99=2;
@@ -20786,7 +20786,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt99) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:943:18: DOT identifier
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:943:18: DOT identifier
                     	    {
                     	    DOT425=(Token)match(input,DOT,FOLLOW_DOT_in_componentPath5359); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -20843,8 +20843,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred5_CFML
     public final void synpred5_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:436:5: ( functionDeclaration )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:436:5: functionDeclaration
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:436:5: ( functionDeclaration )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:436:5: functionDeclaration
         {
         pushFollow(FOLLOW_functionDeclaration_in_synpred5_CFML1562);
         functionDeclaration();
@@ -20859,8 +20859,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred6_CFML
     public final void synpred6_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:6: ( functionAccessType )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:6: functionAccessType
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:6: ( functionAccessType )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:6: functionAccessType
         {
         pushFollow(FOLLOW_functionAccessType_in_synpred6_CFML1582);
         functionAccessType();
@@ -20875,8 +20875,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred8_CFML
     public final void synpred8_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:83: ( parameterList )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:441:83: parameterList
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:83: ( parameterList )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:441:83: parameterList
         {
         pushFollow(FOLLOW_parameterList_in_synpred8_CFML1600);
         parameterList();
@@ -20891,8 +20891,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred16_CFML
     public final void synpred16_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:24: ( identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:459:24: identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:24: ( identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:459:24: identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred16_CFML1757);
         identifier();
@@ -20907,8 +20907,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred21_CFML
     public final void synpred21_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:6: ( REQUIRED )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:469:6: REQUIRED
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:6: ( REQUIRED )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:469:6: REQUIRED
         {
         match(input,REQUIRED,FOLLOW_REQUIRED_in_synpred21_CFML1818); if (state.failed) return ;
 
@@ -20919,8 +20919,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred25_CFML
     public final void synpred25_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:486:25: ( statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:486:25: statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:486:25: ( statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:486:25: statement
         {
         pushFollow(FOLLOW_statement_in_synpred25_CFML1981);
         statement();
@@ -20935,8 +20935,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred27_CFML
     public final void synpred27_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:494:7: ( tryCatchStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:494:7: tryCatchStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:494:7: ( tryCatchStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:494:7: tryCatchStatement
         {
         pushFollow(FOLLOW_tryCatchStatement_in_synpred27_CFML2028);
         tryCatchStatement();
@@ -20951,8 +20951,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred28_CFML
     public final void synpred28_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:495:7: ( ifStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:495:7: ifStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:495:7: ( ifStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:495:7: ifStatement
         {
         pushFollow(FOLLOW_ifStatement_in_synpred28_CFML2036);
         ifStatement();
@@ -20967,8 +20967,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred29_CFML
     public final void synpred29_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:496:7: ( whileStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:496:7: whileStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:496:7: ( whileStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:496:7: whileStatement
         {
         pushFollow(FOLLOW_whileStatement_in_synpred29_CFML2044);
         whileStatement();
@@ -20983,8 +20983,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred30_CFML
     public final void synpred30_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:497:7: ( doWhileStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:497:7: doWhileStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:497:7: ( doWhileStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:497:7: doWhileStatement
         {
         pushFollow(FOLLOW_doWhileStatement_in_synpred30_CFML2052);
         doWhileStatement();
@@ -20999,8 +20999,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred31_CFML
     public final void synpred31_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:498:7: ( forStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:498:7: forStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:498:7: ( forStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:498:7: forStatement
         {
         pushFollow(FOLLOW_forStatement_in_synpred31_CFML2060);
         forStatement();
@@ -21015,8 +21015,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred32_CFML
     public final void synpred32_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:499:7: ( switchStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:499:7: switchStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:499:7: ( switchStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:499:7: switchStatement
         {
         pushFollow(FOLLOW_switchStatement_in_synpred32_CFML2068);
         switchStatement();
@@ -21031,8 +21031,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred33_CFML
     public final void synpred33_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:500:7: ( CONTINUE SEMICOLON )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:500:7: CONTINUE SEMICOLON
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:500:7: ( CONTINUE SEMICOLON )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:500:7: CONTINUE SEMICOLON
         {
         match(input,CONTINUE,FOLLOW_CONTINUE_in_synpred33_CFML2076); if (state.failed) return ;
 
@@ -21045,8 +21045,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred34_CFML
     public final void synpred34_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:501:7: ( BREAK SEMICOLON )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:501:7: BREAK SEMICOLON
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:501:7: ( BREAK SEMICOLON )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:501:7: BREAK SEMICOLON
         {
         match(input,BREAK,FOLLOW_BREAK_in_synpred34_CFML2087); if (state.failed) return ;
 
@@ -21059,8 +21059,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred35_CFML
     public final void synpred35_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:502:7: ( returnStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:502:7: returnStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:502:7: ( returnStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:502:7: returnStatement
         {
         pushFollow(FOLLOW_returnStatement_in_synpred35_CFML2098);
         returnStatement();
@@ -21075,8 +21075,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred36_CFML
     public final void synpred36_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:503:7: ( tagOperatorStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:503:7: tagOperatorStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:503:7: ( tagOperatorStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:503:7: tagOperatorStatement
         {
         pushFollow(FOLLOW_tagOperatorStatement_in_synpred36_CFML2106);
         tagOperatorStatement();
@@ -21091,8 +21091,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred37_CFML
     public final void synpred37_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:504:7: ( compoundStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:504:7: compoundStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:504:7: ( compoundStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:504:7: compoundStatement
         {
         pushFollow(FOLLOW_compoundStatement_in_synpred37_CFML2114);
         compoundStatement();
@@ -21107,8 +21107,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred38_CFML
     public final void synpred38_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:505:7: ( localAssignmentExpression SEMICOLON )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:505:7: localAssignmentExpression SEMICOLON
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:505:7: ( localAssignmentExpression SEMICOLON )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:505:7: localAssignmentExpression SEMICOLON
         {
         pushFollow(FOLLOW_localAssignmentExpression_in_synpred38_CFML2123);
         localAssignmentExpression();
@@ -21125,8 +21125,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred40_CFML
     public final void synpred40_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:520:31: ( ELSE statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:520:31: ELSE statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:520:31: ( ELSE statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:520:31: ELSE statement
         {
         match(input,ELSE,FOLLOW_ELSE_in_synpred40_CFML2212); if (state.failed) return ;
 
@@ -21143,8 +21143,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred41_CFML
     public final void synpred41_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:21: ( VAR )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:21: VAR
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:21: ( VAR )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:21: VAR
         {
         match(input,VAR,FOLLOW_VAR_in_synpred41_CFML2279); if (state.failed) return ;
 
@@ -21155,14 +21155,14 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred45_CFML
     public final void synpred45_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:5: ( FOR LEFTPAREN ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:5: FOR LEFTPAREN ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:5: ( FOR LEFTPAREN ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:5: FOR LEFTPAREN ( VAR )? ( assignmentExpression )? SEMICOLON ( assignmentExpression )? SEMICOLON ( assignmentExpression )? RIGHTPAREN statement
         {
         match(input,FOR,FOLLOW_FOR_in_synpred45_CFML2273); if (state.failed) return ;
 
         match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_synpred45_CFML2276); if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:21: ( VAR )?
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:21: ( VAR )?
         int alt106=2;
         int LA106_0 = input.LA(1);
 
@@ -21175,7 +21175,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt106) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:21: VAR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:21: VAR
                 {
                 match(input,VAR,FOLLOW_VAR_in_synpred45_CFML2279); if (state.failed) return ;
 
@@ -21185,7 +21185,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:26: ( assignmentExpression )?
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:26: ( assignmentExpression )?
         int alt107=2;
         int LA107_0 = input.LA(1);
 
@@ -21194,7 +21194,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt107) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:28: assignmentExpression
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:28: assignmentExpression
                 {
                 pushFollow(FOLLOW_assignmentExpression_in_synpred45_CFML2284);
                 assignmentExpression();
@@ -21210,7 +21210,7 @@ public TreeAdaptor getTreeAdaptor() {
 
         match(input,SEMICOLON,FOLLOW_SEMICOLON_in_synpred45_CFML2289); if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:62: ( assignmentExpression )?
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:62: ( assignmentExpression )?
         int alt108=2;
         int LA108_0 = input.LA(1);
 
@@ -21219,7 +21219,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt108) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:64: assignmentExpression
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:64: assignmentExpression
                 {
                 pushFollow(FOLLOW_assignmentExpression_in_synpred45_CFML2293);
                 assignmentExpression();
@@ -21235,7 +21235,7 @@ public TreeAdaptor getTreeAdaptor() {
 
         match(input,SEMICOLON,FOLLOW_SEMICOLON_in_synpred45_CFML2298); if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:99: ( assignmentExpression )?
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:99: ( assignmentExpression )?
         int alt109=2;
         int LA109_0 = input.LA(1);
 
@@ -21244,7 +21244,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt109) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:532:101: assignmentExpression
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:532:101: assignmentExpression
                 {
                 pushFollow(FOLLOW_assignmentExpression_in_synpred45_CFML2303);
                 assignmentExpression();
@@ -21273,8 +21273,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred46_CFML
     public final void synpred46_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:5: ( VAR )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:5: VAR
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:5: ( VAR )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:5: VAR
         {
         match(input,VAR,FOLLOW_VAR_in_synpred46_CFML2347); if (state.failed) return ;
 
@@ -21285,8 +21285,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred47_CFML
     public final void synpred47_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:29: ( identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:537:29: identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:29: ( identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:537:29: identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred47_CFML2358);
         identifier();
@@ -21301,8 +21301,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred49_CFML
     public final void synpred49_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:22: ( catchCondition )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:22: catchCondition
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:22: ( catchCondition )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:22: catchCondition
         {
         pushFollow(FOLLOW_catchCondition_in_synpred49_CFML2387);
         catchCondition();
@@ -21317,8 +21317,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred50_CFML
     public final void synpred50_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:40: ( finallyStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:541:40: finallyStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:40: ( finallyStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:541:40: finallyStatement
         {
         pushFollow(FOLLOW_finallyStatement_in_synpred50_CFML2392);
         finallyStatement();
@@ -21333,8 +21333,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred51_CFML
     public final void synpred51_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:24: ( identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:553:24: identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:24: ( identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:553:24: identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred51_CFML2458);
         identifier();
@@ -21349,8 +21349,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred62_CFML
     public final void synpred62_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:40: ( statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:577:40: statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:40: ( statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:577:40: statement
         {
         pushFollow(FOLLOW_statement_in_synpred62_CFML2621);
         statement();
@@ -21365,8 +21365,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred64_CFML
     public final void synpred64_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:24: ( statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:579:24: statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:24: ( statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:579:24: statement
         {
         pushFollow(FOLLOW_statement_in_synpred64_CFML2649);
         statement();
@@ -21381,8 +21381,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred77_CFML
     public final void synpred77_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:48: ( compoundStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:605:48: compoundStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:48: ( compoundStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:605:48: compoundStatement
         {
         pushFollow(FOLLOW_compoundStatement_in_synpred77_CFML2806);
         compoundStatement();
@@ -21397,8 +21397,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred78_CFML
     public final void synpred78_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:19: ( param )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:19: param
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:19: ( param )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:19: param
         {
         pushFollow(FOLLOW_param_in_synpred78_CFML2840);
         param();
@@ -21413,8 +21413,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred79_CFML
     public final void synpred79_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:28: ( compoundStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:609:28: compoundStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:28: ( compoundStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:609:28: compoundStatement
         {
         pushFollow(FOLLOW_compoundStatement_in_synpred79_CFML2845);
         compoundStatement();
@@ -21429,8 +21429,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred87_CFML
     public final void synpred87_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:43: ( compoundStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:639:43: compoundStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:43: ( compoundStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:639:43: compoundStatement
         {
         pushFollow(FOLLOW_compoundStatement_in_synpred87_CFML2983);
         compoundStatement();
@@ -21445,8 +21445,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred91_CFML
     public final void synpred91_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:666:7: ( param )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:666:7: param
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:666:7: ( param )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:666:7: param
         {
         pushFollow(FOLLOW_param_in_synpred91_CFML3207);
         param();
@@ -21461,8 +21461,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred92_CFML
     public final void synpred92_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:21: ( EQUALSOP impliesExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:21: EQUALSOP impliesExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:21: ( EQUALSOP impliesExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:21: EQUALSOP impliesExpression
         {
         match(input,EQUALSOP,FOLLOW_EQUALSOP_in_synpred92_CFML3274); if (state.failed) return ;
 
@@ -21479,8 +21479,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred93_CFML
     public final void synpred93_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:4: ( VAR identifier ( EQUALSOP impliesExpression )? )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:4: VAR identifier ( EQUALSOP impliesExpression )?
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:4: ( VAR identifier ( EQUALSOP impliesExpression )? )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:4: VAR identifier ( EQUALSOP impliesExpression )?
         {
         match(input,VAR,FOLLOW_VAR_in_synpred93_CFML3268); if (state.failed) return ;
 
@@ -21490,7 +21490,7 @@ public TreeAdaptor getTreeAdaptor() {
         state._fsp--;
         if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:19: ( EQUALSOP impliesExpression )?
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:19: ( EQUALSOP impliesExpression )?
         int alt115=2;
         int LA115_0 = input.LA(1);
 
@@ -21499,7 +21499,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt115) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:681:21: EQUALSOP impliesExpression
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:681:21: EQUALSOP impliesExpression
                 {
                 match(input,EQUALSOP,FOLLOW_EQUALSOP_in_synpred93_CFML3274); if (state.failed) return ;
 
@@ -21522,8 +21522,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred100_CFML
     public final void synpred100_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:686:25: ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) impliesExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:686:25: ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) impliesExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:686:25: ( ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) impliesExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:686:25: ( EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS ) impliesExpression
         {
         if ( input.LA(1)==CONCATEQUALS||input.LA(1)==EQUALSOP||input.LA(1)==MINUSEQUALS||input.LA(1)==MODEQUALS||input.LA(1)==PLUSEQUALS||input.LA(1)==SLASHEQUALS||input.LA(1)==STAREQUALS ) {
             input.consume();
@@ -21550,8 +21550,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred101_CFML
     public final void synpred101_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:690:4: ( ternary )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:690:4: ternary
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:690:4: ( ternary )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:690:4: ternary
         {
         pushFollow(FOLLOW_ternary_in_synpred101_CFML3367);
         ternary();
@@ -21566,10 +21566,10 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred114_CFML
     public final void synpred114_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:9: ( ( equalityOperator5 | equalityOperator3 | equalityOperator2 | equalityOperator1 ) concatenationExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:9: ( equalityOperator5 | equalityOperator3 | equalityOperator2 | equalityOperator1 ) concatenationExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:9: ( ( equalityOperator5 | equalityOperator3 | equalityOperator2 | equalityOperator1 ) concatenationExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:9: ( equalityOperator5 | equalityOperator3 | equalityOperator2 | equalityOperator1 ) concatenationExpression
         {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:9: ( equalityOperator5 | equalityOperator3 | equalityOperator2 | equalityOperator1 )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:9: ( equalityOperator5 | equalityOperator3 | equalityOperator2 | equalityOperator1 )
         int alt116=4;
         switch ( input.LA(1) ) {
         case LESS:
@@ -21698,7 +21698,7 @@ public TreeAdaptor getTreeAdaptor() {
 
         switch (alt116) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:11: equalityOperator5
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:11: equalityOperator5
                 {
                 pushFollow(FOLLOW_equalityOperator5_in_synpred114_CFML3572);
                 equalityOperator5();
@@ -21709,7 +21709,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 break;
             case 2 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:32: equalityOperator3
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:32: equalityOperator3
                 {
                 pushFollow(FOLLOW_equalityOperator3_in_synpred114_CFML3577);
                 equalityOperator3();
@@ -21720,7 +21720,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 break;
             case 3 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:54: equalityOperator2
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:54: equalityOperator2
                 {
                 pushFollow(FOLLOW_equalityOperator2_in_synpred114_CFML3583);
                 equalityOperator2();
@@ -21731,7 +21731,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 break;
             case 4 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:721:75: equalityOperator1
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:721:75: equalityOperator1
                 {
                 pushFollow(FOLLOW_equalityOperator1_in_synpred114_CFML3588);
                 equalityOperator1();
@@ -21758,8 +21758,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred138_CFML
     public final void synpred138_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:20: ( ( PLUS | MINUS ) modExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:766:20: ( PLUS | MINUS ) modExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:20: ( ( PLUS | MINUS ) modExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:766:20: ( PLUS | MINUS ) modExpression
         {
         if ( input.LA(1)==MINUS||input.LA(1)==PLUS ) {
             input.consume();
@@ -21786,8 +21786,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred149_CFML
     public final void synpred149_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:54: ( LEFTPAREN argumentList ')' )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:54: LEFTPAREN argumentList ')'
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:54: ( LEFTPAREN argumentList ')' )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:54: LEFTPAREN argumentList ')'
         {
         match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_synpred149_CFML4301); if (state.failed) return ;
 
@@ -21806,8 +21806,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred151_CFML
     public final void synpred151_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:4: ( newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:4: newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:4: ( newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:4: newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
         {
         pushFollow(FOLLOW_newComponentExpression_in_synpred151_CFML4293);
         newComponentExpression();
@@ -21815,7 +21815,7 @@ public TreeAdaptor getTreeAdaptor() {
         state._fsp--;
         if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:27: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:27: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
         loop119:
         do {
             int alt119=2;
@@ -21828,7 +21828,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt119) {
         	case 1 :
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:28: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:28: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
         	    {
         	    match(input,DOT,FOLLOW_DOT_in_synpred151_CFML4296); if (state.failed) return ;
 
@@ -21838,7 +21838,7 @@ public TreeAdaptor getTreeAdaptor() {
         	    state._fsp--;
         	    if (state.failed) return ;
 
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:53: ( LEFTPAREN argumentList ')' )*
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:53: ( LEFTPAREN argumentList ')' )*
         	    loop118:
         	    do {
         	        int alt118=2;
@@ -21851,7 +21851,7 @@ public TreeAdaptor getTreeAdaptor() {
 
         	        switch (alt118) {
         	    	case 1 :
-        	    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:790:54: LEFTPAREN argumentList ')'
+        	    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:790:54: LEFTPAREN argumentList ')'
         	    	    {
         	    	    match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_synpred151_CFML4301); if (state.failed) return ;
 
@@ -21888,8 +21888,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred152_CFML
     public final void synpred152_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:791:5: ( memberExpression MINUSMINUS )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:791:5: memberExpression MINUSMINUS
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:791:5: ( memberExpression MINUSMINUS )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:791:5: memberExpression MINUSMINUS
         {
         pushFollow(FOLLOW_memberExpression_in_synpred152_CFML4315);
         memberExpression();
@@ -21906,8 +21906,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred153_CFML
     public final void synpred153_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:792:5: ( memberExpression PLUSPLUS )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:792:5: memberExpression PLUSPLUS
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:792:5: ( memberExpression PLUSPLUS )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:792:5: memberExpression PLUSPLUS
         {
         pushFollow(FOLLOW_memberExpression_in_synpred153_CFML4331);
         memberExpression();
@@ -21924,8 +21924,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred155_CFML
     public final void synpred155_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:804:5: ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:804:5: DOT primaryExpressionIRW LEFTPAREN argumentList ')'
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:804:5: ( DOT primaryExpressionIRW LEFTPAREN argumentList ')' )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:804:5: DOT primaryExpressionIRW LEFTPAREN argumentList ')'
         {
         match(input,DOT,FOLLOW_DOT_in_synpred155_CFML4404); if (state.failed) return ;
 
@@ -21952,8 +21952,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred156_CFML
     public final void synpred156_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:805:8: ( LEFTPAREN argumentList RIGHTPAREN )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:805:8: LEFTPAREN argumentList RIGHTPAREN
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:805:8: ( LEFTPAREN argumentList RIGHTPAREN )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:805:8: LEFTPAREN argumentList RIGHTPAREN
         {
         match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_synpred156_CFML4435); if (state.failed) return ;
 
@@ -21972,8 +21972,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred157_CFML
     public final void synpred157_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:806:7: ( LEFTBRACKET impliesExpression RIGHTBRACKET )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:806:7: LEFTBRACKET impliesExpression RIGHTBRACKET
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:806:7: ( LEFTBRACKET impliesExpression RIGHTBRACKET )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:806:7: LEFTBRACKET impliesExpression RIGHTBRACKET
         {
         match(input,LEFTBRACKET,FOLLOW_LEFTBRACKET_in_synpred157_CFML4458); if (state.failed) return ;
 
@@ -21992,8 +21992,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred158_CFML
     public final void synpred158_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:807:7: ( DOT primaryExpressionIRW )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:807:7: DOT primaryExpressionIRW
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:807:7: ( DOT primaryExpressionIRW )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:807:7: DOT primaryExpressionIRW
         {
         match(input,DOT,FOLLOW_DOT_in_synpred158_CFML4481); if (state.failed) return ;
 
@@ -22010,8 +22010,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred163_CFML
     public final void synpred163_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:827:4: ( primaryExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:827:4: primaryExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:827:4: ( primaryExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:827:4: primaryExpression
         {
         pushFollow(FOLLOW_primaryExpression_in_synpred163_CFML4585);
         primaryExpression();
@@ -22026,8 +22026,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred196_CFML
     public final void synpred196_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:861:5: ( DEFAULT )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:861:5: DEFAULT
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:861:5: ( DEFAULT )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:861:5: DEFAULT
         {
         match(input,DEFAULT,FOLLOW_DEFAULT_in_synpred196_CFML4858); if (state.failed) return ;
 
@@ -22038,8 +22038,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred243_CFML
     public final void synpred243_CFML_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:24: ( identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:933:24: identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:24: ( identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:933:24: identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred243_CFML5296);
         identifier();

@@ -1,4 +1,4 @@
-// $ANTLR 3.4 /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g 2012-10-27 05:15:49
+// $ANTLR 3.4 C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g 2013-12-03 16:42:29
 
   package cfml.parsing.cfscript;
 
@@ -199,7 +199,7 @@ public class CFScriptTree extends TreeParser {
     }
 
     public String[] getTokenNames() { return CFScriptTree.tokenNames; }
-    public String getGrammarFileName() { return "/Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g"; }
 
      public boolean scriptMode = true;
 
@@ -232,7 +232,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "scriptBlock"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:88:1: scriptBlock returns [CFScriptStatement s] : (st= componentDeclaration | (e= element )* ( SCRIPTCLOSE | EOF ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:88:1: scriptBlock returns [CFScriptStatement s] : (st= componentDeclaration | (e= element )* ( SCRIPTCLOSE | EOF ) );
     public final CFScriptStatement scriptBlock() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -244,7 +244,7 @@ public class CFScriptTree extends TreeParser {
 
          s = new CFCompoundStatement(); 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:90:3: (st= componentDeclaration | (e= element )* ( SCRIPTCLOSE | EOF ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:90:3: (st= componentDeclaration | (e= element )* ( SCRIPTCLOSE | EOF ) )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -270,7 +270,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt2) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:90:5: st= componentDeclaration
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:90:5: st= componentDeclaration
                     {
                     pushFollow(FOLLOW_componentDeclaration_in_scriptBlock81);
                     st=componentDeclaration();
@@ -283,9 +283,9 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:91:5: (e= element )* ( SCRIPTCLOSE | EOF )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:91:5: (e= element )* ( SCRIPTCLOSE | EOF )
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:91:5: (e= element )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:91:5: (e= element )*
                     loop1:
                     do {
                         int alt1=2;
@@ -298,7 +298,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt1) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:91:7: e= element
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:91:7: e= element
                     	    {
                     	    pushFollow(FOLLOW_element_in_scriptBlock93);
                     	    e=element();
@@ -351,7 +351,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "element"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:95:1: element returns [CFScriptStatement s] : (st= functionDeclaration |st= statement );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:95:1: element returns [CFScriptStatement s] : (st= functionDeclaration |st= statement );
     public final CFScriptStatement element() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -360,7 +360,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:96:3: (st= functionDeclaration |st= statement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:96:3: (st= functionDeclaration |st= statement )
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -383,7 +383,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt3) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:96:5: st= functionDeclaration
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:96:5: st= functionDeclaration
                     {
                     pushFollow(FOLLOW_functionDeclaration_in_element139);
                     st=functionDeclaration();
@@ -396,7 +396,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:97:5: st= statement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:97:5: st= statement
                     {
                     pushFollow(FOLLOW_statement_in_element151);
                     st=statement();
@@ -428,7 +428,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "componentDeclaration"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:101:1: componentDeclaration returns [CFScriptStatement s] : ^(f= COMPDECL fa= componentAttributes body= componentGuts ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:101:1: componentDeclaration returns [CFScriptStatement s] : ^(f= COMPDECL fa= componentAttributes body= componentGuts ) ;
     public final CFScriptStatement componentDeclaration() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -440,8 +440,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:102:3: ( ^(f= COMPDECL fa= componentAttributes body= componentGuts ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:102:5: ^(f= COMPDECL fa= componentAttributes body= componentGuts )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:102:3: ( ^(f= COMPDECL fa= componentAttributes body= componentGuts ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:102:5: ^(f= COMPDECL fa= componentAttributes body= componentGuts )
             {
             f=(CommonTree)match(input,COMPDECL,FOLLOW_COMPDECL_in_componentDeclaration184); if (state.failed) return s;
 
@@ -485,7 +485,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "functionDeclaration"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:107:1: functionDeclaration returns [CFScriptStatement s] : ^(f= FUNCDECL (a= functionAccessType )? (rt= functionReturnType )? ^( FUNCTION_NAME i= identifier ) p= parameterList fa= functionAttributes body= compoundStatement ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:107:1: functionDeclaration returns [CFScriptStatement s] : ^(f= FUNCDECL (a= functionAccessType )? (rt= functionReturnType )? ^( FUNCTION_NAME i= identifier ) p= parameterList fa= functionAttributes body= compoundStatement ) ;
     public final CFScriptStatement functionDeclaration() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -505,13 +505,13 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:108:3: ( ^(f= FUNCDECL (a= functionAccessType )? (rt= functionReturnType )? ^( FUNCTION_NAME i= identifier ) p= parameterList fa= functionAttributes body= compoundStatement ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:108:5: ^(f= FUNCDECL (a= functionAccessType )? (rt= functionReturnType )? ^( FUNCTION_NAME i= identifier ) p= parameterList fa= functionAttributes body= compoundStatement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:108:3: ( ^(f= FUNCDECL (a= functionAccessType )? (rt= functionReturnType )? ^( FUNCTION_NAME i= identifier ) p= parameterList fa= functionAttributes body= compoundStatement ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:108:5: ^(f= FUNCDECL (a= functionAccessType )? (rt= functionReturnType )? ^( FUNCTION_NAME i= identifier ) p= parameterList fa= functionAttributes body= compoundStatement )
             {
             f=(CommonTree)match(input,FUNCDECL,FOLLOW_FUNCDECL_in_functionDeclaration223); if (state.failed) return s;
 
             match(input, Token.DOWN, null); if (state.failed) return s;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:108:19: (a= functionAccessType )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:108:19: (a= functionAccessType )?
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -520,7 +520,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt4) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:108:20: a= functionAccessType
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:108:20: a= functionAccessType
                     {
                     pushFollow(FOLLOW_functionAccessType_in_functionDeclaration228);
                     a=functionAccessType();
@@ -534,7 +534,7 @@ public class CFScriptTree extends TreeParser {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:108:43: (rt= functionReturnType )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:108:43: (rt= functionReturnType )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -543,7 +543,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt5) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:108:44: rt= functionReturnType
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:108:44: rt= functionReturnType
                     {
                     pushFollow(FOLLOW_functionReturnType_in_functionDeclaration235);
                     rt=functionReturnType();
@@ -614,7 +614,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "functionAccessType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:113:1: functionAccessType returns [String s] : ^(f= FUNCTION_ACCESS a= accessType ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:113:1: functionAccessType returns [String s] : ^(f= FUNCTION_ACCESS a= accessType ) ;
     public final String functionAccessType() throws RecognitionException {
         String s = null;
 
@@ -624,8 +624,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:114:3: ( ^(f= FUNCTION_ACCESS a= accessType ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:114:4: ^(f= FUNCTION_ACCESS a= accessType )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:114:3: ( ^(f= FUNCTION_ACCESS a= accessType ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:114:4: ^(f= FUNCTION_ACCESS a= accessType )
             {
             f=(CommonTree)match(input,FUNCTION_ACCESS,FOLLOW_FUNCTION_ACCESS_in_functionAccessType282); if (state.failed) return s;
 
@@ -661,13 +661,13 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "accessType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:117:1: accessType returns [String s] : ( PRIVATE | PUBLIC | REMOTE | PACKAGE );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:117:1: accessType returns [String s] : ( PRIVATE | PUBLIC | REMOTE | PACKAGE );
     public final String accessType() throws RecognitionException {
         String s = null;
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:118:3: ( PRIVATE | PUBLIC | REMOTE | PACKAGE )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:118:3: ( PRIVATE | PUBLIC | REMOTE | PACKAGE )
             int alt6=4;
             switch ( input.LA(1) ) {
             case PRIVATE:
@@ -701,7 +701,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt6) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:118:5: PRIVATE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:118:5: PRIVATE
                     {
                     match(input,PRIVATE,FOLLOW_PRIVATE_in_accessType306); if (state.failed) return s;
 
@@ -710,7 +710,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:119:5: PUBLIC
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:119:5: PUBLIC
                     {
                     match(input,PUBLIC,FOLLOW_PUBLIC_in_accessType314); if (state.failed) return s;
 
@@ -719,7 +719,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:120:5: REMOTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:120:5: REMOTE
                     {
                     match(input,REMOTE,FOLLOW_REMOTE_in_accessType322); if (state.failed) return s;
 
@@ -728,7 +728,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:121:5: PACKAGE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:121:5: PACKAGE
                     {
                     match(input,PACKAGE,FOLLOW_PACKAGE_in_accessType330); if (state.failed) return s;
 
@@ -756,7 +756,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "functionReturnType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:124:1: functionReturnType returns [String image] : ^( FUNCTION_RETURNTYPE ts= typeSpec ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:124:1: functionReturnType returns [String image] : ^( FUNCTION_RETURNTYPE ts= typeSpec ) ;
     public final String functionReturnType() throws RecognitionException {
         String image = null;
 
@@ -765,8 +765,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:125:3: ( ^( FUNCTION_RETURNTYPE ts= typeSpec ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:125:5: ^( FUNCTION_RETURNTYPE ts= typeSpec )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:125:3: ( ^( FUNCTION_RETURNTYPE ts= typeSpec ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:125:5: ^( FUNCTION_RETURNTYPE ts= typeSpec )
             {
             match(input,FUNCTION_RETURNTYPE,FOLLOW_FUNCTION_RETURNTYPE_in_functionReturnType351); if (state.failed) return image;
 
@@ -802,7 +802,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "functionAttributes"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:128:1: functionAttributes returns [Map<String,CFExpression> attr] : ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:128:1: functionAttributes returns [Map<String,CFExpression> attr] : ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )* ;
     public final Map<String,CFExpression> functionAttributes() throws RecognitionException {
         Map<String,CFExpression> attr = null;
 
@@ -816,10 +816,10 @@ public class CFScriptTree extends TreeParser {
           attr = new HashMap<String,CFExpression>();
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:132:3: ( ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:132:5: ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:132:3: ( ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:132:5: ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )*
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:132:5: ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:132:5: ( ^( FUNCTION_ATTRIBUTE i= identifier e= expression ) )*
             loop7:
             do {
                 int alt7=2;
@@ -832,7 +832,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt7) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:132:7: ^( FUNCTION_ATTRIBUTE i= identifier e= expression )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:132:7: ^( FUNCTION_ATTRIBUTE i= identifier e= expression )
             	    {
             	    match(input,FUNCTION_ATTRIBUTE,FOLLOW_FUNCTION_ATTRIBUTE_in_functionAttributes382); if (state.failed) return attr;
 
@@ -885,7 +885,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "parameterAttributes"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:138:1: parameterAttributes returns [Map<String,CFExpression> attr] : ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:138:1: parameterAttributes returns [Map<String,CFExpression> attr] : ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )* ;
     public final Map<String,CFExpression> parameterAttributes() throws RecognitionException {
         Map<String,CFExpression> attr = null;
 
@@ -899,10 +899,10 @@ public class CFScriptTree extends TreeParser {
           attr = new HashMap<String,CFExpression>();
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:142:3: ( ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:142:5: ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:142:3: ( ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:142:5: ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )*
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:142:5: ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:142:5: ( ^( PARAMETER_ATTRIBUTE i= identifier e= expression ) )*
             loop8:
             do {
                 int alt8=2;
@@ -915,7 +915,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt8) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:142:7: ^( PARAMETER_ATTRIBUTE i= identifier e= expression )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:142:7: ^( PARAMETER_ATTRIBUTE i= identifier e= expression )
             	    {
             	    match(input,PARAMETER_ATTRIBUTE,FOLLOW_PARAMETER_ATTRIBUTE_in_parameterAttributes423); if (state.failed) return attr;
 
@@ -968,7 +968,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "componentAttributes"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:148:1: componentAttributes returns [Map<String,CFExpression> attr] : ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:148:1: componentAttributes returns [Map<String,CFExpression> attr] : ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )* ;
     public final Map<String,CFExpression> componentAttributes() throws RecognitionException {
         Map<String,CFExpression> attr = null;
 
@@ -984,10 +984,10 @@ public class CFScriptTree extends TreeParser {
           attr = new HashMap<String,CFExpression>();
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:152:3: ( ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:152:5: ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:152:3: ( ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:152:5: ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )*
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:152:5: ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:152:5: ( ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression ) )*
             loop10:
             do {
                 int alt10=2;
@@ -1000,7 +1000,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt10) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:152:7: ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:152:7: ^( COMPONENT_ATTRIBUTE i= identifier ( COLON ii= identifier )? e= expression )
             	    {
             	    match(input,COMPONENT_ATTRIBUTE,FOLLOW_COMPONENT_ATTRIBUTE_in_componentAttributes464); if (state.failed) return attr;
 
@@ -1011,7 +1011,7 @@ public class CFScriptTree extends TreeParser {
             	    state._fsp--;
             	    if (state.failed) return attr;
 
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:152:42: ( COLON ii= identifier )?
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:152:42: ( COLON ii= identifier )?
             	    int alt9=2;
             	    int LA9_0 = input.LA(1);
 
@@ -1020,7 +1020,7 @@ public class CFScriptTree extends TreeParser {
             	    }
             	    switch (alt9) {
             	        case 1 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:152:43: COLON ii= identifier
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:152:43: COLON ii= identifier
             	            {
             	            match(input,COLON,FOLLOW_COLON_in_componentAttributes471); if (state.failed) return attr;
 
@@ -1082,7 +1082,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "typeSpec"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:162:1: typeSpec returns [String image] : (i1= type |i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )* |t= STRING_LITERAL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:162:1: typeSpec returns [String image] : (i1= type |i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )* |t= STRING_LITERAL );
     public final String typeSpec() throws RecognitionException {
         String image = null;
 
@@ -1097,7 +1097,7 @@ public class CFScriptTree extends TreeParser {
           StringBuilder sb = new StringBuilder();
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:166:3: (i1= type |i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )* |t= STRING_LITERAL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:166:3: (i1= type |i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )* |t= STRING_LITERAL )
             int alt13=3;
             switch ( input.LA(1) ) {
             case ANY:
@@ -1198,7 +1198,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt13) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:166:5: i1= type
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:166:5: i1= type
                     {
                     pushFollow(FOLLOW_type_in_typeSpec515);
                     i1=type();
@@ -1211,7 +1211,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:167:5: i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:167:5: i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )*
                     {
                     pushFollow(FOLLOW_identifier_in_typeSpec525);
                     i1=identifier();
@@ -1221,7 +1221,7 @@ public class CFScriptTree extends TreeParser {
 
                     if ( state.backtracking==0 ) { sb.append( i1.getName() ); }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:5: ( DOT (i2= identifier |i2= reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:5: ( DOT (i2= identifier |i2= reservedWord ) )*
                     loop12:
                     do {
                         int alt12=2;
@@ -1234,11 +1234,11 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:7: DOT (i2= identifier |i2= reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:7: DOT (i2= identifier |i2= reservedWord )
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_typeSpec535); if (state.failed) return image;
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:11: (i2= identifier |i2= reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:11: (i2= identifier |i2= reservedWord )
                     	    int alt11=2;
                     	    switch ( input.LA(1) ) {
                     	    case ABORT:
@@ -1670,7 +1670,7 @@ public class CFScriptTree extends TreeParser {
 
                     	    switch (alt11) {
                     	        case 1 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:13: i2= identifier
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:13: i2= identifier
                     	            {
                     	            pushFollow(FOLLOW_identifier_in_typeSpec541);
                     	            i2=identifier();
@@ -1681,7 +1681,7 @@ public class CFScriptTree extends TreeParser {
                     	            }
                     	            break;
                     	        case 2 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:29: i2= reservedWord
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:29: i2= reservedWord
                     	            {
                     	            pushFollow(FOLLOW_reservedWord_in_typeSpec547);
                     	            i2=reservedWord();
@@ -1714,7 +1714,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:173:5: t= STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:173:5: t= STRING_LITERAL
                     {
                     t=(CommonTree)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_typeSpec569); if (state.failed) return image;
 
@@ -1742,7 +1742,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "compoundStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:176:1: compoundStatement returns [CFScriptStatement s] : ^( LEFTCURLYBRACKET (statmt= statement )* RIGHTCURLYBRACKET ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:176:1: compoundStatement returns [CFScriptStatement s] : ^( LEFTCURLYBRACKET (statmt= statement )* RIGHTCURLYBRACKET ) ;
     public final CFScriptStatement compoundStatement() throws RecognitionException {
         CFScriptStatement s = null;
 
@@ -1752,13 +1752,13 @@ public class CFScriptTree extends TreeParser {
 
          s = new CFCompoundStatement(); 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:178:3: ( ^( LEFTCURLYBRACKET (statmt= statement )* RIGHTCURLYBRACKET ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:178:5: ^( LEFTCURLYBRACKET (statmt= statement )* RIGHTCURLYBRACKET )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:178:3: ( ^( LEFTCURLYBRACKET (statmt= statement )* RIGHTCURLYBRACKET ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:178:5: ^( LEFTCURLYBRACKET (statmt= statement )* RIGHTCURLYBRACKET )
             {
             match(input,LEFTCURLYBRACKET,FOLLOW_LEFTCURLYBRACKET_in_compoundStatement594); if (state.failed) return s;
 
             match(input, Token.DOWN, null); if (state.failed) return s;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:178:25: (statmt= statement )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:178:25: (statmt= statement )*
             loop14:
             do {
                 int alt14=2;
@@ -1771,7 +1771,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt14) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:178:27: statmt= statement
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:178:27: statmt= statement
             	    {
             	    pushFollow(FOLLOW_statement_in_compoundStatement602);
             	    statmt=statement();
@@ -1815,7 +1815,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "componentGuts"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:181:1: componentGuts returns [CFScriptStatement s] : ^( LEFTCURLYBRACKET (e= element )* RIGHTCURLYBRACKET ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:181:1: componentGuts returns [CFScriptStatement s] : ^( LEFTCURLYBRACKET (e= element )* RIGHTCURLYBRACKET ) ;
     public final CFScriptStatement componentGuts() throws RecognitionException {
         CFScriptStatement s = null;
 
@@ -1825,13 +1825,13 @@ public class CFScriptTree extends TreeParser {
 
          s = new CFCompoundStatement(); 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:183:3: ( ^( LEFTCURLYBRACKET (e= element )* RIGHTCURLYBRACKET ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:183:5: ^( LEFTCURLYBRACKET (e= element )* RIGHTCURLYBRACKET )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:183:3: ( ^( LEFTCURLYBRACKET (e= element )* RIGHTCURLYBRACKET ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:183:5: ^( LEFTCURLYBRACKET (e= element )* RIGHTCURLYBRACKET )
             {
             match(input,LEFTCURLYBRACKET,FOLLOW_LEFTCURLYBRACKET_in_componentGuts637); if (state.failed) return s;
 
             match(input, Token.DOWN, null); if (state.failed) return s;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:183:25: (e= element )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:183:25: (e= element )*
             loop15:
             do {
                 int alt15=2;
@@ -1844,7 +1844,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt15) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:183:27: e= element
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:183:27: e= element
             	    {
             	    pushFollow(FOLLOW_element_in_componentGuts643);
             	    e=element();
@@ -1888,7 +1888,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "statement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:186:1: statement returns [CFScriptStatement s] : ( ^(t= IF c= expression s1= statement (t= ELSE s2= statement )? ) |t= BREAK |t= CONTINUE |s1= returnStatement | ^(t= WHILE c= expression s1= statement ) | ^(t= DO s1= statement WHILE c= expression SEMICOLON ) |s1= forStatement |s1= switchStatement |s1= tryStatement |s2= compoundStatement |s1= tagOperatorStatement | (e1= expression ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:186:1: statement returns [CFScriptStatement s] : ( ^(t= IF c= expression s1= statement (t= ELSE s2= statement )? ) |t= BREAK |t= CONTINUE |s1= returnStatement | ^(t= WHILE c= expression s1= statement ) | ^(t= DO s1= statement WHILE c= expression SEMICOLON ) |s1= forStatement |s1= switchStatement |s1= tryStatement |s2= compoundStatement |s1= tagOperatorStatement | (e1= expression ) );
     public final CFScriptStatement statement() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -1904,7 +1904,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:187:3: ( ^(t= IF c= expression s1= statement (t= ELSE s2= statement )? ) |t= BREAK |t= CONTINUE |s1= returnStatement | ^(t= WHILE c= expression s1= statement ) | ^(t= DO s1= statement WHILE c= expression SEMICOLON ) |s1= forStatement |s1= switchStatement |s1= tryStatement |s2= compoundStatement |s1= tagOperatorStatement | (e1= expression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:187:3: ( ^(t= IF c= expression s1= statement (t= ELSE s2= statement )? ) |t= BREAK |t= CONTINUE |s1= returnStatement | ^(t= WHILE c= expression s1= statement ) | ^(t= DO s1= statement WHILE c= expression SEMICOLON ) |s1= forStatement |s1= switchStatement |s1= tryStatement |s2= compoundStatement |s1= tagOperatorStatement | (e1= expression ) )
             int alt17=12;
             int LA17_0 = input.LA(1);
 
@@ -2128,7 +2128,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt17) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:187:5: ^(t= IF c= expression s1= statement (t= ELSE s2= statement )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:187:5: ^(t= IF c= expression s1= statement (t= ELSE s2= statement )? )
                     {
                     t=(CommonTree)match(input,IF,FOLLOW_IF_in_statement680); if (state.failed) return s;
 
@@ -2145,7 +2145,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return s;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:187:39: (t= ELSE s2= statement )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:187:39: (t= ELSE s2= statement )?
                     int alt16=2;
                     int LA16_0 = input.LA(1);
 
@@ -2154,7 +2154,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt16) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:187:41: t= ELSE s2= statement
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:187:41: t= ELSE s2= statement
                             {
                             t=(CommonTree)match(input,ELSE,FOLLOW_ELSE_in_statement694); if (state.failed) return s;
 
@@ -2178,7 +2178,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:188:5: t= BREAK
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:188:5: t= BREAK
                     {
                     t=(CommonTree)match(input,BREAK,FOLLOW_BREAK_in_statement713); if (state.failed) return s;
 
@@ -2187,7 +2187,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:189:5: t= CONTINUE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:189:5: t= CONTINUE
                     {
                     t=(CommonTree)match(input,CONTINUE,FOLLOW_CONTINUE_in_statement723); if (state.failed) return s;
 
@@ -2196,7 +2196,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:190:5: s1= returnStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:190:5: s1= returnStatement
                     {
                     pushFollow(FOLLOW_returnStatement_in_statement733);
                     s1=returnStatement();
@@ -2209,7 +2209,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:191:5: ^(t= WHILE c= expression s1= statement )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:191:5: ^(t= WHILE c= expression s1= statement )
                     {
                     t=(CommonTree)match(input,WHILE,FOLLOW_WHILE_in_statement745); if (state.failed) return s;
 
@@ -2234,7 +2234,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:192:5: ^(t= DO s1= statement WHILE c= expression SEMICOLON )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:192:5: ^(t= DO s1= statement WHILE c= expression SEMICOLON )
                     {
                     t=(CommonTree)match(input,DO,FOLLOW_DO_in_statement767); if (state.failed) return s;
 
@@ -2263,7 +2263,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:193:5: s1= forStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:193:5: s1= forStatement
                     {
                     pushFollow(FOLLOW_forStatement_in_statement790);
                     s1=forStatement();
@@ -2276,7 +2276,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:194:5: s1= switchStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:194:5: s1= switchStatement
                     {
                     pushFollow(FOLLOW_switchStatement_in_statement801);
                     s1=switchStatement();
@@ -2289,7 +2289,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:195:5: s1= tryStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:195:5: s1= tryStatement
                     {
                     pushFollow(FOLLOW_tryStatement_in_statement811);
                     s1=tryStatement();
@@ -2302,7 +2302,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:196:5: s2= compoundStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:196:5: s2= compoundStatement
                     {
                     pushFollow(FOLLOW_compoundStatement_in_statement821);
                     s2=compoundStatement();
@@ -2315,7 +2315,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:197:5: s1= tagOperatorStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:197:5: s1= tagOperatorStatement
                     {
                     pushFollow(FOLLOW_tagOperatorStatement_in_statement831);
                     s1=tagOperatorStatement();
@@ -2328,10 +2328,10 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:198:5: (e1= expression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:198:5: (e1= expression )
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:198:5: (e1= expression )
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:198:7: e1= expression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:198:5: (e1= expression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:198:7: e1= expression
                     {
                     pushFollow(FOLLOW_expression_in_statement843);
                     e1=expression();
@@ -2366,7 +2366,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "returnStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:201:1: returnStatement returns [CFScriptStatement s ] : t= RETURN (c= expression )? ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:201:1: returnStatement returns [CFScriptStatement s ] : t= RETURN (c= expression )? ;
     public final CFScriptStatement returnStatement() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -2376,17 +2376,17 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:202:3: (t= RETURN (c= expression )? )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:202:5: t= RETURN (c= expression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:202:3: (t= RETURN (c= expression )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:202:5: t= RETURN (c= expression )?
             {
             t=(CommonTree)match(input,RETURN,FOLLOW_RETURN_in_returnStatement869); if (state.failed) return s;
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:202:14: (c= expression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:202:14: (c= expression )?
             int alt18=2;
             alt18 = dfa18.predict(input);
             switch (alt18) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:202:16: c= expression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:202:16: c= expression
                     {
                     pushFollow(FOLLOW_expression_in_returnStatement875);
                     c=expression();
@@ -2422,7 +2422,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "tryStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:205:1: tryStatement returns [CFScriptStatement s] : ^(t1= TRY s1= statement (c= catchStatement )* (f= finallyStatement )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:205:1: tryStatement returns [CFScriptStatement s] : ^(t1= TRY s1= statement (c= catchStatement )* (f= finallyStatement )? ) ;
     public final CFScriptStatement tryStatement() throws RecognitionException, ParseException {
         CFScriptStatement s = null;
 
@@ -2439,8 +2439,8 @@ public class CFScriptTree extends TreeParser {
           ArrayList<cfCatchClause> catchStatements = new ArrayList<cfCatchClause>();
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:209:3: ( ^(t1= TRY s1= statement (c= catchStatement )* (f= finallyStatement )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:209:5: ^(t1= TRY s1= statement (c= catchStatement )* (f= finallyStatement )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:209:3: ( ^(t1= TRY s1= statement (c= catchStatement )* (f= finallyStatement )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:209:5: ^(t1= TRY s1= statement (c= catchStatement )* (f= finallyStatement )? )
             {
             t1=(CommonTree)match(input,TRY,FOLLOW_TRY_in_tryStatement908); if (state.failed) return s;
 
@@ -2451,7 +2451,7 @@ public class CFScriptTree extends TreeParser {
             state._fsp--;
             if (state.failed) return s;
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:210:5: (c= catchStatement )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:210:5: (c= catchStatement )*
             loop19:
             do {
                 int alt19=2;
@@ -2464,7 +2464,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt19) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:210:7: c= catchStatement
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:210:7: c= catchStatement
             	    {
             	    pushFollow(FOLLOW_catchStatement_in_tryStatement923);
             	    c=catchStatement();
@@ -2483,7 +2483,7 @@ public class CFScriptTree extends TreeParser {
             } while (true);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:210:57: (f= finallyStatement )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:210:57: (f= finallyStatement )?
             int alt20=2;
             int LA20_0 = input.LA(1);
 
@@ -2492,7 +2492,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt20) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:210:58: f= finallyStatement
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:210:58: f= finallyStatement
                     {
                     pushFollow(FOLLOW_finallyStatement_in_tryStatement933);
                     f=finallyStatement();
@@ -2533,7 +2533,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "catchStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:216:1: catchStatement returns [cfCatchClause c] : ^(t1= CATCH e1= typeSpec e2= identifier s1= compoundStatement ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:216:1: catchStatement returns [cfCatchClause c] : ^(t1= CATCH e1= typeSpec e2= identifier s1= compoundStatement ) ;
     public final cfCatchClause catchStatement() throws RecognitionException {
         cfCatchClause c = null;
 
@@ -2547,8 +2547,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:217:3: ( ^(t1= CATCH e1= typeSpec e2= identifier s1= compoundStatement ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:217:5: ^(t1= CATCH e1= typeSpec e2= identifier s1= compoundStatement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:217:3: ( ^(t1= CATCH e1= typeSpec e2= identifier s1= compoundStatement ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:217:5: ^(t1= CATCH e1= typeSpec e2= identifier s1= compoundStatement )
             {
             t1=(CommonTree)match(input,CATCH,FOLLOW_CATCH_in_catchStatement964); if (state.failed) return c;
 
@@ -2598,7 +2598,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "finallyStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:222:1: finallyStatement returns [CFScriptStatement s] : ^( FINALLY s1= compoundStatement ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:222:1: finallyStatement returns [CFScriptStatement s] : ^( FINALLY s1= compoundStatement ) ;
     public final CFScriptStatement finallyStatement() throws RecognitionException {
         CFScriptStatement s = null;
 
@@ -2607,8 +2607,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:223:3: ( ^( FINALLY s1= compoundStatement ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:223:5: ^( FINALLY s1= compoundStatement )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:223:3: ( ^( FINALLY s1= compoundStatement ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:223:5: ^( FINALLY s1= compoundStatement )
             {
             match(input,FINALLY,FOLLOW_FINALLY_in_finallyStatement997); if (state.failed) return s;
 
@@ -2646,7 +2646,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "switchStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:228:1: switchStatement returns [CFScriptStatement s ] : ^(t1= SWITCH c= expression LEFTCURLYBRACKET (cs= caseStatement )* RIGHTCURLYBRACKET ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:228:1: switchStatement returns [CFScriptStatement s ] : ^(t1= SWITCH c= expression LEFTCURLYBRACKET (cs= caseStatement )* RIGHTCURLYBRACKET ) ;
     public final CFScriptStatement switchStatement() throws RecognitionException {
         CFScriptStatement s = null;
 
@@ -2661,8 +2661,8 @@ public class CFScriptTree extends TreeParser {
           ArrayList<CFCase> cases = new ArrayList<CFCase>(); 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:232:3: ( ^(t1= SWITCH c= expression LEFTCURLYBRACKET (cs= caseStatement )* RIGHTCURLYBRACKET ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:232:5: ^(t1= SWITCH c= expression LEFTCURLYBRACKET (cs= caseStatement )* RIGHTCURLYBRACKET )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:232:3: ( ^(t1= SWITCH c= expression LEFTCURLYBRACKET (cs= caseStatement )* RIGHTCURLYBRACKET ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:232:5: ^(t1= SWITCH c= expression LEFTCURLYBRACKET (cs= caseStatement )* RIGHTCURLYBRACKET )
             {
             t1=(CommonTree)match(input,SWITCH,FOLLOW_SWITCH_in_switchStatement1032); if (state.failed) return s;
 
@@ -2675,7 +2675,7 @@ public class CFScriptTree extends TreeParser {
 
             match(input,LEFTCURLYBRACKET,FOLLOW_LEFTCURLYBRACKET_in_switchStatement1038); if (state.failed) return s;
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:233:3: (cs= caseStatement )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:233:3: (cs= caseStatement )*
             loop21:
             do {
                 int alt21=2;
@@ -2688,7 +2688,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt21) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:233:5: cs= caseStatement
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:233:5: cs= caseStatement
             	    {
             	    pushFollow(FOLLOW_caseStatement_in_switchStatement1048);
             	    cs=caseStatement();
@@ -2734,7 +2734,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "caseStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:237:1: caseStatement returns [CFCase c] : ( ^( CASE e2= constantExpression COLON (s1= statement )* ) | ^( DEFAULT COLON (s1= statement )* ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:237:1: caseStatement returns [CFCase c] : ( ^( CASE e2= constantExpression COLON (s1= statement )* ) | ^( DEFAULT COLON (s1= statement )* ) );
     public final CFCase caseStatement() throws RecognitionException {
         CFCase c = null;
 
@@ -2748,7 +2748,7 @@ public class CFScriptTree extends TreeParser {
           ArrayList<CFScriptStatement> block = new ArrayList<CFScriptStatement>();
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:241:3: ( ^( CASE e2= constantExpression COLON (s1= statement )* ) | ^( DEFAULT COLON (s1= statement )* ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:241:3: ( ^( CASE e2= constantExpression COLON (s1= statement )* ) | ^( DEFAULT COLON (s1= statement )* ) )
             int alt24=2;
             int LA24_0 = input.LA(1);
 
@@ -2768,7 +2768,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt24) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:241:5: ^( CASE e2= constantExpression COLON (s1= statement )* )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:241:5: ^( CASE e2= constantExpression COLON (s1= statement )* )
                     {
                     match(input,CASE,FOLLOW_CASE_in_caseStatement1084); if (state.failed) return c;
 
@@ -2781,7 +2781,7 @@ public class CFScriptTree extends TreeParser {
 
                     match(input,COLON,FOLLOW_COLON_in_caseStatement1090); if (state.failed) return c;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:241:40: (s1= statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:241:40: (s1= statement )*
                     loop22:
                     do {
                         int alt22=2;
@@ -2794,7 +2794,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt22) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:241:42: s1= statement
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:241:42: s1= statement
                     	    {
                     	    pushFollow(FOLLOW_statement_in_caseStatement1096);
                     	    s1=statement();
@@ -2821,14 +2821,14 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:243:5: ^( DEFAULT COLON (s1= statement )* )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:243:5: ^( DEFAULT COLON (s1= statement )* )
                     {
                     match(input,DEFAULT,FOLLOW_DEFAULT_in_caseStatement1118); if (state.failed) return c;
 
                     match(input, Token.DOWN, null); if (state.failed) return c;
                     match(input,COLON,FOLLOW_COLON_in_caseStatement1120); if (state.failed) return c;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:243:21: (s1= statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:243:21: (s1= statement )*
                     loop23:
                     do {
                         int alt23=2;
@@ -2841,7 +2841,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt23) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:243:23: s1= statement
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:243:23: s1= statement
                     	    {
                     	    pushFollow(FOLLOW_statement_in_caseStatement1126);
                     	    s1=statement();
@@ -2887,7 +2887,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "constantExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:246:1: constantExpression returns [CFExpression e] : ( LEFTPAREN constantExpression RIGHTPAREN |op= MINUS (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL ) |t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL |t= STRING_LITERAL |t= BOOLEAN_LITERAL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:246:1: constantExpression returns [CFExpression e] : ( LEFTPAREN constantExpression RIGHTPAREN |op= MINUS (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL ) |t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL |t= STRING_LITERAL |t= BOOLEAN_LITERAL );
     public final CFExpression constantExpression() throws RecognitionException {
         CFExpression e = null;
 
@@ -2896,7 +2896,7 @@ public class CFScriptTree extends TreeParser {
         CommonTree t=null;
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:247:3: ( LEFTPAREN constantExpression RIGHTPAREN |op= MINUS (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL ) |t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL |t= STRING_LITERAL |t= BOOLEAN_LITERAL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:247:3: ( LEFTPAREN constantExpression RIGHTPAREN |op= MINUS (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL ) |t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL |t= STRING_LITERAL |t= BOOLEAN_LITERAL )
             int alt26=6;
             switch ( input.LA(1) ) {
             case LEFTPAREN:
@@ -2940,7 +2940,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt26) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:247:5: LEFTPAREN constantExpression RIGHTPAREN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:247:5: LEFTPAREN constantExpression RIGHTPAREN
                     {
                     match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_constantExpression1157); if (state.failed) return e;
 
@@ -2955,11 +2955,11 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:248:5: op= MINUS (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:248:5: op= MINUS (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL )
                     {
                     op=(CommonTree)match(input,MINUS,FOLLOW_MINUS_in_constantExpression1169); if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:248:14: (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:248:14: (t= INTEGER_LITERAL |t= FLOATING_POINT_LITERAL )
                     int alt25=2;
                     int LA25_0 = input.LA(1);
 
@@ -2979,14 +2979,14 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt25) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:248:16: t= INTEGER_LITERAL
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:248:16: t= INTEGER_LITERAL
                             {
                             t=(CommonTree)match(input,INTEGER_LITERAL,FOLLOW_INTEGER_LITERAL_in_constantExpression1175); if (state.failed) return e;
 
                             }
                             break;
                         case 2 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:248:36: t= FLOATING_POINT_LITERAL
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:248:36: t= FLOATING_POINT_LITERAL
                             {
                             t=(CommonTree)match(input,FLOATING_POINT_LITERAL,FOLLOW_FLOATING_POINT_LITERAL_in_constantExpression1181); if (state.failed) return e;
 
@@ -3001,7 +3001,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:249:5: t= INTEGER_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:249:5: t= INTEGER_LITERAL
                     {
                     t=(CommonTree)match(input,INTEGER_LITERAL,FOLLOW_INTEGER_LITERAL_in_constantExpression1194); if (state.failed) return e;
 
@@ -3010,7 +3010,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:250:5: t= FLOATING_POINT_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:250:5: t= FLOATING_POINT_LITERAL
                     {
                     t=(CommonTree)match(input,FLOATING_POINT_LITERAL,FOLLOW_FLOATING_POINT_LITERAL_in_constantExpression1212); if (state.failed) return e;
 
@@ -3019,7 +3019,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:251:5: t= STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:251:5: t= STRING_LITERAL
                     {
                     t=(CommonTree)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_constantExpression1225); if (state.failed) return e;
 
@@ -3028,7 +3028,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:252:5: t= BOOLEAN_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:252:5: t= BOOLEAN_LITERAL
                     {
                     t=(CommonTree)match(input,BOOLEAN_LITERAL,FOLLOW_BOOLEAN_LITERAL_in_constantExpression1246); if (state.failed) return e;
 
@@ -3056,7 +3056,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "forStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:257:1: forStatement returns [CFScriptStatement s] : ( ^(t= FOR ( VAR )? (e1= expression )? SEMICOLON (e2= expression )? SEMICOLON (e3= expression )? s1= statement ) | ^(t= FOR e= forInKey IN e1= expression s1= statement ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:257:1: forStatement returns [CFScriptStatement s] : ( ^(t= FOR ( VAR )? (e1= expression )? SEMICOLON (e2= expression )? SEMICOLON (e3= expression )? s1= statement ) | ^(t= FOR e= forInKey IN e1= expression s1= statement ) );
     public final CFScriptStatement forStatement() throws RecognitionException {
         CFScriptStatement s = null;
 
@@ -3074,7 +3074,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:3: ( ^(t= FOR ( VAR )? (e1= expression )? SEMICOLON (e2= expression )? SEMICOLON (e3= expression )? s1= statement ) | ^(t= FOR e= forInKey IN e1= expression s1= statement ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:3: ( ^(t= FOR ( VAR )? (e1= expression )? SEMICOLON (e2= expression )? SEMICOLON (e3= expression )? s1= statement ) | ^(t= FOR e= forInKey IN e1= expression s1= statement ) )
             int alt31=2;
             int LA31_0 = input.LA(1);
 
@@ -5193,12 +5193,12 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt31) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:5: ^(t= FOR ( VAR )? (e1= expression )? SEMICOLON (e2= expression )? SEMICOLON (e3= expression )? s1= statement )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:5: ^(t= FOR ( VAR )? (e1= expression )? SEMICOLON (e2= expression )? SEMICOLON (e3= expression )? s1= statement )
                     {
                     t=(CommonTree)match(input,FOR,FOLLOW_FOR_in_forStatement1284); if (state.failed) return s;
 
                     match(input, Token.DOWN, null); if (state.failed) return s;
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:13: ( VAR )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:13: ( VAR )?
                     int alt27=2;
                     int LA27_0 = input.LA(1);
 
@@ -5211,7 +5211,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt27) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:13: VAR
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:13: VAR
                             {
                             match(input,VAR,FOLLOW_VAR_in_forStatement1286); if (state.failed) return s;
 
@@ -5221,7 +5221,7 @@ public class CFScriptTree extends TreeParser {
                     }
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:18: (e1= expression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:18: (e1= expression )?
                     int alt28=2;
                     int LA28_0 = input.LA(1);
 
@@ -5230,7 +5230,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt28) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:19: e1= expression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:19: e1= expression
                             {
                             pushFollow(FOLLOW_expression_in_forStatement1292);
                             e1=expression();
@@ -5246,7 +5246,7 @@ public class CFScriptTree extends TreeParser {
 
                     match(input,SEMICOLON,FOLLOW_SEMICOLON_in_forStatement1296); if (state.failed) return s;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:45: (e2= expression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:45: (e2= expression )?
                     int alt29=2;
                     int LA29_0 = input.LA(1);
 
@@ -5255,7 +5255,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt29) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:46: e2= expression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:46: e2= expression
                             {
                             pushFollow(FOLLOW_expression_in_forStatement1301);
                             e2=expression();
@@ -5271,12 +5271,12 @@ public class CFScriptTree extends TreeParser {
 
                     match(input,SEMICOLON,FOLLOW_SEMICOLON_in_forStatement1305); if (state.failed) return s;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:72: (e3= expression )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:72: (e3= expression )?
                     int alt30=2;
                     alt30 = dfa30.predict(input);
                     switch (alt30) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:73: e3= expression
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:73: e3= expression
                             {
                             pushFollow(FOLLOW_expression_in_forStatement1310);
                             e3=expression();
@@ -5306,7 +5306,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:261:5: ^(t= FOR e= forInKey IN e1= expression s1= statement )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:261:5: ^(t= FOR e= forInKey IN e1= expression s1= statement )
                     {
                     t=(CommonTree)match(input,FOR,FOLLOW_FOR_in_forStatement1329); if (state.failed) return s;
 
@@ -5360,7 +5360,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "forInKey"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:266:1: forInKey returns [CFExpression e] : ( VAR )? t1= identifier ( DOT (t2= identifier |t2= reservedWord ) )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:266:1: forInKey returns [CFExpression e] : ( VAR )? t1= identifier ( DOT (t2= identifier |t2= reservedWord ) )* ;
     public final CFExpression forInKey() throws RecognitionException {
         CFExpression e = null;
 
@@ -5371,10 +5371,10 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:267:3: ( ( VAR )? t1= identifier ( DOT (t2= identifier |t2= reservedWord ) )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:267:5: ( VAR )? t1= identifier ( DOT (t2= identifier |t2= reservedWord ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:267:3: ( ( VAR )? t1= identifier ( DOT (t2= identifier |t2= reservedWord ) )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:267:5: ( VAR )? t1= identifier ( DOT (t2= identifier |t2= reservedWord ) )*
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:267:5: ( VAR )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:267:5: ( VAR )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -5387,7 +5387,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt32) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:267:5: VAR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:267:5: VAR
                     {
                     match(input,VAR,FOLLOW_VAR_in_forInKey1365); if (state.failed) return e;
 
@@ -5405,7 +5405,7 @@ public class CFScriptTree extends TreeParser {
 
             if ( state.backtracking==0 ) { e = t1; }
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:268:5: ( DOT (t2= identifier |t2= reservedWord ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:268:5: ( DOT (t2= identifier |t2= reservedWord ) )*
             loop34:
             do {
                 int alt34=2;
@@ -5418,11 +5418,11 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt34) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:269:7: DOT (t2= identifier |t2= reservedWord )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:269:7: DOT (t2= identifier |t2= reservedWord )
             	    {
             	    match(input,DOT,FOLLOW_DOT_in_forInKey1386); if (state.failed) return e;
 
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:269:11: (t2= identifier |t2= reservedWord )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:269:11: (t2= identifier |t2= reservedWord )
             	    int alt33=2;
             	    switch ( input.LA(1) ) {
             	    case ABORT:
@@ -5854,7 +5854,7 @@ public class CFScriptTree extends TreeParser {
 
             	    switch (alt33) {
             	        case 1 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:269:13: t2= identifier
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:269:13: t2= identifier
             	            {
             	            pushFollow(FOLLOW_identifier_in_forInKey1392);
             	            t2=identifier();
@@ -5865,7 +5865,7 @@ public class CFScriptTree extends TreeParser {
             	            }
             	            break;
             	        case 2 :
-            	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:269:29: t2= reservedWord
+            	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:269:29: t2= reservedWord
             	            {
             	            pushFollow(FOLLOW_reservedWord_in_forInKey1398);
             	            t2=reservedWord();
@@ -5915,7 +5915,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "parameterList"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:280:1: parameterList returns [ArrayList<CFFunctionParameter> v] : (p= parameter )* ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:280:1: parameterList returns [ArrayList<CFFunctionParameter> v] : (p= parameter )* ;
     public final ArrayList<CFFunctionParameter> parameterList() throws RecognitionException {
         ArrayList<CFFunctionParameter> v = null;
 
@@ -5925,10 +5925,10 @@ public class CFScriptTree extends TreeParser {
 
          v = new ArrayList<CFFunctionParameter>(); 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:282:3: ( (p= parameter )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:282:5: (p= parameter )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:282:3: ( (p= parameter )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:282:5: (p= parameter )*
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:282:5: (p= parameter )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:282:5: (p= parameter )*
             loop35:
             do {
                 int alt35=2;
@@ -5941,7 +5941,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt35) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:282:7: p= parameter
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:282:7: p= parameter
             	    {
             	    pushFollow(FOLLOW_parameter_in_parameterList1444);
             	    p=parameter();
@@ -5980,7 +5980,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "parameter"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:285:1: parameter returns [CFFunctionParameter s] : ^( FUNCTION_PARAMETER (r= REQUIRED )? (t= parameterType )? i= identifier ( EQUALSOP d= expression )? attr= parameterAttributes ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:285:1: parameter returns [CFFunctionParameter s] : ^( FUNCTION_PARAMETER (r= REQUIRED )? (t= parameterType )? i= identifier ( EQUALSOP d= expression )? attr= parameterAttributes ) ;
     public final CFFunctionParameter parameter() throws RecognitionException {
         CFFunctionParameter s = null;
 
@@ -5997,13 +5997,13 @@ public class CFScriptTree extends TreeParser {
 
          d = null; t=null;
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:3: ( ^( FUNCTION_PARAMETER (r= REQUIRED )? (t= parameterType )? i= identifier ( EQUALSOP d= expression )? attr= parameterAttributes ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:5: ^( FUNCTION_PARAMETER (r= REQUIRED )? (t= parameterType )? i= identifier ( EQUALSOP d= expression )? attr= parameterAttributes )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:3: ( ^( FUNCTION_PARAMETER (r= REQUIRED )? (t= parameterType )? i= identifier ( EQUALSOP d= expression )? attr= parameterAttributes ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:5: ^( FUNCTION_PARAMETER (r= REQUIRED )? (t= parameterType )? i= identifier ( EQUALSOP d= expression )? attr= parameterAttributes )
             {
             match(input,FUNCTION_PARAMETER,FOLLOW_FUNCTION_PARAMETER_in_parameter1475); if (state.failed) return s;
 
             match(input, Token.DOWN, null); if (state.failed) return s;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:26: (r= REQUIRED )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:26: (r= REQUIRED )?
             int alt36=2;
             int LA36_0 = input.LA(1);
 
@@ -6016,7 +6016,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt36) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:27: r= REQUIRED
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:27: r= REQUIRED
                     {
                     r=(CommonTree)match(input,REQUIRED,FOLLOW_REQUIRED_in_parameter1480); if (state.failed) return s;
 
@@ -6026,7 +6026,7 @@ public class CFScriptTree extends TreeParser {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:40: (t= parameterType )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:40: (t= parameterType )?
             int alt37=2;
             int LA37_0 = input.LA(1);
 
@@ -6035,7 +6035,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt37) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:41: t= parameterType
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:41: t= parameterType
                     {
                     pushFollow(FOLLOW_parameterType_in_parameter1487);
                     t=parameterType();
@@ -6055,7 +6055,7 @@ public class CFScriptTree extends TreeParser {
             state._fsp--;
             if (state.failed) return s;
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:72: ( EQUALSOP d= expression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:72: ( EQUALSOP d= expression )?
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -6064,7 +6064,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt38) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:287:73: EQUALSOP d= expression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:287:73: EQUALSOP d= expression
                     {
                     match(input,EQUALSOP,FOLLOW_EQUALSOP_in_parameter1496); if (state.failed) return s;
 
@@ -6113,7 +6113,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "parameterType"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:292:1: parameterType returns [String image] : ^( PARAMETER_TYPE ts= typeSpec ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:292:1: parameterType returns [String image] : ^( PARAMETER_TYPE ts= typeSpec ) ;
     public final String parameterType() throws RecognitionException {
         String image = null;
 
@@ -6122,8 +6122,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:293:3: ( ^( PARAMETER_TYPE ts= typeSpec ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:293:5: ^( PARAMETER_TYPE ts= typeSpec )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:293:3: ( ^( PARAMETER_TYPE ts= typeSpec ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:293:5: ^( PARAMETER_TYPE ts= typeSpec )
             {
             match(input,PARAMETER_TYPE,FOLLOW_PARAMETER_TYPE_in_parameterType1530); if (state.failed) return image;
 
@@ -6159,7 +6159,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "tagOperatorStatement"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:296:1: tagOperatorStatement returns [CFScriptStatement e] : ( ^(t1= INCLUDE e1= memberExpression ) | ^(t1= IMPORT e2= componentPath ( DOT '*' )? ) | ^(t1= ABORTSTATEMENT (s1= memberExpression )? ) | ^(t1= THROWSTATEMENT (s1= memberExpression )? ) | ^(t1= EXITSTATEMENT (s1= memberExpression )? ) |t1= RETHROWSTATEMENT | ^(t1= PARAMSTATEMENT attr= paramStatementAttributes ) | ^(t1= PROPERTYSTATEMENT attr= paramStatementAttributes ) | ^(t1= LOCKSTATEMENT attr= paramStatementAttributes body= compoundStatement ) | ^(t1= THREADSTATEMENT attr= paramStatementAttributes (body= compoundStatement )? ) | ^(t1= TRANSACTIONSTATEMENT (attr= paramStatementAttributes )* (body= compoundStatement )? ) | ^(t1= CFMLFUNCTIONSTATEMENT fs= cfmlFunction attr= paramStatementAttributes (body= compoundStatement )? ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:296:1: tagOperatorStatement returns [CFScriptStatement e] : ( ^(t1= INCLUDE e1= memberExpression ) | ^(t1= IMPORT e2= componentPath ( DOT '*' )? ) | ^(t1= ABORTSTATEMENT (s1= memberExpression )? ) | ^(t1= THROWSTATEMENT (s1= memberExpression )? ) | ^(t1= EXITSTATEMENT (s1= memberExpression )? ) |t1= RETHROWSTATEMENT | ^(t1= PARAMSTATEMENT attr= paramStatementAttributes ) | ^(t1= PROPERTYSTATEMENT attr= paramStatementAttributes ) | ^(t1= LOCKSTATEMENT attr= paramStatementAttributes body= compoundStatement ) | ^(t1= THREADSTATEMENT attr= paramStatementAttributes (body= compoundStatement )? ) | ^(t1= TRANSACTIONSTATEMENT (attr= paramStatementAttributes )* (body= compoundStatement )? ) | ^(t1= CFMLFUNCTIONSTATEMENT fs= cfmlFunction attr= paramStatementAttributes (body= compoundStatement )? ) );
     public final CFScriptStatement tagOperatorStatement() throws RecognitionException {
         CFScriptStatement e = null;
 
@@ -6179,7 +6179,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:297:3: ( ^(t1= INCLUDE e1= memberExpression ) | ^(t1= IMPORT e2= componentPath ( DOT '*' )? ) | ^(t1= ABORTSTATEMENT (s1= memberExpression )? ) | ^(t1= THROWSTATEMENT (s1= memberExpression )? ) | ^(t1= EXITSTATEMENT (s1= memberExpression )? ) |t1= RETHROWSTATEMENT | ^(t1= PARAMSTATEMENT attr= paramStatementAttributes ) | ^(t1= PROPERTYSTATEMENT attr= paramStatementAttributes ) | ^(t1= LOCKSTATEMENT attr= paramStatementAttributes body= compoundStatement ) | ^(t1= THREADSTATEMENT attr= paramStatementAttributes (body= compoundStatement )? ) | ^(t1= TRANSACTIONSTATEMENT (attr= paramStatementAttributes )* (body= compoundStatement )? ) | ^(t1= CFMLFUNCTIONSTATEMENT fs= cfmlFunction attr= paramStatementAttributes (body= compoundStatement )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:297:3: ( ^(t1= INCLUDE e1= memberExpression ) | ^(t1= IMPORT e2= componentPath ( DOT '*' )? ) | ^(t1= ABORTSTATEMENT (s1= memberExpression )? ) | ^(t1= THROWSTATEMENT (s1= memberExpression )? ) | ^(t1= EXITSTATEMENT (s1= memberExpression )? ) |t1= RETHROWSTATEMENT | ^(t1= PARAMSTATEMENT attr= paramStatementAttributes ) | ^(t1= PROPERTYSTATEMENT attr= paramStatementAttributes ) | ^(t1= LOCKSTATEMENT attr= paramStatementAttributes body= compoundStatement ) | ^(t1= THREADSTATEMENT attr= paramStatementAttributes (body= compoundStatement )? ) | ^(t1= TRANSACTIONSTATEMENT (attr= paramStatementAttributes )* (body= compoundStatement )? ) | ^(t1= CFMLFUNCTIONSTATEMENT fs= cfmlFunction attr= paramStatementAttributes (body= compoundStatement )? ) )
             int alt47=12;
             switch ( input.LA(1) ) {
             case INCLUDE:
@@ -6253,7 +6253,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt47) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:297:5: ^(t1= INCLUDE e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:297:5: ^(t1= INCLUDE e1= memberExpression )
                     {
                     t1=(CommonTree)match(input,INCLUDE,FOLLOW_INCLUDE_in_tagOperatorStatement1559); if (state.failed) return e;
 
@@ -6272,7 +6272,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:298:5: ^(t1= IMPORT e2= componentPath ( DOT '*' )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:298:5: ^(t1= IMPORT e2= componentPath ( DOT '*' )? )
                     {
                     t1=(CommonTree)match(input,IMPORT,FOLLOW_IMPORT_in_tagOperatorStatement1575); if (state.failed) return e;
 
@@ -6283,7 +6283,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:298:34: ( DOT '*' )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:298:34: ( DOT '*' )?
                     int alt39=2;
                     int LA39_0 = input.LA(1);
 
@@ -6292,7 +6292,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt39) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:298:35: DOT '*'
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:298:35: DOT '*'
                             {
                             match(input,DOT,FOLLOW_DOT_in_tagOperatorStatement1582); if (state.failed) return e;
 
@@ -6312,13 +6312,13 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:299:5: ^(t1= ABORTSTATEMENT (s1= memberExpression )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:299:5: ^(t1= ABORTSTATEMENT (s1= memberExpression )? )
                     {
                     t1=(CommonTree)match(input,ABORTSTATEMENT,FOLLOW_ABORTSTATEMENT_in_tagOperatorStatement1597); if (state.failed) return e;
 
                     if ( input.LA(1)==Token.DOWN ) {
                         match(input, Token.DOWN, null); if (state.failed) return e;
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:299:25: (s1= memberExpression )?
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:299:25: (s1= memberExpression )?
                         int alt40=2;
                         int LA40_0 = input.LA(1);
 
@@ -6327,7 +6327,7 @@ public class CFScriptTree extends TreeParser {
                         }
                         switch (alt40) {
                             case 1 :
-                                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:299:26: s1= memberExpression
+                                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:299:26: s1= memberExpression
                                 {
                                 pushFollow(FOLLOW_memberExpression_in_tagOperatorStatement1602);
                                 s1=memberExpression();
@@ -6350,13 +6350,13 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:300:5: ^(t1= THROWSTATEMENT (s1= memberExpression )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:300:5: ^(t1= THROWSTATEMENT (s1= memberExpression )? )
                     {
                     t1=(CommonTree)match(input,THROWSTATEMENT,FOLLOW_THROWSTATEMENT_in_tagOperatorStatement1616); if (state.failed) return e;
 
                     if ( input.LA(1)==Token.DOWN ) {
                         match(input, Token.DOWN, null); if (state.failed) return e;
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:300:25: (s1= memberExpression )?
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:300:25: (s1= memberExpression )?
                         int alt41=2;
                         int LA41_0 = input.LA(1);
 
@@ -6365,7 +6365,7 @@ public class CFScriptTree extends TreeParser {
                         }
                         switch (alt41) {
                             case 1 :
-                                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:300:26: s1= memberExpression
+                                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:300:26: s1= memberExpression
                                 {
                                 pushFollow(FOLLOW_memberExpression_in_tagOperatorStatement1621);
                                 s1=memberExpression();
@@ -6388,13 +6388,13 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:301:5: ^(t1= EXITSTATEMENT (s1= memberExpression )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:301:5: ^(t1= EXITSTATEMENT (s1= memberExpression )? )
                     {
                     t1=(CommonTree)match(input,EXITSTATEMENT,FOLLOW_EXITSTATEMENT_in_tagOperatorStatement1635); if (state.failed) return e;
 
                     if ( input.LA(1)==Token.DOWN ) {
                         match(input, Token.DOWN, null); if (state.failed) return e;
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:301:24: (s1= memberExpression )?
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:301:24: (s1= memberExpression )?
                         int alt42=2;
                         int LA42_0 = input.LA(1);
 
@@ -6403,7 +6403,7 @@ public class CFScriptTree extends TreeParser {
                         }
                         switch (alt42) {
                             case 1 :
-                                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:301:25: s1= memberExpression
+                                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:301:25: s1= memberExpression
                                 {
                                 pushFollow(FOLLOW_memberExpression_in_tagOperatorStatement1640);
                                 s1=memberExpression();
@@ -6426,7 +6426,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:302:5: t1= RETHROWSTATEMENT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:302:5: t1= RETHROWSTATEMENT
                     {
                     t1=(CommonTree)match(input,RETHROWSTATEMENT,FOLLOW_RETHROWSTATEMENT_in_tagOperatorStatement1653); if (state.failed) return e;
 
@@ -6435,7 +6435,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:303:5: ^(t1= PARAMSTATEMENT attr= paramStatementAttributes )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:303:5: ^(t1= PARAMSTATEMENT attr= paramStatementAttributes )
                     {
                     t1=(CommonTree)match(input,PARAMSTATEMENT,FOLLOW_PARAMSTATEMENT_in_tagOperatorStatement1664); if (state.failed) return e;
 
@@ -6454,7 +6454,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:304:5: ^(t1= PROPERTYSTATEMENT attr= paramStatementAttributes )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:304:5: ^(t1= PROPERTYSTATEMENT attr= paramStatementAttributes )
                     {
                     t1=(CommonTree)match(input,PROPERTYSTATEMENT,FOLLOW_PROPERTYSTATEMENT_in_tagOperatorStatement1679); if (state.failed) return e;
 
@@ -6473,7 +6473,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:305:5: ^(t1= LOCKSTATEMENT attr= paramStatementAttributes body= compoundStatement )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:305:5: ^(t1= LOCKSTATEMENT attr= paramStatementAttributes body= compoundStatement )
                     {
                     t1=(CommonTree)match(input,LOCKSTATEMENT,FOLLOW_LOCKSTATEMENT_in_tagOperatorStatement1694); if (state.failed) return e;
 
@@ -6498,7 +6498,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:306:5: ^(t1= THREADSTATEMENT attr= paramStatementAttributes (body= compoundStatement )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:306:5: ^(t1= THREADSTATEMENT attr= paramStatementAttributes (body= compoundStatement )? )
                     {
                     t1=(CommonTree)match(input,THREADSTATEMENT,FOLLOW_THREADSTATEMENT_in_tagOperatorStatement1713); if (state.failed) return e;
 
@@ -6509,7 +6509,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:306:56: (body= compoundStatement )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:306:56: (body= compoundStatement )?
                     int alt43=2;
                     int LA43_0 = input.LA(1);
 
@@ -6518,7 +6518,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt43) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:306:57: body= compoundStatement
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:306:57: body= compoundStatement
                             {
                             pushFollow(FOLLOW_compoundStatement_in_tagOperatorStatement1722);
                             body=compoundStatement();
@@ -6540,13 +6540,13 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:307:5: ^(t1= TRANSACTIONSTATEMENT (attr= paramStatementAttributes )* (body= compoundStatement )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:307:5: ^(t1= TRANSACTIONSTATEMENT (attr= paramStatementAttributes )* (body= compoundStatement )? )
                     {
                     t1=(CommonTree)match(input,TRANSACTIONSTATEMENT,FOLLOW_TRANSACTIONSTATEMENT_in_tagOperatorStatement1735); if (state.failed) return e;
 
                     if ( input.LA(1)==Token.DOWN ) {
                         match(input, Token.DOWN, null); if (state.failed) return e;
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:307:31: (attr= paramStatementAttributes )*
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:307:31: (attr= paramStatementAttributes )*
                         loop44:
                         do {
                             int alt44=2;
@@ -6559,7 +6559,7 @@ public class CFScriptTree extends TreeParser {
 
                             switch (alt44) {
                         	case 1 :
-                        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:307:32: attr= paramStatementAttributes
+                        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:307:32: attr= paramStatementAttributes
                         	    {
                         	    pushFollow(FOLLOW_paramStatementAttributes_in_tagOperatorStatement1740);
                         	    attr=paramStatementAttributes();
@@ -6576,7 +6576,7 @@ public class CFScriptTree extends TreeParser {
                         } while (true);
 
 
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:307:64: (body= compoundStatement )?
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:307:64: (body= compoundStatement )?
                         int alt45=2;
                         int LA45_0 = input.LA(1);
 
@@ -6585,7 +6585,7 @@ public class CFScriptTree extends TreeParser {
                         }
                         switch (alt45) {
                             case 1 :
-                                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:307:65: body= compoundStatement
+                                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:307:65: body= compoundStatement
                                 {
                                 pushFollow(FOLLOW_compoundStatement_in_tagOperatorStatement1747);
                                 body=compoundStatement();
@@ -6608,7 +6608,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:308:5: ^(t1= CFMLFUNCTIONSTATEMENT fs= cfmlFunction attr= paramStatementAttributes (body= compoundStatement )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:308:5: ^(t1= CFMLFUNCTIONSTATEMENT fs= cfmlFunction attr= paramStatementAttributes (body= compoundStatement )? )
                     {
                     t1=(CommonTree)match(input,CFMLFUNCTIONSTATEMENT,FOLLOW_CFMLFUNCTIONSTATEMENT_in_tagOperatorStatement1760); if (state.failed) return e;
 
@@ -6625,7 +6625,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:308:78: (body= compoundStatement )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:308:78: (body= compoundStatement )?
                     int alt46=2;
                     int LA46_0 = input.LA(1);
 
@@ -6634,7 +6634,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt46) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:308:79: body= compoundStatement
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:308:79: body= compoundStatement
                             {
                             pushFollow(FOLLOW_compoundStatement_in_tagOperatorStatement1773);
                             body=compoundStatement();
@@ -6675,7 +6675,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "paramStatementAttributes"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:312:1: paramStatementAttributes returns [Map<String,CFExpression> attr] : ( ^( EQUALSOP i= identifier e= expression ) )+ ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:312:1: paramStatementAttributes returns [Map<String,CFExpression> attr] : ( ^( EQUALSOP i= identifier e= expression ) )+ ;
     public final Map<String,CFExpression> paramStatementAttributes() throws RecognitionException {
         Map<String,CFExpression> attr = null;
 
@@ -6687,10 +6687,10 @@ public class CFScriptTree extends TreeParser {
 
          attr = new HashMap<String,CFExpression>(); 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:314:3: ( ( ^( EQUALSOP i= identifier e= expression ) )+ )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:314:5: ( ^( EQUALSOP i= identifier e= expression ) )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:314:3: ( ( ^( EQUALSOP i= identifier e= expression ) )+ )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:314:5: ( ^( EQUALSOP i= identifier e= expression ) )+
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:314:5: ( ^( EQUALSOP i= identifier e= expression ) )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:314:5: ( ^( EQUALSOP i= identifier e= expression ) )+
             int cnt48=0;
             loop48:
             do {
@@ -6710,7 +6710,7 @@ public class CFScriptTree extends TreeParser {
 
                 switch (alt48) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:314:7: ^( EQUALSOP i= identifier e= expression )
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:314:7: ^( EQUALSOP i= identifier e= expression )
             	    {
             	    match(input,EQUALSOP,FOLLOW_EQUALSOP_in_paramStatementAttributes1802); if (state.failed) return attr;
 
@@ -6766,7 +6766,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "expression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:319:1: expression returns [CFExpression e] : (be= binaryExpression |pe= memberExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:319:1: expression returns [CFExpression e] : (be= binaryExpression |pe= memberExpression );
     public final CFExpression expression() throws RecognitionException {
         CFExpression e = null;
 
@@ -6777,12 +6777,12 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:320:3: (be= binaryExpression |pe= memberExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:320:3: (be= binaryExpression |pe= memberExpression )
             int alt49=2;
             alt49 = dfa49.predict(input);
             switch (alt49) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:320:6: be= binaryExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:320:6: be= binaryExpression
                     {
                     pushFollow(FOLLOW_binaryExpression_in_expression1843);
                     be=binaryExpression();
@@ -6795,7 +6795,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:321:5: pe= memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:321:5: pe= memberExpression
                     {
                     pushFollow(FOLLOW_memberExpression_in_expression1854);
                     pe=memberExpression();
@@ -6827,7 +6827,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "localAssignmentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:324:1: localAssignmentExpression returns [CFExpression e] : ^(op= VARLOCAL e1= identifier ( EQUALSOP e2= memberExpression )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:324:1: localAssignmentExpression returns [CFExpression e] : ^(op= VARLOCAL e1= identifier ( EQUALSOP e2= memberExpression )? ) ;
     public final CFExpression localAssignmentExpression() throws RecognitionException {
         CFExpression e = null;
 
@@ -6839,8 +6839,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:325:3: ( ^(op= VARLOCAL e1= identifier ( EQUALSOP e2= memberExpression )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:325:5: ^(op= VARLOCAL e1= identifier ( EQUALSOP e2= memberExpression )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:325:3: ( ^(op= VARLOCAL e1= identifier ( EQUALSOP e2= memberExpression )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:325:5: ^(op= VARLOCAL e1= identifier ( EQUALSOP e2= memberExpression )? )
             {
             op=(CommonTree)match(input,VARLOCAL,FOLLOW_VARLOCAL_in_localAssignmentExpression1878); if (state.failed) return e;
 
@@ -6851,7 +6851,7 @@ public class CFScriptTree extends TreeParser {
             state._fsp--;
             if (state.failed) return e;
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:325:34: ( EQUALSOP e2= memberExpression )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:325:34: ( EQUALSOP e2= memberExpression )?
             int alt50=2;
             int LA50_0 = input.LA(1);
 
@@ -6860,7 +6860,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt50) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:325:36: EQUALSOP e2= memberExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:325:36: EQUALSOP e2= memberExpression
                     {
                     match(input,EQUALSOP,FOLLOW_EQUALSOP_in_localAssignmentExpression1886); if (state.failed) return e;
 
@@ -6903,7 +6903,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "ternary"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:330:1: ternary returns [CFAssignmentExpression e] : ^(op= TERNARY e1= memberExpression e2= memberExpression e3= memberExpression ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:330:1: ternary returns [CFAssignmentExpression e] : ^(op= TERNARY e1= memberExpression e2= memberExpression e3= memberExpression ) ;
     public final CFAssignmentExpression ternary() throws RecognitionException {
         CFAssignmentExpression e = null;
 
@@ -6917,8 +6917,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:331:3: ( ^(op= TERNARY e1= memberExpression e2= memberExpression e3= memberExpression ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:331:5: ^(op= TERNARY e1= memberExpression e2= memberExpression e3= memberExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:331:3: ( ^(op= TERNARY e1= memberExpression e2= memberExpression e3= memberExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:331:5: ^(op= TERNARY e1= memberExpression e2= memberExpression e3= memberExpression )
             {
             op=(CommonTree)match(input,TERNARY,FOLLOW_TERNARY_in_ternary1916); if (state.failed) return e;
 
@@ -6968,7 +6968,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "assignmentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:336:1: assignmentExpression returns [CFAssignmentExpression e] : (te= ternary | ^(op= EQUALSOP e1= memberExpression e2= memberExpression ) | ^(op= PLUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MINUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= STAREQUALS e1= memberExpression e2= memberExpression ) | ^(op= SLASHEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MODEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:336:1: assignmentExpression returns [CFAssignmentExpression e] : (te= ternary | ^(op= EQUALSOP e1= memberExpression e2= memberExpression ) | ^(op= PLUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MINUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= STAREQUALS e1= memberExpression e2= memberExpression ) | ^(op= SLASHEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MODEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) );
     public final CFAssignmentExpression assignmentExpression() throws RecognitionException {
         CFAssignmentExpression e = null;
 
@@ -6982,7 +6982,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:337:3: (te= ternary | ^(op= EQUALSOP e1= memberExpression e2= memberExpression ) | ^(op= PLUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MINUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= STAREQUALS e1= memberExpression e2= memberExpression ) | ^(op= SLASHEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MODEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:337:3: (te= ternary | ^(op= EQUALSOP e1= memberExpression e2= memberExpression ) | ^(op= PLUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MINUSEQUALS e1= memberExpression e2= memberExpression ) | ^(op= STAREQUALS e1= memberExpression e2= memberExpression ) | ^(op= SLASHEQUALS e1= memberExpression e2= memberExpression ) | ^(op= MODEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) | ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) )
             int alt51=9;
             switch ( input.LA(1) ) {
             case TERNARY:
@@ -7051,7 +7051,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt51) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:337:5: te= ternary
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:337:5: te= ternary
                     {
                     pushFollow(FOLLOW_ternary_in_assignmentExpression1950);
                     te=ternary();
@@ -7064,7 +7064,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:338:5: ^(op= EQUALSOP e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:338:5: ^(op= EQUALSOP e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,EQUALSOP,FOLLOW_EQUALSOP_in_assignmentExpression1962); if (state.failed) return e;
 
@@ -7089,7 +7089,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:339:5: ^(op= PLUSEQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:339:5: ^(op= PLUSEQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,PLUSEQUALS,FOLLOW_PLUSEQUALS_in_assignmentExpression1985); if (state.failed) return e;
 
@@ -7114,7 +7114,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:340:5: ^(op= MINUSEQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:340:5: ^(op= MINUSEQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,MINUSEQUALS,FOLLOW_MINUSEQUALS_in_assignmentExpression2007); if (state.failed) return e;
 
@@ -7139,7 +7139,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:341:5: ^(op= STAREQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:341:5: ^(op= STAREQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,STAREQUALS,FOLLOW_STAREQUALS_in_assignmentExpression2029); if (state.failed) return e;
 
@@ -7164,7 +7164,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:342:5: ^(op= SLASHEQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:342:5: ^(op= SLASHEQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,SLASHEQUALS,FOLLOW_SLASHEQUALS_in_assignmentExpression2051); if (state.failed) return e;
 
@@ -7189,7 +7189,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:343:5: ^(op= MODEQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:343:5: ^(op= MODEQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,MODEQUALS,FOLLOW_MODEQUALS_in_assignmentExpression2073); if (state.failed) return e;
 
@@ -7214,7 +7214,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:344:5: ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:344:5: ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,CONCATEQUALS,FOLLOW_CONCATEQUALS_in_assignmentExpression2095); if (state.failed) return e;
 
@@ -7239,7 +7239,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:345:5: ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:345:5: ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,CONCATEQUALS,FOLLOW_CONCATEQUALS_in_assignmentExpression2117); if (state.failed) return e;
 
@@ -7283,7 +7283,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "binaryExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:348:1: binaryExpression returns [CFExpression e] : (e1= localAssignmentExpression |e1= assignmentExpression | ^(op= IMP e1= memberExpression e2= memberExpression ) | ^(op= EQV e1= memberExpression e2= memberExpression ) | ^(op= XOR e1= memberExpression e2= memberExpression ) | ^(op= OR e1= memberExpression e2= memberExpression ) | ^(op= OROPERATOR e1= memberExpression e2= memberExpression ) | ^(op= AND e1= memberExpression e2= memberExpression ) | ^(op= ANDOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= NOT e1= memberExpression ) | ^(op= NOTOP e1= memberExpression ) | ^(op= EQ e1= memberExpression e2= memberExpression ) | ^(op= NEQ e1= memberExpression e2= memberExpression ) | ^(op= LT e1= memberExpression e2= memberExpression ) | ^(op= LTE e1= memberExpression e2= memberExpression ) | ^(op= GT e1= memberExpression e2= memberExpression ) | ^(op= GTE e1= memberExpression e2= memberExpression ) | ^(op= CONTAINS e1= memberExpression e2= memberExpression ) | ^(op= DOESNOTCONTAIN e1= memberExpression e2= memberExpression ) | ^(op= CONCAT e1= memberExpression e2= memberExpression ) | ^(op= PLUS e1= memberExpression e2= memberExpression ) | ^(op= MINUS e1= memberExpression e2= memberExpression ) | ^(op= MOD e1= memberExpression e2= memberExpression ) | ^(op= MODOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= BSLASH e1= memberExpression e2= memberExpression ) | ^(op= STAR e1= memberExpression e2= memberExpression ) | ^(op= SLASH e1= memberExpression e2= memberExpression ) | ^(op= POWER e1= memberExpression e2= memberExpression ) |e1= unaryExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:348:1: binaryExpression returns [CFExpression e] : (e1= localAssignmentExpression |e1= assignmentExpression | ^(op= IMP e1= memberExpression e2= memberExpression ) | ^(op= EQV e1= memberExpression e2= memberExpression ) | ^(op= XOR e1= memberExpression e2= memberExpression ) | ^(op= OR e1= memberExpression e2= memberExpression ) | ^(op= OROPERATOR e1= memberExpression e2= memberExpression ) | ^(op= AND e1= memberExpression e2= memberExpression ) | ^(op= ANDOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= NOT e1= memberExpression ) | ^(op= NOTOP e1= memberExpression ) | ^(op= EQ e1= memberExpression e2= memberExpression ) | ^(op= NEQ e1= memberExpression e2= memberExpression ) | ^(op= LT e1= memberExpression e2= memberExpression ) | ^(op= LTE e1= memberExpression e2= memberExpression ) | ^(op= GT e1= memberExpression e2= memberExpression ) | ^(op= GTE e1= memberExpression e2= memberExpression ) | ^(op= CONTAINS e1= memberExpression e2= memberExpression ) | ^(op= DOESNOTCONTAIN e1= memberExpression e2= memberExpression ) | ^(op= CONCAT e1= memberExpression e2= memberExpression ) | ^(op= PLUS e1= memberExpression e2= memberExpression ) | ^(op= MINUS e1= memberExpression e2= memberExpression ) | ^(op= MOD e1= memberExpression e2= memberExpression ) | ^(op= MODOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= BSLASH e1= memberExpression e2= memberExpression ) | ^(op= STAR e1= memberExpression e2= memberExpression ) | ^(op= SLASH e1= memberExpression e2= memberExpression ) | ^(op= POWER e1= memberExpression e2= memberExpression ) |e1= unaryExpression );
     public final CFExpression binaryExpression() throws RecognitionException {
         CFExpression e = null;
 
@@ -7295,7 +7295,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:349:3: (e1= localAssignmentExpression |e1= assignmentExpression | ^(op= IMP e1= memberExpression e2= memberExpression ) | ^(op= EQV e1= memberExpression e2= memberExpression ) | ^(op= XOR e1= memberExpression e2= memberExpression ) | ^(op= OR e1= memberExpression e2= memberExpression ) | ^(op= OROPERATOR e1= memberExpression e2= memberExpression ) | ^(op= AND e1= memberExpression e2= memberExpression ) | ^(op= ANDOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= NOT e1= memberExpression ) | ^(op= NOTOP e1= memberExpression ) | ^(op= EQ e1= memberExpression e2= memberExpression ) | ^(op= NEQ e1= memberExpression e2= memberExpression ) | ^(op= LT e1= memberExpression e2= memberExpression ) | ^(op= LTE e1= memberExpression e2= memberExpression ) | ^(op= GT e1= memberExpression e2= memberExpression ) | ^(op= GTE e1= memberExpression e2= memberExpression ) | ^(op= CONTAINS e1= memberExpression e2= memberExpression ) | ^(op= DOESNOTCONTAIN e1= memberExpression e2= memberExpression ) | ^(op= CONCAT e1= memberExpression e2= memberExpression ) | ^(op= PLUS e1= memberExpression e2= memberExpression ) | ^(op= MINUS e1= memberExpression e2= memberExpression ) | ^(op= MOD e1= memberExpression e2= memberExpression ) | ^(op= MODOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= BSLASH e1= memberExpression e2= memberExpression ) | ^(op= STAR e1= memberExpression e2= memberExpression ) | ^(op= SLASH e1= memberExpression e2= memberExpression ) | ^(op= POWER e1= memberExpression e2= memberExpression ) |e1= unaryExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:349:3: (e1= localAssignmentExpression |e1= assignmentExpression | ^(op= IMP e1= memberExpression e2= memberExpression ) | ^(op= EQV e1= memberExpression e2= memberExpression ) | ^(op= XOR e1= memberExpression e2= memberExpression ) | ^(op= OR e1= memberExpression e2= memberExpression ) | ^(op= OROPERATOR e1= memberExpression e2= memberExpression ) | ^(op= AND e1= memberExpression e2= memberExpression ) | ^(op= ANDOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= NOT e1= memberExpression ) | ^(op= NOTOP e1= memberExpression ) | ^(op= EQ e1= memberExpression e2= memberExpression ) | ^(op= NEQ e1= memberExpression e2= memberExpression ) | ^(op= LT e1= memberExpression e2= memberExpression ) | ^(op= LTE e1= memberExpression e2= memberExpression ) | ^(op= GT e1= memberExpression e2= memberExpression ) | ^(op= GTE e1= memberExpression e2= memberExpression ) | ^(op= CONTAINS e1= memberExpression e2= memberExpression ) | ^(op= DOESNOTCONTAIN e1= memberExpression e2= memberExpression ) | ^(op= CONCAT e1= memberExpression e2= memberExpression ) | ^(op= PLUS e1= memberExpression e2= memberExpression ) | ^(op= MINUS e1= memberExpression e2= memberExpression ) | ^(op= MOD e1= memberExpression e2= memberExpression ) | ^(op= MODOPERATOR e1= memberExpression e2= memberExpression ) | ^(op= BSLASH e1= memberExpression e2= memberExpression ) | ^(op= STAR e1= memberExpression e2= memberExpression ) | ^(op= SLASH e1= memberExpression e2= memberExpression ) | ^(op= POWER e1= memberExpression e2= memberExpression ) |e1= unaryExpression )
             int alt52=29;
             switch ( input.LA(1) ) {
             case VARLOCAL:
@@ -7495,7 +7495,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt52) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:349:5: e1= localAssignmentExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:349:5: e1= localAssignmentExpression
                     {
                     pushFollow(FOLLOW_localAssignmentExpression_in_binaryExpression2153);
                     e1=localAssignmentExpression();
@@ -7508,7 +7508,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:350:5: e1= assignmentExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:350:5: e1= assignmentExpression
                     {
                     pushFollow(FOLLOW_assignmentExpression_in_binaryExpression2163);
                     e1=assignmentExpression();
@@ -7521,7 +7521,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:351:5: ^(op= IMP e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:351:5: ^(op= IMP e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,IMP,FOLLOW_IMP_in_binaryExpression2175); if (state.failed) return e;
 
@@ -7546,7 +7546,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:352:5: ^(op= EQV e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:352:5: ^(op= EQV e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,EQV,FOLLOW_EQV_in_binaryExpression2197); if (state.failed) return e;
 
@@ -7571,7 +7571,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:353:5: ^(op= XOR e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:353:5: ^(op= XOR e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,XOR,FOLLOW_XOR_in_binaryExpression2219); if (state.failed) return e;
 
@@ -7596,7 +7596,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:354:5: ^(op= OR e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:354:5: ^(op= OR e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,OR,FOLLOW_OR_in_binaryExpression2241); if (state.failed) return e;
 
@@ -7621,7 +7621,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:355:5: ^(op= OROPERATOR e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:355:5: ^(op= OROPERATOR e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,OROPERATOR,FOLLOW_OROPERATOR_in_binaryExpression2263); if (state.failed) return e;
 
@@ -7646,7 +7646,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:356:5: ^(op= AND e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:356:5: ^(op= AND e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,AND,FOLLOW_AND_in_binaryExpression2285); if (state.failed) return e;
 
@@ -7671,7 +7671,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:357:5: ^(op= ANDOPERATOR e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:357:5: ^(op= ANDOPERATOR e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,ANDOPERATOR,FOLLOW_ANDOPERATOR_in_binaryExpression2307); if (state.failed) return e;
 
@@ -7696,7 +7696,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:358:5: ^(op= NOT e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:358:5: ^(op= NOT e1= memberExpression )
                     {
                     op=(CommonTree)match(input,NOT,FOLLOW_NOT_in_binaryExpression2329); if (state.failed) return e;
 
@@ -7715,7 +7715,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:359:5: ^(op= NOTOP e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:359:5: ^(op= NOTOP e1= memberExpression )
                     {
                     op=(CommonTree)match(input,NOTOP,FOLLOW_NOTOP_in_binaryExpression2346); if (state.failed) return e;
 
@@ -7734,7 +7734,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:360:5: ^(op= EQ e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:360:5: ^(op= EQ e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,EQ,FOLLOW_EQ_in_binaryExpression2364); if (state.failed) return e;
 
@@ -7759,7 +7759,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:361:5: ^(op= NEQ e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:361:5: ^(op= NEQ e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,NEQ,FOLLOW_NEQ_in_binaryExpression2387); if (state.failed) return e;
 
@@ -7784,7 +7784,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:362:5: ^(op= LT e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:362:5: ^(op= LT e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,LT,FOLLOW_LT_in_binaryExpression2409); if (state.failed) return e;
 
@@ -7809,7 +7809,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:363:5: ^(op= LTE e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:363:5: ^(op= LTE e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,LTE,FOLLOW_LTE_in_binaryExpression2431); if (state.failed) return e;
 
@@ -7834,7 +7834,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:364:5: ^(op= GT e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:364:5: ^(op= GT e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,GT,FOLLOW_GT_in_binaryExpression2453); if (state.failed) return e;
 
@@ -7859,7 +7859,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:365:5: ^(op= GTE e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:365:5: ^(op= GTE e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,GTE,FOLLOW_GTE_in_binaryExpression2475); if (state.failed) return e;
 
@@ -7884,7 +7884,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 18 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:366:5: ^(op= CONTAINS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:366:5: ^(op= CONTAINS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,CONTAINS,FOLLOW_CONTAINS_in_binaryExpression2497); if (state.failed) return e;
 
@@ -7909,7 +7909,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 19 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:367:5: ^(op= DOESNOTCONTAIN e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:367:5: ^(op= DOESNOTCONTAIN e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,DOESNOTCONTAIN,FOLLOW_DOESNOTCONTAIN_in_binaryExpression2519); if (state.failed) return e;
 
@@ -7934,7 +7934,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 20 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:368:5: ^(op= CONCAT e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:368:5: ^(op= CONCAT e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,CONCAT,FOLLOW_CONCAT_in_binaryExpression2541); if (state.failed) return e;
 
@@ -7959,7 +7959,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 21 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:369:5: ^(op= PLUS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:369:5: ^(op= PLUS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,PLUS,FOLLOW_PLUS_in_binaryExpression2563); if (state.failed) return e;
 
@@ -7984,7 +7984,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 22 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:370:5: ^(op= MINUS e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:370:5: ^(op= MINUS e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,MINUS,FOLLOW_MINUS_in_binaryExpression2585); if (state.failed) return e;
 
@@ -8009,7 +8009,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 23 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:371:5: ^(op= MOD e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:371:5: ^(op= MOD e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,MOD,FOLLOW_MOD_in_binaryExpression2607); if (state.failed) return e;
 
@@ -8034,7 +8034,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 24 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:372:5: ^(op= MODOPERATOR e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:372:5: ^(op= MODOPERATOR e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,MODOPERATOR,FOLLOW_MODOPERATOR_in_binaryExpression2629); if (state.failed) return e;
 
@@ -8059,7 +8059,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 25 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:373:5: ^(op= BSLASH e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:373:5: ^(op= BSLASH e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,BSLASH,FOLLOW_BSLASH_in_binaryExpression2651); if (state.failed) return e;
 
@@ -8084,7 +8084,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 26 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:374:5: ^(op= STAR e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:374:5: ^(op= STAR e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,STAR,FOLLOW_STAR_in_binaryExpression2673); if (state.failed) return e;
 
@@ -8109,7 +8109,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 27 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:375:5: ^(op= SLASH e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:375:5: ^(op= SLASH e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,SLASH,FOLLOW_SLASH_in_binaryExpression2695); if (state.failed) return e;
 
@@ -8134,7 +8134,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 28 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:376:5: ^(op= POWER e1= memberExpression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:376:5: ^(op= POWER e1= memberExpression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,POWER,FOLLOW_POWER_in_binaryExpression2717); if (state.failed) return e;
 
@@ -8159,7 +8159,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 29 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:377:5: e1= unaryExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:377:5: e1= unaryExpression
                     {
                     pushFollow(FOLLOW_unaryExpression_in_binaryExpression2739);
                     e1=unaryExpression();
@@ -8191,7 +8191,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "unaryExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:380:1: unaryExpression returns [CFExpression e] : ( ^(op= PLUS e1= memberExpression ) | ^(op= MINUS e1= memberExpression ) | ^(op= PLUSPLUS e1= memberExpression ) | ^(op= MINUSMINUS e1= memberExpression ) | ^(op= POSTPLUSPLUS e1= memberExpression ) | ^(op= POSTMINUSMINUS e1= memberExpression ) |e1= newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:380:1: unaryExpression returns [CFExpression e] : ( ^(op= PLUS e1= memberExpression ) | ^(op= MINUS e1= memberExpression ) | ^(op= PLUSPLUS e1= memberExpression ) | ^(op= MINUSMINUS e1= memberExpression ) | ^(op= POSTPLUSPLUS e1= memberExpression ) | ^(op= POSTMINUSMINUS e1= memberExpression ) |e1= newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* );
     public final CFExpression unaryExpression() throws RecognitionException {
         CFExpression e = null;
 
@@ -8201,7 +8201,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:381:3: ( ^(op= PLUS e1= memberExpression ) | ^(op= MINUS e1= memberExpression ) | ^(op= PLUSPLUS e1= memberExpression ) | ^(op= MINUSMINUS e1= memberExpression ) | ^(op= POSTPLUSPLUS e1= memberExpression ) | ^(op= POSTMINUSMINUS e1= memberExpression ) |e1= newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:381:3: ( ^(op= PLUS e1= memberExpression ) | ^(op= MINUS e1= memberExpression ) | ^(op= PLUSPLUS e1= memberExpression ) | ^(op= MINUSMINUS e1= memberExpression ) | ^(op= POSTPLUSPLUS e1= memberExpression ) | ^(op= POSTMINUSMINUS e1= memberExpression ) |e1= newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )* )
             int alt55=7;
             switch ( input.LA(1) ) {
             case PLUS:
@@ -8250,7 +8250,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt55) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:381:5: ^(op= PLUS e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:381:5: ^(op= PLUS e1= memberExpression )
                     {
                     op=(CommonTree)match(input,PLUS,FOLLOW_PLUS_in_unaryExpression2763); if (state.failed) return e;
 
@@ -8269,7 +8269,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:382:5: ^(op= MINUS e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:382:5: ^(op= MINUS e1= memberExpression )
                     {
                     op=(CommonTree)match(input,MINUS,FOLLOW_MINUS_in_unaryExpression2780); if (state.failed) return e;
 
@@ -8288,7 +8288,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:383:5: ^(op= PLUSPLUS e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:383:5: ^(op= PLUSPLUS e1= memberExpression )
                     {
                     op=(CommonTree)match(input,PLUSPLUS,FOLLOW_PLUSPLUS_in_unaryExpression2797); if (state.failed) return e;
 
@@ -8307,7 +8307,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:384:5: ^(op= MINUSMINUS e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:384:5: ^(op= MINUSMINUS e1= memberExpression )
                     {
                     op=(CommonTree)match(input,MINUSMINUS,FOLLOW_MINUSMINUS_in_unaryExpression2814); if (state.failed) return e;
 
@@ -8326,7 +8326,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:385:5: ^(op= POSTPLUSPLUS e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:385:5: ^(op= POSTPLUSPLUS e1= memberExpression )
                     {
                     op=(CommonTree)match(input,POSTPLUSPLUS,FOLLOW_POSTPLUSPLUS_in_unaryExpression2831); if (state.failed) return e;
 
@@ -8345,7 +8345,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:386:5: ^(op= POSTMINUSMINUS e1= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:386:5: ^(op= POSTMINUSMINUS e1= memberExpression )
                     {
                     op=(CommonTree)match(input,POSTMINUSMINUS,FOLLOW_POSTMINUSMINUS_in_unaryExpression2848); if (state.failed) return e;
 
@@ -8364,7 +8364,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:5: e1= newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:5: e1= newComponentExpression ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
                     {
                     pushFollow(FOLLOW_newComponentExpression_in_unaryExpression2865);
                     e1=newComponentExpression();
@@ -8372,7 +8372,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:33: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:33: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )*
                     loop54:
                     do {
                         int alt54=2;
@@ -8391,7 +8391,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt54) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:34: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:34: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_unaryExpression2868); if (state.failed) return e;
 
@@ -8401,7 +8401,7 @@ public class CFScriptTree extends TreeParser {
                     	    state._fsp--;
                     	    if (state.failed) return e;
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:59: ( LEFTPAREN argumentList ')' )*
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:59: ( LEFTPAREN argumentList ')' )*
                     	    loop53:
                     	    do {
                     	        int alt53=2;
@@ -8420,7 +8420,7 @@ public class CFScriptTree extends TreeParser {
 
                     	        switch (alt53) {
                     	    	case 1 :
-                    	    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:60: LEFTPAREN argumentList ')'
+                    	    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:60: LEFTPAREN argumentList ')'
                     	    	    {
                     	    	    match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_unaryExpression2873); if (state.failed) return e;
 
@@ -8474,7 +8474,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "memberExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:390:1: memberExpression returns [CFExpression e] : ( ^(op= DOT e1= memberExpression e2= primaryExpressionIRW ) | ^(op= LEFTBRACKET e1= expression e2= memberExpression ) | ^(op= JAVAMETHODCALL e1= memberExpression e2= primaryExpressionIRW (args= argumentList )? ) | ^(op= FUNCTIONCALL e1= identifier args= argumentList ) |e1= primaryExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:390:1: memberExpression returns [CFExpression e] : ( ^(op= DOT e1= memberExpression e2= primaryExpressionIRW ) | ^(op= LEFTBRACKET e1= expression e2= memberExpression ) | ^(op= JAVAMETHODCALL e1= memberExpression e2= primaryExpressionIRW (args= argumentList )? ) | ^(op= FUNCTIONCALL e1= identifier args= argumentList ) |e1= primaryExpression );
     public final CFExpression memberExpression() throws RecognitionException, ParseException {
         CFExpression e = null;
 
@@ -8488,7 +8488,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:391:3: ( ^(op= DOT e1= memberExpression e2= primaryExpressionIRW ) | ^(op= LEFTBRACKET e1= expression e2= memberExpression ) | ^(op= JAVAMETHODCALL e1= memberExpression e2= primaryExpressionIRW (args= argumentList )? ) | ^(op= FUNCTIONCALL e1= identifier args= argumentList ) |e1= primaryExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:391:3: ( ^(op= DOT e1= memberExpression e2= primaryExpressionIRW ) | ^(op= LEFTBRACKET e1= expression e2= memberExpression ) | ^(op= JAVAMETHODCALL e1= memberExpression e2= primaryExpressionIRW (args= argumentList )? ) | ^(op= FUNCTIONCALL e1= identifier args= argumentList ) |e1= primaryExpression )
             int alt57=5;
             int LA57_0 = input.LA(1);
 
@@ -8523,7 +8523,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt57) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:391:5: ^(op= DOT e1= memberExpression e2= primaryExpressionIRW )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:391:5: ^(op= DOT e1= memberExpression e2= primaryExpressionIRW )
                     {
                     op=(CommonTree)match(input,DOT,FOLLOW_DOT_in_memberExpression2915); if (state.failed) return e;
 
@@ -8555,7 +8555,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:399:5: ^(op= LEFTBRACKET e1= expression e2= memberExpression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:399:5: ^(op= LEFTBRACKET e1= expression e2= memberExpression )
                     {
                     op=(CommonTree)match(input,LEFTBRACKET,FOLLOW_LEFTBRACKET_in_memberExpression2937); if (state.failed) return e;
 
@@ -8587,7 +8587,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:407:5: ^(op= JAVAMETHODCALL e1= memberExpression e2= primaryExpressionIRW (args= argumentList )? )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:407:5: ^(op= JAVAMETHODCALL e1= memberExpression e2= primaryExpressionIRW (args= argumentList )? )
                     {
                     op=(CommonTree)match(input,JAVAMETHODCALL,FOLLOW_JAVAMETHODCALL_in_memberExpression2959); if (state.failed) return e;
 
@@ -8604,7 +8604,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:407:70: (args= argumentList )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:407:70: (args= argumentList )?
                     int alt56=2;
                     int LA56_0 = input.LA(1);
 
@@ -8620,7 +8620,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     switch (alt56) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:407:72: args= argumentList
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:407:72: args= argumentList
                             {
                             pushFollow(FOLLOW_argumentList_in_memberExpression2973);
                             args=argumentList();
@@ -8657,7 +8657,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:423:5: ^(op= FUNCTIONCALL e1= identifier args= argumentList )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:423:5: ^(op= FUNCTIONCALL e1= identifier args= argumentList )
                     {
                     op=(CommonTree)match(input,FUNCTIONCALL,FOLLOW_FUNCTIONCALL_in_memberExpression2989); if (state.failed) return e;
 
@@ -8688,7 +8688,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:430:5: e1= primaryExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:430:5: e1= primaryExpression
                     {
                     pushFollow(FOLLOW_primaryExpression_in_memberExpression3008);
                     e1=primaryExpression();
@@ -8720,7 +8720,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "primaryExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:434:1: primaryExpression returns [CFExpression e] : (t= STRING_LITERAL |t= BOOLEAN_LITERAL |t= FLOATING_POINT_LITERAL |t= INTEGER_LITERAL |ie= implicitArray |is= implicitStruct |i= identifier |be= binaryExpression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:434:1: primaryExpression returns [CFExpression e] : (t= STRING_LITERAL |t= BOOLEAN_LITERAL |t= FLOATING_POINT_LITERAL |t= INTEGER_LITERAL |ie= implicitArray |is= implicitStruct |i= identifier |be= binaryExpression );
     public final CFExpression primaryExpression() throws RecognitionException {
         CFExpression e = null;
 
@@ -8736,7 +8736,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:435:3: (t= STRING_LITERAL |t= BOOLEAN_LITERAL |t= FLOATING_POINT_LITERAL |t= INTEGER_LITERAL |ie= implicitArray |is= implicitStruct |i= identifier |be= binaryExpression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:435:3: (t= STRING_LITERAL |t= BOOLEAN_LITERAL |t= FLOATING_POINT_LITERAL |t= INTEGER_LITERAL |ie= implicitArray |is= implicitStruct |i= identifier |be= binaryExpression )
             int alt58=8;
             switch ( input.LA(1) ) {
             case STRING_LITERAL:
@@ -8895,7 +8895,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt58) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:435:5: t= STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:435:5: t= STRING_LITERAL
                     {
                     t=(CommonTree)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_primaryExpression3032); if (state.failed) return e;
 
@@ -8904,7 +8904,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:436:5: t= BOOLEAN_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:436:5: t= BOOLEAN_LITERAL
                     {
                     t=(CommonTree)match(input,BOOLEAN_LITERAL,FOLLOW_BOOLEAN_LITERAL_in_primaryExpression3051); if (state.failed) return e;
 
@@ -8913,7 +8913,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:437:5: t= FLOATING_POINT_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:437:5: t= FLOATING_POINT_LITERAL
                     {
                     t=(CommonTree)match(input,FLOATING_POINT_LITERAL,FOLLOW_FLOATING_POINT_LITERAL_in_primaryExpression3069); if (state.failed) return e;
 
@@ -8922,7 +8922,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:438:5: t= INTEGER_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:438:5: t= INTEGER_LITERAL
                     {
                     t=(CommonTree)match(input,INTEGER_LITERAL,FOLLOW_INTEGER_LITERAL_in_primaryExpression3080); if (state.failed) return e;
 
@@ -8931,7 +8931,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:440:5: ie= implicitArray
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:440:5: ie= implicitArray
                     {
                     pushFollow(FOLLOW_implicitArray_in_primaryExpression3099);
                     ie=implicitArray();
@@ -8944,7 +8944,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:441:5: is= implicitStruct
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:441:5: is= implicitStruct
                     {
                     pushFollow(FOLLOW_implicitStruct_in_primaryExpression3118);
                     is=implicitStruct();
@@ -8957,7 +8957,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:442:5: i= identifier
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:442:5: i= identifier
                     {
                     pushFollow(FOLLOW_identifier_in_primaryExpression3136);
                     i=identifier();
@@ -8970,7 +8970,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:443:5: be= binaryExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:443:5: be= binaryExpression
                     {
                     pushFollow(FOLLOW_binaryExpression_in_primaryExpression3159);
                     be=binaryExpression();
@@ -9002,7 +9002,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "identifierWithColon"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:447:1: identifierWithColon returns [CFIdentifier e] : (t= IDENTIFIERWITHCOLON |ie= identifier );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:447:1: identifierWithColon returns [CFIdentifier e] : (t= IDENTIFIERWITHCOLON |ie= identifier );
     public final CFIdentifier identifierWithColon() throws RecognitionException {
         CFIdentifier e = null;
 
@@ -9012,7 +9012,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:448:3: (t= IDENTIFIERWITHCOLON |ie= identifier )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:448:3: (t= IDENTIFIERWITHCOLON |ie= identifier )
             int alt59=2;
             int LA59_0 = input.LA(1);
 
@@ -9035,7 +9035,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt59) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:448:5: t= IDENTIFIERWITHCOLON
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:448:5: t= IDENTIFIERWITHCOLON
                     {
                     t=(CommonTree)match(input,IDENTIFIERWITHCOLON,FOLLOW_IDENTIFIERWITHCOLON_in_identifierWithColon3190); if (state.failed) return e;
 
@@ -9044,7 +9044,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:449:5: ie= identifier
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:449:5: ie= identifier
                     {
                     pushFollow(FOLLOW_identifier_in_identifierWithColon3201);
                     ie=identifier();
@@ -9076,7 +9076,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "identifier"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:452:1: identifier returns [CFIdentifier e] : (t= COMPONENT |t= IDENTIFIER |t= DOES |t= CONTAIN |t= GREATER |t= THAN |t= LESS |t= VAR |t= DEFAULT |t= TO |t= INCLUDE |t= NEW |t= ABORT |t= THROW |t= RETHROW |t= EXIT |t= PARAM |t= THREAD |t= LOCK |t= TRANSACTION |t= PUBLIC |t= PRIVATE |t= REMOTE |t= PACKAGE |t= REQUIRED |kw= cfmlFunction |{...}? =>kw= cfscriptKeywords );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:452:1: identifier returns [CFIdentifier e] : (t= COMPONENT |t= IDENTIFIER |t= DOES |t= CONTAIN |t= GREATER |t= THAN |t= LESS |t= VAR |t= DEFAULT |t= TO |t= INCLUDE |t= NEW |t= ABORT |t= THROW |t= RETHROW |t= EXIT |t= PARAM |t= THREAD |t= LOCK |t= TRANSACTION |t= PUBLIC |t= PRIVATE |t= REMOTE |t= PACKAGE |t= REQUIRED |kw= cfmlFunction |{...}? =>kw= cfscriptKeywords );
     public final CFIdentifier identifier() throws RecognitionException {
         CFIdentifier e = null;
 
@@ -9086,7 +9086,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:453:3: (t= COMPONENT |t= IDENTIFIER |t= DOES |t= CONTAIN |t= GREATER |t= THAN |t= LESS |t= VAR |t= DEFAULT |t= TO |t= INCLUDE |t= NEW |t= ABORT |t= THROW |t= RETHROW |t= EXIT |t= PARAM |t= THREAD |t= LOCK |t= TRANSACTION |t= PUBLIC |t= PRIVATE |t= REMOTE |t= PACKAGE |t= REQUIRED |kw= cfmlFunction |{...}? =>kw= cfscriptKeywords )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:453:3: (t= COMPONENT |t= IDENTIFIER |t= DOES |t= CONTAIN |t= GREATER |t= THAN |t= LESS |t= VAR |t= DEFAULT |t= TO |t= INCLUDE |t= NEW |t= ABORT |t= THROW |t= RETHROW |t= EXIT |t= PARAM |t= THREAD |t= LOCK |t= TRANSACTION |t= PUBLIC |t= PRIVATE |t= REMOTE |t= PACKAGE |t= REQUIRED |kw= cfmlFunction |{...}? =>kw= cfscriptKeywords )
             int alt60=27;
             int LA60_0 = input.LA(1);
 
@@ -9196,7 +9196,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt60) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:454:3: t= COMPONENT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:454:3: t= COMPONENT
                     {
                     t=(CommonTree)match(input,COMPONENT,FOLLOW_COMPONENT_in_identifier3234); if (state.failed) return e;
 
@@ -9205,7 +9205,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:455:5: t= IDENTIFIER
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:455:5: t= IDENTIFIER
                     {
                     t=(CommonTree)match(input,IDENTIFIER,FOLLOW_IDENTIFIER_in_identifier3244); if (state.failed) return e;
 
@@ -9214,7 +9214,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:456:5: t= DOES
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:456:5: t= DOES
                     {
                     t=(CommonTree)match(input,DOES,FOLLOW_DOES_in_identifier3255); if (state.failed) return e;
 
@@ -9223,7 +9223,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:457:5: t= CONTAIN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:457:5: t= CONTAIN
                     {
                     t=(CommonTree)match(input,CONTAIN,FOLLOW_CONTAIN_in_identifier3272); if (state.failed) return e;
 
@@ -9232,7 +9232,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:458:5: t= GREATER
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:458:5: t= GREATER
                     {
                     t=(CommonTree)match(input,GREATER,FOLLOW_GREATER_in_identifier3286); if (state.failed) return e;
 
@@ -9241,7 +9241,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:459:5: t= THAN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:459:5: t= THAN
                     {
                     t=(CommonTree)match(input,THAN,FOLLOW_THAN_in_identifier3300); if (state.failed) return e;
 
@@ -9250,7 +9250,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:460:5: t= LESS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:460:5: t= LESS
                     {
                     t=(CommonTree)match(input,LESS,FOLLOW_LESS_in_identifier3317); if (state.failed) return e;
 
@@ -9259,7 +9259,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:461:5: t= VAR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:461:5: t= VAR
                     {
                     t=(CommonTree)match(input,VAR,FOLLOW_VAR_in_identifier3334); if (state.failed) return e;
 
@@ -9268,7 +9268,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:462:5: t= DEFAULT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:462:5: t= DEFAULT
                     {
                     t=(CommonTree)match(input,DEFAULT,FOLLOW_DEFAULT_in_identifier3352); if (state.failed) return e;
 
@@ -9277,7 +9277,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:463:5: t= TO
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:463:5: t= TO
                     {
                     t=(CommonTree)match(input,TO,FOLLOW_TO_in_identifier3366); if (state.failed) return e;
 
@@ -9286,7 +9286,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:464:5: t= INCLUDE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:464:5: t= INCLUDE
                     {
                     t=(CommonTree)match(input,INCLUDE,FOLLOW_INCLUDE_in_identifier3385); if (state.failed) return e;
 
@@ -9295,7 +9295,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:465:5: t= NEW
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:465:5: t= NEW
                     {
                     t=(CommonTree)match(input,NEW,FOLLOW_NEW_in_identifier3399); if (state.failed) return e;
 
@@ -9304,7 +9304,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:466:5: t= ABORT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:466:5: t= ABORT
                     {
                     t=(CommonTree)match(input,ABORT,FOLLOW_ABORT_in_identifier3417); if (state.failed) return e;
 
@@ -9313,7 +9313,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:467:5: t= THROW
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:467:5: t= THROW
                     {
                     t=(CommonTree)match(input,THROW,FOLLOW_THROW_in_identifier3433); if (state.failed) return e;
 
@@ -9322,7 +9322,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:468:5: t= RETHROW
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:468:5: t= RETHROW
                     {
                     t=(CommonTree)match(input,RETHROW,FOLLOW_RETHROW_in_identifier3449); if (state.failed) return e;
 
@@ -9331,7 +9331,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:469:5: t= EXIT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:469:5: t= EXIT
                     {
                     t=(CommonTree)match(input,EXIT,FOLLOW_EXIT_in_identifier3463); if (state.failed) return e;
 
@@ -9340,7 +9340,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:470:5: t= PARAM
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:470:5: t= PARAM
                     {
                     t=(CommonTree)match(input,PARAM,FOLLOW_PARAM_in_identifier3480); if (state.failed) return e;
 
@@ -9349,7 +9349,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 18 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:471:5: t= THREAD
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:471:5: t= THREAD
                     {
                     t=(CommonTree)match(input,THREAD,FOLLOW_THREAD_in_identifier3496); if (state.failed) return e;
 
@@ -9358,7 +9358,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 19 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:472:5: t= LOCK
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:472:5: t= LOCK
                     {
                     t=(CommonTree)match(input,LOCK,FOLLOW_LOCK_in_identifier3511); if (state.failed) return e;
 
@@ -9367,7 +9367,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 20 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:473:5: t= TRANSACTION
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:473:5: t= TRANSACTION
                     {
                     t=(CommonTree)match(input,TRANSACTION,FOLLOW_TRANSACTION_in_identifier3528); if (state.failed) return e;
 
@@ -9376,7 +9376,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 21 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:474:5: t= PUBLIC
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:474:5: t= PUBLIC
                     {
                     t=(CommonTree)match(input,PUBLIC,FOLLOW_PUBLIC_in_identifier3538); if (state.failed) return e;
 
@@ -9385,7 +9385,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 22 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:475:5: t= PRIVATE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:475:5: t= PRIVATE
                     {
                     t=(CommonTree)match(input,PRIVATE,FOLLOW_PRIVATE_in_identifier3553); if (state.failed) return e;
 
@@ -9394,7 +9394,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 23 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:476:5: t= REMOTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:476:5: t= REMOTE
                     {
                     t=(CommonTree)match(input,REMOTE,FOLLOW_REMOTE_in_identifier3567); if (state.failed) return e;
 
@@ -9403,7 +9403,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 24 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:477:5: t= PACKAGE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:477:5: t= PACKAGE
                     {
                     t=(CommonTree)match(input,PACKAGE,FOLLOW_PACKAGE_in_identifier3582); if (state.failed) return e;
 
@@ -9412,7 +9412,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 25 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:478:5: t= REQUIRED
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:478:5: t= REQUIRED
                     {
                     t=(CommonTree)match(input,REQUIRED,FOLLOW_REQUIRED_in_identifier3596); if (state.failed) return e;
 
@@ -9421,7 +9421,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 26 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:479:5: kw= cfmlFunction
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:479:5: kw= cfmlFunction
                     {
                     pushFollow(FOLLOW_cfmlFunction_in_identifier3609);
                     kw=cfmlFunction();
@@ -9434,7 +9434,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 27 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:480:5: {...}? =>kw= cfscriptKeywords
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:480:5: {...}? =>kw= cfscriptKeywords
                     {
                     if ( !((!scriptMode)) ) {
                         if (state.backtracking>0) {state.failed=true; return e;}
@@ -9471,7 +9471,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "cfmlFunction"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:483:1: cfmlFunction returns [CFIdentifier e] : (t= SAVECONTENT |t= HTTP |t= FILE |t= PROPERTY |t= DIRECTORY |t= LOOP |t= SETTING |t= QUERY );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:483:1: cfmlFunction returns [CFIdentifier e] : (t= SAVECONTENT |t= HTTP |t= FILE |t= PROPERTY |t= DIRECTORY |t= LOOP |t= SETTING |t= QUERY );
     public final CFIdentifier cfmlFunction() throws RecognitionException {
         CFIdentifier e = null;
 
@@ -9479,7 +9479,7 @@ public class CFScriptTree extends TreeParser {
         CommonTree t=null;
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:484:3: (t= SAVECONTENT |t= HTTP |t= FILE |t= PROPERTY |t= DIRECTORY |t= LOOP |t= SETTING |t= QUERY )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:484:3: (t= SAVECONTENT |t= HTTP |t= FILE |t= PROPERTY |t= DIRECTORY |t= LOOP |t= SETTING |t= QUERY )
             int alt61=8;
             switch ( input.LA(1) ) {
             case SAVECONTENT:
@@ -9533,7 +9533,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt61) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:484:5: t= SAVECONTENT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:484:5: t= SAVECONTENT
                     {
                     t=(CommonTree)match(input,SAVECONTENT,FOLLOW_SAVECONTENT_in_cfmlFunction3643); if (state.failed) return e;
 
@@ -9542,7 +9542,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:485:5: t= HTTP
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:485:5: t= HTTP
                     {
                     t=(CommonTree)match(input,HTTP,FOLLOW_HTTP_in_cfmlFunction3653); if (state.failed) return e;
 
@@ -9551,7 +9551,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:486:5: t= FILE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:486:5: t= FILE
                     {
                     t=(CommonTree)match(input,FILE,FOLLOW_FILE_in_cfmlFunction3663); if (state.failed) return e;
 
@@ -9560,7 +9560,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:487:5: t= PROPERTY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:487:5: t= PROPERTY
                     {
                     t=(CommonTree)match(input,PROPERTY,FOLLOW_PROPERTY_in_cfmlFunction3673); if (state.failed) return e;
 
@@ -9569,7 +9569,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:488:5: t= DIRECTORY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:488:5: t= DIRECTORY
                     {
                     t=(CommonTree)match(input,DIRECTORY,FOLLOW_DIRECTORY_in_cfmlFunction3683); if (state.failed) return e;
 
@@ -9578,7 +9578,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:489:5: t= LOOP
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:489:5: t= LOOP
                     {
                     t=(CommonTree)match(input,LOOP,FOLLOW_LOOP_in_cfmlFunction3693); if (state.failed) return e;
 
@@ -9587,7 +9587,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:490:5: t= SETTING
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:490:5: t= SETTING
                     {
                     t=(CommonTree)match(input,SETTING,FOLLOW_SETTING_in_cfmlFunction3703); if (state.failed) return e;
 
@@ -9596,7 +9596,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:491:5: t= QUERY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:491:5: t= QUERY
                     {
                     t=(CommonTree)match(input,QUERY,FOLLOW_QUERY_in_cfmlFunction3713); if (state.failed) return e;
 
@@ -9624,7 +9624,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "type"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:494:1: type returns [CFIdentifier e] : (t= NUMERIC |t= STRING |t= BOOLEAN |t= COMPONENT |t= ANY |t= STRUCT |t= ARRAY );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:494:1: type returns [CFIdentifier e] : (t= NUMERIC |t= STRING |t= BOOLEAN |t= COMPONENT |t= ANY |t= STRUCT |t= ARRAY );
     public final CFIdentifier type() throws RecognitionException {
         CFIdentifier e = null;
 
@@ -9632,7 +9632,7 @@ public class CFScriptTree extends TreeParser {
         CommonTree t=null;
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:495:3: (t= NUMERIC |t= STRING |t= BOOLEAN |t= COMPONENT |t= ANY |t= STRUCT |t= ARRAY )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:495:3: (t= NUMERIC |t= STRING |t= BOOLEAN |t= COMPONENT |t= ANY |t= STRUCT |t= ARRAY )
             int alt62=7;
             switch ( input.LA(1) ) {
             case NUMERIC:
@@ -9681,7 +9681,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt62) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:495:5: t= NUMERIC
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:495:5: t= NUMERIC
                     {
                     t=(CommonTree)match(input,NUMERIC,FOLLOW_NUMERIC_in_type3734); if (state.failed) return e;
 
@@ -9690,7 +9690,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:496:5: t= STRING
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:496:5: t= STRING
                     {
                     t=(CommonTree)match(input,STRING,FOLLOW_STRING_in_type3744); if (state.failed) return e;
 
@@ -9699,7 +9699,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:497:5: t= BOOLEAN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:497:5: t= BOOLEAN
                     {
                     t=(CommonTree)match(input,BOOLEAN,FOLLOW_BOOLEAN_in_type3755); if (state.failed) return e;
 
@@ -9708,7 +9708,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:498:5: t= COMPONENT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:498:5: t= COMPONENT
                     {
                     t=(CommonTree)match(input,COMPONENT,FOLLOW_COMPONENT_in_type3765); if (state.failed) return e;
 
@@ -9717,7 +9717,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:499:5: t= ANY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:499:5: t= ANY
                     {
                     t=(CommonTree)match(input,ANY,FOLLOW_ANY_in_type3775); if (state.failed) return e;
 
@@ -9726,7 +9726,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:500:5: t= STRUCT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:500:5: t= STRUCT
                     {
                     t=(CommonTree)match(input,STRUCT,FOLLOW_STRUCT_in_type3785); if (state.failed) return e;
 
@@ -9735,7 +9735,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:501:5: t= ARRAY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:501:5: t= ARRAY
                     {
                     t=(CommonTree)match(input,ARRAY,FOLLOW_ARRAY_in_type3795); if (state.failed) return e;
 
@@ -9763,7 +9763,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "cfscriptKeywords"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:504:1: cfscriptKeywords returns [CFIdentifier e] : (t= IF |t= ELSE |t= BREAK |t= CONTINUE |t= FUNCTION |t= RETURN |t= WHILE |t= DO |t= FOR |t= IN |t= TRY |t= CATCH |t= FINALLY |t= SWITCH |t= CASE |t= DEFAULT |t= IMPORT );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:504:1: cfscriptKeywords returns [CFIdentifier e] : (t= IF |t= ELSE |t= BREAK |t= CONTINUE |t= FUNCTION |t= RETURN |t= WHILE |t= DO |t= FOR |t= IN |t= TRY |t= CATCH |t= FINALLY |t= SWITCH |t= CASE |t= DEFAULT |t= IMPORT );
     public final CFIdentifier cfscriptKeywords() throws RecognitionException {
         CFIdentifier e = null;
 
@@ -9771,7 +9771,7 @@ public class CFScriptTree extends TreeParser {
         CommonTree t=null;
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:505:3: (t= IF |t= ELSE |t= BREAK |t= CONTINUE |t= FUNCTION |t= RETURN |t= WHILE |t= DO |t= FOR |t= IN |t= TRY |t= CATCH |t= FINALLY |t= SWITCH |t= CASE |t= DEFAULT |t= IMPORT )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:505:3: (t= IF |t= ELSE |t= BREAK |t= CONTINUE |t= FUNCTION |t= RETURN |t= WHILE |t= DO |t= FOR |t= IN |t= TRY |t= CATCH |t= FINALLY |t= SWITCH |t= CASE |t= DEFAULT |t= IMPORT )
             int alt63=17;
             switch ( input.LA(1) ) {
             case IF:
@@ -9870,7 +9870,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt63) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:505:5: t= IF
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:505:5: t= IF
                     {
                     t=(CommonTree)match(input,IF,FOLLOW_IF_in_cfscriptKeywords3818); if (state.failed) return e;
 
@@ -9879,7 +9879,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:506:5: t= ELSE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:506:5: t= ELSE
                     {
                     t=(CommonTree)match(input,ELSE,FOLLOW_ELSE_in_cfscriptKeywords3835); if (state.failed) return e;
 
@@ -9888,7 +9888,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:507:5: t= BREAK
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:507:5: t= BREAK
                     {
                     t=(CommonTree)match(input,BREAK,FOLLOW_BREAK_in_cfscriptKeywords3850); if (state.failed) return e;
 
@@ -9897,7 +9897,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:508:5: t= CONTINUE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:508:5: t= CONTINUE
                     {
                     t=(CommonTree)match(input,CONTINUE,FOLLOW_CONTINUE_in_cfscriptKeywords3864); if (state.failed) return e;
 
@@ -9906,7 +9906,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:509:5: t= FUNCTION
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:509:5: t= FUNCTION
                     {
                     t=(CommonTree)match(input,FUNCTION,FOLLOW_FUNCTION_in_cfscriptKeywords3875); if (state.failed) return e;
 
@@ -9915,7 +9915,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:510:5: t= RETURN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:510:5: t= RETURN
                     {
                     t=(CommonTree)match(input,RETURN,FOLLOW_RETURN_in_cfscriptKeywords3886); if (state.failed) return e;
 
@@ -9924,7 +9924,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:511:5: t= WHILE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:511:5: t= WHILE
                     {
                     t=(CommonTree)match(input,WHILE,FOLLOW_WHILE_in_cfscriptKeywords3899); if (state.failed) return e;
 
@@ -9933,7 +9933,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:512:5: t= DO
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:512:5: t= DO
                     {
                     t=(CommonTree)match(input,DO,FOLLOW_DO_in_cfscriptKeywords3913); if (state.failed) return e;
 
@@ -9942,7 +9942,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:513:5: t= FOR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:513:5: t= FOR
                     {
                     t=(CommonTree)match(input,FOR,FOLLOW_FOR_in_cfscriptKeywords3930); if (state.failed) return e;
 
@@ -9951,7 +9951,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:514:5: t= IN
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:514:5: t= IN
                     {
                     t=(CommonTree)match(input,IN,FOLLOW_IN_in_cfscriptKeywords3946); if (state.failed) return e;
 
@@ -9960,7 +9960,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:515:5: t= TRY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:515:5: t= TRY
                     {
                     t=(CommonTree)match(input,TRY,FOLLOW_TRY_in_cfscriptKeywords3963); if (state.failed) return e;
 
@@ -9969,7 +9969,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:516:5: t= CATCH
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:516:5: t= CATCH
                     {
                     t=(CommonTree)match(input,CATCH,FOLLOW_CATCH_in_cfscriptKeywords3979); if (state.failed) return e;
 
@@ -9978,7 +9978,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:517:5: t= FINALLY
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:517:5: t= FINALLY
                     {
                     t=(CommonTree)match(input,FINALLY,FOLLOW_FINALLY_in_cfscriptKeywords3993); if (state.failed) return e;
 
@@ -9987,7 +9987,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:518:5: t= SWITCH
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:518:5: t= SWITCH
                     {
                     t=(CommonTree)match(input,SWITCH,FOLLOW_SWITCH_in_cfscriptKeywords4005); if (state.failed) return e;
 
@@ -9996,7 +9996,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:519:5: t= CASE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:519:5: t= CASE
                     {
                     t=(CommonTree)match(input,CASE,FOLLOW_CASE_in_cfscriptKeywords4018); if (state.failed) return e;
 
@@ -10005,7 +10005,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:520:5: t= DEFAULT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:520:5: t= DEFAULT
                     {
                     t=(CommonTree)match(input,DEFAULT,FOLLOW_DEFAULT_in_cfscriptKeywords4033); if (state.failed) return e;
 
@@ -10014,7 +10014,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:521:5: t= IMPORT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:521:5: t= IMPORT
                     {
                     t=(CommonTree)match(input,IMPORT,FOLLOW_IMPORT_in_cfscriptKeywords4045); if (state.failed) return e;
 
@@ -10042,7 +10042,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "primaryExpressionIRW"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:524:1: primaryExpressionIRW returns [CFExpression e] : (pe= primaryExpression |rw= reservedWord );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:524:1: primaryExpressionIRW returns [CFExpression e] : (pe= primaryExpression |rw= reservedWord );
     public final CFExpression primaryExpressionIRW() throws RecognitionException {
         CFExpression e = null;
 
@@ -10053,7 +10053,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:525:3: (pe= primaryExpression |rw= reservedWord )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:525:3: (pe= primaryExpression |rw= reservedWord )
             int alt64=2;
             switch ( input.LA(1) ) {
             case ABORT:
@@ -10782,7 +10782,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt64) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:525:5: pe= primaryExpression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:525:5: pe= primaryExpression
                     {
                     pushFollow(FOLLOW_primaryExpression_in_primaryExpressionIRW4070);
                     pe=primaryExpression();
@@ -10795,7 +10795,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:526:5: rw= reservedWord
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:526:5: rw= reservedWord
                     {
                     pushFollow(FOLLOW_reservedWord_in_primaryExpressionIRW4083);
                     rw=reservedWord();
@@ -10827,7 +10827,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "reservedWord"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:529:1: reservedWord returns [CFIdentifier e] : (t= CONTAINS |t= IS |t= EQUAL |t= EQ |t= NEQ |t= GT |t= LT |t= GTE |t= GE |t= LTE |t= LE |t= NOT |t= AND |t= OR |t= XOR |t= EQV |t= IMP |t= MOD |t= TO |t= EQUALS |e1= cfscriptKeywords );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:529:1: reservedWord returns [CFIdentifier e] : (t= CONTAINS |t= IS |t= EQUAL |t= EQ |t= NEQ |t= GT |t= LT |t= GTE |t= GE |t= LTE |t= LE |t= NOT |t= AND |t= OR |t= XOR |t= EQV |t= IMP |t= MOD |t= TO |t= EQUALS |e1= cfscriptKeywords );
     public final CFIdentifier reservedWord() throws RecognitionException {
         CFIdentifier e = null;
 
@@ -10837,7 +10837,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:530:3: (t= CONTAINS |t= IS |t= EQUAL |t= EQ |t= NEQ |t= GT |t= LT |t= GTE |t= GE |t= LTE |t= LE |t= NOT |t= AND |t= OR |t= XOR |t= EQV |t= IMP |t= MOD |t= TO |t= EQUALS |e1= cfscriptKeywords )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:530:3: (t= CONTAINS |t= IS |t= EQUAL |t= EQ |t= NEQ |t= GT |t= LT |t= GTE |t= GE |t= LTE |t= LE |t= NOT |t= AND |t= OR |t= XOR |t= EQV |t= IMP |t= MOD |t= TO |t= EQUALS |e1= cfscriptKeywords )
             int alt65=21;
             switch ( input.LA(1) ) {
             case CONTAINS:
@@ -10972,7 +10972,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt65) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:530:5: t= CONTAINS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:530:5: t= CONTAINS
                     {
                     t=(CommonTree)match(input,CONTAINS,FOLLOW_CONTAINS_in_reservedWord4112); if (state.failed) return e;
 
@@ -10981,7 +10981,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:531:5: t= IS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:531:5: t= IS
                     {
                     t=(CommonTree)match(input,IS,FOLLOW_IS_in_reservedWord4124); if (state.failed) return e;
 
@@ -10990,7 +10990,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:532:5: t= EQUAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:532:5: t= EQUAL
                     {
                     t=(CommonTree)match(input,EQUAL,FOLLOW_EQUAL_in_reservedWord4141); if (state.failed) return e;
 
@@ -10999,7 +10999,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 4 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:533:5: t= EQ
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:533:5: t= EQ
                     {
                     t=(CommonTree)match(input,EQ,FOLLOW_EQ_in_reservedWord4156); if (state.failed) return e;
 
@@ -11008,7 +11008,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 5 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:534:5: t= NEQ
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:534:5: t= NEQ
                     {
                     t=(CommonTree)match(input,NEQ,FOLLOW_NEQ_in_reservedWord4173); if (state.failed) return e;
 
@@ -11017,7 +11017,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 6 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:535:5: t= GT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:535:5: t= GT
                     {
                     t=(CommonTree)match(input,GT,FOLLOW_GT_in_reservedWord4189); if (state.failed) return e;
 
@@ -11026,7 +11026,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 7 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:536:5: t= LT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:536:5: t= LT
                     {
                     t=(CommonTree)match(input,LT,FOLLOW_LT_in_reservedWord4206); if (state.failed) return e;
 
@@ -11035,7 +11035,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 8 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:537:5: t= GTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:537:5: t= GTE
                     {
                     t=(CommonTree)match(input,GTE,FOLLOW_GTE_in_reservedWord4223); if (state.failed) return e;
 
@@ -11044,7 +11044,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 9 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:538:5: t= GE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:538:5: t= GE
                     {
                     t=(CommonTree)match(input,GE,FOLLOW_GE_in_reservedWord4239); if (state.failed) return e;
 
@@ -11053,7 +11053,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 10 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:539:5: t= LTE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:539:5: t= LTE
                     {
                     t=(CommonTree)match(input,LTE,FOLLOW_LTE_in_reservedWord4256); if (state.failed) return e;
 
@@ -11062,7 +11062,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 11 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:540:5: t= LE
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:540:5: t= LE
                     {
                     t=(CommonTree)match(input,LE,FOLLOW_LE_in_reservedWord4272); if (state.failed) return e;
 
@@ -11071,7 +11071,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 12 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:541:5: t= NOT
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:541:5: t= NOT
                     {
                     t=(CommonTree)match(input,NOT,FOLLOW_NOT_in_reservedWord4289); if (state.failed) return e;
 
@@ -11080,7 +11080,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 13 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:542:5: t= AND
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:542:5: t= AND
                     {
                     t=(CommonTree)match(input,AND,FOLLOW_AND_in_reservedWord4305); if (state.failed) return e;
 
@@ -11089,7 +11089,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 14 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:543:5: t= OR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:543:5: t= OR
                     {
                     t=(CommonTree)match(input,OR,FOLLOW_OR_in_reservedWord4321); if (state.failed) return e;
 
@@ -11098,7 +11098,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 15 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:544:5: t= XOR
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:544:5: t= XOR
                     {
                     t=(CommonTree)match(input,XOR,FOLLOW_XOR_in_reservedWord4338); if (state.failed) return e;
 
@@ -11107,7 +11107,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 16 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:545:5: t= EQV
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:545:5: t= EQV
                     {
                     t=(CommonTree)match(input,EQV,FOLLOW_EQV_in_reservedWord4354); if (state.failed) return e;
 
@@ -11116,7 +11116,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 17 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:546:5: t= IMP
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:546:5: t= IMP
                     {
                     t=(CommonTree)match(input,IMP,FOLLOW_IMP_in_reservedWord4370); if (state.failed) return e;
 
@@ -11125,7 +11125,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 18 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:547:5: t= MOD
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:547:5: t= MOD
                     {
                     t=(CommonTree)match(input,MOD,FOLLOW_MOD_in_reservedWord4386); if (state.failed) return e;
 
@@ -11134,7 +11134,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 19 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:549:5: t= TO
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:549:5: t= TO
                     {
                     t=(CommonTree)match(input,TO,FOLLOW_TO_in_reservedWord4403); if (state.failed) return e;
 
@@ -11143,7 +11143,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 20 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:550:5: t= EQUALS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:550:5: t= EQUALS
                     {
                     t=(CommonTree)match(input,EQUALS,FOLLOW_EQUALS_in_reservedWord4420); if (state.failed) return e;
 
@@ -11152,7 +11152,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 21 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:551:5: e1= cfscriptKeywords
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:551:5: e1= cfscriptKeywords
                     {
                     pushFollow(FOLLOW_cfscriptKeywords_in_reservedWord4433);
                     e1=cfscriptKeywords();
@@ -11184,7 +11184,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "implicitArray"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:554:1: implicitArray returns [CFArrayExpression e] : ^(t= IMPLICITARRAY (e1= expression )* ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:554:1: implicitArray returns [CFArrayExpression e] : ^(t= IMPLICITARRAY (e1= expression )* ) ;
     public final CFArrayExpression implicitArray() throws RecognitionException {
         CFArrayExpression e = null;
 
@@ -11194,8 +11194,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:555:3: ( ^(t= IMPLICITARRAY (e1= expression )* ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:555:5: ^(t= IMPLICITARRAY (e1= expression )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:555:3: ( ^(t= IMPLICITARRAY (e1= expression )* ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:555:5: ^(t= IMPLICITARRAY (e1= expression )* )
             {
             t=(CommonTree)match(input,IMPLICITARRAY,FOLLOW_IMPLICITARRAY_in_implicitArray4456); if (state.failed) return e;
 
@@ -11203,7 +11203,7 @@ public class CFScriptTree extends TreeParser {
 
             if ( input.LA(1)==Token.DOWN ) {
                 match(input, Token.DOWN, null); if (state.failed) return e;
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:556:5: (e1= expression )*
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:556:5: (e1= expression )*
                 loop66:
                 do {
                     int alt66=2;
@@ -11216,7 +11216,7 @@ public class CFScriptTree extends TreeParser {
 
                     switch (alt66) {
                 	case 1 :
-                	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:556:7: e1= expression
+                	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:556:7: e1= expression
                 	    {
                 	    pushFollow(FOLLOW_expression_in_implicitArray4470);
                 	    e1=expression();
@@ -11259,7 +11259,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "implicitStruct"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:559:1: implicitStruct returns [CFStructExpression e] : ^(t= IMPLICITSTRUCT (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )? ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:559:1: implicitStruct returns [CFStructExpression e] : ^(t= IMPLICITSTRUCT (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )? ) ;
     public final CFStructExpression implicitStruct() throws RecognitionException {
         CFStructExpression e = null;
 
@@ -11269,8 +11269,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:560:3: ( ^(t= IMPLICITSTRUCT (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )? ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:560:5: ^(t= IMPLICITSTRUCT (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:560:3: ( ^(t= IMPLICITSTRUCT (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )? ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:560:5: ^(t= IMPLICITSTRUCT (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )? )
             {
             t=(CommonTree)match(input,IMPLICITSTRUCT,FOLLOW_IMPLICITSTRUCT_in_implicitStruct4499); if (state.failed) return e;
 
@@ -11278,7 +11278,7 @@ public class CFScriptTree extends TreeParser {
 
             if ( input.LA(1)==Token.DOWN ) {
                 match(input, Token.DOWN, null); if (state.failed) return e;
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:561:7: (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )?
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:561:7: (e1= implicitStructExpression ( ',' e1= implicitStructExpression )* )?
                 int alt68=2;
                 int LA68_0 = input.LA(1);
 
@@ -11287,7 +11287,7 @@ public class CFScriptTree extends TreeParser {
                 }
                 switch (alt68) {
                     case 1 :
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:562:8: e1= implicitStructExpression ( ',' e1= implicitStructExpression )*
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:562:8: e1= implicitStructExpression ( ',' e1= implicitStructExpression )*
                         {
                         pushFollow(FOLLOW_implicitStructExpression_in_implicitStruct4522);
                         e1=implicitStructExpression();
@@ -11297,7 +11297,7 @@ public class CFScriptTree extends TreeParser {
 
                         if ( state.backtracking==0 ) { e.addElement( e1 ); }
 
-                        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:563:8: ( ',' e1= implicitStructExpression )*
+                        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:563:8: ( ',' e1= implicitStructExpression )*
                         loop67:
                         do {
                             int alt67=2;
@@ -11310,7 +11310,7 @@ public class CFScriptTree extends TreeParser {
 
                             switch (alt67) {
                         	case 1 :
-                        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:563:10: ',' e1= implicitStructExpression
+                        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:563:10: ',' e1= implicitStructExpression
                         	    {
                         	    match(input,157,FOLLOW_157_in_implicitStruct4535); if (state.failed) return e;
 
@@ -11361,7 +11361,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "implicitStructExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:569:1: implicitStructExpression returns [CFStructElementExpression e] : ^( ( COLON | EQUALSOP ) e1= implicitStructKeyExpression e2= expression ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:569:1: implicitStructExpression returns [CFStructElementExpression e] : ^( ( COLON | EQUALSOP ) e1= implicitStructKeyExpression e2= expression ) ;
     public final CFStructElementExpression implicitStructExpression() throws RecognitionException {
         CFStructElementExpression e = null;
 
@@ -11372,8 +11372,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:570:3: ( ^( ( COLON | EQUALSOP ) e1= implicitStructKeyExpression e2= expression ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:570:5: ^( ( COLON | EQUALSOP ) e1= implicitStructKeyExpression e2= expression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:570:3: ( ^( ( COLON | EQUALSOP ) e1= implicitStructKeyExpression e2= expression ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:570:5: ^( ( COLON | EQUALSOP ) e1= implicitStructKeyExpression e2= expression )
             {
             if ( input.LA(1)==COLON||input.LA(1)==EQUALSOP ) {
                 input.consume();
@@ -11425,7 +11425,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "implicitStructKeyExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:574:1: implicitStructKeyExpression returns [ArrayList<String> e] : (t= identifier ( DOT (t= identifier |t= reservedWord ) )* |s= statement ( CONCAT ss= statement )* |e1= STRING_LITERAL );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:574:1: implicitStructKeyExpression returns [ArrayList<String> e] : (t= identifier ( DOT (t= identifier |t= reservedWord ) )* |s= statement ( CONCAT ss= statement )* |e1= STRING_LITERAL );
     public final ArrayList<String> implicitStructKeyExpression() throws RecognitionException {
         ArrayList<String> e = null;
 
@@ -11440,7 +11440,7 @@ public class CFScriptTree extends TreeParser {
 
          e = new ArrayList<String>(); 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:576:3: (t= identifier ( DOT (t= identifier |t= reservedWord ) )* |s= statement ( CONCAT ss= statement )* |e1= STRING_LITERAL )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:576:3: (t= identifier ( DOT (t= identifier |t= reservedWord ) )* |s= statement ( CONCAT ss= statement )* |e1= STRING_LITERAL )
             int alt72=3;
             switch ( input.LA(1) ) {
             case COMPONENT:
@@ -12517,7 +12517,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt72) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:576:5: t= identifier ( DOT (t= identifier |t= reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:576:5: t= identifier ( DOT (t= identifier |t= reservedWord ) )*
                     {
                     pushFollow(FOLLOW_identifier_in_implicitStructKeyExpression4631);
                     t=identifier();
@@ -12527,7 +12527,7 @@ public class CFScriptTree extends TreeParser {
 
                     if ( state.backtracking==0 ) { e.add( t.getName() ); }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:5: ( DOT (t= identifier |t= reservedWord ) )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:5: ( DOT (t= identifier |t= reservedWord ) )*
                     loop70:
                     do {
                         int alt70=2;
@@ -12546,11 +12546,11 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt70) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:7: DOT (t= identifier |t= reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:7: DOT (t= identifier |t= reservedWord )
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_implicitStructKeyExpression4641); if (state.failed) return e;
 
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:11: (t= identifier |t= reservedWord )
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:11: (t= identifier |t= reservedWord )
                     	    int alt69=2;
                     	    switch ( input.LA(1) ) {
                     	    case ABORT:
@@ -12982,7 +12982,7 @@ public class CFScriptTree extends TreeParser {
 
                     	    switch (alt69) {
                     	        case 1 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:13: t= identifier
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:13: t= identifier
                     	            {
                     	            pushFollow(FOLLOW_identifier_in_implicitStructKeyExpression4647);
                     	            t=identifier();
@@ -12993,7 +12993,7 @@ public class CFScriptTree extends TreeParser {
                     	            }
                     	            break;
                     	        case 2 :
-                    	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:28: t= reservedWord
+                    	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:28: t= reservedWord
                     	            {
                     	            pushFollow(FOLLOW_reservedWord_in_implicitStructKeyExpression4653);
                     	            t=reservedWord();
@@ -13021,7 +13021,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:5: s= statement ( CONCAT ss= statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:5: s= statement ( CONCAT ss= statement )*
                     {
                     pushFollow(FOLLOW_statement_in_implicitStructKeyExpression4668);
                     s=statement();
@@ -13029,7 +13029,7 @@ public class CFScriptTree extends TreeParser {
                     state._fsp--;
                     if (state.failed) return e;
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:17: ( CONCAT ss= statement )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:17: ( CONCAT ss= statement )*
                     loop71:
                     do {
                         int alt71=2;
@@ -13048,7 +13048,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt71) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:18: CONCAT ss= statement
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:18: CONCAT ss= statement
                     	    {
                     	    match(input,CONCAT,FOLLOW_CONCAT_in_implicitStructKeyExpression4671); if (state.failed) return e;
 
@@ -13072,7 +13072,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:579:5: e1= STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:579:5: e1= STRING_LITERAL
                     {
                     e1=(CommonTree)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_implicitStructKeyExpression4688); if (state.failed) return e;
 
@@ -13100,7 +13100,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "argumentList"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:582:1: argumentList returns [Vector<CFExpression> v] : ( (ve= argument[v] )* | EMPTYARGS );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:582:1: argumentList returns [Vector<CFExpression> v] : ( (ve= argument[v] )* | EMPTYARGS );
     public final Vector<CFExpression> argumentList() throws RecognitionException {
         Vector<CFExpression> v = null;
 
@@ -13110,7 +13110,7 @@ public class CFScriptTree extends TreeParser {
 
          v = null; 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:584:3: ( (ve= argument[v] )* | EMPTYARGS )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:584:3: ( (ve= argument[v] )* | EMPTYARGS )
             int alt74=2;
             int LA74_0 = input.LA(1);
 
@@ -13130,9 +13130,9 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt74) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:584:5: (ve= argument[v] )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:584:5: (ve= argument[v] )*
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:584:5: (ve= argument[v] )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:584:5: (ve= argument[v] )*
                     loop73:
                     do {
                         int alt73=2;
@@ -13145,7 +13145,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt73) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:584:7: ve= argument[v]
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:584:7: ve= argument[v]
                     	    {
                     	    pushFollow(FOLLOW_argument_in_argumentList4716);
                     	    ve=argument(v);
@@ -13167,7 +13167,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:585:5: EMPTYARGS
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:585:5: EMPTYARGS
                     {
                     match(input,EMPTYARGS,FOLLOW_EMPTYARGS_in_argumentList4728); if (state.failed) return v;
 
@@ -13195,7 +13195,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "argument"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:588:1: argument[Vector<CFExpression> v] returns [Vector<CFExpression> vl] : ( ^( COLON t1= identifier e= expression ) |e= expression );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:588:1: argument[Vector<CFExpression> v] returns [Vector<CFExpression> vl] : ( ^( COLON t1= identifier e= expression ) |e= expression );
     public final Vector<CFExpression> argument(Vector<CFExpression> v) throws RecognitionException {
         Vector<CFExpression> vl = null;
 
@@ -13206,7 +13206,7 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:589:3: ( ^( COLON t1= identifier e= expression ) |e= expression )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:589:3: ( ^( COLON t1= identifier e= expression ) |e= expression )
             int alt75=2;
             int LA75_0 = input.LA(1);
 
@@ -13229,7 +13229,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt75) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:589:5: ^( COLON t1= identifier e= expression )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:589:5: ^( COLON t1= identifier e= expression )
                     {
                     match(input,COLON,FOLLOW_COLON_in_argument4750); if (state.failed) return vl;
 
@@ -13260,7 +13260,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:596:5: e= expression
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:596:5: e= expression
                     {
                     pushFollow(FOLLOW_expression_in_argument4769);
                     e=expression();
@@ -13298,7 +13298,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "newComponentExpression"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:606:1: newComponentExpression returns [CFExpression e] : ^(t= NEW c= componentPath LEFTPAREN args= argumentList ) ;
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:606:1: newComponentExpression returns [CFExpression e] : ^(t= NEW c= componentPath LEFTPAREN args= argumentList ) ;
     public final CFExpression newComponentExpression() throws RecognitionException {
         CFExpression e = null;
 
@@ -13310,8 +13310,8 @@ public class CFScriptTree extends TreeParser {
 
 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:607:3: ( ^(t= NEW c= componentPath LEFTPAREN args= argumentList ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:607:5: ^(t= NEW c= componentPath LEFTPAREN args= argumentList )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:607:3: ( ^(t= NEW c= componentPath LEFTPAREN args= argumentList ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:607:5: ^(t= NEW c= componentPath LEFTPAREN args= argumentList )
             {
             t=(CommonTree)match(input,NEW,FOLLOW_NEW_in_newComponentExpression4793); if (state.failed) return e;
 
@@ -13355,7 +13355,7 @@ public class CFScriptTree extends TreeParser {
 
 
     // $ANTLR start "componentPath"
-    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:610:1: componentPath returns [String e] : (t= STRING_LITERAL |i= identifier ( DOT i2= identifier )* );
+    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:610:1: componentPath returns [String e] : (t= STRING_LITERAL |i= identifier ( DOT i2= identifier )* );
     public final String componentPath() throws RecognitionException {
         String e = null;
 
@@ -13368,7 +13368,7 @@ public class CFScriptTree extends TreeParser {
 
          StringBuilder sb = null; 
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:612:3: (t= STRING_LITERAL |i= identifier ( DOT i2= identifier )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:612:3: (t= STRING_LITERAL |i= identifier ( DOT i2= identifier )* )
             int alt77=2;
             int LA77_0 = input.LA(1);
 
@@ -13391,7 +13391,7 @@ public class CFScriptTree extends TreeParser {
             }
             switch (alt77) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:612:5: t= STRING_LITERAL
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:612:5: t= STRING_LITERAL
                     {
                     t=(CommonTree)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_componentPath4831); if (state.failed) return e;
 
@@ -13400,7 +13400,7 @@ public class CFScriptTree extends TreeParser {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:613:5: i= identifier ( DOT i2= identifier )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:613:5: i= identifier ( DOT i2= identifier )*
                     {
                     pushFollow(FOLLOW_identifier_in_componentPath4841);
                     i=identifier();
@@ -13410,7 +13410,7 @@ public class CFScriptTree extends TreeParser {
 
                     if ( state.backtracking==0 ) { sb = new StringBuilder(); sb.append( i.getName() ); }
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:614:5: ( DOT i2= identifier )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:614:5: ( DOT i2= identifier )*
                     loop76:
                     do {
                         int alt76=2;
@@ -13429,7 +13429,7 @@ public class CFScriptTree extends TreeParser {
 
                         switch (alt76) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:614:7: DOT i2= identifier
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:614:7: DOT i2= identifier
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_componentPath4851); if (state.failed) return e;
 
@@ -13476,8 +13476,8 @@ public class CFScriptTree extends TreeParser {
         CFIdentifier i1 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:166:5: (i1= type )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:166:5: i1= type
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:166:5: (i1= type )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:166:5: i1= type
         {
         pushFollow(FOLLOW_type_in_synpred14_CFScriptTree515);
         i1=type();
@@ -13495,8 +13495,8 @@ public class CFScriptTree extends TreeParser {
         CFIdentifier i2 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:13: (i2= identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:13: i2= identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:13: (i2= identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:13: i2= identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred15_CFScriptTree541);
         i2=identifier();
@@ -13516,8 +13516,8 @@ public class CFScriptTree extends TreeParser {
         CFIdentifier i2 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:167:5: (i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )* )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:167:5: i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:167:5: (i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )* )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:167:5: i1= identifier ( DOT (i2= identifier |i2= reservedWord ) )*
         {
         pushFollow(FOLLOW_identifier_in_synpred17_CFScriptTree525);
         i1=identifier();
@@ -13525,7 +13525,7 @@ public class CFScriptTree extends TreeParser {
         state._fsp--;
         if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:5: ( DOT (i2= identifier |i2= reservedWord ) )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:5: ( DOT (i2= identifier |i2= reservedWord ) )*
         loop81:
         do {
             int alt81=2;
@@ -13538,11 +13538,11 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt81) {
         	case 1 :
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:7: DOT (i2= identifier |i2= reservedWord )
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:7: DOT (i2= identifier |i2= reservedWord )
         	    {
         	    match(input,DOT,FOLLOW_DOT_in_synpred17_CFScriptTree535); if (state.failed) return ;
 
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:11: (i2= identifier |i2= reservedWord )
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:11: (i2= identifier |i2= reservedWord )
         	    int alt80=2;
         	    switch ( input.LA(1) ) {
         	    case ABORT:
@@ -13974,7 +13974,7 @@ public class CFScriptTree extends TreeParser {
 
         	    switch (alt80) {
         	        case 1 :
-        	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:13: i2= identifier
+        	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:13: i2= identifier
         	            {
         	            pushFollow(FOLLOW_identifier_in_synpred17_CFScriptTree541);
         	            i2=identifier();
@@ -13985,7 +13985,7 @@ public class CFScriptTree extends TreeParser {
         	            }
         	            break;
         	        case 2 :
-        	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:168:29: i2= reservedWord
+        	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:168:29: i2= reservedWord
         	            {
         	            pushFollow(FOLLOW_reservedWord_in_synpred17_CFScriptTree547);
         	            i2=reservedWord();
@@ -14018,8 +14018,8 @@ public class CFScriptTree extends TreeParser {
         CFScriptStatement statmt =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:178:27: (statmt= statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:178:27: statmt= statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:178:27: (statmt= statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:178:27: statmt= statement
         {
         pushFollow(FOLLOW_statement_in_synpred18_CFScriptTree602);
         statmt=statement();
@@ -14036,8 +14036,8 @@ public class CFScriptTree extends TreeParser {
     public final void synpred22_CFScriptTree_fragment() throws RecognitionException {
         CommonTree t=null;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:188:5: (t= BREAK )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:188:5: t= BREAK
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:188:5: (t= BREAK )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:188:5: t= BREAK
         {
         t=(CommonTree)match(input,BREAK,FOLLOW_BREAK_in_synpred22_CFScriptTree713); if (state.failed) return ;
 
@@ -14050,8 +14050,8 @@ public class CFScriptTree extends TreeParser {
     public final void synpred23_CFScriptTree_fragment() throws RecognitionException {
         CommonTree t=null;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:189:5: (t= CONTINUE )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:189:5: t= CONTINUE
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:189:5: (t= CONTINUE )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:189:5: t= CONTINUE
         {
         t=(CommonTree)match(input,CONTINUE,FOLLOW_CONTINUE_in_synpred23_CFScriptTree723); if (state.failed) return ;
 
@@ -14065,8 +14065,8 @@ public class CFScriptTree extends TreeParser {
         CFScriptStatement s1 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:190:5: (s1= returnStatement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:190:5: s1= returnStatement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:190:5: (s1= returnStatement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:190:5: s1= returnStatement
         {
         pushFollow(FOLLOW_returnStatement_in_synpred24_CFScriptTree733);
         s1=returnStatement();
@@ -14084,8 +14084,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression c =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:202:16: (c= expression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:202:16: c= expression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:202:16: (c= expression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:202:16: c= expression
         {
         pushFollow(FOLLOW_expression_in_synpred32_CFScriptTree875);
         c=expression();
@@ -14103,8 +14103,8 @@ public class CFScriptTree extends TreeParser {
         CFScriptStatement s1 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:241:42: (s1= statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:241:42: s1= statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:241:42: (s1= statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:241:42: s1= statement
         {
         pushFollow(FOLLOW_statement_in_synpred36_CFScriptTree1096);
         s1=statement();
@@ -14122,8 +14122,8 @@ public class CFScriptTree extends TreeParser {
         CFScriptStatement s1 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:243:23: (s1= statement )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:243:23: s1= statement
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:243:23: (s1= statement )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:243:23: s1= statement
         {
         pushFollow(FOLLOW_statement_in_synpred38_CFScriptTree1126);
         s1=statement();
@@ -14138,8 +14138,8 @@ public class CFScriptTree extends TreeParser {
 
     // $ANTLR start synpred45_CFScriptTree
     public final void synpred45_CFScriptTree_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:13: ( VAR )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:13: VAR
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:13: ( VAR )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:13: VAR
         {
         match(input,VAR,FOLLOW_VAR_in_synpred45_CFScriptTree1286); if (state.failed) return ;
 
@@ -14153,8 +14153,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression e3 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:73: (e3= expression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:258:73: e3= expression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:73: (e3= expression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:258:73: e3= expression
         {
         pushFollow(FOLLOW_expression_in_synpred48_CFScriptTree1310);
         e3=expression();
@@ -14169,8 +14169,8 @@ public class CFScriptTree extends TreeParser {
 
     // $ANTLR start synpred50_CFScriptTree
     public final void synpred50_CFScriptTree_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:267:5: ( VAR )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:267:5: VAR
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:267:5: ( VAR )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:267:5: VAR
         {
         match(input,VAR,FOLLOW_VAR_in_synpred50_CFScriptTree1365); if (state.failed) return ;
 
@@ -14184,8 +14184,8 @@ public class CFScriptTree extends TreeParser {
         CFIdentifier t2 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:269:13: (t2= identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:269:13: t2= identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:269:13: (t2= identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:269:13: t2= identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred51_CFScriptTree1392);
         t2=identifier();
@@ -14205,8 +14205,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression e =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:314:7: ( ^( EQUALSOP i= identifier e= expression ) )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:314:7: ^( EQUALSOP i= identifier e= expression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:314:7: ( ^( EQUALSOP i= identifier e= expression ) )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:314:7: ^( EQUALSOP i= identifier e= expression )
         {
         match(input,EQUALSOP,FOLLOW_EQUALSOP_in_synpred76_CFScriptTree1802); if (state.failed) return ;
 
@@ -14236,8 +14236,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression be =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:320:6: (be= binaryExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:320:6: be= binaryExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:320:6: (be= binaryExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:320:6: be= binaryExpression
         {
         pushFollow(FOLLOW_binaryExpression_in_synpred77_CFScriptTree1843);
         be=binaryExpression();
@@ -14258,8 +14258,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression e2 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:344:5: ( ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:344:5: ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:344:5: ( ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression ) )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:344:5: ^(op= CONCATEQUALS e1= memberExpression e2= memberExpression )
         {
         op=(CommonTree)match(input,CONCATEQUALS,FOLLOW_CONCATEQUALS_in_synpred86_CFScriptTree2095); if (state.failed) return ;
 
@@ -14292,8 +14292,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression e2 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:369:5: ( ^(op= PLUS e1= memberExpression e2= memberExpression ) )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:369:5: ^(op= PLUS e1= memberExpression e2= memberExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:369:5: ( ^(op= PLUS e1= memberExpression e2= memberExpression ) )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:369:5: ^(op= PLUS e1= memberExpression e2= memberExpression )
         {
         op=(CommonTree)match(input,PLUS,FOLLOW_PLUS_in_synpred107_CFScriptTree2563); if (state.failed) return ;
 
@@ -14326,8 +14326,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression e2 =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:370:5: ( ^(op= MINUS e1= memberExpression e2= memberExpression ) )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:370:5: ^(op= MINUS e1= memberExpression e2= memberExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:370:5: ( ^(op= MINUS e1= memberExpression e2= memberExpression ) )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:370:5: ^(op= MINUS e1= memberExpression e2= memberExpression )
         {
         op=(CommonTree)match(input,MINUS,FOLLOW_MINUS_in_synpred108_CFScriptTree2585); if (state.failed) return ;
 
@@ -14354,8 +14354,8 @@ public class CFScriptTree extends TreeParser {
 
     // $ANTLR start synpred121_CFScriptTree
     public final void synpred121_CFScriptTree_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:60: ( LEFTPAREN argumentList ')' )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:60: LEFTPAREN argumentList ')'
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:60: ( LEFTPAREN argumentList ')' )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:60: LEFTPAREN argumentList ')'
         {
         match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_synpred121_CFScriptTree2873); if (state.failed) return ;
 
@@ -14374,8 +14374,8 @@ public class CFScriptTree extends TreeParser {
 
     // $ANTLR start synpred122_CFScriptTree
     public final void synpred122_CFScriptTree_fragment() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:34: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:34: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:34: ( DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )* )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:34: DOT primaryExpressionIRW ( LEFTPAREN argumentList ')' )*
         {
         match(input,DOT,FOLLOW_DOT_in_synpred122_CFScriptTree2868); if (state.failed) return ;
 
@@ -14385,7 +14385,7 @@ public class CFScriptTree extends TreeParser {
         state._fsp--;
         if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:59: ( LEFTPAREN argumentList ')' )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:59: ( LEFTPAREN argumentList ')' )*
         loop97:
         do {
             int alt97=2;
@@ -14398,7 +14398,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt97) {
         	case 1 :
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:387:60: LEFTPAREN argumentList ')'
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:387:60: LEFTPAREN argumentList ')'
         	    {
         	    match(input,LEFTPAREN,FOLLOW_LEFTPAREN_in_synpred122_CFScriptTree2873); if (state.failed) return ;
 
@@ -14429,8 +14429,8 @@ public class CFScriptTree extends TreeParser {
         Vector<CFExpression> args =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:407:72: (args= argumentList )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:407:72: args= argumentList
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:407:72: (args= argumentList )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:407:72: args= argumentList
         {
         pushFollow(FOLLOW_argumentList_in_synpred125_CFScriptTree2973);
         args=argumentList();
@@ -14447,8 +14447,8 @@ public class CFScriptTree extends TreeParser {
     public final void synpred144_CFScriptTree_fragment() throws RecognitionException {
         CommonTree t=null;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:462:5: (t= DEFAULT )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:462:5: t= DEFAULT
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:462:5: (t= DEFAULT )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:462:5: t= DEFAULT
         {
         t=(CommonTree)match(input,DEFAULT,FOLLOW_DEFAULT_in_synpred144_CFScriptTree3352); if (state.failed) return ;
 
@@ -14462,8 +14462,8 @@ public class CFScriptTree extends TreeParser {
         CFExpression pe =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:525:5: (pe= primaryExpression )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:525:5: pe= primaryExpression
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:525:5: (pe= primaryExpression )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:525:5: pe= primaryExpression
         {
         pushFollow(FOLLOW_primaryExpression_in_synpred191_CFScriptTree4070);
         pe=primaryExpression();
@@ -14481,8 +14481,8 @@ public class CFScriptTree extends TreeParser {
         CFIdentifier t =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:13: (t= identifier )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:13: t= identifier
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:13: (t= identifier )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:13: t= identifier
         {
         pushFollow(FOLLOW_identifier_in_synpred216_CFScriptTree4647);
         t=identifier();
@@ -14500,8 +14500,8 @@ public class CFScriptTree extends TreeParser {
         CFIdentifier t =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:576:5: (t= identifier ( DOT (t= identifier |t= reservedWord ) )* )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:576:5: t= identifier ( DOT (t= identifier |t= reservedWord ) )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:576:5: (t= identifier ( DOT (t= identifier |t= reservedWord ) )* )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:576:5: t= identifier ( DOT (t= identifier |t= reservedWord ) )*
         {
         pushFollow(FOLLOW_identifier_in_synpred218_CFScriptTree4631);
         t=identifier();
@@ -14509,7 +14509,7 @@ public class CFScriptTree extends TreeParser {
         state._fsp--;
         if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:5: ( DOT (t= identifier |t= reservedWord ) )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:5: ( DOT (t= identifier |t= reservedWord ) )*
         loop102:
         do {
             int alt102=2;
@@ -14522,11 +14522,11 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt102) {
         	case 1 :
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:7: DOT (t= identifier |t= reservedWord )
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:7: DOT (t= identifier |t= reservedWord )
         	    {
         	    match(input,DOT,FOLLOW_DOT_in_synpred218_CFScriptTree4641); if (state.failed) return ;
 
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:11: (t= identifier |t= reservedWord )
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:11: (t= identifier |t= reservedWord )
         	    int alt101=2;
         	    switch ( input.LA(1) ) {
         	    case ABORT:
@@ -14958,7 +14958,7 @@ public class CFScriptTree extends TreeParser {
 
         	    switch (alt101) {
         	        case 1 :
-        	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:13: t= identifier
+        	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:13: t= identifier
         	            {
         	            pushFollow(FOLLOW_identifier_in_synpred218_CFScriptTree4647);
         	            t=identifier();
@@ -14969,7 +14969,7 @@ public class CFScriptTree extends TreeParser {
         	            }
         	            break;
         	        case 2 :
-        	            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:577:28: t= reservedWord
+        	            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:577:28: t= reservedWord
         	            {
         	            pushFollow(FOLLOW_reservedWord_in_synpred218_CFScriptTree4653);
         	            t=reservedWord();
@@ -15004,8 +15004,8 @@ public class CFScriptTree extends TreeParser {
         CFScriptStatement ss =null;
 
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:5: (s= statement ( CONCAT ss= statement )* )
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:5: s= statement ( CONCAT ss= statement )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:5: (s= statement ( CONCAT ss= statement )* )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:5: s= statement ( CONCAT ss= statement )*
         {
         pushFollow(FOLLOW_statement_in_synpred220_CFScriptTree4668);
         s=statement();
@@ -15013,7 +15013,7 @@ public class CFScriptTree extends TreeParser {
         state._fsp--;
         if (state.failed) return ;
 
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:17: ( CONCAT ss= statement )*
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:17: ( CONCAT ss= statement )*
         loop103:
         do {
             int alt103=2;
@@ -15026,7 +15026,7 @@ public class CFScriptTree extends TreeParser {
 
             switch (alt103) {
         	case 1 :
-        	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFScriptTree.g:578:18: CONCAT ss= statement
+        	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFScriptTree.g:578:18: CONCAT ss= statement
         	    {
         	    match(input,CONCAT,FOLLOW_CONCAT_in_synpred220_CFScriptTree4671); if (state.failed) return ;
 

@@ -1,4 +1,4 @@
-// $ANTLR 3.4 /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g 2012-10-27 20:34:01
+// $ANTLR 3.4 C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g 2013-12-03 16:42:08
  
 package cfml.parsing.cfml.antlr;
 import cfml.parsing.cfscript.CFParseException;
@@ -226,15 +226,15 @@ public class CFMLLexer extends Lexer {
     public CFMLLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "/Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g"; }
 
     // $ANTLR start "T__148"
     public final void mT__148() throws RecognitionException {
         try {
             int _type = T__148;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:56:8: ( '!=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:56:10: '!='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:56:8: ( '!=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:56:10: '!='
             {
             match("!="); 
 
@@ -256,8 +256,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = T__149;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:57:8: ( '#' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:57:10: '#'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:57:8: ( '#' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:57:10: '#'
             {
             match('#'); 
 
@@ -277,8 +277,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = T__150;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:58:8: ( ',' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:58:10: ','
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:58:8: ( ',' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:58:10: ','
             {
             match(','); 
 
@@ -298,8 +298,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = T__151;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:59:8: ( '<' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:59:10: '<'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:59:8: ( '<' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:59:10: '<'
             {
             match('<'); 
 
@@ -319,8 +319,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = T__152;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:60:8: ( '<=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:60:10: '<='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:60:8: ( '<=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:60:10: '<='
             {
             match("<="); 
 
@@ -342,8 +342,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = T__153;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:61:8: ( '>' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:61:10: '>'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:61:8: ( '>' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:61:10: '>'
             {
             match('>'); 
 
@@ -363,8 +363,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = T__154;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:62:8: ( '>=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:62:10: '>='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:62:8: ( '>=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:62:10: '>='
             {
             match(">="); 
 
@@ -386,10 +386,10 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:215:4: ( ( ' ' | '\\t' | '\\n' | '\\r' | '\\f' )+ )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:215:6: ( ' ' | '\\t' | '\\n' | '\\r' | '\\f' )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:215:4: ( ( ' ' | '\\t' | '\\n' | '\\r' | '\\f' )+ )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:215:6: ( ' ' | '\\t' | '\\n' | '\\r' | '\\f' )+
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:215:6: ( ' ' | '\\t' | '\\n' | '\\r' | '\\f' )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:215:6: ( ' ' | '\\t' | '\\n' | '\\r' | '\\f' )+
             int cnt1=0;
             loop1:
             do {
@@ -403,7 +403,7 @@ public class CFMLLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             	    {
             	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||(input.LA(1) >= '\f' && input.LA(1) <= '\r')||input.LA(1)==' ' ) {
             	        input.consume();
@@ -446,14 +446,14 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:217:14: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )? )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:218:13: '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:217:14: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:218:13: '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )?
             {
             match("//"); 
 
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:219:13: (~ ( '\\n' | '\\r' ) )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:219:13: (~ ( '\\n' | '\\r' ) )*
             loop2:
             do {
                 int alt2=2;
@@ -466,7 +466,7 @@ public class CFMLLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -487,7 +487,7 @@ public class CFMLLexer extends Lexer {
             } while (true);
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:220:13: ( '\\n' | '\\r' ( '\\n' )? )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:220:13: ( '\\n' | '\\r' ( '\\n' )? )?
             int alt4=3;
             int LA4_0 = input.LA(1);
 
@@ -499,18 +499,18 @@ public class CFMLLexer extends Lexer {
             }
             switch (alt4) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:220:15: '\\n'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:220:15: '\\n'
                     {
                     match('\n'); 
 
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:220:20: '\\r' ( '\\n' )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:220:20: '\\r' ( '\\n' )?
                     {
                     match('\r'); 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:220:24: ( '\\n' )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:220:24: ( '\\n' )?
                     int alt3=2;
                     int LA3_0 = input.LA(1);
 
@@ -519,7 +519,7 @@ public class CFMLLexer extends Lexer {
                     }
                     switch (alt3) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:220:25: '\\n'
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:220:25: '\\n'
                             {
                             match('\n'); 
 
@@ -553,14 +553,14 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:224:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:224:9: '/*' ( options {greedy=false; } : . )* '*/'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:224:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:224:9: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:224:14: ( options {greedy=false; } : . )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:224:14: ( options {greedy=false; } : . )*
             loop5:
             do {
                 int alt5=2;
@@ -585,7 +585,7 @@ public class CFMLLexer extends Lexer {
 
                 switch (alt5) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:224:41: .
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:224:41: .
             	    {
             	    matchAny(); 
 
@@ -620,7 +620,7 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = BOOLEAN_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:228:2: ( 'TRUE' | 'FALSE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:228:2: ( 'TRUE' | 'FALSE' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -639,7 +639,7 @@ public class CFMLLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:228:4: 'TRUE'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:228:4: 'TRUE'
                     {
                     match("TRUE"); 
 
@@ -648,7 +648,7 @@ public class CFMLLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:229:4: 'FALSE'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:229:4: 'FALSE'
                     {
                     match("FALSE"); 
 
@@ -672,7 +672,7 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = STRING_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:233:2: ( '\"' ( DoubleStringCharacter )* '\"' | '\\'' ( SingleStringCharacter )* '\\'' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:233:2: ( '\"' ( DoubleStringCharacter )* '\"' | '\\'' ( SingleStringCharacter )* '\\'' )
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -691,11 +691,11 @@ public class CFMLLexer extends Lexer {
             }
             switch (alt9) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:233:4: '\"' ( DoubleStringCharacter )* '\"'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:233:4: '\"' ( DoubleStringCharacter )* '\"'
                     {
                     match('\"'); 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:233:8: ( DoubleStringCharacter )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:233:8: ( DoubleStringCharacter )*
                     loop7:
                     do {
                         int alt7=2;
@@ -717,7 +717,7 @@ public class CFMLLexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:233:8: DoubleStringCharacter
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:233:8: DoubleStringCharacter
                     	    {
                     	    mDoubleStringCharacter(); 
 
@@ -736,11 +736,11 @@ public class CFMLLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:234:4: '\\'' ( SingleStringCharacter )* '\\''
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:234:4: '\\'' ( SingleStringCharacter )* '\\''
                     {
                     match('\''); 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:234:9: ( SingleStringCharacter )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:234:9: ( SingleStringCharacter )*
                     loop8:
                     do {
                         int alt8=2;
@@ -762,7 +762,7 @@ public class CFMLLexer extends Lexer {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:234:9: SingleStringCharacter
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:234:9: SingleStringCharacter
                     	    {
                     	    mSingleStringCharacter(); 
 
@@ -794,7 +794,7 @@ public class CFMLLexer extends Lexer {
     // $ANTLR start "DoubleStringCharacter"
     public final void mDoubleStringCharacter() throws RecognitionException {
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:238:2: (~ ( '\"' ) | '\"\"' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:238:2: (~ ( '\"' ) | '\"\"' )
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -813,7 +813,7 @@ public class CFMLLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:238:4: ~ ( '\"' )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:238:4: ~ ( '\"' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -828,7 +828,7 @@ public class CFMLLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:239:4: '\"\"'
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:239:4: '\"\"'
                     {
                     match("\"\""); 
 
@@ -849,7 +849,7 @@ public class CFMLLexer extends Lexer {
     // $ANTLR start "SingleStringCharacter"
     public final void mSingleStringCharacter() throws RecognitionException {
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:243:2: (~ ( '\\'' ) | '\\'\\'' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:243:2: (~ ( '\\'' ) | '\\'\\'' )
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -868,7 +868,7 @@ public class CFMLLexer extends Lexer {
             }
             switch (alt11) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:243:4: ~ ( '\\'' )
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:243:4: ~ ( '\\'' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -883,7 +883,7 @@ public class CFMLLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:244:4: '\\'\\''
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:244:4: '\\'\\''
                     {
                     match("''"); 
 
@@ -904,8 +904,8 @@ public class CFMLLexer extends Lexer {
     // $ANTLR start "LETTER"
     public final void mLETTER() throws RecognitionException {
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:248:2: ( '\\u0024' | '\\u0041' .. '\\u005a' | '\\u005f' | '\\u0061' .. '\\u007a' | '\\u00c0' .. '\\u00d6' | '\\u00d8' .. '\\u00f6' | '\\u00f8' .. '\\u00ff' | '\\u0100' .. '\\u1fff' | '\\u3040' .. '\\u318f' | '\\u3300' .. '\\u337f' | '\\u3400' .. '\\u3d2d' | '\\u4e00' .. '\\u9fff' | '\\uf900' .. '\\ufaff' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:248:2: ( '\\u0024' | '\\u0041' .. '\\u005a' | '\\u005f' | '\\u0061' .. '\\u007a' | '\\u00c0' .. '\\u00d6' | '\\u00d8' .. '\\u00f6' | '\\u00f8' .. '\\u00ff' | '\\u0100' .. '\\u1fff' | '\\u3040' .. '\\u318f' | '\\u3300' .. '\\u337f' | '\\u3400' .. '\\u3d2d' | '\\u4e00' .. '\\u9fff' | '\\uf900' .. '\\ufaff' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             if ( input.LA(1)=='$'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00D6')||(input.LA(1) >= '\u00D8' && input.LA(1) <= '\u00F6')||(input.LA(1) >= '\u00F8' && input.LA(1) <= '\u1FFF')||(input.LA(1) >= '\u3040' && input.LA(1) <= '\u318F')||(input.LA(1) >= '\u3300' && input.LA(1) <= '\u337F')||(input.LA(1) >= '\u3400' && input.LA(1) <= '\u3D2D')||(input.LA(1) >= '\u4E00' && input.LA(1) <= '\u9FFF')||(input.LA(1) >= '\uF900' && input.LA(1) <= '\uFAFF') ) {
                 input.consume();
@@ -930,8 +930,8 @@ public class CFMLLexer extends Lexer {
     // $ANTLR start "DIGIT"
     public final void mDIGIT() throws RecognitionException {
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:264:2: ( '\\u0030' .. '\\u0039' | '\\u0660' .. '\\u0669' | '\\u06f0' .. '\\u06f9' | '\\u0966' .. '\\u096f' | '\\u09e6' .. '\\u09ef' | '\\u0a66' .. '\\u0a6f' | '\\u0ae6' .. '\\u0aef' | '\\u0b66' .. '\\u0b6f' | '\\u0be7' .. '\\u0bef' | '\\u0c66' .. '\\u0c6f' | '\\u0ce6' .. '\\u0cef' | '\\u0d66' .. '\\u0d6f' | '\\u0e50' .. '\\u0e59' | '\\u0ed0' .. '\\u0ed9' | '\\u1040' .. '\\u1049' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:264:2: ( '\\u0030' .. '\\u0039' | '\\u0660' .. '\\u0669' | '\\u06f0' .. '\\u06f9' | '\\u0966' .. '\\u096f' | '\\u09e6' .. '\\u09ef' | '\\u0a66' .. '\\u0a6f' | '\\u0ae6' .. '\\u0aef' | '\\u0b66' .. '\\u0b6f' | '\\u0be7' .. '\\u0bef' | '\\u0c66' .. '\\u0c6f' | '\\u0ce6' .. '\\u0cef' | '\\u0d66' .. '\\u0d6f' | '\\u0e50' .. '\\u0e59' | '\\u0ed0' .. '\\u0ed9' | '\\u1040' .. '\\u1049' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= '\u0660' && input.LA(1) <= '\u0669')||(input.LA(1) >= '\u06F0' && input.LA(1) <= '\u06F9')||(input.LA(1) >= '\u0966' && input.LA(1) <= '\u096F')||(input.LA(1) >= '\u09E6' && input.LA(1) <= '\u09EF')||(input.LA(1) >= '\u0A66' && input.LA(1) <= '\u0A6F')||(input.LA(1) >= '\u0AE6' && input.LA(1) <= '\u0AEF')||(input.LA(1) >= '\u0B66' && input.LA(1) <= '\u0B6F')||(input.LA(1) >= '\u0BE7' && input.LA(1) <= '\u0BEF')||(input.LA(1) >= '\u0C66' && input.LA(1) <= '\u0C6F')||(input.LA(1) >= '\u0CE6' && input.LA(1) <= '\u0CEF')||(input.LA(1) >= '\u0D66' && input.LA(1) <= '\u0D6F')||(input.LA(1) >= '\u0E50' && input.LA(1) <= '\u0E59')||(input.LA(1) >= '\u0ED0' && input.LA(1) <= '\u0ED9')||(input.LA(1) >= '\u1040' && input.LA(1) <= '\u1049') ) {
                 input.consume();
@@ -958,8 +958,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:282:5: ( 'NULL' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:282:7: 'NULL'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:282:5: ( 'NULL' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:282:7: 'NULL'
             {
             match("NULL"); 
 
@@ -981,8 +981,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CONTAINS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:285:9: ( 'CONTAINS' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:285:11: 'CONTAINS'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:285:9: ( 'CONTAINS' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:285:11: 'CONTAINS'
             {
             match("CONTAINS"); 
 
@@ -1004,8 +1004,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CONTAIN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:286:8: ( 'CONTAIN' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:286:10: 'CONTAIN'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:286:8: ( 'CONTAIN' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:286:10: 'CONTAIN'
             {
             match("CONTAIN"); 
 
@@ -1027,8 +1027,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = DOES;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:287:5: ( 'DOES' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:287:7: 'DOES'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:287:5: ( 'DOES' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:287:7: 'DOES'
             {
             match("DOES"); 
 
@@ -1050,8 +1050,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = IS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:288:3: ( 'IS' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:288:5: 'IS'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:288:3: ( 'IS' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:288:5: 'IS'
             {
             match("IS"); 
 
@@ -1073,8 +1073,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = GT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:289:3: ( 'GT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:289:5: 'GT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:289:3: ( 'GT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:289:5: 'GT'
             {
             match("GT"); 
 
@@ -1096,8 +1096,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = GE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:290:3: ( 'GE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:290:5: 'GE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:290:3: ( 'GE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:290:5: 'GE'
             {
             match("GE"); 
 
@@ -1119,8 +1119,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = GTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:291:4: ( 'GTE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:291:6: 'GTE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:291:4: ( 'GTE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:291:6: 'GTE'
             {
             match("GTE"); 
 
@@ -1142,8 +1142,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:292:4: ( 'LTE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:292:6: 'LTE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:292:4: ( 'LTE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:292:6: 'LTE'
             {
             match("LTE"); 
 
@@ -1165,8 +1165,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:293:3: ( 'LT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:293:5: 'LT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:293:3: ( 'LT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:293:5: 'LT'
             {
             match("LT"); 
 
@@ -1188,8 +1188,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:294:3: ( 'LE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:294:5: 'LE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:294:3: ( 'LE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:294:5: 'LE'
             {
             match("LE"); 
 
@@ -1211,8 +1211,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EQ;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:295:3: ( 'EQ' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:295:5: 'EQ'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:295:3: ( 'EQ' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:295:5: 'EQ'
             {
             match("EQ"); 
 
@@ -1234,8 +1234,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:296:6: ( 'EQUAL' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:296:8: 'EQUAL'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:296:6: ( 'EQUAL' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:296:8: 'EQUAL'
             {
             match("EQUAL"); 
 
@@ -1257,8 +1257,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:297:7: ( 'EQUALS' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:297:9: 'EQUALS'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:297:7: ( 'EQUALS' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:297:9: 'EQUALS'
             {
             match("EQUALS"); 
 
@@ -1280,8 +1280,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = NEQ;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:298:4: ( 'NEQ' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:298:6: 'NEQ'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:298:4: ( 'NEQ' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:298:6: 'NEQ'
             {
             match("NEQ"); 
 
@@ -1303,8 +1303,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LESS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:299:5: ( 'LESS' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:299:7: 'LESS'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:299:5: ( 'LESS' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:299:7: 'LESS'
             {
             match("LESS"); 
 
@@ -1326,8 +1326,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = THAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:300:5: ( 'THAN' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:300:7: 'THAN'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:300:5: ( 'THAN' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:300:7: 'THAN'
             {
             match("THAN"); 
 
@@ -1349,8 +1349,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = GREATER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:301:8: ( 'GREATER' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:301:10: 'GREATER'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:301:8: ( 'GREATER' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:301:10: 'GREATER'
             {
             match("GREATER"); 
 
@@ -1372,8 +1372,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:302:3: ( 'OR' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:302:5: 'OR'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:302:3: ( 'OR' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:302:5: 'OR'
             {
             match("OR"); 
 
@@ -1395,8 +1395,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = TO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:303:3: ( 'TO' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:303:5: 'TO'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:303:3: ( 'TO' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:303:5: 'TO'
             {
             match("TO"); 
 
@@ -1418,8 +1418,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = IMP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:304:4: ( 'IMP' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:304:6: 'IMP'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:304:4: ( 'IMP' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:304:6: 'IMP'
             {
             match("IMP"); 
 
@@ -1441,8 +1441,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EQV;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:305:4: ( 'EQV' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:305:6: 'EQV'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:305:4: ( 'EQV' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:305:6: 'EQV'
             {
             match("EQV"); 
 
@@ -1464,8 +1464,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = XOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:306:4: ( 'XOR' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:306:6: 'XOR'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:306:4: ( 'XOR' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:306:6: 'XOR'
             {
             match("XOR"); 
 
@@ -1487,8 +1487,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:307:4: ( 'AND' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:307:6: 'AND'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:307:4: ( 'AND' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:307:6: 'AND'
             {
             match("AND"); 
 
@@ -1510,8 +1510,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = NOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:308:4: ( 'NOT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:308:6: 'NOT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:308:4: ( 'NOT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:308:6: 'NOT'
             {
             match("NOT"); 
 
@@ -1533,8 +1533,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = MOD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:309:4: ( 'MOD' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:309:6: 'MOD'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:309:4: ( 'MOD' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:309:6: 'MOD'
             {
             match("MOD"); 
 
@@ -1556,8 +1556,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = VAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:310:4: ( 'VAR' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:310:6: 'VAR'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:310:4: ( 'VAR' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:310:6: 'VAR'
             {
             match("VAR"); 
 
@@ -1579,8 +1579,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = NEW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:311:4: ( 'NEW' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:311:6: 'NEW'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:311:4: ( 'NEW' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:311:6: 'NEW'
             {
             match("NEW"); 
 
@@ -1602,8 +1602,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:314:3: ( 'IF' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:314:5: 'IF'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:314:3: ( 'IF' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:314:5: 'IF'
             {
             match("IF"); 
 
@@ -1625,8 +1625,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:315:5: ( 'ELSE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:315:7: 'ELSE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:315:5: ( 'ELSE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:315:7: 'ELSE'
             {
             match("ELSE"); 
 
@@ -1648,8 +1648,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = BREAK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:316:6: ( 'BREAK' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:316:8: 'BREAK'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:316:6: ( 'BREAK' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:316:8: 'BREAK'
             {
             match("BREAK"); 
 
@@ -1671,8 +1671,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CONTINUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:317:9: ( 'CONTINUE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:317:11: 'CONTINUE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:317:9: ( 'CONTINUE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:317:11: 'CONTINUE'
             {
             match("CONTINUE"); 
 
@@ -1694,8 +1694,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = FUNCTION;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:318:9: ( 'FUNCTION' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:318:11: 'FUNCTION'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:318:9: ( 'FUNCTION' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:318:11: 'FUNCTION'
             {
             match("FUNCTION"); 
 
@@ -1717,8 +1717,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = RETURN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:319:7: ( 'RETURN' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:319:9: 'RETURN'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:319:7: ( 'RETURN' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:319:9: 'RETURN'
             {
             match("RETURN"); 
 
@@ -1740,8 +1740,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = WHILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:320:6: ( 'WHILE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:320:8: 'WHILE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:320:6: ( 'WHILE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:320:8: 'WHILE'
             {
             match("WHILE"); 
 
@@ -1763,8 +1763,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = DO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:321:3: ( 'DO' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:321:5: 'DO'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:321:3: ( 'DO' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:321:5: 'DO'
             {
             match("DO"); 
 
@@ -1786,8 +1786,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:322:4: ( 'FOR' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:322:6: 'FOR'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:322:4: ( 'FOR' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:322:6: 'FOR'
             {
             match("FOR"); 
 
@@ -1809,8 +1809,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = IN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:323:3: ( 'IN' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:323:5: 'IN'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:323:3: ( 'IN' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:323:5: 'IN'
             {
             match("IN"); 
 
@@ -1832,8 +1832,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = TRY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:324:4: ( 'TRY' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:324:6: 'TRY'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:324:4: ( 'TRY' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:324:6: 'TRY'
             {
             match("TRY"); 
 
@@ -1855,8 +1855,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CATCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:325:6: ( 'CATCH' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:325:8: 'CATCH'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:325:6: ( 'CATCH' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:325:8: 'CATCH'
             {
             match("CATCH"); 
 
@@ -1878,8 +1878,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SWITCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:326:7: ( 'SWITCH' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:326:9: 'SWITCH'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:326:7: ( 'SWITCH' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:326:9: 'SWITCH'
             {
             match("SWITCH"); 
 
@@ -1901,8 +1901,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CASE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:327:5: ( 'CASE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:327:7: 'CASE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:327:5: ( 'CASE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:327:7: 'CASE'
             {
             match("CASE"); 
 
@@ -1924,8 +1924,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = DEFAULT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:328:8: ( 'DEFAULT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:328:10: 'DEFAULT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:328:8: ( 'DEFAULT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:328:10: 'DEFAULT'
             {
             match("DEFAULT"); 
 
@@ -1947,8 +1947,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = FINALLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:329:8: ( 'FINALLY' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:329:10: 'FINALLY'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:329:8: ( 'FINALLY' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:329:10: 'FINALLY'
             {
             match("FINALLY"); 
 
@@ -1970,8 +1970,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SCRIPTCLOSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:331:12: ( '</CFSCRIPT>' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:331:14: '</CFSCRIPT>'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:331:12: ( '</CFSCRIPT>' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:331:14: '</CFSCRIPT>'
             {
             match("</CFSCRIPT>"); 
 
@@ -1993,8 +1993,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:334:4: ( '.' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:334:6: '.'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:334:4: ( '.' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:334:6: '.'
             {
             match('.'); 
 
@@ -2014,8 +2014,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = STAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:335:5: ( '*' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:335:7: '*'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:335:5: ( '*' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:335:7: '*'
             {
             match('*'); 
 
@@ -2035,8 +2035,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:336:6: ( '/' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:336:8: '/'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:336:6: ( '/' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:336:8: '/'
             {
             match('/'); 
 
@@ -2056,8 +2056,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = BSLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:337:7: ( '\\\\' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:337:9: '\\\\'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:337:7: ( '\\\\' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:337:9: '\\\\'
             {
             match('\\'); 
 
@@ -2077,8 +2077,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = POWER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:338:6: ( '^' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:338:8: '^'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:338:6: ( '^' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:338:8: '^'
             {
             match('^'); 
 
@@ -2098,8 +2098,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:339:5: ( '+' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:339:7: '+'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:339:5: ( '+' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:339:7: '+'
             {
             match('+'); 
 
@@ -2119,8 +2119,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PLUSPLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:340:9: ( '++' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:340:11: '++'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:340:9: ( '++' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:340:11: '++'
             {
             match("++"); 
 
@@ -2142,8 +2142,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:341:6: ( '-' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:341:8: '-'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:341:6: ( '-' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:341:8: '-'
             {
             match('-'); 
 
@@ -2163,8 +2163,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = MINUSMINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:342:11: ( '--' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:342:13: '--'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:342:11: ( '--' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:342:13: '--'
             {
             match("--"); 
 
@@ -2186,8 +2186,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = MODOPERATOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:343:12: ( '%' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:343:14: '%'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:343:12: ( '%' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:343:14: '%'
             {
             match('%'); 
 
@@ -2207,8 +2207,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CONCAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:344:7: ( '&' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:344:9: '&'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:344:7: ( '&' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:344:9: '&'
             {
             match('&'); 
 
@@ -2228,8 +2228,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EQUALSEQUALSOP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:345:15: ( '==' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:345:17: '=='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:345:15: ( '==' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:345:17: '=='
             {
             match("=="); 
 
@@ -2251,8 +2251,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EQUALSOP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:346:9: ( '=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:346:11: '='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:346:9: ( '=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:346:11: '='
             {
             match('='); 
 
@@ -2272,8 +2272,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PLUSEQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:347:11: ( '+=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:347:13: '+='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:347:11: ( '+=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:347:13: '+='
             {
             match("+="); 
 
@@ -2295,8 +2295,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = MINUSEQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:348:12: ( '-=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:348:14: '-='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:348:12: ( '-=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:348:14: '-='
             {
             match("-="); 
 
@@ -2318,8 +2318,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = STAREQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:349:11: ( '*=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:349:13: '*='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:349:11: ( '*=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:349:13: '*='
             {
             match("*="); 
 
@@ -2341,8 +2341,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SLASHEQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:350:12: ( '/=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:350:14: '/='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:350:12: ( '/=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:350:14: '/='
             {
             match("/="); 
 
@@ -2364,8 +2364,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = MODEQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:351:10: ( '%=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:351:12: '%='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:351:10: ( '%=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:351:12: '%='
             {
             match("%="); 
 
@@ -2387,8 +2387,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = CONCATEQUALS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:352:13: ( '&=' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:352:15: '&='
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:352:13: ( '&=' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:352:15: '&='
             {
             match("&="); 
 
@@ -2410,8 +2410,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:353:6: ( ':' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:353:8: ':'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:353:6: ( ':' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:353:8: ':'
             {
             match(':'); 
 
@@ -2431,8 +2431,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = NOTOP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:354:6: ( '!' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:354:8: '!'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:354:6: ( '!' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:354:8: '!'
             {
             match('!'); 
 
@@ -2452,8 +2452,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SEMICOLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:355:10: ( ';' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:355:12: ';'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:355:10: ( ';' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:355:12: ';'
             {
             match(';'); 
 
@@ -2473,8 +2473,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = OROPERATOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:356:11: ( '||' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:356:13: '||'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:356:11: ( '||' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:356:13: '||'
             {
             match("||"); 
 
@@ -2496,8 +2496,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = ANDOPERATOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:357:12: ( '&&' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:357:14: '&&'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:357:12: ( '&&' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:357:14: '&&'
             {
             match("&&"); 
 
@@ -2519,8 +2519,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LEFTBRACKET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:358:12: ( '[' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:358:14: '['
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:358:12: ( '[' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:358:14: '['
             {
             match('['); 
 
@@ -2540,8 +2540,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = RIGHTBRACKET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:359:13: ( ']' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:359:15: ']'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:359:13: ( ']' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:359:15: ']'
             {
             match(']'); 
 
@@ -2561,8 +2561,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LEFTPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:360:10: ( '(' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:360:12: '('
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:360:10: ( '(' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:360:12: '('
             {
             match('('); 
 
@@ -2582,8 +2582,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = RIGHTPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:361:11: ( ')' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:361:13: ')'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:361:11: ( ')' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:361:13: ')'
             {
             match(')'); 
 
@@ -2603,8 +2603,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LEFTCURLYBRACKET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:362:17: ( '{' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:362:19: '{'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:362:17: ( '{' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:362:19: '{'
             {
             match('{'); 
 
@@ -2624,8 +2624,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = RIGHTCURLYBRACKET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:363:18: ( '}' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:363:20: '}'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:363:18: ( '}' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:363:20: '}'
             {
             match('}'); 
 
@@ -2645,8 +2645,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = QUESTIONMARK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:364:13: ( '?' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:364:15: '?'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:364:13: ( '?' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:364:15: '?'
             {
             match('?'); 
 
@@ -2666,8 +2666,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = INCLUDE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:367:8: ( 'INCLUDE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:367:10: 'INCLUDE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:367:8: ( 'INCLUDE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:367:10: 'INCLUDE'
             {
             match("INCLUDE"); 
 
@@ -2689,8 +2689,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = IMPORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:368:7: ( 'IMPORT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:368:9: 'IMPORT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:368:7: ( 'IMPORT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:368:9: 'IMPORT'
             {
             match("IMPORT"); 
 
@@ -2712,8 +2712,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = ABORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:369:6: ( 'ABORT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:369:8: 'ABORT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:369:6: ( 'ABORT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:369:8: 'ABORT'
             {
             match("ABORT"); 
 
@@ -2735,8 +2735,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = THROW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:370:6: ( 'THROW' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:370:8: 'THROW'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:370:6: ( 'THROW' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:370:8: 'THROW'
             {
             match("THROW"); 
 
@@ -2758,8 +2758,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = RETHROW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:371:8: ( 'RETHROW' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:371:10: 'RETHROW'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:371:8: ( 'RETHROW' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:371:10: 'RETHROW'
             {
             match("RETHROW"); 
 
@@ -2781,8 +2781,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = EXIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:372:5: ( 'EXIT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:372:7: 'EXIT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:372:5: ( 'EXIT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:372:7: 'EXIT'
             {
             match("EXIT"); 
 
@@ -2804,8 +2804,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PARAM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:373:6: ( 'PARAM' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:373:8: 'PARAM'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:373:6: ( 'PARAM' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:373:8: 'PARAM'
             {
             match("PARAM"); 
 
@@ -2827,8 +2827,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PROPERTY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:374:9: ( 'PROPERTY' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:374:11: 'PROPERTY'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:374:9: ( 'PROPERTY' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:374:11: 'PROPERTY'
             {
             match("PROPERTY"); 
 
@@ -2850,8 +2850,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LOCK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:375:5: ( 'LOCK' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:375:7: 'LOCK'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:375:5: ( 'LOCK' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:375:7: 'LOCK'
             {
             match("LOCK"); 
 
@@ -2873,8 +2873,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = THREAD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:376:7: ( 'THREAD' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:376:9: 'THREAD'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:376:7: ( 'THREAD' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:376:9: 'THREAD'
             {
             match("THREAD"); 
 
@@ -2896,8 +2896,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = TRANSACTION;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:377:12: ( 'TRANSACTION' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:377:14: 'TRANSACTION'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:377:12: ( 'TRANSACTION' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:377:14: 'TRANSACTION'
             {
             match("TRANSACTION"); 
 
@@ -2919,8 +2919,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LOCATION;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:380:9: ( 'LOCATION' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:380:11: 'LOCATION'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:380:9: ( 'LOCATION' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:380:11: 'LOCATION'
             {
             match("LOCATION"); 
 
@@ -2942,8 +2942,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SAVECONTENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:381:12: ( 'SAVECONTENT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:381:14: 'SAVECONTENT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:381:12: ( 'SAVECONTENT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:381:14: 'SAVECONTENT'
             {
             match("SAVECONTENT"); 
 
@@ -2965,8 +2965,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = HTTP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:382:5: ( 'HTTP' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:382:7: 'HTTP'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:382:5: ( 'HTTP' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:382:7: 'HTTP'
             {
             match("HTTP"); 
 
@@ -2988,8 +2988,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = FILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:383:5: ( 'FILE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:383:7: 'FILE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:383:5: ( 'FILE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:383:7: 'FILE'
             {
             match("FILE"); 
 
@@ -3011,8 +3011,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = DIRECTORY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:384:10: ( 'DIRECTORY' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:384:12: 'DIRECTORY'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:384:10: ( 'DIRECTORY' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:384:12: 'DIRECTORY'
             {
             match("DIRECTORY"); 
 
@@ -3034,8 +3034,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = LOOP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:385:5: ( 'LOOP' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:385:7: 'LOOP'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:385:5: ( 'LOOP' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:385:7: 'LOOP'
             {
             match("LOOP"); 
 
@@ -3057,8 +3057,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = SETTING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:386:8: ( 'SETTING' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:386:10: 'SETTING'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:386:8: ( 'SETTING' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:386:10: 'SETTING'
             {
             match("SETTING"); 
 
@@ -3080,8 +3080,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = QUERY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:387:6: ( 'QUERY' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:387:8: 'QUERY'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:387:6: ( 'QUERY' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:387:8: 'QUERY'
             {
             match("QUERY"); 
 
@@ -3103,8 +3103,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PRIVATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:390:8: ( 'PRIVATE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:390:10: 'PRIVATE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:390:8: ( 'PRIVATE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:390:10: 'PRIVATE'
             {
             match("PRIVATE"); 
 
@@ -3126,8 +3126,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PUBLIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:391:7: ( 'PUBLIC' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:391:9: 'PUBLIC'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:391:7: ( 'PUBLIC' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:391:9: 'PUBLIC'
             {
             match("PUBLIC"); 
 
@@ -3149,8 +3149,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = REMOTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:392:7: ( 'REMOTE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:392:9: 'REMOTE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:392:7: ( 'REMOTE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:392:9: 'REMOTE'
             {
             match("REMOTE"); 
 
@@ -3172,8 +3172,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = PACKAGE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:393:8: ( 'PACKAGE' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:393:10: 'PACKAGE'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:393:8: ( 'PACKAGE' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:393:10: 'PACKAGE'
             {
             match("PACKAGE"); 
 
@@ -3195,8 +3195,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = REQUIRED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:394:9: ( 'REQUIRED' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:394:11: 'REQUIRED'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:394:9: ( 'REQUIRED' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:394:11: 'REQUIRED'
             {
             match("REQUIRED"); 
 
@@ -3218,8 +3218,8 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = COMPONENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:395:10: ( 'COMPONENT' )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:395:12: 'COMPONENT'
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:395:10: ( 'COMPONENT' )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:395:12: 'COMPONENT'
             {
             match("COMPONENT"); 
 
@@ -3241,13 +3241,13 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = IDENTIFIER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:398:2: ( LETTER ( LETTER | DIGIT )* )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:398:4: LETTER ( LETTER | DIGIT )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:398:2: ( LETTER ( LETTER | DIGIT )* )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:398:4: LETTER ( LETTER | DIGIT )*
             {
             mLETTER(); 
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:398:11: ( LETTER | DIGIT )*
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:398:11: ( LETTER | DIGIT )*
             loop12:
             do {
                 int alt12=2;
@@ -3260,7 +3260,7 @@ public class CFMLLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             	    {
             	    if ( input.LA(1)=='$'||(input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00D6')||(input.LA(1) >= '\u00D8' && input.LA(1) <= '\u00F6')||(input.LA(1) >= '\u00F8' && input.LA(1) <= '\u1FFF')||(input.LA(1) >= '\u3040' && input.LA(1) <= '\u318F')||(input.LA(1) >= '\u3300' && input.LA(1) <= '\u337F')||(input.LA(1) >= '\u3400' && input.LA(1) <= '\u3D2D')||(input.LA(1) >= '\u4E00' && input.LA(1) <= '\u9FFF')||(input.LA(1) >= '\uF900' && input.LA(1) <= '\uFAFF') ) {
             	        input.consume();
@@ -3297,10 +3297,10 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = INTEGER_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:401:3: ( ( DecimalDigit )+ )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:401:5: ( DecimalDigit )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:401:3: ( ( DecimalDigit )+ )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:401:5: ( DecimalDigit )+
             {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:401:5: ( DecimalDigit )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:401:5: ( DecimalDigit )+
             int cnt13=0;
             loop13:
             do {
@@ -3314,7 +3314,7 @@ public class CFMLLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -3353,8 +3353,8 @@ public class CFMLLexer extends Lexer {
     // $ANTLR start "DecimalDigit"
     public final void mDecimalDigit() throws RecognitionException {
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:406:3: ( ( '0' .. '9' ) )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:406:3: ( ( '0' .. '9' ) )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                 input.consume();
@@ -3381,14 +3381,14 @@ public class CFMLLexer extends Lexer {
         try {
             int _type = FLOATING_POINT_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:410:3: ( ( DecimalDigit )+ '.' ( DecimalDigit )* ( ExponentPart )? | '.' ( DecimalDigit )+ ( ExponentPart )? | ( DecimalDigit )+ ( ExponentPart )? )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:410:3: ( ( DecimalDigit )+ '.' ( DecimalDigit )* ( ExponentPart )? | '.' ( DecimalDigit )+ ( ExponentPart )? | ( DecimalDigit )+ ( ExponentPart )? )
             int alt21=3;
             alt21 = dfa21.predict(input);
             switch (alt21) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:410:5: ( DecimalDigit )+ '.' ( DecimalDigit )* ( ExponentPart )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:410:5: ( DecimalDigit )+ '.' ( DecimalDigit )* ( ExponentPart )?
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:410:5: ( DecimalDigit )+
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:410:5: ( DecimalDigit )+
                     int cnt14=0;
                     loop14:
                     do {
@@ -3402,7 +3402,7 @@ public class CFMLLexer extends Lexer {
 
                         switch (alt14) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -3429,7 +3429,7 @@ public class CFMLLexer extends Lexer {
 
                     match('.'); 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:410:23: ( DecimalDigit )*
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:410:23: ( DecimalDigit )*
                     loop15:
                     do {
                         int alt15=2;
@@ -3442,7 +3442,7 @@ public class CFMLLexer extends Lexer {
 
                         switch (alt15) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -3463,7 +3463,7 @@ public class CFMLLexer extends Lexer {
                     } while (true);
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:410:37: ( ExponentPart )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:410:37: ( ExponentPart )?
                     int alt16=2;
                     int LA16_0 = input.LA(1);
 
@@ -3472,7 +3472,7 @@ public class CFMLLexer extends Lexer {
                     }
                     switch (alt16) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:410:37: ExponentPart
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:410:37: ExponentPart
                             {
                             mExponentPart(); 
 
@@ -3486,11 +3486,11 @@ public class CFMLLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:411:5: '.' ( DecimalDigit )+ ( ExponentPart )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:411:5: '.' ( DecimalDigit )+ ( ExponentPart )?
                     {
                     match('.'); 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:411:9: ( DecimalDigit )+
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:411:9: ( DecimalDigit )+
                     int cnt17=0;
                     loop17:
                     do {
@@ -3504,7 +3504,7 @@ public class CFMLLexer extends Lexer {
 
                         switch (alt17) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -3529,7 +3529,7 @@ public class CFMLLexer extends Lexer {
                     } while (true);
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:411:23: ( ExponentPart )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:411:23: ( ExponentPart )?
                     int alt18=2;
                     int LA18_0 = input.LA(1);
 
@@ -3538,7 +3538,7 @@ public class CFMLLexer extends Lexer {
                     }
                     switch (alt18) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:411:23: ExponentPart
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:411:23: ExponentPart
                             {
                             mExponentPart(); 
 
@@ -3552,9 +3552,9 @@ public class CFMLLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:412:5: ( DecimalDigit )+ ( ExponentPart )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:412:5: ( DecimalDigit )+ ( ExponentPart )?
                     {
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:412:5: ( DecimalDigit )+
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:412:5: ( DecimalDigit )+
                     int cnt19=0;
                     loop19:
                     do {
@@ -3568,7 +3568,7 @@ public class CFMLLexer extends Lexer {
 
                         switch (alt19) {
                     	case 1 :
-                    	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+                    	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -3593,7 +3593,7 @@ public class CFMLLexer extends Lexer {
                     } while (true);
 
 
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:412:19: ( ExponentPart )?
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:412:19: ( ExponentPart )?
                     int alt20=2;
                     int LA20_0 = input.LA(1);
 
@@ -3602,7 +3602,7 @@ public class CFMLLexer extends Lexer {
                     }
                     switch (alt20) {
                         case 1 :
-                            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:412:19: ExponentPart
+                            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:412:19: ExponentPart
                             {
                             mExponentPart(); 
 
@@ -3629,8 +3629,8 @@ public class CFMLLexer extends Lexer {
     // $ANTLR start "ExponentPart"
     public final void mExponentPart() throws RecognitionException {
         try {
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:416:3: ( ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+ )
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:416:5: ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:416:3: ( ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+ )
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:416:5: ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -3642,7 +3642,7 @@ public class CFMLLexer extends Lexer {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:416:15: ( '+' | '-' )?
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:416:15: ( '+' | '-' )?
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -3651,7 +3651,7 @@ public class CFMLLexer extends Lexer {
             }
             switch (alt22) {
                 case 1 :
-                    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+                    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -3669,7 +3669,7 @@ public class CFMLLexer extends Lexer {
             }
 
 
-            // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:416:26: ( DecimalDigit )+
+            // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:416:26: ( DecimalDigit )+
             int cnt23=0;
             loop23:
             do {
@@ -3683,7 +3683,7 @@ public class CFMLLexer extends Lexer {
 
                 switch (alt23) {
             	case 1 :
-            	    // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:
+            	    // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -3719,12 +3719,12 @@ public class CFMLLexer extends Lexer {
     // $ANTLR end "ExponentPart"
 
     public void mTokens() throws RecognitionException {
-        // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:8: ( T__148 | T__149 | T__150 | T__151 | T__152 | T__153 | T__154 | WS | LINE_COMMENT | ML_COMMENT | BOOLEAN_LITERAL | STRING_LITERAL | NULL | CONTAINS | CONTAIN | DOES | IS | GT | GE | GTE | LTE | LT | LE | EQ | EQUAL | EQUALS | NEQ | LESS | THAN | GREATER | OR | TO | IMP | EQV | XOR | AND | NOT | MOD | VAR | NEW | IF | ELSE | BREAK | CONTINUE | FUNCTION | RETURN | WHILE | DO | FOR | IN | TRY | CATCH | SWITCH | CASE | DEFAULT | FINALLY | SCRIPTCLOSE | DOT | STAR | SLASH | BSLASH | POWER | PLUS | PLUSPLUS | MINUS | MINUSMINUS | MODOPERATOR | CONCAT | EQUALSEQUALSOP | EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS | COLON | NOTOP | SEMICOLON | OROPERATOR | ANDOPERATOR | LEFTBRACKET | RIGHTBRACKET | LEFTPAREN | RIGHTPAREN | LEFTCURLYBRACKET | RIGHTCURLYBRACKET | QUESTIONMARK | INCLUDE | IMPORT | ABORT | THROW | RETHROW | EXIT | PARAM | PROPERTY | LOCK | THREAD | TRANSACTION | LOCATION | SAVECONTENT | HTTP | FILE | DIRECTORY | LOOP | SETTING | QUERY | PRIVATE | PUBLIC | REMOTE | PACKAGE | REQUIRED | COMPONENT | IDENTIFIER | INTEGER_LITERAL | FLOATING_POINT_LITERAL )
+        // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:8: ( T__148 | T__149 | T__150 | T__151 | T__152 | T__153 | T__154 | WS | LINE_COMMENT | ML_COMMENT | BOOLEAN_LITERAL | STRING_LITERAL | NULL | CONTAINS | CONTAIN | DOES | IS | GT | GE | GTE | LTE | LT | LE | EQ | EQUAL | EQUALS | NEQ | LESS | THAN | GREATER | OR | TO | IMP | EQV | XOR | AND | NOT | MOD | VAR | NEW | IF | ELSE | BREAK | CONTINUE | FUNCTION | RETURN | WHILE | DO | FOR | IN | TRY | CATCH | SWITCH | CASE | DEFAULT | FINALLY | SCRIPTCLOSE | DOT | STAR | SLASH | BSLASH | POWER | PLUS | PLUSPLUS | MINUS | MINUSMINUS | MODOPERATOR | CONCAT | EQUALSEQUALSOP | EQUALSOP | PLUSEQUALS | MINUSEQUALS | STAREQUALS | SLASHEQUALS | MODEQUALS | CONCATEQUALS | COLON | NOTOP | SEMICOLON | OROPERATOR | ANDOPERATOR | LEFTBRACKET | RIGHTBRACKET | LEFTPAREN | RIGHTPAREN | LEFTCURLYBRACKET | RIGHTCURLYBRACKET | QUESTIONMARK | INCLUDE | IMPORT | ABORT | THROW | RETHROW | EXIT | PARAM | PROPERTY | LOCK | THREAD | TRANSACTION | LOCATION | SAVECONTENT | HTTP | FILE | DIRECTORY | LOOP | SETTING | QUERY | PRIVATE | PUBLIC | REMOTE | PACKAGE | REQUIRED | COMPONENT | IDENTIFIER | INTEGER_LITERAL | FLOATING_POINT_LITERAL )
         int alt24=116;
         alt24 = dfa24.predict(input);
         switch (alt24) {
             case 1 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:10: T__148
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:10: T__148
                 {
                 mT__148(); 
 
@@ -3732,7 +3732,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 2 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:17: T__149
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:17: T__149
                 {
                 mT__149(); 
 
@@ -3740,7 +3740,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 3 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:24: T__150
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:24: T__150
                 {
                 mT__150(); 
 
@@ -3748,7 +3748,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 4 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:31: T__151
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:31: T__151
                 {
                 mT__151(); 
 
@@ -3756,7 +3756,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 5 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:38: T__152
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:38: T__152
                 {
                 mT__152(); 
 
@@ -3764,7 +3764,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 6 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:45: T__153
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:45: T__153
                 {
                 mT__153(); 
 
@@ -3772,7 +3772,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 7 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:52: T__154
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:52: T__154
                 {
                 mT__154(); 
 
@@ -3780,7 +3780,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 8 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:59: WS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:59: WS
                 {
                 mWS(); 
 
@@ -3788,7 +3788,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 9 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:62: LINE_COMMENT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:62: LINE_COMMENT
                 {
                 mLINE_COMMENT(); 
 
@@ -3796,7 +3796,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 10 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:75: ML_COMMENT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:75: ML_COMMENT
                 {
                 mML_COMMENT(); 
 
@@ -3804,7 +3804,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 11 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:86: BOOLEAN_LITERAL
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:86: BOOLEAN_LITERAL
                 {
                 mBOOLEAN_LITERAL(); 
 
@@ -3812,7 +3812,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 12 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:102: STRING_LITERAL
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:102: STRING_LITERAL
                 {
                 mSTRING_LITERAL(); 
 
@@ -3820,7 +3820,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 13 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:117: NULL
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:117: NULL
                 {
                 mNULL(); 
 
@@ -3828,7 +3828,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 14 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:122: CONTAINS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:122: CONTAINS
                 {
                 mCONTAINS(); 
 
@@ -3836,7 +3836,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 15 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:131: CONTAIN
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:131: CONTAIN
                 {
                 mCONTAIN(); 
 
@@ -3844,7 +3844,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 16 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:139: DOES
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:139: DOES
                 {
                 mDOES(); 
 
@@ -3852,7 +3852,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 17 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:144: IS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:144: IS
                 {
                 mIS(); 
 
@@ -3860,7 +3860,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 18 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:147: GT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:147: GT
                 {
                 mGT(); 
 
@@ -3868,7 +3868,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 19 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:150: GE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:150: GE
                 {
                 mGE(); 
 
@@ -3876,7 +3876,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 20 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:153: GTE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:153: GTE
                 {
                 mGTE(); 
 
@@ -3884,7 +3884,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 21 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:157: LTE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:157: LTE
                 {
                 mLTE(); 
 
@@ -3892,7 +3892,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 22 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:161: LT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:161: LT
                 {
                 mLT(); 
 
@@ -3900,7 +3900,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 23 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:164: LE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:164: LE
                 {
                 mLE(); 
 
@@ -3908,7 +3908,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 24 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:167: EQ
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:167: EQ
                 {
                 mEQ(); 
 
@@ -3916,7 +3916,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 25 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:170: EQUAL
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:170: EQUAL
                 {
                 mEQUAL(); 
 
@@ -3924,7 +3924,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 26 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:176: EQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:176: EQUALS
                 {
                 mEQUALS(); 
 
@@ -3932,7 +3932,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 27 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:183: NEQ
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:183: NEQ
                 {
                 mNEQ(); 
 
@@ -3940,7 +3940,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 28 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:187: LESS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:187: LESS
                 {
                 mLESS(); 
 
@@ -3948,7 +3948,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 29 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:192: THAN
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:192: THAN
                 {
                 mTHAN(); 
 
@@ -3956,7 +3956,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 30 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:197: GREATER
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:197: GREATER
                 {
                 mGREATER(); 
 
@@ -3964,7 +3964,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 31 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:205: OR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:205: OR
                 {
                 mOR(); 
 
@@ -3972,7 +3972,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 32 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:208: TO
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:208: TO
                 {
                 mTO(); 
 
@@ -3980,7 +3980,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 33 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:211: IMP
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:211: IMP
                 {
                 mIMP(); 
 
@@ -3988,7 +3988,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 34 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:215: EQV
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:215: EQV
                 {
                 mEQV(); 
 
@@ -3996,7 +3996,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 35 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:219: XOR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:219: XOR
                 {
                 mXOR(); 
 
@@ -4004,7 +4004,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 36 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:223: AND
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:223: AND
                 {
                 mAND(); 
 
@@ -4012,7 +4012,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 37 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:227: NOT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:227: NOT
                 {
                 mNOT(); 
 
@@ -4020,7 +4020,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 38 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:231: MOD
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:231: MOD
                 {
                 mMOD(); 
 
@@ -4028,7 +4028,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 39 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:235: VAR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:235: VAR
                 {
                 mVAR(); 
 
@@ -4036,7 +4036,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 40 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:239: NEW
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:239: NEW
                 {
                 mNEW(); 
 
@@ -4044,7 +4044,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 41 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:243: IF
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:243: IF
                 {
                 mIF(); 
 
@@ -4052,7 +4052,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 42 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:246: ELSE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:246: ELSE
                 {
                 mELSE(); 
 
@@ -4060,7 +4060,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 43 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:251: BREAK
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:251: BREAK
                 {
                 mBREAK(); 
 
@@ -4068,7 +4068,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 44 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:257: CONTINUE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:257: CONTINUE
                 {
                 mCONTINUE(); 
 
@@ -4076,7 +4076,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 45 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:266: FUNCTION
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:266: FUNCTION
                 {
                 mFUNCTION(); 
 
@@ -4084,7 +4084,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 46 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:275: RETURN
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:275: RETURN
                 {
                 mRETURN(); 
 
@@ -4092,7 +4092,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 47 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:282: WHILE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:282: WHILE
                 {
                 mWHILE(); 
 
@@ -4100,7 +4100,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 48 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:288: DO
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:288: DO
                 {
                 mDO(); 
 
@@ -4108,7 +4108,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 49 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:291: FOR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:291: FOR
                 {
                 mFOR(); 
 
@@ -4116,7 +4116,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 50 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:295: IN
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:295: IN
                 {
                 mIN(); 
 
@@ -4124,7 +4124,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 51 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:298: TRY
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:298: TRY
                 {
                 mTRY(); 
 
@@ -4132,7 +4132,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 52 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:302: CATCH
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:302: CATCH
                 {
                 mCATCH(); 
 
@@ -4140,7 +4140,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 53 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:308: SWITCH
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:308: SWITCH
                 {
                 mSWITCH(); 
 
@@ -4148,7 +4148,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 54 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:315: CASE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:315: CASE
                 {
                 mCASE(); 
 
@@ -4156,7 +4156,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 55 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:320: DEFAULT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:320: DEFAULT
                 {
                 mDEFAULT(); 
 
@@ -4164,7 +4164,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 56 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:328: FINALLY
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:328: FINALLY
                 {
                 mFINALLY(); 
 
@@ -4172,7 +4172,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 57 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:336: SCRIPTCLOSE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:336: SCRIPTCLOSE
                 {
                 mSCRIPTCLOSE(); 
 
@@ -4180,7 +4180,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 58 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:348: DOT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:348: DOT
                 {
                 mDOT(); 
 
@@ -4188,7 +4188,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 59 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:352: STAR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:352: STAR
                 {
                 mSTAR(); 
 
@@ -4196,7 +4196,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 60 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:357: SLASH
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:357: SLASH
                 {
                 mSLASH(); 
 
@@ -4204,7 +4204,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 61 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:363: BSLASH
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:363: BSLASH
                 {
                 mBSLASH(); 
 
@@ -4212,7 +4212,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 62 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:370: POWER
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:370: POWER
                 {
                 mPOWER(); 
 
@@ -4220,7 +4220,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 63 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:376: PLUS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:376: PLUS
                 {
                 mPLUS(); 
 
@@ -4228,7 +4228,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 64 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:381: PLUSPLUS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:381: PLUSPLUS
                 {
                 mPLUSPLUS(); 
 
@@ -4236,7 +4236,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 65 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:390: MINUS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:390: MINUS
                 {
                 mMINUS(); 
 
@@ -4244,7 +4244,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 66 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:396: MINUSMINUS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:396: MINUSMINUS
                 {
                 mMINUSMINUS(); 
 
@@ -4252,7 +4252,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 67 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:407: MODOPERATOR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:407: MODOPERATOR
                 {
                 mMODOPERATOR(); 
 
@@ -4260,7 +4260,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 68 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:419: CONCAT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:419: CONCAT
                 {
                 mCONCAT(); 
 
@@ -4268,7 +4268,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 69 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:426: EQUALSEQUALSOP
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:426: EQUALSEQUALSOP
                 {
                 mEQUALSEQUALSOP(); 
 
@@ -4276,7 +4276,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 70 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:441: EQUALSOP
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:441: EQUALSOP
                 {
                 mEQUALSOP(); 
 
@@ -4284,7 +4284,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 71 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:450: PLUSEQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:450: PLUSEQUALS
                 {
                 mPLUSEQUALS(); 
 
@@ -4292,7 +4292,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 72 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:461: MINUSEQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:461: MINUSEQUALS
                 {
                 mMINUSEQUALS(); 
 
@@ -4300,7 +4300,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 73 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:473: STAREQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:473: STAREQUALS
                 {
                 mSTAREQUALS(); 
 
@@ -4308,7 +4308,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 74 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:484: SLASHEQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:484: SLASHEQUALS
                 {
                 mSLASHEQUALS(); 
 
@@ -4316,7 +4316,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 75 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:496: MODEQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:496: MODEQUALS
                 {
                 mMODEQUALS(); 
 
@@ -4324,7 +4324,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 76 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:506: CONCATEQUALS
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:506: CONCATEQUALS
                 {
                 mCONCATEQUALS(); 
 
@@ -4332,7 +4332,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 77 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:519: COLON
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:519: COLON
                 {
                 mCOLON(); 
 
@@ -4340,7 +4340,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 78 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:525: NOTOP
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:525: NOTOP
                 {
                 mNOTOP(); 
 
@@ -4348,7 +4348,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 79 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:531: SEMICOLON
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:531: SEMICOLON
                 {
                 mSEMICOLON(); 
 
@@ -4356,7 +4356,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 80 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:541: OROPERATOR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:541: OROPERATOR
                 {
                 mOROPERATOR(); 
 
@@ -4364,7 +4364,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 81 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:552: ANDOPERATOR
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:552: ANDOPERATOR
                 {
                 mANDOPERATOR(); 
 
@@ -4372,7 +4372,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 82 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:564: LEFTBRACKET
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:564: LEFTBRACKET
                 {
                 mLEFTBRACKET(); 
 
@@ -4380,7 +4380,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 83 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:576: RIGHTBRACKET
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:576: RIGHTBRACKET
                 {
                 mRIGHTBRACKET(); 
 
@@ -4388,7 +4388,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 84 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:589: LEFTPAREN
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:589: LEFTPAREN
                 {
                 mLEFTPAREN(); 
 
@@ -4396,7 +4396,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 85 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:599: RIGHTPAREN
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:599: RIGHTPAREN
                 {
                 mRIGHTPAREN(); 
 
@@ -4404,7 +4404,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 86 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:610: LEFTCURLYBRACKET
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:610: LEFTCURLYBRACKET
                 {
                 mLEFTCURLYBRACKET(); 
 
@@ -4412,7 +4412,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 87 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:627: RIGHTCURLYBRACKET
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:627: RIGHTCURLYBRACKET
                 {
                 mRIGHTCURLYBRACKET(); 
 
@@ -4420,7 +4420,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 88 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:645: QUESTIONMARK
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:645: QUESTIONMARK
                 {
                 mQUESTIONMARK(); 
 
@@ -4428,7 +4428,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 89 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:658: INCLUDE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:658: INCLUDE
                 {
                 mINCLUDE(); 
 
@@ -4436,7 +4436,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 90 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:666: IMPORT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:666: IMPORT
                 {
                 mIMPORT(); 
 
@@ -4444,7 +4444,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 91 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:673: ABORT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:673: ABORT
                 {
                 mABORT(); 
 
@@ -4452,7 +4452,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 92 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:679: THROW
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:679: THROW
                 {
                 mTHROW(); 
 
@@ -4460,7 +4460,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 93 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:685: RETHROW
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:685: RETHROW
                 {
                 mRETHROW(); 
 
@@ -4468,7 +4468,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 94 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:693: EXIT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:693: EXIT
                 {
                 mEXIT(); 
 
@@ -4476,7 +4476,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 95 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:698: PARAM
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:698: PARAM
                 {
                 mPARAM(); 
 
@@ -4484,7 +4484,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 96 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:704: PROPERTY
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:704: PROPERTY
                 {
                 mPROPERTY(); 
 
@@ -4492,7 +4492,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 97 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:713: LOCK
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:713: LOCK
                 {
                 mLOCK(); 
 
@@ -4500,7 +4500,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 98 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:718: THREAD
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:718: THREAD
                 {
                 mTHREAD(); 
 
@@ -4508,7 +4508,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 99 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:725: TRANSACTION
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:725: TRANSACTION
                 {
                 mTRANSACTION(); 
 
@@ -4516,7 +4516,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 100 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:737: LOCATION
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:737: LOCATION
                 {
                 mLOCATION(); 
 
@@ -4524,7 +4524,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 101 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:746: SAVECONTENT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:746: SAVECONTENT
                 {
                 mSAVECONTENT(); 
 
@@ -4532,7 +4532,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 102 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:758: HTTP
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:758: HTTP
                 {
                 mHTTP(); 
 
@@ -4540,7 +4540,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 103 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:763: FILE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:763: FILE
                 {
                 mFILE(); 
 
@@ -4548,7 +4548,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 104 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:768: DIRECTORY
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:768: DIRECTORY
                 {
                 mDIRECTORY(); 
 
@@ -4556,7 +4556,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 105 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:778: LOOP
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:778: LOOP
                 {
                 mLOOP(); 
 
@@ -4564,7 +4564,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 106 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:783: SETTING
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:783: SETTING
                 {
                 mSETTING(); 
 
@@ -4572,7 +4572,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 107 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:791: QUERY
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:791: QUERY
                 {
                 mQUERY(); 
 
@@ -4580,7 +4580,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 108 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:797: PRIVATE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:797: PRIVATE
                 {
                 mPRIVATE(); 
 
@@ -4588,7 +4588,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 109 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:805: PUBLIC
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:805: PUBLIC
                 {
                 mPUBLIC(); 
 
@@ -4596,7 +4596,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 110 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:812: REMOTE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:812: REMOTE
                 {
                 mREMOTE(); 
 
@@ -4604,7 +4604,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 111 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:819: PACKAGE
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:819: PACKAGE
                 {
                 mPACKAGE(); 
 
@@ -4612,7 +4612,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 112 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:827: REQUIRED
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:827: REQUIRED
                 {
                 mREQUIRED(); 
 
@@ -4620,7 +4620,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 113 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:836: COMPONENT
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:836: COMPONENT
                 {
                 mCOMPONENT(); 
 
@@ -4628,7 +4628,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 114 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:846: IDENTIFIER
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:846: IDENTIFIER
                 {
                 mIDENTIFIER(); 
 
@@ -4636,7 +4636,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 115 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:857: INTEGER_LITERAL
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:857: INTEGER_LITERAL
                 {
                 mINTEGER_LITERAL(); 
 
@@ -4644,7 +4644,7 @@ public class CFMLLexer extends Lexer {
                 }
                 break;
             case 116 :
-                // /Users/valliant/Projects/java/CFML/cfml.parsing/antlr/CFML.g:1:873: FLOATING_POINT_LITERAL
+                // C:\\Users\\eberlyrh\\git\\cfml.parsing\\antlr\\CFML.g:1:873: FLOATING_POINT_LITERAL
                 {
                 mFLOATING_POINT_LITERAL(); 
 

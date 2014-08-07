@@ -29,50 +29,49 @@
 
 package cfml.parsing.cfscript;
 
-import java.io.IOException;
 import java.io.StringReader;
 
 import org.antlr.runtime.CommonTokenStream;
-import org.antlr.runtime.RecognitionException;
 import org.antlr.runtime.tree.CommonTree;
 import org.antlr.runtime.tree.CommonTreeNodeStream;
-
-import cfml.parsing.cfscript.script.CFScriptStatement;
-import cfml.parsing.cfscript.script.CFStatementResult;
 
 public abstract class CFExpression extends CFParsedStatement implements java.io.Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	public static byte FUNCTION = 0, ASSIGNMENT = 1, BINARY = 2, LITERAL = 3, IDENTIFIER = 4, VARIABLE = 5, UNARY = 6;
 	
+	@Deprecated
 	public static CFExpression getCFExpression(String _infix) {
-		
 		try {
-			ANTLRNoCaseReaderStream input = new ANTLRNoCaseReaderStream(new poundSignFilterStream(new StringReader(
-					_infix)));
-			
-			CFScriptLexer lexer = new CFScriptLexer(input);
-			CommonTokenStream tokens = new CommonTokenStream(lexer);
-			CFScriptParser parser = new CFScriptParser(tokens);
-			parser.scriptMode = false;
-			CFScriptParser.expression_return r = parser.expression();
-			CommonTree tree = (CommonTree) r.getTree();
-			
-			CommonTreeNodeStream nodes = new CommonTreeNodeStream(tree);
-			nodes.setTokenStream(tokens);
-			CFScriptTree p2 = new CFScriptTree(nodes);
-			p2.scriptMode = false;
-			CFExpression exp = p2.expression();
-			
-			if (exp instanceof CFAssignmentExpression) {
-				((CFAssignmentExpression) exp).checkIndirect(_infix);
-			}
-			
-			return exp;
+			return getCFExpressionThrows(_infix);
 		} catch (Exception e) {
 			e.printStackTrace();
+			return null;
 		}
-		return null;
+	}
+	
+	public static CFExpression getCFExpressionThrows(String _infix) throws Exception {
+		ANTLRNoCaseReaderStream input = new ANTLRNoCaseReaderStream(new poundSignFilterStream(new StringReader(_infix)));
+		
+		CFScriptLexer lexer = new CFScriptLexer(input);
+		CommonTokenStream tokens = new CommonTokenStream(lexer);
+		CFScriptParser parser = new CFScriptParser(tokens);
+		parser.scriptMode = false;
+		CFScriptParser.expression_return r = parser.expression();
+		CommonTree tree = (CommonTree) r.getTree();
+		
+		CommonTreeNodeStream nodes = new CommonTreeNodeStream(tree);
+		nodes.setTokenStream(tokens);
+		CFScriptTree p2 = new CFScriptTree(nodes);
+		p2.scriptMode = false;
+		CFExpression exp = p2.expression();
+		
+		if (exp instanceof CFAssignmentExpression) {
+			((CFAssignmentExpression) exp).checkIndirect(_infix);
+		}
+		
+		return exp;
+		
 	}
 	
 	public byte getType() {

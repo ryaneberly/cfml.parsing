@@ -159,4 +159,16 @@ public class CFFuncDeclStatement extends CFParsedStatement {
 	public String getName() {
 		return name;
 	}
+	
+	public Map<String, String> getAttributes() {
+		return attributes;
+	}
+	
+	public byte getAccess() {
+		return access;
+	}
+	
+	public String getReturnType() {
+		return returnType;
+	}
 }

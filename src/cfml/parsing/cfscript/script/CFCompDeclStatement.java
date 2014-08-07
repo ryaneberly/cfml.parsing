@@ -96,4 +96,8 @@ public class CFCompDeclStatement extends CFParsedStatement {
 		
 		return sb.toString();
 	}
+	
+	public Map<String, String> getAttributes() {
+		return attributes;
+	}
 }

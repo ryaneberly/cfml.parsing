@@ -50,6 +50,7 @@ public class CFMLParser {
 	/** Syntax dictionary for working out important things for the parser. */
 	private SyntaxDictionary cfdic;
 	private DictionaryPreferences fDictPrefs = new DictionaryPreferences();
+	IErrorReporter errorReporter = new StdErrReporter();
 	
 	private static String readFileAsString(String filePath) throws java.io.IOException {
 		StringBuffer fileData = new StringBuffer(1000);
@@ -264,7 +265,7 @@ public class CFMLParser {
 				// System.out.println("Token line:" + re.token.getLine());
 				// System.out.println("Token text:" + re.token.getText());
 			}
-			re.printStackTrace();
+			// re.printStackTrace();
 			// System.err.println(re.getMessage());
 			addMessage(new ParseError(re.line, re.charPositionInLine, re.charPositionInLine, re.getMessage(),
 					re.getMessage()));
@@ -277,7 +278,7 @@ public class CFMLParser {
 			// System.err.println(re.getMessage());
 			addMessage(new ParseError(re.line, re.charPositionInLine, re.charPositionInLine, tokenNames.toString(),
 					re.getMessage()));
-			re.printStackTrace();
+			// re.printStackTrace();
 		}
 		
 		public void reportError(IntStream input, RecognitionException re, BitSet follow) {
@@ -304,7 +305,7 @@ public class CFMLParser {
 		CFScriptLexer lexer = new CFScriptLexer(input);
 		CommonTokenStream tokens = new CommonTokenStream(lexer);
 		CFScriptParser parser = new CFScriptParser(tokens);
-		StdErrReporter errorReporter = new StdErrReporter();
+		
 		lexer.setErrorReporter(errorReporter);
 		parser.setErrorReporter(errorReporter);
 		try {
@@ -372,6 +373,10 @@ public class CFMLParser {
 	public CFMLSource getCFMLSource(String path) {
 		CFMLSource cfmlSource = (CFMLSource) fCfmlSources.get(path);
 		return cfmlSource;
+	}
+	
+	public void setErrorReporter(IErrorReporter errorReporter) {
+		this.errorReporter = errorReporter;
 	}
 	
 }
